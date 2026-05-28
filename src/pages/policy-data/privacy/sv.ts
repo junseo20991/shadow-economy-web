@@ -19,7 +19,30 @@ export default {
       ],
     },
     {
-      title: '2. Uppgifter vi samlar in',
+      title: '2. Integritet i korthet',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Denna sammanfattning tillhandahålls för enkelhetens skull. Om något här skiljer sig från resten av policyn gäller hela policyn.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Ansvarig: enskild utvecklare med bas i Nya Zeeland — contact@shadoweconomyapp.com',
+            'Vad vi samlar in: kontoidentifierare (e-post; visningsnamn från Google-inloggning där det används), spel- och spardata, saldo för rapportkrediter, metadata för köp i appbutiker och begränsade tekniska loggar (IP-adress, user-agent, tidsstämplar)',
+            'Varför vi behandlar: för att driva Tjänsten, synka framsteg, fullgöra köp, generera utbildningsrapporter, upprätthålla säkerhet och följa lag',
+            'Försäljning / annonser i korsande sammanhang: vi säljer inte personuppgifter och delar dem inte för beteendestyrd reklam i korsande sammanhang',
+            'Analys- / reklam-SDK:er: vi använder inga tredjeparts reklam- eller analys-SDK:er i appen eller på webbplatsen',
+            'Vem får uppgifter: Supabase, Vercel, Apple och Google enligt avsnitt 7',
+            'Internationell behandling: uppgifter kan lagras eller behandlas i Singapore, USA och andra länder där våra leverantörer verkar',
+            'Lagring: så länge ditt konto är aktivt; raderas eller anonymiseras i regel inom 30 dagar efter kontoradering, med lagstadgade undantag',
+            'Dina rättigheter: beror på var du befinner dig — se avsnitt 13; kontakta oss för att utöva dem',
+          ],
+        },
+      ],
+    },
+    {
+      title: '3. Uppgifter vi samlar in',
       blocks: [
         { type: 'h3', text: 'Uppgifter du lämnar' },
         {
@@ -61,7 +84,7 @@ export default {
       ],
     },
     {
-      title: '3. Rättsliga grunder för behandling (EES / Storbritannien)',
+      title: '4. Rättsliga grunder för behandling (EES / Storbritannien)',
       blocks: [
         {
           type: 'p',
@@ -82,7 +105,7 @@ export default {
       ],
     },
     {
-      title: '4. Hur vi använder uppgifter',
+      title: '5. Hur vi använder uppgifter',
       blocks: [
         {
           type: 'ul',
@@ -104,7 +127,24 @@ export default {
       ],
     },
     {
-      title: '5. Delning och underleverantörer',
+      title: '6. Automatiserad behandling och personliga rapporter',
+      blocks: [
+        {
+          type: 'p',
+          text: 'När du låser upp en rapport genererar Tjänsten personlig utbildningstext från dina slutförda speldata med regelbaserad logik i vår programvara. Detta är automatiserad behandling av dina spelstatusuppgifter för att producera rapporten för ditt konto.',
+        },
+        {
+          type: 'p',
+          text: 'Vi använder inte dina uppgifter för att fatta beslut som ger rättsliga eller likvärdigt betydande effekter för dig. Vi använder inte tredjepartstjänster för generativ AI för att skriva rapportinnehåll, och vi skapar inte reklamprofiler från ditt spelande eller dina rapporter.',
+        },
+        {
+          type: 'p',
+          text: 'Upplåsta rapporter du väljer att spara kan lagras i ditt kontos arkiv på våra servrar så att du kan komma åt dem mellan enheter. Vi använder inte det väsentliga innehållet i sparade rapporter för marknadsföring eller andra orelaterade ändamål.',
+        },
+      ],
+    },
+    {
+      title: '7. Delning och underleverantörer',
       blocks: [
         {
           type: 'p',
@@ -121,6 +161,10 @@ export default {
         },
         {
           type: 'p',
+          text: 'När du använder Google-inloggning eller köper via Apple eller Google kan dessa företag samla in och behandla uppgifter enligt sina egna integritetspolicyer. För dessa aktiviteter agerar de som självständiga personuppgiftsansvariga (eller motsvarande) för sina tjänster, inte som underleverantörer som behandlar uppgifter enligt våra instruktioner.',
+        },
+        {
+          type: 'p',
           text: 'Vi kan lämna ut uppgifter om det krävs enligt lag, förordning, rättslig process eller myndighetsbegäran, eller när vi anser att utlämnande är nödvändigt för att skydda användares, allmänhetens eller Shadow Economys rättigheter, säkerhet eller egendom.',
         },
         {
@@ -130,7 +174,7 @@ export default {
       ],
     },
     {
-      title: '6. Internationella dataöverföringar',
+      title: '8. Internationella dataöverföringar',
       blocks: [
         {
           type: 'p',
@@ -143,13 +187,13 @@ export default {
       ],
     },
     {
-      title: '7. Lagringstid',
+      title: '9. Lagringstid',
       blocks: [
         {
           type: 'ul',
           items: [
             'Konto- och speldata — behålls så länge ditt konto är aktivt',
-            'Efter kontoradering — identifierbara uppgifter raderas inom 30 dagar, utom när längre lagring krävs enligt lag eller för tvistlösning',
+            'Efter kontoradering — vi raderar eller anonymiserar tillhörande personuppgifter inom 30 dagar, utom när längre lagring krävs enligt lag, för bedrägeriförebyggande eller tvistlösning',
             'Serverloggar (IP-adress, begärandemetadata) — behålls normalt upp till 90 dagar enligt våra leverantörers standardpolicyer och raderas eller aggregeras därefter',
             'Lokal enhetslagring — finns kvar på din enhet tills du rensar app-/webbplatsdata eller avinstallerar appen',
           ],
@@ -157,7 +201,7 @@ export default {
       ],
     },
     {
-      title: '8. Säkerhet',
+      title: '10. Säkerhet',
       blocks: [
         {
           type: 'ul',
@@ -173,10 +217,14 @@ export default {
           type: 'p',
           text: 'Ingen överförings- eller lagringsmetod är helt säker. Om du tror att ditt konto har komprometterats, kontakta oss omedelbart på contact@shadoweconomyapp.com.',
         },
+        {
+          type: 'p',
+          text: 'Om vi får kännedom om ett personuppgiftsintrång som sannolikt påverkar dina uppgifter och underrättelse krävs enligt tillämplig lag, meddelar vi dig utan onödigt dröjsmål i enlighet med den lagen.',
+        },
       ],
     },
     {
-      title: '9. Cookies och lokal lagring',
+      title: '11. Cookies och lokal lagring',
       blocks: [
         {
           type: 'p',
@@ -197,11 +245,44 @@ export default {
       ],
     },
     {
-      title: '10. Dina integritetsrättigheter',
+      title: '12. Dina val och kontroller',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Kontoradering: du kan radera ditt konto när som helst i appen under Inställningar → Konto → Radera konto, eller genom att mejla contact@shadoweconomyapp.com från adressen som är kopplad till ditt konto. Radering tar bort molnsynkroniserade kontouppgifter med undantag för lagringsundantagen i avsnitt 9.',
+        },
+        {
+          type: 'p',
+          text: 'Åtkomst och portabilitet: du kan begära en kopia av personuppgifter vi har om dig i ett strukturerat, allmänt använt och maskinläsbart format när det är tekniskt möjligt genom att kontakta oss.',
+        },
+        {
+          type: 'p',
+          text: 'Google-inloggning: du kan granska och återkalla Tjänstens åtkomst till ditt Google-konto via dina Google-kontobehörigheter på myaccount.google.com.',
+        },
+        {
+          type: 'p',
+          text: 'Enhets- och butikskontroller: du kan rensa lokal appdata, avinstallera appen och hantera köphistorik i appen via Apple- eller Google-kontoinställningar.',
+        },
+        {
+          type: 'p',
+          text: 'Marknadsföring: vi skickar inte kampanjmejl. Transaktionsmeddelanden relaterade till kontosäkerhet eller Tjänsten kan fortfarande skickas när det behövs.',
+        },
+        {
+          type: 'p',
+          text: 'Global Privacy Control (GPC) och liknande signaler: där lagen kräver det behandlar vi erkända opt-out-signaler som en begäran om att välja bort försäljning eller delning för beteendestyrd reklam i korsande sammanhang. Eftersom vi inte bedriver sådana aktiviteter ändrar sådana signaler inte våra rutiner utöver att bekräfta den statusen.',
+        },
+      ],
+    },
+    {
+      title: '13. Dina integritetsrättigheter',
       blocks: [
         {
           type: 'p',
           text: 'Beroende på var du befinner dig kan du ha rätt till åtkomst, rättelse, radering, begränsning, dataportabilitet och att invända mot viss behandling. För att utöva dessa rättigheter, mejla contact@shadoweconomyapp.com. Vi svarar inom 30 dagar om inte längre tid tillåts enligt lag.',
+        },
+        {
+          type: 'p',
+          text: 'Vi kan be dig verifiera din identitet (t.ex. genom att bekräfta att du kontrollerar e-postadressen på ditt konto) innan vi fullgör en begäran, för att skydda dina uppgifter mot obehörig åtkomst.',
         },
         { type: 'h3', text: 'EES / Storbritannien (GDPR)' },
         {
@@ -219,14 +300,36 @@ export default {
           items: [
             'Rätt att veta vilka personuppgifter som samlas in, används och lämnas ut',
             'Rätt att radera personuppgifter, med undantag',
-            'Rätt att välja bort försäljning — vi säljer inte personuppgifter',
+            'Rätt att välja bort försäljning eller delning för beteendestyrd reklam i korsande sammanhang — vi säljer inte personuppgifter och delar dem inte för beteendestyrd reklam i korsande sammanhang',
             'Rätt att inte diskrimineras för att du utövar integritetsrättigheter',
+            'Vi samlar inte in känsliga personuppgifter enligt CPRA:s definition',
+            'En auktoriserad ombud kan lämna in begäranden med skriftlig fullmakt och rimlig verifiering',
           ],
         },
         { type: 'h3', text: 'Nya Zeeland' },
         {
           type: 'p',
           text: 'Vi är baserade i Nya Zeeland. När Nya Zeelands Privacy Act 2020 tillämpas hanterar vi personuppgifter i enlighet med dess krav, inklusive åtkomst och rättelse när det är tillämpligt.',
+        },
+        { type: 'h3', text: 'Andra delstater i USA' },
+        {
+          type: 'p',
+          text: 'Invånare i amerikanska delstater med heltäckande integritetslagar (inklusive, där tillämpligt, Colorado, Connecticut, Virginia, Utah, Oregon, Texas och andra) kan ha rätt till åtkomst, radering, rättelse och att välja bort viss behandling. Eftersom vi inte säljer personuppgifter eller använder dem för riktad reklam enligt dessa lagars definition ändrar många opt-out-mekanismer inte våra rutiner, men du kan fortfarande kontakta oss för att utöva tillämpliga rättigheter.',
+        },
+        { type: 'h3', text: 'Australien' },
+        {
+          type: 'p',
+          text: 'Om Australian Privacy Act 1988 tillämpas kan du begära åtkomst till och rättelse av personuppgifter vi har om dig, och klaga till Office of the Australian Information Commissioner om du inte är nöjd med vårt svar.',
+        },
+        { type: 'h3', text: 'Kanada' },
+        {
+          type: 'p',
+          text: 'Om kanadensisk integritetslag tillämpas (inklusive PIPEDA eller i huvudsak likvärdiga provinsiella lagar) kan du begära åtkomst till och rättelse av personuppgifter samt ifrågasätta vår efterlevnad av tillämpliga krav.',
+        },
+        { type: 'h3', text: 'Brasilien' },
+        {
+          type: 'p',
+          text: 'Om LGPD tillämpas kan du ha rättigheter som inkluderar bekräftelse av behandling, åtkomst, rättelse, anonymisering, portabilitet, radering och information om delning. Kontakta oss för att utöva dem.',
         },
         { type: 'h3', text: 'Andra regioner' },
         {
@@ -235,12 +338,16 @@ export default {
         },
         {
           type: 'p',
+          text: 'Överklagande: om vi avslår din begäran förklarar vi skälen när lagen kräver det. Du kan svara för att begära en granskning av vårt beslut. Du kan också lämna in klagomål till en tillsyns- eller integritetsmyndighet i din jurisdiktion.',
+        },
+        {
+          type: 'p',
           text: 'Ingenting i denna policy begränsar obligatoriska konsument- eller integritetsrättigheter som gäller för dig enligt lagarna i ditt bosättningsland.',
         },
       ],
     },
     {
-      title: '11. Barns integritet',
+      title: '14. Barns integritet',
       blocks: [
         {
           type: 'p',
@@ -249,7 +356,7 @@ export default {
       ],
     },
     {
-      title: '12. Ändringar av denna policy',
+      title: '15. Ändringar av denna policy',
       blocks: [
         {
           type: 'p',
@@ -258,12 +365,21 @@ export default {
       ],
     },
     {
-      title: '13. Kontakt',
+      title: '16. Kontakt och tillsynsmyndigheter',
       blocks: [
         { type: 'p', text: 'Integritetsfrågor och begäranden om rättigheter: contact@shadoweconomyapp.com' },
         {
           type: 'p',
-          text: 'Vi strävar efter att svara inom 30 dagar. Om du inte är nöjd med vårt svar kan du kontakta din lokala dataskyddsmyndighet.',
+          text: 'Vi strävar efter att svara inom 30 dagar om inte längre tid tillåts enligt lag. Om du inte är nöjd med vårt svar kan du kontakta en tillsynsmyndighet, inklusive:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Nya Zeeland — Office of the Privacy Commissioner: privacy.org.nz',
+            'EES / Storbritannien — din lokala dataskyddsmyndighet (se edpb.europa.eu/about-edpb/about-edpb/members_en för EU-medlemmar)',
+            'Australien — Office of the Australian Information Commissioner: oaic.gov.au',
+            'Kalifornien, USA — California Privacy Protection Agency: cppa.ca.gov',
+          ],
         },
       ],
     },

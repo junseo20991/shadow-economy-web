@@ -19,7 +19,30 @@ export default {
       ],
     },
     {
-      title: '2. Información que recopilamos',
+      title: '2. Privacidad en resumen',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Este resumen se ofrece por conveniencia. Si difiere del resto de esta Política, prevalece la Política completa.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Responsable: desarrollador individual con base en Nueva Zelanda — contact@shadoweconomyapp.com',
+            'Qué recopilamos: identificadores de cuenta (correo electrónico; nombre para mostrar de Google cuando se usa), datos de juego y partidas guardadas, saldo de créditos de informe, metadatos de compras en la tienda de aplicaciones y registros técnicos limitados (dirección IP, agente de usuario, marcas de tiempo)',
+            'Por qué lo tratamos: operar el Servicio, sincronizar el progreso, cumplir compras, generar informes educativos, mantener la seguridad y cumplir la ley',
+            'Venta / publicidad en contexto cruzado: no vendemos información personal ni la compartimos para publicidad conductual en contexto cruzado',
+            'SDK de análisis / publicidad: no utilizamos SDK de publicidad o análisis de terceros en la aplicación ni en el sitio web',
+            'Quién recibe los datos: Supabase, Vercel, Apple y Google según se describe en la sección 7',
+            'Tratamiento internacional: los datos pueden almacenarse o tratarse en Singapur, Estados Unidos y otros países donde operen nuestros proveedores',
+            'Conservación: mientras su cuenta esté activa; por lo general se eliminan o anonimizan en un plazo de 30 días tras la eliminación de la cuenta, salvo excepciones legales',
+            'Sus derechos: dependen de su ubicación — véase la sección 13; contáctenos para ejercerlos',
+          ],
+        },
+      ],
+    },
+    {
+      title: '3. Información que recopilamos',
       blocks: [
         { type: 'h3', text: 'Información que usted proporciona' },
         {
@@ -61,7 +84,7 @@ export default {
       ],
     },
     {
-      title: '3. Bases jurídicas del tratamiento (EEE / Reino Unido)',
+      title: '4. Bases jurídicas del tratamiento (EEE / Reino Unido)',
       blocks: [
         {
           type: 'p',
@@ -82,7 +105,7 @@ export default {
       ],
     },
     {
-      title: '4. Cómo utilizamos la información',
+      title: '5. Cómo utilizamos la información',
       blocks: [
         {
           type: 'ul',
@@ -104,7 +127,24 @@ export default {
       ],
     },
     {
-      title: '5. Cesión y encargados del tratamiento',
+      title: '6. Tratamiento automatizado e informes personalizados',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Cuando desbloquea un informe, el Servicio genera texto educativo personalizado a partir de sus datos de juego completados mediante lógica basada en reglas implementada en nuestro software. Se trata de un tratamiento automatizado de sus datos de estado del juego para producir el informe de su cuenta.',
+        },
+        {
+          type: 'p',
+          text: 'No utilizamos sus datos para tomar decisiones que produzcan efectos jurídicos o similares significativos sobre usted. No utilizamos servicios de IA generativa de terceros para redactar el contenido de los informes, ni creamos perfiles publicitarios a partir de su juego o informes.',
+        },
+        {
+          type: 'p',
+          text: 'Los informes desbloqueados que elija guardar pueden almacenarse en el archivo de su cuenta en nuestros servidores para que pueda acceder a ellos entre dispositivos. No utilizamos el contenido sustantivo de los informes guardados con fines de marketing u otros fines no relacionados.',
+        },
+      ],
+    },
+    {
+      title: '7. Cesión y encargados del tratamiento',
       blocks: [
         {
           type: 'p',
@@ -121,6 +161,10 @@ export default {
         },
         {
           type: 'p',
+          text: 'Cuando utiliza el inicio de sesión con Google o compra a través de Apple o Google, esas empresas pueden recopilar y tratar información conforme a sus propias políticas de privacidad. Para esas actividades actúan como responsables independientes (o equivalente) de sus servicios, no como encargados que tratan datos según nuestras instrucciones.',
+        },
+        {
+          type: 'p',
           text: 'Podemos divulgar información si la ley, la normativa, un procedimiento legal o una solicitud gubernamental lo exigen, o cuando consideremos que la divulgación es necesaria para proteger los derechos, la seguridad o los bienes de los usuarios, del público o de Shadow Economy.',
         },
         {
@@ -130,7 +174,7 @@ export default {
       ],
     },
     {
-      title: '6. Transferencias internacionales de datos',
+      title: '8. Transferencias internacionales de datos',
       blocks: [
         {
           type: 'p',
@@ -143,13 +187,13 @@ export default {
       ],
     },
     {
-      title: '7. Conservación de datos',
+      title: '9. Conservación de datos',
       blocks: [
         {
           type: 'ul',
           items: [
             'Datos de cuenta y del juego — mientras su cuenta esté activa',
-            'Tras la eliminación de la cuenta — los datos identificables se eliminan en un plazo de 30 días, salvo conservación más prolongada exigida por ley o para la resolución de disputas',
+            'Tras la eliminación de la cuenta — eliminamos o anonimizamos los datos personales asociados en un plazo de 30 días, salvo conservación más prolongada exigida por ley, prevención del fraude o resolución de disputas',
             'Registros del servidor (dirección IP, metadatos de solicitudes) — normalmente conservados hasta 90 días según las políticas estándar de nuestros proveedores, y después eliminados o agregados',
             'Almacenamiento local del dispositivo — permanece en su dispositivo hasta que borre los datos de la aplicación/sitio web o desinstale la aplicación',
           ],
@@ -157,7 +201,7 @@ export default {
       ],
     },
     {
-      title: '8. Seguridad',
+      title: '10. Seguridad',
       blocks: [
         {
           type: 'ul',
@@ -173,10 +217,14 @@ export default {
           type: 'p',
           text: 'Ningún método de transmisión o almacenamiento es completamente seguro. Si cree que su cuenta ha sido comprometida, contacte de inmediato con contact@shadoweconomyapp.com.',
         },
+        {
+          type: 'p',
+          text: 'Si tenemos conocimiento de una violación de datos personales que probablemente afecte su información y la notificación sea exigida por la ley aplicable, se lo notificaremos sin dilación indebida y de conformidad con dicha ley.',
+        },
       ],
     },
     {
-      title: '9. Cookies y almacenamiento local',
+      title: '11. Cookies y almacenamiento local',
       blocks: [
         {
           type: 'p',
@@ -197,11 +245,44 @@ export default {
       ],
     },
     {
-      title: '10. Sus derechos de privacidad',
+      title: '12. Sus opciones y controles',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Eliminación de la cuenta: puede eliminar su cuenta en cualquier momento en la aplicación en Ajustes → Cuenta → Eliminar cuenta, o enviando un correo a contact@shadoweconomyapp.com desde la dirección asociada a su cuenta. La eliminación suprime los datos de la cuenta sincronizados en la nube, salvo las excepciones de conservación de la sección 9.',
+        },
+        {
+          type: 'p',
+          text: 'Acceso y portabilidad: puede solicitar una copia de los datos personales que conservamos en un formato estructurado, de uso común y legible por máquina cuando sea técnicamente factible, contactándonos.',
+        },
+        {
+          type: 'p',
+          text: 'Inicio de sesión con Google: puede revisar y revocar el acceso del Servicio a su cuenta de Google en los permisos de su cuenta de Google en myaccount.google.com.',
+        },
+        {
+          type: 'p',
+          text: 'Controles del dispositivo y la tienda: puede borrar los datos locales de la aplicación, desinstalar la aplicación y gestionar el historial de compras dentro de la aplicación en los ajustes de su cuenta de Apple o Google.',
+        },
+        {
+          type: 'p',
+          text: 'Marketing: no enviamos correos promocionales. Los mensajes transaccionales relacionados con la seguridad de la cuenta o el Servicio pueden enviarse cuando sea necesario.',
+        },
+        {
+          type: 'p',
+          text: 'Control global de privacidad (GPC) y señales similares: cuando la ley lo exija, tratamos las señales de preferencia de exclusión reconocidas como una solicitud de exclusión de la venta o el intercambio para publicidad conductual en contexto cruzado. Como no realizamos esas actividades, dichas señales no cambian nuestras prácticas más allá de confirmar ese estado.',
+        },
+      ],
+    },
+    {
+      title: '13. Sus derechos de privacidad',
       blocks: [
         {
           type: 'p',
           text: 'Según su ubicación, puede tener derecho de acceso, rectificación, supresión, limitación, portabilidad y oposición a determinados tratamientos. Para ejercerlos, escriba a contact@shadoweconomyapp.com. Responderemos en un plazo de 30 días, salvo que la ley permita un plazo mayor.',
+        },
+        {
+          type: 'p',
+          text: 'Podemos pedirle que verifique su identidad (por ejemplo, confirmando el control de la dirección de correo de su cuenta) antes de atender una solicitud, para proteger su información de accesos no autorizados.',
         },
         { type: 'h3', text: 'EEE / Reino Unido (RGPD)' },
         {
@@ -219,14 +300,36 @@ export default {
           items: [
             'Derecho a saber qué información personal se recopila, utiliza y divulga',
             'Derecho a suprimir la información personal, con excepciones',
-            'Derecho a optar por no vender — no vendemos información personal',
+            'Derecho a optar por no vender ni compartir para publicidad conductual en contexto cruzado — no vendemos información personal ni la compartimos para publicidad conductual en contexto cruzado',
             'Derecho a no sufrir discriminación por ejercer sus derechos de privacidad',
+            'No recopilamos información personal sensible según la definición de la CPRA',
+            'Un agente autorizado puede presentar solicitudes con autorización por escrito y verificación razonable',
           ],
         },
         { type: 'h3', text: 'Nueva Zelanda' },
         {
           type: 'p',
           text: 'Estamos establecidos en Nueva Zelanda. Cuando se aplica la Privacy Act 2020 de Nueva Zelanda, tratamos la información personal de conformidad con sus requisitos, incluido el acceso y la rectificación cuando corresponda.',
+        },
+        { type: 'h3', text: 'Otros estados de EE. UU.' },
+        {
+          type: 'p',
+          text: 'Los residentes de estados de EE. UU. con leyes de privacidad integrales (incluidos, cuando corresponda, Colorado, Connecticut, Virginia, Utah, Oregón, Texas y otros) pueden tener derechos de acceso, supresión, rectificación y exclusión de determinados tratamientos. Como no vendemos información personal ni la utilizamos para publicidad dirigida según esas leyes, muchos mecanismos de exclusión no cambian nuestras prácticas, pero puede contactarnos para ejercer los derechos aplicables.',
+        },
+        { type: 'h3', text: 'Australia' },
+        {
+          type: 'p',
+          text: 'Si se aplica la Privacy Act 1988 de Australia, puede solicitar acceso y rectificación de la información personal que conservamos, y presentar una reclamación ante la Office of the Australian Information Commissioner si no está satisfecho con nuestra respuesta.',
+        },
+        { type: 'h3', text: 'Canadá' },
+        {
+          type: 'p',
+          text: 'Si se aplica la legislación canadiense de privacidad (incluida la PIPEDA o leyes provinciales sustancialmente equivalentes), puede solicitar acceso y rectificación de la información personal, y impugnar nuestro cumplimiento de los requisitos aplicables.',
+        },
+        { type: 'h3', text: 'Brasil' },
+        {
+          type: 'p',
+          text: 'Si se aplica la LGPD, puede tener derechos que incluyen confirmación del tratamiento, acceso, rectificación, anonimización, portabilidad, supresión e información sobre el intercambio. Contáctenos para ejercerlos.',
         },
         { type: 'h3', text: 'Otras regiones' },
         {
@@ -235,12 +338,16 @@ export default {
         },
         {
           type: 'p',
+          text: 'Recursos: si rechazamos su solicitud, explicaremos los motivos cuando la ley lo exija. Puede responder para solicitar una revisión de nuestra decisión. También puede presentar una reclamación ante una autoridad de supervisión o de privacidad en su jurisdicción.',
+        },
+        {
+          type: 'p',
           text: 'Nada en esta Política limita los derechos obligatorios de consumo o privacidad que le correspondan según las leyes de su país de residencia.',
         },
       ],
     },
     {
-      title: '11. Privacidad de menores',
+      title: '14. Privacidad de menores',
       blocks: [
         {
           type: 'p',
@@ -249,7 +356,7 @@ export default {
       ],
     },
     {
-      title: '12. Cambios en esta Política',
+      title: '15. Cambios en esta Política',
       blocks: [
         {
           type: 'p',
@@ -258,12 +365,21 @@ export default {
       ],
     },
     {
-      title: '13. Contacto',
+      title: '16. Contacto y autoridades de supervisión',
       blocks: [
         { type: 'p', text: 'Consultas de privacidad y ejercicio de derechos: contact@shadoweconomyapp.com' },
         {
           type: 'p',
-          text: 'Nuestro objetivo es responder en un plazo de 30 días. Si no está satisfecho con nuestra respuesta, puede contactar con su autoridad local de protección de datos.',
+          text: 'Nuestro objetivo es responder en un plazo de 30 días, salvo que la ley permita un plazo mayor. Si no está satisfecho con nuestra respuesta, puede contactar con una autoridad de supervisión, incluidas:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Nueva Zelanda — Office of the Privacy Commissioner: privacy.org.nz',
+            'EEE / Reino Unido — su autoridad local de protección de datos (véase edpb.europa.eu/about-edpb/about-edpb/members_en para los miembros de la UE)',
+            'Australia — Office of the Australian Information Commissioner: oaic.gov.au',
+            'California, EE. UU. — California Privacy Protection Agency: cppa.ca.gov',
+          ],
         },
       ],
     },

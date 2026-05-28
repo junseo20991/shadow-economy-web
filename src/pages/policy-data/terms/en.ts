@@ -5,7 +5,7 @@ export default {
     {
       title: '1. Agreement to Terms',
       content:
-        'These Terms of Service ("Terms") govern your access to and use of the Shadow Economy mobile application, the website at shadoweconomyapp.com, and related services (collectively, the "Service") operated by the individual developer of Shadow Economy ("we," "us," or "our"). By downloading, installing, accessing, or using the Service, you agree to these Terms. If you do not agree, do not use the Service.',
+        'These Terms of Service ("Terms") govern your access to and use of the Shadow Economy mobile application, the website at shadoweconomyapp.com, and related services (collectively, the "Service") operated by the individual developer of Shadow Economy ("we," "us," or "our"). By downloading, installing, accessing, or using the Service, you agree to these Terms. If you do not agree, do not use the Service. You represent that you are at least 13 years old, or the minimum age required in your jurisdiction to use the Service and, where applicable, to consent to data processing.',
     },
     {
       title: '2. The Service',
@@ -20,8 +20,8 @@ export default {
       content: [
         'Subject to these Terms, we grant you a limited, revocable, non-exclusive, non-transferable license to use the Service for personal, non-commercial purposes.',
         'You must comply with applicable laws and the policies of Apple App Store, Google Play, and Google sign-in (where you use it).',
-        'You are responsible for maintaining the confidentiality of your account credentials.',
-        'You may not: (a) use the Service for unlawful purposes; (b) reverse engineer, decompile, or attempt to extract source code except as permitted by law; (c) interfere with or disrupt the Service; (d) scrape, harvest, or automate access in an unauthorized manner; (e) impersonate others or misrepresent your affiliation.',
+        'You are responsible for maintaining the confidentiality of your account credentials and for activity under your account, except where caused by our failure to maintain reasonable security.',
+        'You may not: (a) use the Service for unlawful purposes; (b) reverse engineer, decompile, or attempt to extract source code except as permitted by law; (c) interfere with or disrupt the Service; (d) scrape, harvest, or automate access in an unauthorized manner; (e) impersonate others or misrepresent your affiliation; (f) circumvent technical limits, payment systems, or report-credit rules; (g) use the Service to develop a competing product through systematic extraction of content.',
       ],
     },
     {
@@ -83,10 +83,45 @@ export default {
         'If any provision of these Terms is held invalid, the remaining provisions remain in effect.',
         'Our failure to enforce a provision is not a waiver of our right to do so later.',
         'These Terms constitute the entire agreement between you and us regarding the Service and supersede prior understandings on the same subject.',
+        'Electronic communications: you consent to receive communications from us electronically (including in-app notices and email) where permitted by law.',
+        'Assignment: you may not assign or transfer these Terms or your account without our prior written consent. We may assign these Terms in connection with a merger, acquisition, corporate reorganization, or sale of assets, subject to notice where required by law.',
+        'Force majeure: we are not liable for delays or failures caused by events beyond our reasonable control (including outages of app stores, hosting providers, or networks).',
       ],
     },
     {
-      title: '15. Contact',
+      title: '15. Export and Sanctions',
+      content:
+        'You may not use or export the Service except as authorized by applicable law. You represent that you are not located in, under the control of, or a national or resident of any country or person subject to comprehensive trade sanctions or embargoes, and that you are not on any government restricted-party list.',
+    },
+    {
+      title: '16. Open Source',
+      content:
+        'The Service may include open-source software components licensed under their own terms. To the extent those licenses grant you rights that conflict with these Terms, the open-source license terms prevail for that component only. A list of notices is available on request at contact@shadoweconomyapp.com.',
+    },
+    {
+      title: '17. Feedback',
+      content:
+        'If you submit suggestions or feedback, you grant us a perpetual, worldwide, royalty-free license to use it to improve the Service without obligation to you, except where prohibited by law.',
+    },
+    {
+      title: '18. Application Stores (Apple and Google)',
+      content: [
+        'If you obtained the app through the Apple App Store or Google Play, your use of the app is also subject to that store\'s applicable terms and policies, including rules for downloads, updates, and in-app purchases.',
+        'These Terms are between you and the developer only, not with Apple Inc., Google LLC, or their affiliates. Apple and Google are not responsible for the Service or its content, maintenance, support, warranty, or legal compliance.',
+        'To the extent permitted by applicable law and the relevant store terms, Apple Inc. and its subsidiaries are third-party beneficiaries of these Terms with respect to your use of the iOS app and may enforce these Terms against you as a beneficiary.',
+        'Maintenance and support for the Service are provided by the developer, not by Apple or Google, unless applicable store terms require otherwise.',
+        'For iOS apps: in the event of failure of the licensed application to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price for the app to you if applicable; to the maximum extent permitted by law, Apple has no other warranty obligation with respect to the app. Apple is not responsible for addressing any claims relating to the app or your use of it, including product liability, legal compliance, or consumer-protection claims.',
+        'Intellectual-property complaints relating to the app may be sent to contact@shadoweconomyapp.com. Apple and Google are not responsible for investigating or resolving such complaints on our behalf.',
+        'You represent that you are not located in a US-embargoed country and are not on any US government list of prohibited or restricted parties where such representations are required by applicable store terms.',
+      ],
+    },
+    {
+      title: '19. Privacy',
+      content:
+        'Our Privacy Policy at shadoweconomyapp.com/privacy explains how we collect and use personal information. By using the Service, you acknowledge that you have read that Policy.',
+    },
+    {
+      title: '20. Contact',
       content: 'Questions about these Terms: contact@shadoweconomyapp.com',
     },
   ],

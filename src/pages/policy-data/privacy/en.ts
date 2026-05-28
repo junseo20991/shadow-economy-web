@@ -19,7 +19,30 @@ export default {
       ],
     },
     {
-      title: '2. Information We Collect',
+      title: '2. Privacy at a Glance',
+      blocks: [
+        {
+          type: 'p',
+          text: 'This summary is provided for convenience. If anything here differs from the rest of this Policy, the full Policy controls.',
+        },
+        {
+          type: 'ul',
+          items: [
+            'Controller: individual developer based in New Zealand — contact@shadoweconomyapp.com',
+            'What we collect: account identifiers (email; display name from Google sign-in where used), gameplay and save data, report-credit balances, in-app purchase metadata from app stores, and limited technical logs (IP address, user-agent, timestamps)',
+            'Why we process it: to operate the Service, sync progress, fulfil purchases, generate educational reports, maintain security, and comply with law',
+            'Sale / cross-context ads: we do not sell personal information and do not share it for cross-context behavioral advertising',
+            'Analytics / ad SDKs: we do not use third-party advertising or analytics SDKs in the app or website',
+            'Who receives data: Supabase, Vercel, Apple, and Google as described in Section 7',
+            'International processing: data may be stored or processed in Singapore, the United States, and other countries where our providers operate',
+            'Retention: while your account is active; generally deleted or anonymized within 30 days after account deletion, subject to legal exceptions',
+            'Your rights: depend on your location — see Section 13; contact us to exercise them',
+          ],
+        },
+      ],
+    },
+    {
+      title: '3. Information We Collect',
       blocks: [
         { type: 'h3', text: 'Information you provide' },
         {
@@ -61,7 +84,7 @@ export default {
       ],
     },
     {
-      title: '3. Legal Bases for Processing (EEA / UK)',
+      title: '4. Legal Bases for Processing (EEA / UK)',
       blocks: [
         {
           type: 'p',
@@ -82,7 +105,7 @@ export default {
       ],
     },
     {
-      title: '4. How We Use Information',
+      title: '5. How We Use Information',
       blocks: [
         {
           type: 'ul',
@@ -104,7 +127,24 @@ export default {
       ],
     },
     {
-      title: '5. Sharing and Sub-processors',
+      title: '6. Automated Processing and Personalized Reports',
+      blocks: [
+        {
+          type: 'p',
+          text: 'When you unlock a report, the Service generates personalized educational text from your completed gameplay data using rule-based logic implemented in our software. This is automated processing of your game-state data to produce the report for your account.',
+        },
+        {
+          type: 'p',
+          text: 'We do not use your data to make decisions that produce legal or similarly significant effects about you. We do not use third-party generative-AI services to author report content, and we do not create advertising profiles from your gameplay or reports.',
+        },
+        {
+          type: 'p',
+          text: 'Unlocked reports you choose to save may be stored in your account archive on our servers so you can access them across devices. We do not use the substantive content of saved reports for marketing or unrelated purposes.',
+        },
+      ],
+    },
+    {
+      title: '7. Sharing and Sub-processors',
       blocks: [
         {
           type: 'p',
@@ -121,6 +161,10 @@ export default {
         },
         {
           type: 'p',
+          text: 'When you use Google sign-in or purchase through Apple or Google, those companies may collect and process information under their own privacy policies. For those activities, they act as independent controllers (or equivalent) for their services, not as our sub-processors processing data on our instructions.',
+        },
+        {
+          type: 'p',
           text: 'We may disclose information if required by law, regulation, legal process, or governmental request, or when we believe disclosure is necessary to protect the rights, safety, or property of users, the public, or Shadow Economy.',
         },
         {
@@ -130,7 +174,7 @@ export default {
       ],
     },
     {
-      title: '6. International Data Transfers',
+      title: '8. International Data Transfers',
       blocks: [
         {
           type: 'p',
@@ -143,13 +187,13 @@ export default {
       ],
     },
     {
-      title: '7. Data Retention',
+      title: '9. Data Retention',
       blocks: [
         {
           type: 'ul',
           items: [
             'Account and game data — retained while your account is active',
-            'After account deletion — personally identifiable data is deleted within 30 days, except where longer retention is required by law or for dispute resolution',
+            'After account deletion — we delete or anonymize associated personal data within 30 days, except where longer retention is required by law, fraud prevention, or dispute resolution',
             'Server logs (IP address, request metadata) — typically retained up to 90 days under our providers\' standard policies, then deleted or aggregated',
             'Local device storage — remains on your device until you clear app/website data or uninstall the app',
           ],
@@ -157,7 +201,7 @@ export default {
       ],
     },
     {
-      title: '8. Security',
+      title: '10. Security',
       blocks: [
         {
           type: 'ul',
@@ -173,10 +217,14 @@ export default {
           type: 'p',
           text: 'No method of transmission or storage is completely secure. If you believe your account has been compromised, contact us immediately at contact@shadoweconomyapp.com.',
         },
+        {
+          type: 'p',
+          text: 'If we become aware of a personal data breach that is likely to affect your information and notification is required under applicable law, we will notify you without undue delay and in accordance with that law.',
+        },
       ],
     },
     {
-      title: '9. Cookies and Local Storage',
+      title: '11. Cookies and Local Storage',
       blocks: [
         {
           type: 'p',
@@ -197,11 +245,44 @@ export default {
       ],
     },
     {
-      title: '10. Your Privacy Rights',
+      title: '12. Your Choices and Controls',
+      blocks: [
+        {
+          type: 'p',
+          text: 'Account deletion: you may delete your account at any time in the app under Settings → Account → Delete Account, or by emailing contact@shadoweconomyapp.com from the address associated with your account. Deletion removes cloud-synced account data subject to the retention exceptions in Section 9.',
+        },
+        {
+          type: 'p',
+          text: 'Access and portability: you may request a copy of personal data we hold about you in a structured, commonly used, machine-readable format where technically feasible, by contacting us.',
+        },
+        {
+          type: 'p',
+          text: 'Google sign-in: you can review and revoke the Service\'s access to your Google account through your Google Account permissions at myaccount.google.com.',
+        },
+        {
+          type: 'p',
+          text: 'Device and store controls: you can clear local app data, uninstall the app, and manage in-app purchase history through Apple or Google account settings.',
+        },
+        {
+          type: 'p',
+          text: 'Marketing: we do not send promotional emails. Transactional messages related to account security or the Service may still be sent where necessary.',
+        },
+        {
+          type: 'p',
+          text: 'Global Privacy Control (GPC) and similar signals: where required by law, we treat recognized opt-out preference signals as a request to opt out of sale or sharing for cross-context behavioral advertising. Because we do not engage in those activities, such signals do not change our practices beyond confirming that status.',
+        },
+      ],
+    },
+    {
+      title: '13. Your Privacy Rights',
       blocks: [
         {
           type: 'p',
           text: 'Depending on your location, you may have rights to access, correct, delete, restrict, or port your personal data, and to object to certain processing. To exercise these rights, email contact@shadoweconomyapp.com. We will respond within 30 days unless a longer period is permitted by law.',
+        },
+        {
+          type: 'p',
+          text: 'We may ask you to verify your identity (for example, by confirming control of the email address on your account) before fulfilling a request, to protect your information from unauthorized access.',
         },
         { type: 'h3', text: 'EEA / UK (GDPR)' },
         {
@@ -219,14 +300,36 @@ export default {
           items: [
             'Right to know what personal information is collected, used, and disclosed',
             'Right to delete personal information, subject to exceptions',
-            'Right to opt out of sale — we do not sell personal information',
+            'Right to opt out of sale or sharing for cross-context behavioral advertising — we do not sell personal information and do not share it for cross-context behavioral advertising',
             'Right to non-discrimination for exercising privacy rights',
+            'We do not collect sensitive personal information as defined by the CPRA',
+            'Authorized agents may submit requests on your behalf with written permission and verification reasonably satisfactory to us',
           ],
         },
         { type: 'h3', text: 'New Zealand' },
         {
           type: 'p',
           text: 'We are based in New Zealand. Where the New Zealand Privacy Act 2020 applies, we handle personal information in accordance with its requirements, including providing access and correction where applicable.',
+        },
+        { type: 'h3', text: 'Other US states' },
+        {
+          type: 'p',
+          text: 'Residents of US states with comprehensive privacy laws (including, where applicable, Colorado, Connecticut, Virginia, Utah, Oregon, Texas, and others) may have rights to access, delete, correct, and opt out of certain processing. Because we do not sell personal information or use it for targeted advertising as defined by those laws, many opt-out mechanisms do not change our practices, but you may still contact us to exercise applicable rights.',
+        },
+        { type: 'h3', text: 'Australia' },
+        {
+          type: 'p',
+          text: 'If the Australian Privacy Act 1988 applies, you may request access to and correction of personal information we hold about you, and complain to the Office of the Australian Information Commissioner if you are not satisfied with our response.',
+        },
+        { type: 'h3', text: 'Canada' },
+        {
+          type: 'p',
+          text: 'If Canadian privacy law applies (including PIPEDA or substantially similar provincial laws), you may request access to and correction of personal information, and challenge our compliance with applicable requirements.',
+        },
+        { type: 'h3', text: 'Brazil' },
+        {
+          type: 'p',
+          text: 'If the LGPD applies, you may have rights including confirmation of processing, access, correction, anonymization, portability, deletion, and information about sharing. Contact us to exercise these rights.',
         },
         { type: 'h3', text: 'Other regions' },
         {
@@ -235,12 +338,16 @@ export default {
         },
         {
           type: 'p',
+          text: 'Appeals: if we decline your request, we will explain our reasons where required by law. You may reply to request a review of our decision. You may also lodge a complaint with a supervisory or privacy authority in your jurisdiction.',
+        },
+        {
+          type: 'p',
           text: 'Nothing in this Policy limits mandatory consumer or privacy rights that apply to you under the laws of your country or region of residence.',
         },
       ],
     },
     {
-      title: '11. Children\'s Privacy',
+      title: '14. Children\'s Privacy',
       blocks: [
         {
           type: 'p',
@@ -249,7 +356,7 @@ export default {
       ],
     },
     {
-      title: '12. Changes to This Policy',
+      title: '15. Changes to This Policy',
       blocks: [
         {
           type: 'p',
@@ -258,12 +365,21 @@ export default {
       ],
     },
     {
-      title: '13. Contact',
+      title: '16. Contact and Supervisory Authorities',
       blocks: [
         { type: 'p', text: 'Privacy inquiries and rights requests: contact@shadoweconomyapp.com' },
         {
           type: 'p',
-          text: 'We aim to respond within 30 days. If you are not satisfied with our response, you may contact your local data protection authority.',
+          text: 'We aim to respond within 30 days unless a longer period is permitted by law. If you are not satisfied with our response, you may contact a supervisory authority, including:',
+        },
+        {
+          type: 'ul',
+          items: [
+            'New Zealand — Office of the Privacy Commissioner: privacy.org.nz',
+            'EEA / UK — your local data protection authority (see edpb.europa.eu/about-edpb/about-edpb/members_en for EU members)',
+            'Australia — Office of the Australian Information Commissioner: oaic.gov.au',
+            'California, USA — California Privacy Protection Agency: cppa.ca.gov',
+          ],
         },
       ],
     },

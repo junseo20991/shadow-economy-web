@@ -5,7 +5,7 @@ export default {
     {
       title: '1. Aceptación de los términos',
       content:
-        'Los presentes Términos del servicio («Términos») regulan su acceso y uso de la aplicación móvil Shadow Economy, el sitio web en shadoweconomyapp.com y los servicios relacionados (en conjunto, el «Servicio»), operados por el desarrollador individual de Shadow Economy («nosotros» o «nuestro»). Al descargar, instalar, acceder o utilizar el Servicio, usted acepta estos Términos. Si no está de acuerdo, no utilice el Servicio.',
+        'Los presentes Términos del servicio («Términos») regulan su acceso y uso de la aplicación móvil Shadow Economy, el sitio web en shadoweconomyapp.com y los servicios relacionados (en conjunto, el «Servicio»), operados por el desarrollador individual de Shadow Economy («nosotros» o «nuestro»). Al descargar, instalar, acceder o utilizar el Servicio, usted acepta estos Términos. Si no está de acuerdo, no utilice el Servicio. Usted declara que tiene al menos 13 años o la edad mínima exigida en su jurisdicción para utilizar el Servicio y, cuando corresponda, consentir el tratamiento de datos.',
     },
     {
       title: '2. El Servicio',
@@ -19,9 +19,9 @@ export default {
       title: '3. Licencia y uso aceptable',
       content: [
         'Sujeto a estos Términos, le concedemos una licencia limitada, revocable, no exclusiva e intransferible para utilizar el Servicio con fines personales y no comerciales.',
-        'Debe cumplir la legislación aplicable y las políticas de Apple App Store, Google Play y del proveedor de inicio de sesión que utilice.',
-        'Es responsable de mantener la confidencialidad de las credenciales de su cuenta.',
-        'No podrá: (a) utilizar el Servicio con fines ilícitos; (b) realizar ingeniería inversa, descompilar o intentar extraer el código fuente salvo lo permitido por la ley; (c) interferir o interrumpir el Servicio; (d) extraer, recopilar o automatizar el acceso de forma no autorizada; (e) suplantar a otros o falsear su afiliación.',
+        'Debe cumplir la legislación aplicable y las políticas de Apple App Store, Google Play e inicio de sesión con Google (cuando lo utilice).',
+        'Es responsable de mantener la confidencialidad de las credenciales de su cuenta y de la actividad bajo su cuenta, salvo cuando se deba a nuestro incumplimiento de mantener una seguridad razonable.',
+        'No podrá: (a) utilizar el Servicio con fines ilícitos; (b) realizar ingeniería inversa, descompilar o intentar extraer el código fuente salvo lo permitido por la ley; (c) interferir o interrumpir el Servicio; (d) extraer, recopilar o automatizar el acceso de forma no autorizada; (e) suplantar a otros o falsear su afiliación; (f) eludir límites técnicos, sistemas de pago o reglas de créditos de informe; (g) utilizar el Servicio para desarrollar un producto competidor mediante extracción sistemática de contenido.',
       ],
     },
     {
@@ -83,10 +83,45 @@ export default {
         'Si alguna disposición de estos Términos se declara inválida, las restantes permanecerán en vigor.',
         'El hecho de que no hagamos cumplir una disposición no constituye renuncia a hacerlo cumplir posteriormente.',
         'Estos Términos constituyen el acuerdo íntegro entre usted y nosotros respecto del Servicio y sustituyen entendimientos previos sobre el mismo asunto.',
+        'Comunicaciones electrónicas: usted consiente en recibir comunicaciones nuestras por medios electrónicos (incluidos avisos en la aplicación y correo electrónico) cuando la ley lo permita.',
+        'Cesión: no puede ceder ni transferir estos Términos ni su cuenta sin nuestro consentimiento previo por escrito. Podemos ceder estos Términos en relación con una fusión, adquisición, reorganización corporativa o venta de activos, con aviso cuando la ley lo exija.',
+        'Fuerza mayor: no seremos responsables de retrasos o incumplimientos causados por eventos fuera de nuestro control razonable (incluidas interrupciones de tiendas de aplicaciones, proveedores de alojamiento o redes).',
       ],
     },
     {
-      title: '15. Contacto',
+      title: '15. Exportación y sanciones',
+      content:
+        'No podrá utilizar ni exportar el Servicio salvo según lo autorice la legislación aplicable. Usted declara que no se encuentra en, bajo el control de, ni es nacional o residente de ningún país o persona sujeta a sanciones comerciales integrales o embargos, y que no figura en ninguna lista gubernamental de partes restringidas.',
+    },
+    {
+      title: '16. Código abierto',
+      content:
+        'El Servicio puede incluir componentes de software de código abierto con licencia bajo sus propios términos. En la medida en que esas licencias le otorguen derechos que entren en conflicto con estos Términos, prevalecen los términos de la licencia de código abierto solo para ese componente. Una lista de avisos está disponible previa solicitud en contact@shadoweconomyapp.com.',
+    },
+    {
+      title: '17. Comentarios',
+      content:
+        'Si envía sugerencias o comentarios, nos concede una licencia perpetua, mundial y libre de regalías para utilizarlos a fin de mejorar el Servicio sin obligación hacia usted, salvo donde la ley lo prohíba.',
+    },
+    {
+      title: '18. Tiendas de aplicaciones (Apple y Google)',
+      content: [
+        'Si obtuvo la aplicación a través de Apple App Store o Google Play, su uso de la aplicación también está sujeto a los términos y políticas aplicables de esa tienda respecto de descargas, actualizaciones y compras dentro de la aplicación.',
+        'Estos Términos son un acuerdo entre usted y el desarrollador, no con Apple Inc., Google LLC ni sus afiliadas. Apple y Google no son responsables del Servicio, su contenido, mantenimiento, asistencia, garantías ni cumplimiento legal.',
+        'En la medida permitida por la ley aplicable y los términos de la tienda pertinentes, con respecto al uso de la aplicación iOS, Apple Inc. y sus subsidiarias son terceros beneficiarios de estos Términos y pueden hacerlos cumplir contra usted como beneficiarios.',
+        'El mantenimiento y la asistencia del Servicio los proporciona el desarrollador, no Apple ni Google, salvo que los términos de la tienda dispongan lo contrario.',
+        'Para aplicaciones iOS: en caso de que la aplicación con licencia no cumpla cualquier garantía aplicable, puede notificarlo a Apple, y Apple le reembolsará el precio de compra de la aplicación si corresponde; en la máxima medida permitida por la ley, Apple no tiene otra obligación de garantía respecto de la aplicación. Apple no es responsable de atender reclamaciones relativas a la aplicación o su uso, incluidas responsabilidad de producto, cumplimiento legal o reclamaciones de protección al consumidor.',
+        'Las reclamaciones de propiedad intelectual relativas a la aplicación pueden enviarse a contact@shadoweconomyapp.com. Apple y Google no son responsables de investigar ni resolver dichas reclamaciones en nuestro nombre.',
+        'Usted declara que no se encuentra en un país embargado por EE. UU. ni figura en ninguna lista gubernamental de EE. UU. de partes prohibidas o restringidas cuando tales declaraciones sean exigidas por los términos de la tienda aplicables.',
+      ],
+    },
+    {
+      title: '19. Privacidad',
+      content:
+        'Nuestra Política de privacidad en shadoweconomyapp.com/privacy explica cómo recopilamos y utilizamos información personal. Al utilizar el Servicio, reconoce que ha leído dicha Política.',
+    },
+    {
+      title: '20. Contacto',
       content: 'Consultas sobre estos Términos: contact@shadoweconomyapp.com',
     },
   ],
