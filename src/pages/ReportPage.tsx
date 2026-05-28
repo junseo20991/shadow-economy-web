@@ -4,177 +4,207 @@ import { useLanguage } from '../context/LanguageContext'
 
 const content = {
   en: {
-    badge: 'Post-Mortem Report',
-    headline: 'A report that has never existed before.',
-    headlineSub: 'And will never exist again.',
-    sub: 'Every playthrough of Shadow Economy generates a post-mortem report built entirely from your data — your decisions, your timing, your instincts under pressure. No two are alike.',
-    uniqueTitle: 'Why It\'s Unlike Anything Else',
-    unique: [
-      { title: 'It\'s about you. Specifically.', body: 'Not a tutorial. Not a generic summary. The report reads your credit trajectory, your cash flow decisions, the exact turns where your Ward started declining — and traces them back to what you did.' },
-      { title: 'It shows you what you couldn\'t see in the moment.', body: 'When you made your decisions, you had incomplete information. The report reconstructs the full picture — including the signals that were visible at the time, and what they were pointing to.' },
-      { title: 'It names the instinct that was working against you.', body: 'Debt aversion. Loss avoidance. Present bias. The report identifies which cognitive patterns shaped your choices — not as a judgment, but as data. Your gameplay is the dataset.' },
+    badge: 'Personalized Report',
+    headline: 'A completed playthrough becomes a report.',
+    headlineSub: 'Built from your own decisions.',
+    sub: 'One finished game becomes a report built from your decisions, timing, risk tolerance, and tradeoffs.',
+    valueTitle: 'What it gives you',
+    value: [
+      { title: 'A clearer read on your habits', body: 'See how you play when the stakes are real.' },
+      { title: 'A bridge to financial literacy', body: 'Game behavior becomes usable economic language.' },
+      { title: 'A reason to replay', body: 'A second run creates a new report.' },
     ],
-    mirrorTitle: 'A Financial Mirror, Not a Financial Advisor',
-    mirrorBody: 'Other tools tell you what to do next time. This report shows you who you already are — how you respond to risk, how you handle pressure, what you prioritize when the trade-offs are real.',
-    mirrorBody2: 'That\'s a different kind of value. It\'s not prescriptive. It\'s diagnostic. And it\'s only possible because of what happened inside the simulation.',
-    mirrorQuote: '"You thought you were playing a game. The report shows you what you were actually doing."',
-    whatTitle: 'What the Report Contains',
+    purposeTitle: 'Why it exists',
+    purposeBody1: 'The report is built for players who want to learn economics but need a place to start. It begins with play, then explains what it means.',
+    purposeBody2: 'That makes it easier to read, easier to remember, and easier to use.',
+    diffTitle: 'Why it stands apart',
+    diff: [
+      { title: 'It comes from play, not a form.', body: 'The source is the game state itself: choices, timing, assets, liabilities, and outcomes.' },
+      { title: 'Each insight points to an action.', body: 'The report links a pattern to what happened in the game.' },
+      { title: 'Clear, not crowded.', body: 'The tone stays simple and the content stays usable.' },
+    ],
+    whatTitle: 'What\'s in the report',
     what: [
-      { icon: '⏱', title: 'Decision Retrospective', body: 'The exact moment your trajectory changed — and what you chose that made it happen.' },
-      { icon: '🕳', title: 'Hidden Information', body: 'Data that was available in the simulation but never surfaced. What you would have needed to know.' },
-      { icon: '⚖️', title: 'Alternative Paths', body: 'Three diverging outcomes modeled from the same starting point. One better. One similar. One worse — to break hindsight bias.' },
-      { icon: '🧠', title: 'Cognitive Signature', body: 'The pattern of instincts and biases embedded in your choices, extracted from your full game history.' },
+      { icon: '⏱', title: 'Decision Retrospective', body: 'The moment your path changed, and the choice behind it.' },
+      { icon: '🕳', title: 'Hidden Information', body: 'Signals that were there before you could see them.' },
+      { icon: '⚖️', title: 'Alternative Paths', body: 'How different choices from the same situation could have led to different outcomes, explained using your play data.' },
+      { icon: '🧠', title: 'Cognitive Signature', body: 'The habits and biases that shaped your choices.' },
     ],
-    onceTitle: 'You Only Get One',
-    onceBody: 'The report is generated at the end of your playthrough. It captures a specific version of you — the one who played this particular game, under these particular pressures, and made these particular choices.',
-    onceBody2: 'You can play again. You\'ll get a different report. But this one, this version of your thinking, exists only once.',
-    ctaTitle: 'Ready to capture your playthrough?',
-    ctaBody: 'Get report credits and unlock your post-mortem after your next game.',
+    onceTitle: 'One report, one playthrough',
+    onceBody: 'The report is generated at the end of a run. It captures one set of decisions under one set of conditions.',
+    onceBody2: 'Play again and the report changes with you. It stays tied to a real run.',
+    ctaTitle: 'Ready to see your own pattern?',
+    ctaBody: 'Get report credits and unlock your report after your next game.',
     ctaButton: 'See pricing',
   },
   ko: {
-    badge: '부검 보고서',
-    headline: '지금까지 존재한 적 없는 보고서.',
-    headlineSub: '그리고 다시는 존재하지 않을.',
-    sub: 'Shadow Economy의 모든 플레이는 오직 당신의 데이터로 만들어진 부검 보고서를 생성합니다. 당신의 결정, 당신의 타이밍, 압박 속에서 드러난 당신의 본능. 같은 보고서는 존재하지 않습니다.',
-    uniqueTitle: '어디에도 없는 이유',
-    unique: [
-      { title: '이것은 당신에 관한 이야기입니다. 구체적으로.', body: '튜토리얼도 아니고 일반적인 요약도 아닙니다. 보고서는 당신의 신용도 궤적, 현금흐름 결정, Ward가 쇠퇴하기 시작한 정확한 턴을 읽고 — 그것을 당신이 한 행동으로 역추적합니다.' },
-      { title: '그 순간에는 볼 수 없었던 것을 보여줍니다.', body: '결정을 내릴 때, 당신은 불완전한 정보를 가지고 있었습니다. 보고서는 전체 그림을 재구성합니다 — 그 시점에 보였던 신호들과 그것이 가리키고 있던 것을 포함하여.' },
-      { title: '당신에게 불리하게 작동하던 본능을 지목합니다.', body: '부채 회피. 손실 기피. 현재 편향. 보고서는 당신의 선택을 형성한 인지 패턴을 식별합니다 — 판단이 아니라 데이터로서. 당신의 게임 플레이가 데이터셋입니다.' },
+    badge: '개별화 정밀 분석 보고서',
+    headline: '하나의 플레이가 하나의 보고서가 됩니다.',
+    headlineSub: '당신의 선택으로 만들어집니다.',
+    sub: 'Shadow Economy는 한 번의 완주를 당신의 데이터로만 만든 보고서로 바꿉니다. 결정, 타이밍, 위험 감수 방식, 압박 속에서 감수한 트레이드오프까지 담겨 있습니다. 실용적이고, 개인적이며, 다시 플레이할 이유가 됩니다.',
+    valueTitle: '플레이어에게 주는 가치',
+    value: [
+      { title: '내 플레이 습관이 보입니다', body: '추상적인 설명이 아니라, 실제로 어떤 판단을 반복하는지 보여줍니다.' },
+      { title: '경제를 자기 사례로 배웁니다', body: '게임 속 행동을 현실 경제 개념으로 연결해 줍니다.' },
+      { title: '다시 플레이할 이유가 생깁니다', body: '다시 하면 다른 보고서가 나오므로 학습이 누적됩니다.' },
     ],
-    mirrorTitle: '재무 조언자가 아닌 재무 거울',
-    mirrorBody: '다른 도구들은 다음에 무엇을 해야 하는지 말합니다. 이 보고서는 당신이 이미 어떤 사람인지를 보여줍니다 — 리스크에 어떻게 반응하는지, 압박을 어떻게 처리하는지, 트레이드오프가 현실일 때 무엇을 우선시하는지.',
-    mirrorBody2: '그것은 다른 종류의 가치입니다. 처방적이지 않습니다. 진단적입니다. 그리고 그것은 오직 시뮬레이션 안에서 일어난 일 덕분에 가능합니다.',
-    mirrorQuote: '"게임을 하고 있다고 생각했습니다. 보고서는 당신이 실제로 무엇을 하고 있었는지를 보여줍니다."',
+    purposeTitle: '이 제품의 목적',
+    purposeBody1: '경제를 배우고 싶지만 어디서 시작해야 할지 모르는 플레이어를 위한 보고서입니다. 이론부터 시작하지 않고, 자기 플레이부터 시작합니다.',
+    purposeBody2: '그래서 보고서는 이해하기 쉽고, 기억에 남고, 돈과 선택을 보는 방식까지 바꾸기 쉽습니다.',
+    diffTitle: '차별화되는 이유',
+    diff: [
+      { title: '설문이 아니라 플레이에서 나옵니다', body: '출발점은 게임 상태 자체입니다. 선택, 타이밍, 자산, 부채, 결과를 모두 읽습니다.' },
+      { title: '모든 해석은 행동으로 돌아갑니다', body: '추상적인 칭찬이 아니라, 게임 안에서 실제로 벌어진 일에 연결합니다.' },
+      { title: '과장 없이도 프리미엄하게 읽힙니다', body: '톤은 절제되어 있지만, 내용은 분명하고 유용합니다.' },
+    ],
     whatTitle: '보고서에 담긴 것',
     what: [
-      { icon: '⏱', title: '결정의 회고', body: '당신의 궤적이 바뀐 정확한 순간 — 그리고 그것을 만든 선택.' },
-      { icon: '🕳', title: '숨겨진 정보', body: '시뮬레이션에서 이용 가능했지만 드러나지 않았던 데이터. 당신이 알았어야 할 것.' },
-      { icon: '⚖️', title: '대안 경로', body: '동일한 출발점에서 갈라지는 세 가지 결과. 하나는 더 낫고, 하나는 비슷하고, 하나는 더 나쁩니다 — 사후확신 편향을 깨기 위해.' },
-      { icon: '🧠', title: '인지 서명', body: '전체 게임 기록에서 추출된, 당신의 선택에 내재된 본능과 편향의 패턴.' },
+      { icon: '⏱', title: '결정의 회고', body: '궤적이 바뀐 정확한 순간과 그 순간의 선택을 보여줍니다.' },
+      { icon: '🕳', title: '숨겨진 정보', body: '당시에는 보이지 않았지만 시뮬레이션 안에 존재했던 신호를 보여줍니다.' },
+      { icon: '⚖️', title: '대안 경로', body: '같은 상황에서 다른 선택을 했다면 어떤 결과가 달라졌을 수 있는지, 플레이 데이터를 바탕으로 설명합니다.' },
+      { icon: '🧠', title: '인지 서명', body: '전체 플레이 기록에서 추출한 본능과 편향의 패턴을 담습니다.' },
     ],
-    onceTitle: '단 한 번만 받게 됩니다',
-    onceBody: '보고서는 플레이 종료 시 생성됩니다. 특정한 버전의 당신을 포착합니다 — 이 특정한 게임을, 이 특정한 압박 아래서 플레이하고, 이 특정한 선택들을 한 당신.',
-    onceBody2: '다시 플레이할 수 있습니다. 다른 보고서를 받게 됩니다. 하지만 이것, 이 버전의 당신의 사고방식은 단 한 번만 존재합니다.',
-    ctaTitle: '플레이를 기록할 준비가 되셨나요?',
-    ctaBody: '보고서 크레딧을 구매하고, 다음 플레이 후 부검 보고서를 받으세요.',
+    onceTitle: '플레이 한 번, 보고서 한 번',
+    onceBody: '보고서는 완주 시점에 생성됩니다. 특정한 압박 속에서 내린 선택의 버전을 포착합니다.',
+    onceBody2: '다시 플레이하면 보고서도 달라집니다. 그게 이 제품의 핵심입니다. 진짜 플레이를 기준으로 하기 때문입니다.',
+    ctaTitle: '당신의 패턴을 볼 준비가 되셨나요?',
+    ctaBody: '보고서 크레딧을 구매하고, 다음 플레이 후 개별화 정밀 분석 보고서를 받으세요.',
     ctaButton: '가격 보기',
   },
   ja: {
-    badge: '死後分析レポート',
-    headline: 'これまでに存在したことのないレポート。',
-    headlineSub: 'そして二度と存在しないでしょう。',
-    sub: 'Shadow Economyのすべてのプレイは、あなたのデータだけで作られた死後分析レポートを生成します。あなたの決断、あなたのタイミング、プレッシャーの下で現れたあなたの本能。同じレポートは存在しません。',
-    uniqueTitle: 'どこにもない理由',
-    unique: [
-      { title: 'これはあなたについての話です。具体的に。', body: 'チュートリアルでも一般的なまとめでもありません。レポートはあなたの信用スコアの軌跡、キャッシュフローの決断、Wardが衰退し始めた正確なターンを読み取り――それをあなたがした行動に遡ります。' },
-      { title: 'その瞬間には見えなかったものを見せます。', body: '決断を下した時、あなたは不完全な情報しか持っていませんでした。レポートは全体像を再構築します――その時点で見えていたシグナルと、それが指し示していたものを含めて。' },
-      { title: 'あなたに不利に働いていた本能を名指しします。', body: '借金回避。損失嫌悪。現在バイアス。レポートはあなたの選択を形成した認知パターンを特定します――判断としてではなく、データとして。あなたのゲームプレイがデータセットです。' },
+    badge: '個別化精密分析レポート',
+    headline: '一回のプレイが、一つのレポートになる。',
+    headlineSub: 'あなたの選択から作られます。',
+    sub: 'Shadow Economyは、1回のクリアをあなたのデータだけで作るレポートに変えます。決断、タイミング、リスク許容、プレッシャー下で受け入れたトレードオフが含まれます。実用的で、個人的で、再プレイの理由になります。',
+    valueTitle: 'プレイヤーにもたらす価値',
+    value: [
+      { title: '自分の癖が見える', body: '抽象論ではなく、実際にどの判断を繰り返すのかが分かります。' },
+      { title: '経済を自分の経験で学べる', body: 'ゲーム内の行動を、現実の経済概念へとつなげます。' },
+      { title: '再プレイの理由になる', body: 'もう一度遊ぶと別のレポートが出るので、学びが積み重なります。' },
     ],
-    mirrorTitle: '財務アドバイザーではなく、財務の鏡',
-    mirrorBody: '他のツールは次に何をすべきかを教えます。このレポートはあなたがすでにどういう人物かを見せます――リスクにどう反応するか、プレッシャーをどう処理するか、トレードオフが現実の時に何を優先するか。',
-    mirrorBody2: 'それは異なる種類の価値です。処方的ではありません。診断的です。そしてそれは、シミュレーションの中で起きたことがあるからこそ可能です。',
-    mirrorQuote: '「ゲームをしていると思っていました。レポートはあなたが実際に何をしていたかを見せます。」',
+    purposeTitle: 'この製品の目的',
+    purposeBody1: '経済を学びたいが、何から始めればいいか分からないプレイヤーのためのレポートです。理論からではなく、自分のプレイから始めます。',
+    purposeBody2: 'そのため、レポートは理解しやすく、記憶に残りやすく、お金と選択の見方を変えやすいのです。',
+    diffTitle: '何が違うのか',
+    diff: [
+      { title: 'アンケートではなく、プレイから生まれる', body: '出発点はゲーム状態そのものです。選択、タイミング、資産、負債、結果を読み取ります。' },
+      { title: 'すべての示唆が行動に戻る', body: '抽象的な称賛ではなく、ゲーム内で実際に起きたことへつなげます。' },
+      { title: '押しつけずに高品質に見える', body: 'トーンは落ち着いていますが、内容は明確で役に立ちます。' },
+    ],
     whatTitle: 'レポートに含まれるもの',
     what: [
-      { icon: '⏱', title: '決断の回顧', body: 'あなたの軌跡が変わった正確な瞬間――そしてそれを生み出した選択。' },
-      { icon: '🕳', title: '隠れた情報', body: 'シミュレーションで利用可能だったが表面化しなかったデータ。あなたが知る必要があったこと。' },
-      { icon: '⚖️', title: '代替経路', body: '同じ出発点から分岐する3つの結果。一つはより良く、一つは似ており、一つはより悪い――後知恵バイアスを破るために。' },
-      { icon: '🧠', title: '認知的シグネチャー', body: 'ゲーム全体の履歴から抽出された、あなたの選択に埋め込まれた本能とバイアスのパターン。' },
+      { icon: '⏱', title: '決断の回顧', body: '軌跡が変わった正確な瞬間と、その時の選択を示します。' },
+      { icon: '🕳', title: '隠れた情報', body: 'その時には見えなかったが、シミュレーション内に存在したシグナルを示します。' },
+      { icon: '⚖️', title: '代替経路', body: '同じ状況で別の選択をしていた場合にどう変わり得たかを、プレイデータに基づいて説明します。' },
+      { icon: '🧠', title: '認知的シグネチャー', body: '全プレイ履歴から抽出した、本能とバイアスのパターンを収めます。' },
     ],
-    onceTitle: '一度しか手に入りません',
-    onceBody: 'レポートはプレイ終了時に生成されます。特定のバージョンのあなたを捉えます――この特定のゲームを、この特定のプレッシャーの下でプレイし、この特定の選択をしたあなたを。',
-    onceBody2: 'もう一度プレイできます。別のレポートを受け取るでしょう。しかしこれ、この版のあなたの思考は、一度だけ存在します。',
-    ctaTitle: 'プレイを記録する準備はできていますか？',
-    ctaBody: 'レポートクレジットを購入して、次のプレイ後に死後分析レポートを受け取りましょう。',
+    onceTitle: '一回のプレイに、一つのレポート',
+    onceBody: 'レポートはクリア時に生成されます。特定の圧力下で下した選択の版を捉えます。',
+    onceBody2: 'もう一度遊べば、レポートも変わります。だからこそ価値があります。実際のプレイに結びついているからです。',
+    ctaTitle: 'あなたのパターンを見る準備はできていますか？',
+    ctaBody: 'レポートクレジットを購入して、次のプレイ後に個別化精密分析レポートを受け取りましょう。',
     ctaButton: '料金を見る',
   },
   zh: {
-    badge: '死后复盘报告',
-    headline: '一份从未存在过的报告。',
-    headlineSub: '也将永远不会再次存在。',
-    sub: 'Shadow Economy 的每一次游玩都会生成一份完全基于你的数据构建的复盘报告——你的决策、你的时机、你在压力下展现的本能。没有两份报告是相同的。',
-    uniqueTitle: '独一无二的原因',
-    unique: [
-      { title: '这是关于你的。具体地说。', body: '不是教程，不是通用摘要。报告会读取你的信用轨迹、现金流决策、你的社区开始衰退的确切回合——并将其追溯到你所做的行为。' },
-      { title: '它向你展示你在那一刻看不到的东西。', body: '当你做决定时，你拥有的是不完整的信息。报告重建了完整的图景——包括当时可见的信号，以及它们指向的方向。' },
-      { title: '它指出了在背后对你不利运作的本能。', body: '债务厌恶。损失规避。现时偏见。报告识别出塑造你选择的认知模式——不是作为判断，而是作为数据。你的游戏过程就是数据集。' },
+    badge: '个性化精密分析报告',
+    headline: '一次完整游玩，生成一份报告。',
+    headlineSub: '基于你的选择构建。',
+    sub: 'Shadow Economy 会把一局完整游戏变成一份只由你的数据构成的报告：你的决策、节奏、风险偏好，以及你在压力下接受的取舍。它实用、个人化，而且值得反复体验。',
+    valueTitle: '它为玩家带来的价值',
+    value: [
+      { title: '看清自己的游玩习惯', body: '不是抽象建议，而是看到自己在真实压力下如何决策。' },
+      { title: '用自己的经历学习经济', body: '把游戏中的行为翻译成可以继续使用的现实经济概念。' },
+      { title: '给再次游玩一个理由', body: '再玩一次会得到新报告，学习也会随之累积。' },
     ],
-    mirrorTitle: '财务镜子，而非财务顾问',
-    mirrorBody: '其他工具告诉你下次该做什么。这份报告展示你已经是什么样的人——你如何应对风险，如何处理压力，当权衡是真实的时候你优先考虑什么。',
-    mirrorBody2: '这是不同种类的价值。它不是规定性的，而是诊断性的。而这只有因为模拟中发生的事情才成为可能。',
-    mirrorQuote: '"你以为自己在玩游戏。报告向你展示你实际上在做什么。"',
+    purposeTitle: '它存在的目的',
+    purposeBody1: '这份报告是为那些想学习经济、却不知道从哪里开始的玩家准备的。它不从理论开始，而是从他们自己的游玩开始。',
+    purposeBody2: '因此，它更容易吸收、更容易记住，也更容易改变一个人看待金钱的方式。',
+    diffTitle: '它为什么不同',
+    diff: [
+      { title: '来源于游玩，而不是问卷', body: '起点是游戏状态本身：选择、时机、资产、负债和结果。' },
+      { title: '每个洞察都能回到动作上', body: '它不会停留在抽象赞美，而是回到游戏里实际发生过什么。' },
+      { title: '克制，但依然高级', body: '语气不张扬，内容却清楚、具体，而且有用。' },
+    ],
     whatTitle: '报告包含的内容',
     what: [
-      { icon: '⏱', title: '决策回顾', body: '你的轨迹改变的确切时刻——以及导致这一切发生的选择。' },
-      { icon: '🕳', title: '隐藏信息', body: '模拟中可用但从未浮现的数据。你本应知道的事情。' },
-      { icon: '⚖️', title: '替代路径', body: '从同一起点模拟的三种分歧结果。一种更好，一种相似，一种更差——打破后见之明偏见。' },
-      { icon: '🧠', title: '认知特征', body: '从完整游戏历史中提取的，嵌入你选择中的本能和偏见模式。' },
+      { icon: '⏱', title: '决策回顾', body: '展示轨迹发生变化的那个时刻，以及当时的选择。' },
+      { icon: '🕳', title: '隐藏信息', body: '展示当时存在、却没有被玩家看见的信号。' },
+      { icon: '⚖️', title: '替代路径', body: '根据你的游玩数据，说明在相同情况下若做出不同选择，结果可能如何变化。' },
+      { icon: '🧠', title: '认知特征', body: '收录从完整游玩历史中提取出的本能与偏见模式。' },
     ],
-    onceTitle: '只有一次',
-    onceBody: '报告在游戏结束时生成。它捕捉了特定版本的你——那个在特定压力下玩了这场特定游戏、做出了这些特定选择的你。',
-    onceBody2: '你可以再玩一次。你会得到一份不同的报告。但这一份，这个版本的你的思维方式，只存在一次。',
-    ctaTitle: '准备好记录你的游玩了吗？',
-    ctaBody: '购买报告积分，在下次游玩后解锁你的复盘报告。',
+    onceTitle: '一次游玩，一份报告',
+    onceBody: '报告在通关时生成。它记录的是你在特定压力下做出的那一版选择。',
+    onceBody2: '再玩一次，报告也会变化。它之所以有价值，就是因为它对应的是一次真实游玩。',
+    ctaTitle: '准备好查看你的模式了吗？',
+    ctaBody: '购买报告积分，在下次游玩后解锁你的个性化精密分析报告。',
     ctaButton: '查看定价',
   },
   es: {
-    badge: 'Informe post-mortem',
-    headline: 'Un informe que nunca ha existido antes.',
-    headlineSub: 'Y que nunca volverá a existir.',
-    sub: 'Cada partida de Shadow Economy genera un informe post-mortem construido enteramente con tus datos — tus decisiones, tu timing, tus instintos bajo presión. No hay dos iguales.',
-    uniqueTitle: 'Por qué es como ningún otro',
-    unique: [
-      { title: 'Es sobre ti. Específicamente.', body: 'No es un tutorial. No es un resumen genérico. El informe lee tu trayectoria crediticia, tus decisiones de flujo de caja, los turnos exactos donde tu barrio empezó a declinar — y los rastrea hasta lo que hiciste.' },
-      { title: 'Te muestra lo que no podías ver en ese momento.', body: 'Cuando tomaste tus decisiones, tenías información incompleta. El informe reconstruye el panorama completo — incluyendo las señales que eran visibles en ese momento y hacia dónde apuntaban.' },
-      { title: 'Nombra el instinto que estaba trabajando en tu contra.', body: 'Aversión a la deuda. Evitación de pérdidas. Sesgo del presente. El informe identifica qué patrones cognitivos dieron forma a tus elecciones — no como un juicio, sino como datos. Tu gameplay es el conjunto de datos.' },
+    badge: 'Informe de análisis profundo personalizado',
+    headline: 'Una partida completada se convierte en un informe.',
+    headlineSub: 'Construido desde tus decisiones.',
+    sub: 'Shadow Economy convierte una partida terminada en un informe construido con tus datos: tus decisiones, tu ritmo, tu tolerancia al riesgo y los intercambios que aceptaste bajo presión. Es práctico, personal y repetible.',
+    valueTitle: 'Qué aporta al jugador',
+    value: [
+      { title: 'Una lectura más clara de tus hábitos', body: 'Ves cómo juegas cuando hay presión real, no solo teoría.' },
+      { title: 'Un puente hacia la educación financiera', body: 'El comportamiento dentro del juego se traduce en conceptos que sí puedes usar.' },
+      { title: 'Un motivo para volver a jugar', body: 'Una segunda partida crea un informe nuevo, así que el aprendizaje se acumula.' },
     ],
-    mirrorTitle: 'Un espejo financiero, no un asesor financiero',
-    mirrorBody: 'Otras herramientas te dicen qué hacer la próxima vez. Este informe te muestra quién ya eres — cómo respondes al riesgo, cómo manejas la presión, qué priorizas cuando los intercambios son reales.',
-    mirrorBody2: 'Ese es un tipo de valor diferente. No es prescriptivo. Es diagnóstico. Y solo es posible gracias a lo que ocurrió dentro de la simulación.',
-    mirrorQuote: '"Pensabas que estabas jugando un juego. El informe te muestra lo que realmente estabas haciendo."',
+    purposeTitle: 'Por qué existe',
+    purposeBody1: 'El informe está pensado para jugadores que quieren aprender economía pero no saben por dónde empezar. En lugar de comenzar con teoría, comienza con su propia partida.',
+    purposeBody2: 'Eso lo hace más fácil de absorber, más fácil de recordar y más probable de cambiar cómo alguien piensa sobre el dinero.',
+    diffTitle: 'Por qué se diferencia',
+    diff: [
+      { title: 'Nace de la partida, no de un cuestionario', body: 'El punto de partida es el estado del juego: decisiones, tiempos, activos, pasivos y resultados.' },
+      { title: 'Cada idea vuelve a una acción concreta', body: 'No se queda en elogios abstractos; enlaza patrones con lo que ocurrió dentro del juego.' },
+      { title: 'Habla con calma, pero se siente premium', body: 'El tono es contenido, pero el contenido es claro, útil y serio.' },
+    ],
     whatTitle: 'Qué contiene el informe',
     what: [
-      { icon: '⏱', title: 'Retrospectiva de decisiones', body: 'El momento exacto en que cambió tu trayectoria — y lo que elegiste que lo hizo posible.' },
-      { icon: '🕳', title: 'Información oculta', body: 'Datos que estaban disponibles en la simulación pero que nunca afloraron. Lo que necesitabas saber.' },
-      { icon: '⚖️', title: 'Caminos alternativos', body: 'Tres resultados divergentes modelados desde el mismo punto de partida. Uno mejor. Uno similar. Uno peor — para romper el sesgo retrospectivo.' },
-      { icon: '🧠', title: 'Firma cognitiva', body: 'El patrón de instintos y sesgos integrados en tus elecciones, extraído de tu historial completo de juego.' },
+      { icon: '⏱', title: 'Retrospectiva de decisiones', body: 'Muestra el momento exacto en que cambió tu trayectoria y la decisión que lo provocó.' },
+      { icon: '🕳', title: 'Información oculta', body: 'Muestra señales que estaban ahí, pero que el jugador no veía en ese momento.' },
+      { icon: '⚖️', title: 'Caminos alternativos', body: 'Explica, con datos de tu partida, cómo otros decisiones en la misma situación podrían haber cambiado el resultado.' },
+      { icon: '🧠', title: 'Firma cognitiva', body: 'Recoge los patrones de instinto y sesgo extraídos de tu historial completo de juego.' },
     ],
-    onceTitle: 'Solo obtienes uno',
-    onceBody: 'El informe se genera al final de tu partida. Captura una versión específica de ti — la que jugó este juego particular, bajo estas presiones particulares, y tomó estas elecciones particulares.',
-    onceBody2: 'Puedes volver a jugar. Obtendrás un informe diferente. Pero este, esta versión de tu pensamiento, existe solo una vez.',
-    ctaTitle: '¿Listo para documentar tu partida?',
-    ctaBody: 'Consigue créditos de informe y desbloquea tu post-mortem tras tu próxima partida.',
+    onceTitle: 'Una partida, un informe',
+    onceBody: 'El informe se genera al completar la partida. Captura la versión de tus decisiones bajo esa presión concreta.',
+    onceBody2: 'Vuelve a jugar y el informe cambiará contigo. Ahí está su valor: responde a una partida real, no a un perfil genérico.',
+    ctaTitle: '¿Listo para ver tu propio patrón?',
+    ctaBody: 'Consigue créditos de informe y desbloquea tu informe de análisis profundo personalizado tras tu próxima partida.',
     ctaButton: 'Ver precios',
   },
   sv: {
-    badge: 'Post-mortem-rapport',
-    headline: 'En rapport som aldrig funnits tidigare.',
-    headlineSub: 'Och som aldrig kommer att finnas igen.',
-    sub: 'Varje genomspelning av Shadow Economy genererar en post-mortem-rapport byggd helt från dina data — dina beslut, din timing, dina instinkter under press. Inga två är likadana.',
-    uniqueTitle: 'Varför den är unik',
-    unique: [
-      { title: 'Den handlar om dig. Specifikt.', body: 'Inte en handledning. Inte en generisk sammanfattning. Rapporten läser din kreditbana, dina kassaflödebeslut, de exakta varven då ditt kvarter började försämras — och spårar dem tillbaka till vad du gjorde.' },
-      { title: 'Den visar dig vad du inte kunde se i stunden.', body: 'När du fattade dina beslut hade du ofullständig information. Rapporten rekonstruerar hela bilden — inklusive de signaler som var synliga då, och vart de pekade.' },
-      { title: 'Den namnger instinkten som jobbade mot dig.', body: 'Skuldskygghet. Förlustaversion. Nutidssnedvridning. Rapporten identifierar vilka kognitiva mönster som formade dina val — inte som en dom, utan som data. Ditt spelande är datamängden.' },
+    badge: 'Personaliserad djupanalysrapport',
+    headline: 'En avslutad genomspelning blir en rapport.',
+    headlineSub: 'Byggd från dina egna beslut.',
+    sub: 'Shadow Economy gör en avslutad omgång till en rapport byggd enbart av dina data: dina beslut, din timing, din risknivå och de avvägningar du accepterade under press. Den är praktisk, personlig och går att återvända till.',
+    valueTitle: 'Vad den ger spelaren',
+    value: [
+      { title: 'En tydligare bild av dina vanor', body: 'Du ser hur du spelar när insatserna är verkliga, inte abstrakta.' },
+      { title: 'En bro till ekonomisk förståelse', body: 'Beteende i spelet översätts till ekonomiska begrepp du faktiskt kan använda.' },
+      { title: 'En anledning att spela igen', body: 'En ny genomspelning ger en ny rapport, så lärandet fortsätter.' },
     ],
-    mirrorTitle: 'En finansiell spegel, inte en finansiell rådgivare',
-    mirrorBody: 'Andra verktyg berättar vad du ska göra nästa gång. Den här rapporten visar vem du redan är — hur du reagerar på risk, hur du hanterar press, vad du prioriterar när avvägningarna är verkliga.',
-    mirrorBody2: 'Det är ett annat slags värde. Det är inte föreskrivande. Det är diagnostiskt. Och det är bara möjligt på grund av vad som hände inuti simuleringen.',
-    mirrorQuote: '"Du trodde att du spelade ett spel. Rapporten visar vad du faktiskt höll på med."',
+    purposeTitle: 'Varför den finns',
+    purposeBody1: 'Rapporten är för spelare som vill lära sig ekonomi men inte vet var de ska börja. I stället för att börja med teori börjar den med deras egen genomspelning.',
+    purposeBody2: 'Det gör den lättare att ta till sig, lättare att minnas och mer sannolik att förändra hur någon tänker om pengar.',
+    diffTitle: 'Varför den skiljer sig',
+    diff: [
+      { title: 'Den kommer från spelet, inte från ett formulär', body: 'Utgångspunkten är spelets tillstånd: beslut, timing, tillgångar, skulder och resultat.' },
+      { title: 'Varje insikt pekar tillbaka på en handling', body: 'Den stannar inte vid abstrakta påståenden utan kopplar mönster till vad som faktiskt hände.' },
+      { title: 'Den är återhållsam men känns premium', body: 'Tonläget är lugnt, men innehållet är tydligt, konkret och användbart.' },
+    ],
     whatTitle: 'Vad rapporten innehåller',
     what: [
-      { icon: '⏱', title: 'Beslutsutvärdering', body: 'Det exakta ögonblicket din bana förändrades — och vad du valde som fick det att hända.' },
-      { icon: '🕳', title: 'Dold information', body: 'Data som fanns tillgänglig i simuleringen men aldrig framkom. Det du skulle ha behövt veta.' },
-      { icon: '⚖️', title: 'Alternativa vägar', body: 'Tre avvikande utfall modellerade från samma utgångspunkt. Ett bättre. Ett liknande. Ett sämre — för att bryta efterklokhetsprejudicen.' },
-      { icon: '🧠', title: 'Kognitiv signatur', body: 'Mönstret av instinkter och fördomar inbäddade i dina val, extraherade från din fullständiga spelhistorik.' },
+      { icon: '⏱', title: 'Beslutsutvärdering', body: 'Visar exakt när din bana förändrades och vilket val som orsakade det.' },
+      { icon: '🕳', title: 'Dold information', body: 'Visar signaler som fanns där, men som spelaren inte kunde se då.' },
+      { icon: '⚖️', title: 'Alternativa vägar', body: 'Förklarar utifrån din speldata hur andra val i samma situation kunde ha gett ett annat utfall.' },
+      { icon: '🧠', title: 'Kognitiv signatur', body: 'Samlar mönstren av instinkt och bias från hela din spelhistorik.' },
     ],
-    onceTitle: 'Du får bara en',
-    onceBody: 'Rapporten genereras i slutet av din genomspelning. Den fångar en specifik version av dig — den som spelade just det här spelet, under just det här trycket, och fattade just de här valen.',
-    onceBody2: 'Du kan spela igen. Du får en annan rapport. Men den här, den här versionen av ditt tänkande, finns bara en gång.',
-    ctaTitle: 'Redo att fånga din genomspelning?',
-    ctaBody: 'Köp rapportkrediter och lås upp din post-mortem efter nästa spel.',
+    onceTitle: 'En genomspelning, en rapport',
+    onceBody: 'Rapporten genereras när du slutför omgången. Den fångar versionen av dina beslut under just det trycket.',
+    onceBody2: 'Spelar du igen förändras rapporten med dig. Det är där värdet ligger: den svarar på en verklig omgång, inte på en generell profil.',
+    ctaTitle: 'Redo att se ditt eget mönster?',
+    ctaBody: 'Köp rapportkrediter och lås upp din personaliserade djupanalysrapport efter nästa spel.',
     ctaButton: 'Se priser',
   },
 }
@@ -198,15 +228,12 @@ export function ReportPage() {
 
       <section className="border-t border-gray-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
-          <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.uniqueTitle}</h2>
-          <div className="space-y-4 sm:space-y-5">
-            {tx.unique.map((u, i) => (
-              <div key={i} className="flex gap-4 sm:gap-5 rounded-xl border border-gray-800 bg-gray-900/50 p-5 sm:p-6">
-                <span className="text-amber-500 font-bold text-lg mt-0.5 shrink-0">{i + 1}</span>
-                <div>
-                  <h3 className="text-white font-semibold mb-2">{u.title}</h3>
-                  <p className="text-gray-400 text-sm leading-relaxed">{u.body}</p>
-                </div>
+          <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.valueTitle}</h2>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {tx.value.map((item) => (
+              <div key={item.title} className="rounded-xl border border-gray-800 bg-gray-900/50 p-5 sm:p-6">
+                <h3 className="text-white font-semibold mb-2">{item.title}</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">{item.body}</p>
               </div>
             ))}
           </div>
@@ -214,13 +241,25 @@ export function ReportPage() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-14 sm:py-20 text-center">
-          <h2 className="text-2xl font-bold text-white mb-7">{tx.mirrorTitle}</h2>
-          <p className="text-gray-400 leading-relaxed mb-5">{tx.mirrorBody}</p>
-          <p className="text-gray-400 leading-relaxed mb-10 sm:mb-12">{tx.mirrorBody2}</p>
-          <blockquote className="text-lg sm:text-xl text-gray-200 italic leading-relaxed border-l-4 border-amber-500 pl-5 sm:pl-6 text-left">
-            {tx.mirrorQuote}
-          </blockquote>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div>
+              <h2 className="text-2xl font-bold text-white mb-4">{tx.purposeTitle}</h2>
+              <p className="text-gray-400 leading-relaxed mb-4">{tx.purposeBody1}</p>
+              <p className="text-gray-400 leading-relaxed">{tx.purposeBody2}</p>
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold text-white mb-4">{tx.diffTitle}</h2>
+              <div className="space-y-3">
+                {tx.diff.map((item) => (
+                  <div key={item.title} className="rounded-xl border border-gray-800 bg-gray-900/50 p-4">
+                    <h3 className="text-white font-semibold mb-1.5 text-sm">{item.title}</h3>
+                    <p className="text-gray-400 text-sm leading-relaxed">{item.body}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

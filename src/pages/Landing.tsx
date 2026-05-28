@@ -4,93 +4,93 @@ import { useLanguage } from '../context/LanguageContext'
 const content = {
   en: {
     badge: 'Turn-Based Economic Simulation',
-    headline1: 'The wealth you build',
-    headline2: 'casts a shadow.',
-    sub: 'Shadow Economy is a turn-based simulation where your financial decisions shape — and slowly hollow out — the community around you.',
-    appStore: 'Download on App Store',
-    googlePlay: 'Get it on Google Play',
+    headline1: 'Every decision leaves',
+    headline2: 'a trace.',
+    sub: 'A turn-based simulation about financial choices, community change, and what remains after each turn.',
+    appStore: 'App Store coming soon',
+    googlePlay: 'Google Play coming soon',
     features: [
-      { icon: '📊', title: 'Real Economic Logic', desc: 'Assets, liabilities, credit scores, and cash flow — all modeled with realistic mechanics.' },
-      { icon: '🏘️', title: 'Community Vitality', desc: 'Every decision you make ripples through your Ward. Watch the neighborhood change around you.' },
-      { icon: '🔍', title: 'Post-Mortem Analysis', desc: 'After key decisions, see the hidden information you missed and the paths not taken.' },
+      { icon: '●', title: 'Structured Economic Model', desc: 'Assets, liabilities, credit scores, and cash flow follow consistent in-game rules designed for learning.' },
+      { icon: '◆', title: 'Community Impact', desc: 'Your decisions change the world around you and what comes next.' },
+      { icon: '◐', title: 'Personalized Analysis', desc: 'The report shows what happened, what it means, and what changed.' },
     ],
-    quote: '"The moment you felt safe was the moment of quiet extraction."',
-    quoteSub: 'Every decision has a shadow you cannot see — until it\'s too late.',
+    quote: '"What you build is only part of the story."',
+    quoteSub: 'Shadow Economy focuses on cost, tradeoffs, and what remains.',
   },
   ko: {
     badge: '턴제 경제 시뮬레이션',
-    headline1: '당신이 쌓는 부는',
-    headline2: '그림자를 드리웁니다.',
-    sub: '그림자 경제는 당신의 재무 결정이 주변 지역사회를 서서히 변화시키는 턴제 시뮬레이션 게임입니다.',
-    appStore: 'App Store에서 다운로드',
-    googlePlay: 'Google Play에서 받기',
+    headline1: '모든 선택은',
+    headline2: '흔적을 남깁니다.',
+    sub: '금융 선택, 공동체의 변화, 그리고 한 턴 뒤에도 남는 결과를 다루는 턴제 시뮬레이션입니다.',
+    appStore: 'App Store 출시 예정',
+    googlePlay: 'Google Play 출시 예정',
     features: [
-      { icon: '📊', title: '실제 경제 논리', desc: '자산, 부채, 신용등급, 현금흐름 — 현실적인 메커니즘으로 모델링됩니다.' },
-      { icon: '🏘️', title: '지역 활력도 시스템', desc: '당신의 모든 결정은 지역(Ward)에 파문을 일으킵니다. 동네가 변해가는 모습을 직접 목격하세요.' },
-      { icon: '🔍', title: '의사결정 부검 리포트', desc: '핵심 결정 이후, 당신이 놓친 숨겨진 정보와 선택하지 않은 경로를 확인하세요.' },
+      { icon: '●', title: '체계적인 경제 모델', desc: '자산, 부채, 신용점수, 현금흐름은 학습을 위해 설계된 일관된 게임 규칙을 따릅니다.' },
+      { icon: '◆', title: '공동체의 변화', desc: '당신의 선택은 주변 세계를 바꾸고, 다음 국면으로 이어집니다.' },
+      { icon: '◐', title: '개인화 분석', desc: '중요한 선택 뒤에 무엇이 일어났는지, 무엇이 달라졌는지 보여줍니다.' },
     ],
-    quote: '"안도의 한숨을 쉬는 그 순간, 당신은 세 가지를 잃었습니다."',
-    quoteSub: '모든 결정에는 보이지 않는 그림자가 있습니다 — 너무 늦기 전까지는.',
+    quote: '"만든 것만이 이야기는 아닙니다."',
+    quoteSub: '이 게임은 비용과 남는 영향까지 함께 보여줍니다.',
   },
   ja: {
-    badge: 'ターン制経済シミュレーション',
-    headline1: 'あなたが築く富は、',
-    headline2: '影を落とします。',
-    sub: 'Shadow Economyは、あなたの財務的決断が周囲のコミュニティを形作り、やがて侵食していくターン制シミュレーションゲームです。',
-    appStore: 'App Storeでダウンロード',
-    googlePlay: 'Google Playで入手',
+    badge: 'ターン制の経済シミュレーション',
+    headline1: 'すべての選択が',
+    headline2: '痕跡を残す。',
+    sub: '金融の選択、コミュニティの変化、そして一手ごとに残る結果を扱うターン制シミュレーションです。',
+    appStore: 'App Store 近日公開',
+    googlePlay: 'Google Play 近日公開',
     features: [
-      { icon: '📊', title: 'リアルな経済ロジック', desc: '資産、負債、信用スコア、キャッシュフロー――すべてが現実的なメカニズムでモデル化されています。' },
-      { icon: '🏘️', title: 'コミュニティ活力度', desc: 'あなたのすべての決断がWardに波紋を広げます。街が変わっていく様子を目の当たりにしてください。' },
-      { icon: '🔍', title: '死後分析レポート', desc: '重要な決断の後、見逃した隠れた情報と歩まなかった道筋を確認できます。' },
+      { icon: '●', title: '体系化された経済モデル', desc: '資産、負債、信用スコア、キャッシュフローは学習のために設計された一貫したゲームルールに従います。' },
+      { icon: '◆', title: 'コミュニティへの影響', desc: 'あなたの選択は周囲を変え、次の展開へつながります。' },
+      { icon: '◐', title: '個別化された分析', desc: '重要な選択のあとに、何が起きたか、何が変わったかを示します。' },
     ],
-    quote: '「安心したその瞬間こそ、静かな収奪の瞬間だった。」',
-    quoteSub: 'すべての決断には見えない影がある――気づいた時にはもう遅い。',
+    quote: '"作ったものだけが物語ではありません。"',
+    quoteSub: 'このゲームは、コストと残る影響まで扱います。',
   },
   zh: {
     badge: '回合制经济模拟',
-    headline1: '你所积累的财富，',
-    headline2: '投下一道阴影。',
-    sub: 'Shadow Economy 是一款回合制模拟游戏，你的财务决策将塑造并逐渐掏空身边的社区。',
-    appStore: '在 App Store 下载',
-    googlePlay: '在 Google Play 获取',
+    headline1: '每个选择都会',
+    headline2: '留下痕迹。',
+    sub: '一款围绕金融选择、社区变化，以及每回合之后仍然存在的结果的回合制模拟游戏。',
+    appStore: 'App Store 即将推出',
+    googlePlay: 'Google Play 即将推出',
     features: [
-      { icon: '📊', title: '真实的经济逻辑', desc: '资产、负债、信用评分和现金流——全部以真实机制建模。' },
-      { icon: '🏘️', title: '社区活力系统', desc: '你的每一个决定都会在你的社区（Ward）中激起涟漪。亲眼见证街区的变化。' },
-      { icon: '🔍', title: '决策复盘报告', desc: '关键决策后，查看你错过的隐藏信息和未走的道路。' },
+      { icon: '●', title: '结构化的经济模型', desc: '资产、负债、信用分数和现金流遵循为学习而设计的一致游戏规则。' },
+      { icon: '◆', title: '社区影响', desc: '你的每个选择都会改变周围世界，并影响后续走向。' },
+      { icon: '◐', title: '个性化分析', desc: '重要决策后，报告会展示发生了什么，以及哪些地方发生了变化。' },
     ],
-    quote: '"你感到安心的那一刻，正是悄然被剥夺的时刻。"',
-    quoteSub: '每一个决定都有你看不见的阴影——直到为时已晚。',
+    quote: '"作品只是故事的一部分。"',
+    quoteSub: '这款游戏呈现结果、代价与留下的影响。',
   },
   es: {
     badge: 'Simulación económica por turnos',
-    headline1: 'La riqueza que construyes',
-    headline2: 'proyecta una sombra.',
-    sub: 'Shadow Economy es una simulación por turnos donde tus decisiones financieras moldean —y lentamente vacían— la comunidad que te rodea.',
-    appStore: 'Descargar en App Store',
-    googlePlay: 'Obtener en Google Play',
+    headline1: 'Cada decisión deja',
+    headline2: 'una huella.',
+    sub: 'Una simulación por turnos sobre decisiones financieras, cambio comunitario y lo que permanece después de cada turno.',
+    appStore: 'Próximamente en App Store',
+    googlePlay: 'Próximamente en Google Play',
     features: [
-      { icon: '📊', title: 'Lógica económica real', desc: 'Activos, pasivos, puntuaciones de crédito y flujo de caja — todo modelado con mecánicas realistas.' },
-      { icon: '🏘️', title: 'Vitalidad comunitaria', desc: 'Cada decisión que tomas repercute en tu barrio. Observa cómo cambia la comunidad a tu alrededor.' },
-      { icon: '🔍', title: 'Análisis post-mortem', desc: 'Tras decisiones clave, descubre la información oculta que perdiste y los caminos no tomados.' },
+      { icon: '●', title: 'Modelo económico estructurado', desc: 'Activos, pasivos, puntuación crediticia y flujo de caja siguen reglas coherentes del juego diseñadas para el aprendizaje.' },
+      { icon: '◆', title: 'Impacto comunitario', desc: 'Cada decisión cambia el mundo que te rodea y lo que viene después.' },
+      { icon: '◐', title: 'Análisis personalizado', desc: 'Después de decisiones clave, el informe muestra qué ocurrió y qué cambió.' },
     ],
-    quote: '"El momento en que te sentiste seguro fue el momento de la extracción silenciosa."',
-    quoteSub: 'Cada decisión tiene una sombra que no puedes ver — hasta que es demasiado tarde.',
+    quote: '"Lo que construyes es solo una parte de la historia."',
+    quoteSub: 'El juego pone el foco en el coste, el intercambio y lo que queda.',
   },
   sv: {
     badge: 'Turbaserad ekonomisimulering',
-    headline1: 'Välståndet du bygger',
-    headline2: 'kastar en skugga.',
-    sub: 'Shadow Economy är en turbaserad simulering där dina finansiella beslut formar — och sakta urholkar — samhället omkring dig.',
-    appStore: 'Ladda ner på App Store',
-    googlePlay: 'Hämta på Google Play',
+    headline1: 'Varje beslut lämnar',
+    headline2: 'ett spår.',
+    sub: 'En turbaserad simulering om finansiella beslut, samhällsförändring och det som består efter varje tur.',
+    appStore: 'Kommer snart till App Store',
+    googlePlay: 'Kommer snart till Google Play',
     features: [
-      { icon: '📊', title: 'Verklig ekonomisk logik', desc: 'Tillgångar, skulder, kreditpoäng och kassaflöde — allt modellerat med realistiska mekaniker.' },
-      { icon: '🏘️', title: 'Samhällsvitalitet', desc: 'Varje beslut du fattar skapar ringar på vattnet i ditt kvarter. Se hur grannskapet förändras.' },
-      { icon: '🔍', title: 'Post-mortem-analys', desc: 'Efter viktiga beslut — se den dolda information du missade och vägarna du inte tog.' },
+      { icon: '●', title: 'Strukturerad ekonomisk modell', desc: 'Tillgångar, skulder, kreditpoäng och kassaflöde följer konsekventa spelregler utformade för lärande.' },
+      { icon: '◆', title: 'Påverkan på omgivningen', desc: 'Varje beslut förändrar världen omkring dig och det som kommer efter.' },
+      { icon: '◐', title: 'Personlig analys', desc: 'Efter viktiga beslut visar rapporten vad som hände och vad som förändrades.' },
     ],
-    quote: '"Det ögonblick du kände dig trygg var ögonblicket för tyst utvinning."',
-    quoteSub: 'Varje beslut har en skugga du inte kan se — tills det är för sent.',
+    quote: '"Det du bygger är bara en del av berättelsen."',
+    quoteSub: 'Spelet lyfter fram kostnaden, avvägningen och det som blir kvar.',
   },
 }
 
@@ -105,17 +105,18 @@ export function Landing() {
           {tx.badge}
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight tracking-tight">
-          {tx.headline1}<br />
+          {tx.headline1}
+          <br />
           <span className="text-amber-400">{tx.headline2}</span>
         </h1>
         <p className="text-base sm:text-lg text-gray-400 max-w-xl mx-auto mb-10">{tx.sub}</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-          <a href="#" className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 hover:bg-amber-400 text-gray-900 font-semibold rounded-xl transition-colors text-sm">
+          <span className="w-full cursor-default sm:w-auto px-8 py-3.5 bg-amber-500 text-gray-900 font-semibold rounded-xl text-sm">
             {tx.appStore}
-          </a>
-          <a href="#" className="w-full sm:w-auto px-8 py-3.5 border border-gray-700 hover:border-gray-500 text-gray-300 font-semibold rounded-xl transition-colors text-sm">
+          </span>
+          <span className="w-full cursor-default sm:w-auto px-8 py-3.5 border border-gray-700 text-gray-300 font-semibold rounded-xl text-sm">
             {tx.googlePlay}
-          </a>
+          </span>
         </div>
       </section>
 
@@ -123,7 +124,7 @@ export function Landing() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20 grid sm:grid-cols-3 gap-8 sm:gap-10">
           {tx.features.map((f) => (
             <div key={f.title} className="text-center">
-              <div className="text-4xl mb-4">{f.icon}</div>
+              <div className="text-3xl mb-4 text-amber-400">{f.icon}</div>
               <h3 className="text-white font-semibold mb-3">{f.title}</h3>
               <p className="text-sm text-gray-400 leading-relaxed">{f.desc}</p>
             </div>

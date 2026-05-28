@@ -17,8 +17,12 @@ const LanguageContext = createContext<{
 }>({ lang: 'en', setLang: () => {} })
 
 function detectLang(): Lang {
-  const saved = localStorage.getItem('lang') as Lang | null
-  if (saved && ['en', 'ko', 'ja', 'zh', 'es', 'sv'].includes(saved)) return saved
+  try {
+    const saved = localStorage.getItem('lang') as Lang | null
+    if (saved && ['en', 'ko', 'ja', 'zh', 'es', 'sv'].includes(saved)) return saved
+  } catch {
+    // Some private or hardened browser contexts block storage access.
+  }
   const nav = navigator.language.toLowerCase()
   if (nav.startsWith('ko')) return 'ko'
   if (nav.startsWith('ja')) return 'ja'
@@ -33,7 +37,11 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   const setLang = (l: Lang) => {
     setLangState(l)
-    localStorage.setItem('lang', l)
+    try {
+      localStorage.setItem('lang', l)
+    } catch {
+      // Ignore storage failures and keep the in-memory language selection.
+    }
   }
 
   useEffect(() => {

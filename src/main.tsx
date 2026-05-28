@@ -1,29 +1,32 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense, lazy } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './index.css'
 import { LanguageProvider } from './context/LanguageContext'
-import { Landing } from './pages/Landing'
-import { GamePage } from './pages/GamePage'
-import { ReportPage } from './pages/ReportPage'
-import { PricingPage } from './pages/PricingPage'
-import { Privacy } from './pages/Privacy'
-import { Terms } from './pages/Terms'
-import { Support } from './pages/Support'
+
+const Landing = lazy(() => import('./pages/Landing').then((m) => ({ default: m.Landing })))
+const GamePage = lazy(() => import('./pages/GamePage').then((m) => ({ default: m.GamePage })))
+const ReportPage = lazy(() => import('./pages/ReportPage').then((m) => ({ default: m.ReportPage })))
+const PricingPage = lazy(() => import('./pages/PricingPage').then((m) => ({ default: m.PricingPage })))
+const Privacy = lazy(() => import('./pages/Privacy').then((m) => ({ default: m.Privacy })))
+const Terms = lazy(() => import('./pages/Terms').then((m) => ({ default: m.Terms })))
+const Support = lazy(() => import('./pages/Support').then((m) => ({ default: m.Support })))
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <LanguageProvider>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/game" element={<GamePage />} />
-          <Route path="/report" element={<ReportPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/support" element={<Support />} />
-        </Routes>
+        <Suspense fallback={<div className="min-h-screen bg-gray-950" />}>
+          <Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/game" element={<GamePage />} />
+            <Route path="/report" element={<ReportPage />} />
+            <Route path="/pricing" element={<PricingPage />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/support" element={<Support />} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </LanguageProvider>
   </StrictMode>,
