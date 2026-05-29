@@ -73,7 +73,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"Account" means a Service account that you create or use through supported authentication methods such as Google Sign-In.'
+          text: '"Account" means a Service account that you create or use through supported authentication methods such as Google Sign-In or Sign in with Apple.'
         },
         {
           type: 'p' as const,
@@ -97,7 +97,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"Platform" means the Apple App Store, Google Play, Google Sign-In, operating systems, device manufacturers, payment processors, or third-party services involved in distributing, paying for, or authenticating the Service.'
+          text: '"Platform" means the Apple App Store, Google Play, Sign in with Apple, Google Sign-In, operating systems, device manufacturers, payment processors, or third-party services involved in distributing, paying for, or authenticating the Service.'
         },
         {
           type: 'p' as const,
@@ -190,6 +190,10 @@ export default {
         {
           type: 'p' as const,
           text: 'If you create an account and sign in with the same supported sign-in method, cross-device game progress sync, report credit storage, and access to saved reports may be provided.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Supported sign-in methods may include Google Sign-In and Sign in with Apple. Which methods are available may depend on your device, operating system, app version, or region.'
         },
         {
           type: 'p' as const,

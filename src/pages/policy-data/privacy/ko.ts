@@ -98,7 +98,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '이메일 주소, Google 로그인 시 표시 이름 또는 기본 프로필 정보, 게임 진행 데이터, 보고서 크레딧 잔액, 인앱 구매 메타데이터, 인증 세션 정보, 제한적 기술 로그, 오류 로그, 보안 로그'
+          text: '이메일 주소, Google 로그인 또는 Apple 로그인(Apple로 로그인) 시 표시 이름 또는 기본 프로필 정보, 게임 진행 데이터, 보고서 크레딧 잔액, 인앱 구매 메타데이터, 인증 세션 정보, 제한적 기술 로그, 오류 로그, 보안 로그'
         },
         {
           type: 'p' as const,
@@ -186,6 +186,7 @@ export default {
           items: [
             '이메일 주소',
             'Google 로그인 이용 시 Google이 귀하의 허용에 따라 제공하는 표시 이름 또는 기본 프로필 정보',
+            'Apple 로그인(Apple로 로그인) 이용 시 Apple이 귀하의 허용에 따라 제공하는 표시 이름 또는 기본 프로필 정보(이메일 가리기를 선택한 경우 Apple이 개인 이메일 대신 비공개 릴레이 이메일 주소를 제공할 수 있음)',
             '고객지원 요청 시 귀하가 제공하는 연락처, 요청 내용 및 관련 정보'
           ]
         },
@@ -384,7 +385,7 @@ export default {
           items: [
             '귀하가 직접 입력하거나 제출하는 정보',
             '귀하가 서비스 이용 중 생성하는 게임 진행 및 선택 데이터',
-            '귀하가 Google 로그인 등 제3자 로그인 기능을 이용할 때 해당 제공자가 전달하는 제한적 계정 정보',
+            '귀하가 Google 로그인, Apple 로그인(Apple로 로그인) 등 제3자 로그인 기능을 이용할 때 해당 제공자가 전달하는 제한적 계정 정보',
             'Apple App Store가 인앱 구매 이행, 구매 검증 또는 환불 처리를 위해 제공하는 거래 메타데이터',
             '향후 Google Play 결제가 제공되는 경우, Google Play가 인앱 구매 이행, 구매 검증 또는 환불 처리를 위해 제공하는 거래 메타데이터',
             'Supabase, Vercel 등 서비스 운영 인프라에서 생성되는 서버, 인증 및 기술 로그',
@@ -685,7 +686,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '용도: iOS 앱 배포, App Store 인앱 결제, 구매 검증, 환불 처리'
+          text: '용도: iOS 앱 배포, Apple 로그인(Apple로 로그인), App Store 인앱 결제, 구매 검증, 환불 처리'
         },
         {
           type: 'p' as const,
@@ -984,7 +985,7 @@ export default {
         },
         {
           type: 'h3' as const,
-          text: '13.4 Google 계정 권한 관리'
+          text: '13.4 Google 및 Apple 계정 권한 관리'
         },
         {
           type: 'p' as const,
@@ -993,6 +994,14 @@ export default {
         {
           type: 'p' as const,
           text: 'Google 계정 권한을 철회하면 Google 로그인을 통한 서비스 이용이 제한될 수 있습니다. 계정 삭제를 원하는 경우, 앱 내 계정 삭제 기능을 사용하거나 contact@shadoweconomyapp.com으로 요청해야 합니다.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Apple 로그인(Apple로 로그인)을 사용한 경우, 지원되는 기기의 Apple ID 계정 설정(예: 설정 > Apple ID > 암호 및 보안 > Apple ID를 사용하는 앱)에서 Shadow Economy와의 Apple ID 연결을 검토하거나 중단할 수 있습니다.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Shadow Economy에 대한 Apple 로그인 사용을 중단하면 Apple 로그인을 통한 서비스 이용이 제한될 수 있습니다. 이메일 가리기를 선택한 경우 Apple이 비공개 릴레이 주소를 제공할 수 있으며, 운영자는 계정 운영 및 서비스 관련 연락을 위해 해당 릴레이 주소를 사용할 수 있습니다. 서비스 계정 삭제는 앱 내 계정 삭제 기능을 사용하거나 contact@shadoweconomyapp.com으로 요청해야 합니다.'
         },
         {
           type: 'h3' as const,

@@ -27,7 +27,7 @@ const content = {
     what: [
       { icon: '⏱', title: 'Decision Retrospective', body: 'The moment your path changed, and the choice behind it.' },
       { icon: '🕳', title: 'Hidden Information', body: 'Signals that were there before you could see them.' },
-      { icon: '⚖️', title: 'Alternative Paths', body: 'How different choices from the same situation could have led to different outcomes, explained using your play data.' },
+      { icon: '⚖️', title: 'Alternative Paths', body: 'Different possible outcomes from the same starting point, showing how the run could unfold in more than one way.' },
       { icon: '🧠', title: 'Cognitive Signature', body: 'The habits and biases that shaped your choices.' },
     ],
     onceTitle: 'One report, one playthrough',
@@ -61,7 +61,7 @@ const content = {
     what: [
       { icon: '⏱', title: '결정의 회고', body: '궤적이 바뀐 정확한 순간과 그 순간의 선택을 보여줍니다.' },
       { icon: '🕳', title: '숨겨진 정보', body: '당시에는 보이지 않았지만 시뮬레이션 안에 존재했던 신호를 보여줍니다.' },
-      { icon: '⚖️', title: '대안 경로', body: '같은 상황에서 다른 선택을 했다면 어떤 결과가 달라졌을 수 있는지, 플레이 데이터를 바탕으로 설명합니다.' },
+      { icon: '⚖️', title: '대안 경로', body: '같은 출발점에서 서로 다른 여러 가능한 결과를 보여줍니다.' },
       { icon: '🧠', title: '인지 서명', body: '전체 플레이 기록에서 추출한 본능과 편향의 패턴을 담습니다.' },
     ],
     onceTitle: '플레이 한 번, 보고서 한 번',
@@ -95,7 +95,7 @@ const content = {
     what: [
       { icon: '⏱', title: '決断の回顧', body: '軌跡が変わった正確な瞬間と、その時の選択を示します。' },
       { icon: '🕳', title: '隠れた情報', body: 'その時には見えなかったが、シミュレーション内に存在したシグナルを示します。' },
-      { icon: '⚖️', title: '代替経路', body: '同じ状況で別の選択をしていた場合にどう変わり得たかを、プレイデータに基づいて説明します。' },
+      { icon: '⚖️', title: '代替経路', body: '同じ出発点から生まれうるさまざまな結果を示します。' },
       { icon: '🧠', title: '認知的シグネチャー', body: '全プレイ履歴から抽出した、本能とバイアスのパターンを収めます。' },
     ],
     onceTitle: '一回のプレイに、一つのレポート',
@@ -129,7 +129,7 @@ const content = {
     what: [
       { icon: '⏱', title: '决策回顾', body: '展示轨迹发生变化的那个时刻，以及当时的选择。' },
       { icon: '🕳', title: '隐藏信息', body: '展示当时存在、却没有被玩家看见的信号。' },
-      { icon: '⚖️', title: '替代路径', body: '根据你的游玩数据，说明在相同情况下若做出不同选择，结果可能如何变化。' },
+      { icon: '⚖️', title: '替代路径', body: '展示从同一起点出发可能出现的多种结果。' },
       { icon: '🧠', title: '认知特征', body: '收录从完整游玩历史中提取出的本能与偏见模式。' },
     ],
     onceTitle: '一次游玩，一份报告',
@@ -163,7 +163,7 @@ const content = {
     what: [
       { icon: '⏱', title: 'Retrospectiva de decisiones', body: 'Muestra el momento exacto en que cambió tu trayectoria y la decisión que lo provocó.' },
       { icon: '🕳', title: 'Información oculta', body: 'Muestra señales que estaban ahí, pero que el jugador no veía en ese momento.' },
-      { icon: '⚖️', title: 'Caminos alternativos', body: 'Explica, con datos de tu partida, cómo otros decisiones en la misma situación podrían haber cambiado el resultado.' },
+      { icon: '⚖️', title: 'Caminos alternativos', body: 'Muestra distintos resultados posibles desde el mismo punto de partida.' },
       { icon: '🧠', title: 'Firma cognitiva', body: 'Recoge los patrones de instinto y sesgo extraídos de tu historial completo de juego.' },
     ],
     onceTitle: 'Una partida, un informe',
@@ -197,7 +197,7 @@ const content = {
     what: [
       { icon: '⏱', title: 'Beslutsutvärdering', body: 'Visar exakt när din bana förändrades och vilket val som orsakade det.' },
       { icon: '🕳', title: 'Dold information', body: 'Visar signaler som fanns där, men som spelaren inte kunde se då.' },
-      { icon: '⚖️', title: 'Alternativa vägar', body: 'Förklarar utifrån din speldata hur andra val i samma situation kunde ha gett ett annat utfall.' },
+      { icon: '⚖️', title: 'Alternativa vägar', body: 'Visar flera möjliga resultat från samma utgångspunkt.' },
       { icon: '🧠', title: 'Kognitiv signatur', body: 'Samlar mönstren av instinkt och bias från hela din spelhistorik.' },
     ],
     onceTitle: 'En genomspelning, en rapport',

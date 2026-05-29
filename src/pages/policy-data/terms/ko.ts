@@ -73,7 +73,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"계정"이란 귀하가 Google 로그인 등 지원되는 인증 방식으로 생성하거나 이용하는 서비스 계정을 의미합니다.'
+          text: '"계정"이란 귀하가 Google 로그인, Apple 로그인(Apple로 로그인) 등 지원되는 인증 방식으로 생성하거나 이용하는 서비스 계정을 의미합니다.'
         },
         {
           type: 'p' as const,
@@ -97,7 +97,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"플랫폼"이란 Apple App Store, Google Play, Google 로그인, 운영체제, 기기 제조사, 결제 처리자 또는 서비스 배포·결제·인증에 관여하는 제3자 서비스를 의미합니다.'
+          text: '"플랫폼"이란 Apple App Store, Google Play, Apple 로그인(Apple로 로그인), Google 로그인, 운영체제, 기기 제조사, 결제 처리자 또는 서비스 배포·결제·인증에 관여하는 제3자 서비스를 의미합니다.'
         },
         {
           type: 'p' as const,
@@ -190,6 +190,10 @@ export default {
         {
           type: 'p' as const,
           text: '계정을 생성하고 동일한 지원 로그인 방식으로 로그인하는 경우, 기기 간 게임 진행 동기화, 보고서 크레딧 보관 및 저장된 보고서 열람 기능이 제공될 수 있습니다.'
+        },
+        {
+          type: 'p' as const,
+          text: '지원되는 로그인 방식에는 Google 로그인 및 Apple 로그인(Apple로 로그인)이 포함될 수 있습니다. 이용 가능한 방식은 기기, 운영체제, 앱 버전 또는 지역에 따라 달라질 수 있습니다.'
         },
         {
           type: 'p' as const,

@@ -5,15 +5,6 @@ const STARTER_PRICE = '$8.99'
 const MIDDLE_PRICE = '$12.99'
 const POWER_PRICE = '$15.99'
 
-const priceDisclaimer = {
-  en: 'Prices shown are in USD for reference. Actual charges follow Apple App Store or Google Play pricing in your region, including applicable taxes.',
-  ko: '표시 가격은 USD 기준 참고용입니다. 실제 결제 금액은 App Store 또는 Google Play에 표시된 귀하의 지역 통화·세금 적용 가격을 따릅니다.',
-  ja: '表示価格はUSDの参考価格です。実際の請求は、App StoreまたはGoogle Playに表示されるお住まいの地域の価格・税に従います。',
-  zh: '所示价格为美元参考价。实际扣款以 App Store 或 Google Play 在您所在地区显示的价格（含适用税费）为准。',
-  es: 'Los precios mostrados son en USD como referencia. El cargo real sigue el precio de App Store o Google Play en tu región, con los impuestos aplicables.',
-  sv: 'Priserna visas i USD som referens. Faktisk debitering följer App Store- eller Google Play-priset i din region, inklusive tillämpliga skatter.',
-}
-
 const content = {
   en: {
     badge: 'Report Credits',
@@ -47,11 +38,11 @@ const content = {
       'Decision retrospective',
       'Cognitive signature analysis',
       'Hidden information reveal',
-      'Comparison of alternative choices and outcomes',
+      'Alternative path simulation',
     ],
     howTitle: 'How it works',
     how: [
-      { step: '1', title: 'Finish a run', body: 'End a playthrough (retirement, bankruptcy, or other supported end state) to open the report screen.' },
+      { step: '1', title: 'Finish a run', body: 'Complete a game to unlock the report screen.' },
       { step: '2', title: 'Use one credit', body: 'Your report is built from that run alone.' },
       { step: '3', title: 'Play again', body: 'Each run creates a different report.' },
     ],
@@ -89,11 +80,11 @@ const content = {
       '결정의 회고',
       '인지 서명 분석',
       '숨겨진 정보 공개',
-      '다른 선택과 결과 비교',
+      '대안 경로 시뮬레이션',
     ],
     howTitle: '사용 방법',
     how: [
-      { step: '1', title: '한 판을 끝냅니다', body: '은퇴·파산 등 한 판이 끝나면 보고서 화면이 열립니다.' },
+      { step: '1', title: '한 판을 끝냅니다', body: '게임을 완료하면 보고서 화면이 열립니다.' },
       { step: '2', title: '크레딧 1개를 사용합니다', body: '보고서는 그 판의 데이터만으로 만들어집니다.' },
       { step: '3', title: '다시 플레이합니다', body: '다음 판은 다른 보고서를 만듭니다.' },
     ],
@@ -108,14 +99,14 @@ const content = {
       credits: 'レポート3件',
       tagline: '少なくとも3回は遊ぶ価値があります。唯一の正解はありません。ただ体験してください。新しい何かを感じてください。',
       perReport: 'レポートあたり$3.00',
-      cta: 'アプリ内購入のみ',
+      cta: '앱内購入のみ',
     },
     middle: {
       name: '探検者',
       credits: 'レポート5件',
       tagline: 'より多くの体験、より多くの選択。あなた自身の手で、より良い価値を形にしてください。',
       perReport: 'レポートあたり$2.60',
-      cta: 'アプリ内購入のみ',
+      cta: '앱内購入のみ',
     },
     power: {
       name: '分析家',
@@ -124,18 +115,18 @@ const content = {
       tagline: '完全な分析家の道。あなたはどんな人物として記録されるでしょうか。経験と痕跡、ただあなたの世界です。',
       perReport: 'レポートあたり$2.00',
       saving: '観察者と比べてレポートあたり33%お得',
-      cta: 'アプリ内購入のみ',
+      cta: '앱内購入のみ',
     },
     features: [
       'プレイ完了ごとにレポート1件',
       '決断の回顧',
       '認知的シグネチャー分析',
       '隠れた情報の開示',
-      '別の選択と結果の比較',
+      '代替ルートシミュレーション',
     ],
     howTitle: '使い方',
     how: [
-      { step: '1', title: '1回プレイを終える', body: '退職・破産など、1回のプレイが終了するとレポート画面が開きます。' },
+      { step: '1', title: '1回プレイを終える', body: 'ゲームを完了すると、レポート画面が開きます。' },
       { step: '2', title: 'クレジットを使う', body: 'レポートはその1回のデータだけで作られます。' },
       { step: '3', title: 'もう一度遊ぶ', body: '次のプレイで、別のレポートが生まれます。' },
     ],
@@ -173,11 +164,11 @@ const content = {
       '决策回顾',
       '认知特征分析',
       '隐藏信息揭示',
-      '不同选择与结果的比较',
+      '替代路径模拟',
     ],
     howTitle: '使用方法',
     how: [
-      { step: '1', title: '完成一局', body: '一局结束（退休、破产等支持的结束状态）后，报告界面会开启。' },
+      { step: '1', title: '完成一局', body: '游戏结束后，报告界面会开启。' },
       { step: '2', title: '使用1积分', body: '报告只基于这一局的数据生成。' },
       { step: '3', title: '再次游玩', body: '下一局会生成另一份报告。' },
     ],
@@ -215,11 +206,11 @@ const content = {
       'Retrospectiva de decisiones',
       'Análisis de firma cognitiva',
       'Revelación de información oculta',
-      'Comparación de otras decisiones y resultados',
+      'Simulación de caminos alternativos',
     ],
     howTitle: 'Cómo funciona',
     how: [
-      { step: '1', title: 'Termina una partida', body: 'Al terminar una partida (jubilación, bancarrota u otro final admitido), se abre la pantalla del informe.' },
+      { step: '1', title: 'Termina una partida', body: 'Al finalizar, se abre la pantalla del informe.' },
       { step: '2', title: 'Usa 1 crédito', body: 'El informe se construye solo con esa partida.' },
       { step: '3', title: 'Juega otra vez', body: 'La siguiente partida genera otro informe.' },
     ],
@@ -257,11 +248,11 @@ const content = {
       'Beslutsutvärdering',
       'Kognitiv signaturanalys',
       'Avslöjande av dold information',
-      'Jämförelse av andra val och utfall',
+      'Simulering av alternativa vägar',
     ],
     howTitle: 'Så här fungerar det',
     how: [
-      { step: '1', title: 'Slutför en runda', body: 'När en omgång är slut (pension, konkurs eller annat stödd slutläge) öppnas rapportskärmen.' },
+      { step: '1', title: 'Slutför en runda', body: 'När spelet är klart öppnas rapportskärmen.' },
       { step: '2', title: 'Använd 1 kredit', body: 'Rapporten bygger bara på den rundan.' },
       { step: '3', title: 'Spela igen', body: 'Nästa runda ger en ny rapport.' },
     ],
@@ -383,8 +374,7 @@ export function PricingPage() {
 
           </div>
 
-          <p className="text-center text-xs text-gray-600 mt-4">{priceDisclaimer[lang]}</p>
-          <p className="text-center text-xs text-gray-600 mt-2">{tx.note}</p>
+          <p className="text-center text-xs text-gray-600 mt-6">{tx.note}</p>
         </div>
       </section>
 

@@ -98,7 +98,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '电子邮件地址、Google 登录时的显示名称或基本资料信息、游戏进度数据、报告积分余额、应用内购买元数据、认证会话信息、有限技术日志、错误日志、安全日志'
+          text: '电子邮件地址、Google 登录或通过 Apple 登录（Sign in with Apple）时的显示名称或基本资料信息、游戏进度数据、报告积分余额、应用内购买元数据、认证会话信息、有限技术日志、错误日志、安全日志'
         },
         {
           type: 'p' as const,
@@ -186,6 +186,7 @@ export default {
           items: [
             '电子邮件地址',
             '使用 Google 登录时，Google 根据您的授权提供的显示名称或基本资料信息',
+            '使用通过 Apple 登录（Sign in with Apple）时，Apple 根据您的授权提供的显示名称或基本资料信息（若您选择隐藏电子邮件，Apple 可能提供私人中继电子邮件地址而非您的个人电子邮件）',
             '提交客户支持请求时您提供的联系方式、请求内容及相关信息'
           ]
         },
@@ -384,7 +385,7 @@ export default {
           items: [
             '您直接输入或提交的信息',
             '您在使用本服务过程中生成的游戏进度及选择数据',
-            '您使用 Google 登录等第三方登录功能时，该提供者传输的有限账户信息',
+            '您使用 Google 登录、通过 Apple 登录（Sign in with Apple）等第三方登录功能时，该提供者传输的有限账户信息',
             'Apple App Store 为履行应用内购买、购买验证或退款处理而提供的交易元数据',
             '若未来提供 Google Play 支付，Google Play 为履行应用内购买、购买验证或退款处理而提供的交易元数据',
             '在 Supabase、Vercel 等服务运营基础设施中生成的服务器、认证及技术日志',
@@ -685,7 +686,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '用途：iOS 应用分发、App Store 应用内支付、购买验证、退款处理'
+          text: '用途：iOS 应用分发、通过 Apple 登录（Sign in with Apple）、App Store 应用内支付、购买验证、退款处理'
         },
         {
           type: 'p' as const,
@@ -984,7 +985,7 @@ export default {
         },
         {
           type: 'h3' as const,
-          text: '13.4 Google 账户权限管理'
+          text: '13.4 Google 与 Apple 账户权限管理'
         },
         {
           type: 'p' as const,
@@ -993,6 +994,14 @@ export default {
         {
           type: 'p' as const,
           text: '撤销 Google 账户权限可能限制您通过 Google 登录使用本服务。若希望删除账户，请使用应用内账户删除功能或向 contact@shadoweconomyapp.com 提出删除请求。'
+        },
+        {
+          type: 'p' as const,
+          text: '若您使用通过 Apple 登录（Sign in with Apple），可在支持设备的 Apple ID 账户设置中（例如：设置 > Apple ID > 密码与安全性 > 使用 Apple ID 的 App）查看或停止使用 Apple ID 登录 Shadow Economy。'
+        },
+        {
+          type: 'p' as const,
+          text: '停止使用通过 Apple 登录 Shadow Economy 可能限制您通过该方式使用本服务。若您选择隐藏电子邮件，Apple 可能提供私人中继地址；运营者仍可使用该中继地址运营您的账户并就本服务与您联系。删除服务账户请使用应用内账户删除功能或向 contact@shadoweconomyapp.com 提出请求。'
         },
         {
           type: 'h3' as const,

@@ -73,7 +73,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Cuenta» designa una cuenta del Servicio que usted crea o utiliza mediante métodos de autenticación admitidos, como el inicio de sesión con Google.'
+          text: '«Cuenta» designa una cuenta del Servicio que usted crea o utiliza mediante métodos de autenticación admitidos, como el inicio de sesión con Google o Iniciar sesión con Apple.'
         },
         {
           type: 'p' as const,
@@ -97,7 +97,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Plataforma» designa Apple App Store, Google Play, el inicio de sesión con Google, sistemas operativos, fabricantes de dispositivos, procesadores de pago u otros servicios de terceros implicados en la distribución, el pago o la autenticación del Servicio.'
+          text: '«Plataforma» designa Apple App Store, Google Play, Iniciar sesión con Apple, el inicio de sesión con Google, sistemas operativos, fabricantes de dispositivos, procesadores de pago u otros servicios de terceros implicados en la distribución, el pago o la autenticación del Servicio.'
         },
         {
           type: 'p' as const,
@@ -190,6 +190,10 @@ export default {
         {
           type: 'p' as const,
           text: 'Si crea una cuenta e inicia sesión con el mismo método de inicio de sesión admitido, pueden ofrecerse la sincronización del progreso entre dispositivos, el almacenamiento de créditos de informe y el acceso a informes guardados.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Los métodos de inicio de sesión admitidos pueden incluir el inicio de sesión con Google e Iniciar sesión con Apple. Los métodos disponibles pueden depender de su dispositivo, sistema operativo, versión de la aplicación o región.'
         },
         {
           type: 'p' as const,

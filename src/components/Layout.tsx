@@ -118,7 +118,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <Link to="/" onClick={close} className="flex shrink-0 items-center gap-2 text-sm font-semibold tracking-wide text-amber-400">
             <img
               src="/shadow-economy-logo.png"
-              alt="Shadow Economy"
+              alt=""
+              aria-hidden="true"
               className="h-7 w-7 rounded-md object-cover ring-1 ring-amber-400/20"
             />
             <span>{tx.brand}</span>

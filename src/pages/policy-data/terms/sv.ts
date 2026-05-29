@@ -73,7 +73,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Kontot» avser det tjänstekonto som du skapar eller använder via stödda autentiseringsmetoder såsom Google-inloggning.'
+          text: '«Kontot» avser det tjänstekonto som du skapar eller använder via stödda autentiseringsmetoder såsom Google-inloggning eller Logga in med Apple.'
         },
         {
           type: 'p' as const,
@@ -97,7 +97,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Plattform» avser Apple App Store, Google Play, Google-inloggning, operativsystem, enhetstillverkare, betalningsbehandlare eller tredjepartstjänster som deltar i distribution, betalning eller autentisering av Tjänsten.'
+          text: '«Plattform» avser Apple App Store, Google Play, Logga in med Apple, Google-inloggning, operativsystem, enhetstillverkare, betalningsbehandlare eller tredjepartstjänster som deltar i distribution, betalning eller autentisering av Tjänsten.'
         },
         {
           type: 'p' as const,
@@ -190,6 +190,10 @@ export default {
         {
           type: 'p' as const,
           text: 'Om du skapar ett konto och loggar in med samma stödda inloggningsmetod kan funktioner för synkronisering av spelframsteg mellan enheter, lagring av rapportkrediter och åtkomst till sparade rapporter tillhandahållas.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Stödda inloggningsmetoder kan omfatta Google-inloggning och Logga in med Apple. Vilka metoder som är tillgängliga kan bero på din enhet, ditt operativsystem, appversion eller region.'
         },
         {
           type: 'p' as const,

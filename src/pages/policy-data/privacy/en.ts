@@ -98,7 +98,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Email address, display name or basic profile information when signing in with Google, game progress data, report credit balance, in-app purchase metadata, authentication session information, limited technical logs, error logs, and security logs'
+          text: 'Email address, display name or basic profile information when signing in with Google or Sign in with Apple, game progress data, report credit balance, in-app purchase metadata, authentication session information, limited technical logs, error logs, and security logs'
         },
         {
           type: 'p' as const,
@@ -186,6 +186,7 @@ export default {
           items: [
             'Email address',
             'Display name or basic profile information provided by Google when you use Google sign-in, according to your authorization',
+            'Display name or basic profile information provided by Apple when you use Sign in with Apple, according to your authorization (if you choose Hide My Email, Apple may provide a private relay email address instead of your personal email)',
             'Contact details, request content, and related information you provide when submitting a customer support request'
           ]
         },
@@ -384,7 +385,7 @@ export default {
           items: [
             'Information you enter or submit directly',
             'Game progress and choice data you generate while using the Service',
-            'Limited account information transmitted by a provider when you use third-party sign-in such as Google sign-in',
+            'Limited account information transmitted by a provider when you use third-party sign-in such as Google sign-in or Sign in with Apple',
             'Transaction metadata provided by the Apple App Store to fulfill in-app purchases, verify purchases, or process refunds',
             'If Google Play payments are offered in the future, transaction metadata provided by Google Play to fulfill in-app purchases, verify purchases, or process refunds',
             'Server, authentication, and technical logs generated in service infrastructure such as Supabase and Vercel',
@@ -685,7 +686,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Purpose: iOS app distribution, App Store in-app payments, purchase verification, refund processing'
+          text: 'Purpose: iOS app distribution, Sign in with Apple, App Store in-app payments, purchase verification, refund processing'
         },
         {
           type: 'p' as const,
@@ -984,7 +985,7 @@ export default {
         },
         {
           type: 'h3' as const,
-          text: '13.4 Google Account Permission Management'
+          text: '13.4 Google and Apple Account Permission Management'
         },
         {
           type: 'p' as const,
@@ -993,6 +994,14 @@ export default {
         {
           type: 'p' as const,
           text: 'Revoking Google account permissions may limit your ability to use the Service through Google sign-in. If you wish to delete your account, use the in-app account deletion feature or request deletion at contact@shadoweconomyapp.com.'
+        },
+        {
+          type: 'p' as const,
+          text: 'If you use Sign in with Apple, you may review or stop using your Apple ID with Shadow Economy in your Apple ID account settings on supported devices (for example, Settings > Apple ID > Password & Security > Apps Using Apple ID).'
+        },
+        {
+          type: 'p' as const,
+          text: 'Stopping Sign in with Apple for Shadow Economy may limit your ability to use the Service through Sign in with Apple. If you choose Hide My Email, Apple may provide a private relay address; the Operator may still use that relay address to operate your account and contact you about the Service. To delete your Service account, use the in-app account deletion feature or request deletion at contact@shadoweconomyapp.com.'
         },
         {
           type: 'h3' as const,

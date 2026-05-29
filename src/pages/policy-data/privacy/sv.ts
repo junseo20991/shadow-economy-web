@@ -98,7 +98,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'E-postadress, visningsnamn eller grundläggande profilinformation vid inloggning med Google, spelframstegsdata, saldo för rapportkrediter, metadata för köp i appen, autentiseringssessionsinformation samt begränsade tekniska loggar, felloggar och säkerhetsloggar'
+          text: 'E-postadress, visningsnamn eller grundläggande profilinformation vid inloggning med Google eller Logga in med Apple, spelframstegsdata, saldo för rapportkrediter, metadata för köp i appen, autentiseringssessionsinformation samt begränsade tekniska loggar, felloggar och säkerhetsloggar'
         },
         {
           type: 'p' as const,
@@ -186,6 +186,7 @@ export default {
           items: [
             'E-postadress',
             'Visningsnamn eller grundläggande profilinformation som Google tillhandahåller när du använder Google-inloggning, enligt din auktorisering',
+            'Visningsnamn eller grundläggande profilinformation som Apple tillhandahåller när du använder Logga in med Apple, enligt din auktorisering (om du väljer Dölj min e-post kan Apple tillhandahålla en privat vidarebefordringsadress i stället för din personliga e-post)',
             'Kontaktuppgifter, innehåll i begäran och relaterad information som du lämnar vid kundsupport'
           ]
         },
@@ -384,7 +385,7 @@ export default {
           items: [
             'Information du anger eller skickar direkt',
             'Spelets framsteg och valdata som du genererar när du använder tjänsten',
-            'Begränsad kontoinformation som överförs av en leverantör när du använder tredjepartsinloggningar, till exempel Google',
+            'Begränsad kontoinformation som överförs av en leverantör när du använder tredjepartsinloggningar, till exempel Google-inloggning eller Logga in med Apple',
             'Transaktionsmetadata tillhandahålls av Apple App Store för att genomföra köp i appar, verifiera köp eller behandla återbetalningar',
             'Om Google Play Payments erbjuds i framtiden, transaktionsmetadata tillhandahållen av Google Play för att genomföra köp i appar, verifiera köp eller behandla återbetalningar',
             'Server, autentisering och tekniska loggar genererade i tjänstens infrastruktur, såsom Supabase och Vercel',
@@ -685,7 +686,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Syfte: iOS-appdistribution, integrerade App Store-betalningar, köpverifiering, återbetalningshantering'
+          text: 'Syfte: iOS-appdistribution, Logga in med Apple, integrerade App Store-betalningar, köpverifiering, återbetalningshantering'
         },
         {
           type: 'p' as const,
@@ -984,15 +985,23 @@ export default {
         },
         {
           type: 'h3' as const,
-          text: '13.4 Hantering av Google-kontotillstånd'
+          text: '13.4 Hantering av Google- och Apple-kontobehörigheter'
         },
         {
           type: 'p' as const,
-          text: 'Om du använder Google Inloggning kan du granska eller återkalla de behörigheter som har beviljats ​​Shadow Economy i inställningarna för ditt Google-konto.'
+          text: 'Om du använder Google-inloggning kan du granska eller återkalla de behörigheter som har beviljats Shadow Economy i inställningarna för ditt Google-konto.'
         },
         {
           type: 'p' as const,
-          text: 'Att återkalla Googles behörigheter kan begränsa din användning av tjänsten genom att logga in med Google. Om du vill radera ditt konto, använd raderingsfunktionen i appen eller begär det på contact@shadoweconomyapp.com.'
+          text: 'Att återkalla Googles behörigheter kan begränsa din användning av tjänsten genom Google-inloggning. Om du vill radera ditt konto, använd raderingsfunktionen i appen eller begär det på contact@shadoweconomyapp.com.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Om du använder Logga in med Apple kan du granska eller sluta använda ditt Apple-ID med Shadow Economy i dina Apple ID-kontoinställningar på enheter som stöds (till exempel Inställningar > Apple-ID > Lösenord och säkerhet > Appar som använder Apple-ID).'
+        },
+        {
+          type: 'p' as const,
+          text: 'Att sluta använda Logga in med Apple för Shadow Economy kan begränsa din användning av tjänsten genom Logga in med Apple. Om du väljer Dölj min e-post kan Apple tillhandahålla en privat vidarebefordringsadress; operatören kan fortfarande använda den adressen för att driva ditt konto och kontakta dig om tjänsten. För att radera ditt tjänstekonto, använd raderingsfunktionen i appen eller begär det på contact@shadoweconomyapp.com.'
         },
         {
           type: 'h3' as const,
@@ -1323,14 +1332,14 @@ export default {
             'Storbritannien: Information Commissioner\'s Office',
             'Australien: Office of the Australian Information Commissioner',
             'Kalifornien: California Privacy Protection Agency',
-            'Kanada: Office of the Privacy Commissioner of Canada eller relevant provinsiell myndighet',
-            'Brasilien: Autoridade Nacional de Proteção de Dados',
+            'Kanada: Office of Privacy Commissioner of Canada eller lämplig provinsmyndighet',
+            'Brasilien: Nationell dataskyddsmyndighet',
             'Republiken Korea: Personal Information Protection Commission eller relevant myndighet'
           ]
         },
         {
           type: 'p' as const,
-          text: 'Denna policy begränsar inte obligatoriska konsumentskyddsrättigheter, integritetsrättigheter eller andra lagstadgade rättigheter i ditt land eller din region där du bor.'
+          text: 'Denna policy begränsar inte obligatoriskt konsumentskydd, integritet eller andra lagliga rättigheter i ditt land eller din region där du bor.'
         }
       ]
     }

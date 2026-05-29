@@ -98,7 +98,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Dirección de correo electrónico, nombre para mostrar o información básica del perfil al iniciar sesión con Google, datos de progreso del juego, saldo de créditos de informes, metadatos de compras dentro de la aplicación, información de sesión de autenticación y registros técnicos, de errores y de seguridad limitados'
+          text: 'Dirección de correo electrónico, nombre para mostrar o información básica del perfil al iniciar sesión con Google o Iniciar sesión con Apple, datos de progreso del juego, saldo de créditos de informes, metadatos de compras dentro de la aplicación, información de sesión de autenticación y registros técnicos, de errores y de seguridad limitados'
         },
         {
           type: 'p' as const,
@@ -186,6 +186,7 @@ export default {
           items: [
             'Dirección de correo electrónico',
             'Nombre para mostrar o información básica del perfil que Google proporciona cuando utiliza el inicio de sesión con Google, según su autorización',
+            'Nombre para mostrar o información básica del perfil que Apple proporciona cuando utiliza Iniciar sesión con Apple, según su autorización (si elige Ocultar mi correo electrónico, Apple puede proporcionar una dirección de retransmisión privada en lugar de su correo personal)',
             'Datos de contacto, contenido de la solicitud e información relacionada que usted proporcione al enviar una solicitud de atención al cliente'
           ]
         },
@@ -384,7 +385,7 @@ export default {
           items: [
             'Información que usted introduce o envía directamente',
             'Datos de progreso y elecciones del juego que usted genera al utilizar el Servicio',
-            'Información limitada de la cuenta transmitida por un proveedor cuando utiliza inicio de sesión de terceros, como Google',
+            'Información limitada de la cuenta transmitida por un proveedor cuando utiliza inicio de sesión de terceros, como Google o Iniciar sesión con Apple',
             'Metadatos de transacción proporcionados por Apple App Store para cumplir compras integradas, verificar compras o procesar reembolsos',
             'Si en el futuro se ofrecen pagos de Google Play, metadatos de transacción proporcionados por Google Play para cumplir compras integradas, verificar compras o procesar reembolsos',
             'Registros del servidor, de autenticación y técnicos generados en la infraestructura del servicio, como Supabase y Vercel',
@@ -685,7 +686,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Finalidad: distribución de la app iOS, pagos integrados de App Store, verificación de compras, procesamiento de reembolsos'
+          text: 'Finalidad: distribución de la app iOS, Iniciar sesión con Apple, pagos integrados de App Store, verificación de compras, procesamiento de reembolsos'
         },
         {
           type: 'p' as const,
@@ -984,7 +985,7 @@ export default {
         },
         {
           type: 'h3' as const,
-          text: '13.4 Gestión de permisos de la cuenta de Google'
+          text: '13.4 Gestión de permisos de las cuentas de Google y Apple'
         },
         {
           type: 'p' as const,
@@ -993,6 +994,14 @@ export default {
         {
           type: 'p' as const,
           text: 'Revocar los permisos de Google puede limitar el uso del Servicio mediante inicio de sesión con Google. Si desea eliminar su cuenta, utilice la función de eliminación en la app o solicítelo en contact@shadoweconomyapp.com.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Si utiliza Iniciar sesión con Apple, puede revisar o dejar de usar su Apple ID con Shadow Economy en la configuración de su cuenta de Apple ID en dispositivos compatibles (por ejemplo, Ajustes > Apple ID > Contraseña y seguridad > Apps que usan el Apple ID).'
+        },
+        {
+          type: 'p' as const,
+          text: 'Dejar de usar Iniciar sesión con Apple para Shadow Economy puede limitar el uso del Servicio mediante Iniciar sesión con Apple. Si elige Ocultar mi correo electrónico, Apple puede proporcionar una dirección de retransmisión privada; el Operador puede seguir utilizando esa dirección para operar su cuenta y contactarle sobre el Servicio. Para eliminar su cuenta del Servicio, utilice la función de eliminación en la app o solicítelo en contact@shadoweconomyapp.com.'
         },
         {
           type: 'h3' as const,

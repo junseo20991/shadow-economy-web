@@ -73,7 +73,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '「账户」指您通过 Google 登录等支持的认证方式创建或使用的服务账户。'
+          text: '「账户」指您通过 Google 登录、通过 Apple 登录（Sign in with Apple）等支持的认证方式创建或使用的服务账户。'
         },
         {
           type: 'p' as const,
@@ -97,7 +97,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '「平台」指 Apple App Store、Google Play、Google 登录、操作系统、设备制造商、支付处理方或参与服务分发、支付、认证的第三方服务。'
+          text: '「平台」指 Apple App Store、Google Play、通过 Apple 登录（Sign in with Apple）、Google 登录、操作系统、设备制造商、支付处理方或参与服务分发、支付、认证的第三方服务。'
         },
         {
           type: 'p' as const,
@@ -190,6 +190,10 @@ export default {
         {
           type: 'p' as const,
           text: '创建账户并以相同支持的登录方式登录时，可能提供跨设备游戏进度同步、报告积分保管及已保存报告查阅功能。'
+        },
+        {
+          type: 'p' as const,
+          text: '支持的登录方式可能包括 Google 登录及通过 Apple 登录（Sign in with Apple）。可用方式可能因设备、操作系统、应用版本或地区而异。'
         },
         {
           type: 'p' as const,

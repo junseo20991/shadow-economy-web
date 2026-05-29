@@ -10,7 +10,7 @@ const content = {
     appStore: 'App Store coming soon',
     googlePlay: 'Google Play coming soon',
     features: [
-      { icon: '●', title: 'Structured Economic Model', desc: 'Assets, liabilities, credit scores, and cash flow follow consistent in-game rules designed for learning.' },
+      { icon: '●', title: 'Real Economic Logic', desc: 'Assets, liabilities, credit scores, and cash flow follow grounded rules.' },
       { icon: '◆', title: 'Community Impact', desc: 'Your decisions change the world around you and what comes next.' },
       { icon: '◐', title: 'Personalized Analysis', desc: 'The report shows what happened, what it means, and what changed.' },
     ],
@@ -25,7 +25,7 @@ const content = {
     appStore: 'App Store 출시 예정',
     googlePlay: 'Google Play 출시 예정',
     features: [
-      { icon: '●', title: '체계적인 경제 모델', desc: '자산, 부채, 신용점수, 현금흐름은 학습을 위해 설계된 일관된 게임 규칙을 따릅니다.' },
+      { icon: '●', title: '실제 경제 원리', desc: '자산, 부채, 신용점수, 현금흐름은 현실적인 규칙으로 움직입니다.' },
       { icon: '◆', title: '공동체의 변화', desc: '당신의 선택은 주변 세계를 바꾸고, 다음 국면으로 이어집니다.' },
       { icon: '◐', title: '개인화 분석', desc: '중요한 선택 뒤에 무엇이 일어났는지, 무엇이 달라졌는지 보여줍니다.' },
     ],
@@ -40,7 +40,7 @@ const content = {
     appStore: 'App Store 近日公開',
     googlePlay: 'Google Play 近日公開',
     features: [
-      { icon: '●', title: '体系化された経済モデル', desc: '資産、負債、信用スコア、キャッシュフローは学習のために設計された一貫したゲームルールに従います。' },
+      { icon: '●', title: '現実的な経済ロジック', desc: '資産、負債、信用スコア、キャッシュフローは現実に沿ったルールで動きます。' },
       { icon: '◆', title: 'コミュニティへの影響', desc: 'あなたの選択は周囲を変え、次の展開へつながります。' },
       { icon: '◐', title: '個別化された分析', desc: '重要な選択のあとに、何が起きたか、何が変わったかを示します。' },
     ],
@@ -55,7 +55,7 @@ const content = {
     appStore: 'App Store 即将推出',
     googlePlay: 'Google Play 即将推出',
     features: [
-      { icon: '●', title: '结构化的经济模型', desc: '资产、负债、信用分数和现金流遵循为学习而设计的一致游戏规则。' },
+      { icon: '●', title: '真实的经济逻辑', desc: '资产、负债、信用分数和现金流都按现实规则运作。' },
       { icon: '◆', title: '社区影响', desc: '你的每个选择都会改变周围世界，并影响后续走向。' },
       { icon: '◐', title: '个性化分析', desc: '重要决策后，报告会展示发生了什么，以及哪些地方发生了变化。' },
     ],
@@ -70,7 +70,7 @@ const content = {
     appStore: 'Próximamente en App Store',
     googlePlay: 'Próximamente en Google Play',
     features: [
-      { icon: '●', title: 'Modelo económico estructurado', desc: 'Activos, pasivos, puntuación crediticia y flujo de caja siguen reglas coherentes del juego diseñadas para el aprendizaje.' },
+      { icon: '●', title: 'Lógica económica real', desc: 'Activos, pasivos, puntuación crediticia y flujo de caja siguen reglas concretas.' },
       { icon: '◆', title: 'Impacto comunitario', desc: 'Cada decisión cambia el mundo que te rodea y lo que viene después.' },
       { icon: '◐', title: 'Análisis personalizado', desc: 'Después de decisiones clave, el informe muestra qué ocurrió y qué cambió.' },
     ],
@@ -85,7 +85,7 @@ const content = {
     appStore: 'Kommer snart till App Store',
     googlePlay: 'Kommer snart till Google Play',
     features: [
-      { icon: '●', title: 'Strukturerad ekonomisk modell', desc: 'Tillgångar, skulder, kreditpoäng och kassaflöde följer konsekventa spelregler utformade för lärande.' },
+      { icon: '●', title: 'Verklig ekonomisk logik', desc: 'Tillgångar, skulder, kreditpoäng och kassaflöde följer konkreta regler.' },
       { icon: '◆', title: 'Påverkan på omgivningen', desc: 'Varje beslut förändrar världen omkring dig och det som kommer efter.' },
       { icon: '◐', title: 'Personlig analys', desc: 'Efter viktiga beslut visar rapporten vad som hände och vad som förändrades.' },
     ],
