@@ -471,7 +471,7 @@ const content = {
     "mechanics": [
       {
         "title": "Kreditwürdigkeit",
-        "body": "Eine saubere Schallplatte hat eine Obergrenze. Das System belohnt die Verwaltung von Schulden, nicht deren Vermeidung."
+        "body": "Eine saubere Kredithistorie hat eine Obergrenze. Das System belohnt den Umgang mit Schulden, nicht deren Vermeidung."
       },
       {
         "title": "Verzögerte Auswirkungen",
@@ -590,7 +590,7 @@ const content = {
       }
     ],
     "shadowTitle": "Ward",
-    "shadowBody": "يستجيب جهاز Ward الخاص بك لكل خطوة تقوم بها.",
+    "shadowBody": "يستجيب Ward الخاص بك لكل خطوة تقوم بها.",
     "shadowBody2": "واجهات المحلات قاتمة. الشوارع هادئة. تتحرك قيم الممتلكات. التغيير مرئي قبل أن يتم شرحه.",
     "shadowQuote": "قراراتك تشكل Ward. يشكل Ward عوائدك.",
     "mechanicsTitle": "ميكانيكا",
@@ -780,7 +780,7 @@ const content = {
     ],
     "shadowTitle": "De Ward",
     "shadowBody": "Je Ward reageert op elke beweging die je maakt.",
-    "shadowBody2": "Winkelpuien afm. Straten worden stil. Eigenschapswaarden bewegen. De verandering is zichtbaar voordat deze wordt uitgelegd.",
+    "shadowBody2": "Etalages doven. Straten worden stil. Vastgoedwaarden verschuiven. De verandering is zichtbaar voordat ze wordt uitgelegd.",
     "shadowQuote": "Jouw beslissingen vormen de Ward. De Ward geeft vorm aan uw rendement.",
     "mechanicsTitle": "Mechanica",
     "mechanics": [

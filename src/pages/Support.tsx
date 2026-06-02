@@ -34,7 +34,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Contact Shadow Economy",
-    "contactBody": "Can't find your answer? Email Shadow Economy and Shadow Economy will respond within 1-2 business days where possible."
+    "contactBody": "Can't find your answer? Email us and we'll reply within 1–2 business days where possible."
   },
   "ko": {
     "title": "지원",
@@ -66,7 +66,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Shadow Economy에 문의하세요",
-    "contactBody": "답을 찾을 수 없나요? 이메일 Shadow Economy 및 Shadow Economy는 가능한 경우 영업일 기준 1~2일 이내에 응답합니다."
+    "contactBody": "원하는 답을 찾지 못하셨나요? 이메일을 보내 주시면 가능한 경우 영업일 기준 1~2일 이내에 답변드리겠습니다."
   },
   "ja": {
     "title": "サポート",
@@ -98,7 +98,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "お問い合わせ",
-    "contactBody": "答えが見つかりませんか?電子メール Shadow Economy および Shadow Economy は、可能な限り 1 ～ 2 営業日以内に返信します。"
+    "contactBody": "お探しの答えが見つかりませんか？メールをお送りいただければ、可能な限り 1〜2 営業日以内にご返信します。"
   },
   "zh": {
     "title": "支持",
@@ -129,8 +129,8 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
         "a": "重新启动应用程序，检查更新并确认您的网络连接。在 Android 上，清除应用程序缓存也可能有所帮助。如果问题仍然存在，请联系 Shadow Economy。"
       }
     ],
-    "contactTitle": "联系方式 Shadow Economy",
-    "contactBody": "找不到您的答案？电子邮件 Shadow Economy 和 Shadow Economy 将尽可能在 1-2 个工作日内回复。"
+    "contactTitle": "联系 Shadow Economy",
+    "contactBody": "没有找到您要的答案？给我们发送电子邮件，我们会尽可能在 1-2 个工作日内回复。"
   },
   "es": {
     "title": "Apoyo",
@@ -162,7 +162,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Contacto Shadow Economy",
-    "contactBody": "¿No encuentras tu respuesta? Envíe un correo electrónico a Shadow Economy y Shadow Economy le responderán dentro de 1 a 2 días hábiles siempre que sea posible."
+    "contactBody": "¿No encuentras tu respuesta? Escríbenos por correo electrónico y te responderemos en un plazo de 1 a 2 días hábiles siempre que sea posible."
   },
   "sv": {
     "title": "Support",
@@ -194,7 +194,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Kontakta Shadow Economy",
-    "contactBody": "Hittar du inte ditt svar? E-post Shadow Economy och Shadow Economy kommer att svara inom 1-2 arbetsdagar där så är möjligt."
+    "contactBody": "Hittar du inte ditt svar? Mejla oss så svarar vi inom 1–2 arbetsdagar när det är möjligt."
   },
   "fr": {
     "title": "Assistance",
@@ -226,7 +226,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Contacter Shadow Economy",
-    "contactBody": "Vous ne trouvez pas votre réponse ? Email Shadow Economy et Shadow Economy répondront dans un délai de 1 à 2 jours ouvrables lorsque cela est possible."
+    "contactBody": "Vous ne trouvez pas votre réponse ? Écrivez-nous par e-mail et nous vous répondrons sous 1 à 2 jours ouvrables dans la mesure du possible."
   },
   "de": {
     "title": "Unterstützung",
@@ -258,7 +258,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Kontaktieren Sie Shadow Economy",
-    "contactBody": "Können Sie Ihre Antwort nicht finden? E-Mail Shadow Economy und Shadow Economy antworten nach Möglichkeit innerhalb von 1-2 Werktagen."
+    "contactBody": "Sie finden Ihre Antwort nicht? Schreiben Sie uns eine E-Mail und wir antworten Ihnen nach Möglichkeit innerhalb von 1–2 Werktagen."
   },
   "ru": {
     "title": "Поддержка",
@@ -290,7 +290,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Свяжитесь с Shadow Economy",
-    "contactBody": "Не можете найти ответ? Электронная почта Shadow Economy и Shadow Economy ответит в течение 1-2 рабочих дней, если это возможно."
+    "contactBody": "Не нашли ответ? Напишите нам на электронную почту, и мы ответим в течение 1–2 рабочих дней, когда это возможно."
   },
   "ar": {
     "title": "الدعم",
@@ -322,7 +322,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "اتصل بـ Shadow Economy",
-    "contactBody": "لا يمكن العثور على إجابتك؟ سيتم الرد عبر البريد الإلكتروني Shadow Economy وShadow Economy خلال يوم أو يومي عمل حيثما أمكن ذلك."
+    "contactBody": "لم تجد إجابتك؟ راسلنا عبر البريد الإلكتروني وسنرد عليك خلال يوم إلى يومَي عمل كلما أمكن ذلك."
   },
   "pt": {
     "title": "Suporte",
@@ -354,7 +354,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Contato Shadow Economy",
-    "contactBody": "Não consegue encontrar sua resposta? Os e-mails Shadow Economy e Shadow Economy responderão dentro de 1 a 2 dias úteis, sempre que possível."
+    "contactBody": "Não encontrou sua resposta? Envie-nos um e-mail e responderemos em 1 a 2 dias úteis, sempre que possível."
   },
   "it": {
     "title": "Supporto",
@@ -386,7 +386,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Contatta Shadow Economy",
-    "contactBody": "Non riesci a trovare la risposta? Invia un'e-mail a Shadow Economy e Shadow Economy risponderanno entro 1-2 giorni lavorativi, ove possibile."
+    "contactBody": "Non trovi la tua risposta? Scrivici un'e-mail e ti risponderemo entro 1-2 giorni lavorativi, ove possibile."
   },
   "nl": {
     "title": "Ondersteuning",
@@ -418,7 +418,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Neem contact op met Shadow Economy",
-    "contactBody": "Kunt u uw antwoord niet vinden? E-mail Shadow Economy en Shadow Economy reageren waar mogelijk binnen 1-2 werkdagen."
+    "contactBody": "Vindt u uw antwoord niet? Stuur ons een e-mail en we reageren waar mogelijk binnen 1–2 werkdagen."
   },
   "id": {
     "title": "Dukungan",
@@ -450,7 +450,7 @@ const content: Record<string, { title: string; faqTitle: string; faqs: Faq[]; co
       }
     ],
     "contactTitle": "Hubungi Shadow Economy",
-    "contactBody": "Tidak dapat menemukan jawaban Anda? Email Shadow Economy dan Shadow Economy akan ditanggapi dalam 1-2 hari kerja jika memungkinkan."
+    "contactBody": "Tidak menemukan jawaban Anda? Kirim email kepada kami dan kami akan membalas dalam 1–2 hari kerja jika memungkinkan."
   }
 }
 

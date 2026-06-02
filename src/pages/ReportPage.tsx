@@ -437,7 +437,7 @@ const content = {
     "diffTitle": "Pourquoi il se démarque",
     "diff": [
       {
-        "title": "Cela vient du jeu, pas d'une forme.",
+        "title": "Cela vient du jeu, pas d'un formulaire.",
         "body": "La source est l’état du jeu lui-même : choix, timing, actifs, passifs et résultats."
       },
       {
@@ -445,7 +445,7 @@ const content = {
         "body": "Le rapport relie un modèle à ce qui s’est passé dans le jeu."
       },
       {
-        "title": "Clair, pas trop de monde.",
+        "title": "Clair, pas surchargé.",
         "body": "Le ton reste simple et le contenu reste utilisable."
       }
     ],
@@ -505,7 +505,7 @@ const content = {
     "diffTitle": "Warum es sich von anderen abhebt",
     "diff": [
       {
-        "title": "Es kommt vom Spiel, nicht von einer Form.",
+        "title": "Es kommt aus dem Spiel, nicht aus einem Formular.",
         "body": "Die Quelle ist der Spielzustand selbst: Entscheidungen, Zeitpunkt, Vermögenswerte, Verbindlichkeiten und Ergebnisse."
       },
       {
@@ -573,7 +573,7 @@ const content = {
     "diffTitle": "Почему он стоит особняком",
     "diff": [
       {
-        "title": "Это происходит из игры, а не из формы.",
+        "title": "Это берётся из игры, а не из анкеты.",
         "body": "Источником является само состояние игры: выбор, время, активы, обязательства и результаты."
       },
       {
@@ -610,8 +610,8 @@ const content = {
     ],
     "onceTitle": "Один отчет, одно прохождение",
     "onceBody": "Отчет создается в конце прогона. Он фиксирует один набор решений при одном наборе условий.",
-    "onceBody2": "Сыграйте еще раз, и отчет изменится вместе с вами. Это остается привязанным к реальному пробегу.",
-    "ctaTitle": "Готовы увидеть свой собственный узор?",
+    "onceBody2": "Сыграйте ещё раз, и отчёт изменится вместе с вами. Он остаётся привязанным к реальной игре.",
+    "ctaTitle": "Готовы увидеть собственные закономерности?",
     "ctaBody": "Получите баллы за отчеты в мобильном приложении и разблокируйте свой отчет после следующей завершенной игры.",
     "ctaButton": "Посмотреть цены"
   },
@@ -641,7 +641,7 @@ const content = {
     "diffTitle": "لماذا يقف بعيدا",
     "diff": [
       {
-        "title": "إنها تأتي من اللعب، وليس من الشكل.",
+        "title": "إنها تأتي من اللعب، وليس من استبيان.",
         "body": "المصدر هو حالة اللعبة نفسها: الاختيارات، والتوقيت، والأصول، والالتزامات، والنتائج."
       },
       {
@@ -676,9 +676,9 @@ const content = {
         "body": "العادات والتحيزات التي شكلت اختياراتك"
       }
     ],
-    "onceTitle": "تقرير واحد، مسرحية واحدة",
+    "onceTitle": "تقرير واحد، لعبة واحدة",
     "onceBody": "يتم إنشاء التقرير في نهاية التشغيل. فهو يلتقط مجموعة واحدة من القرارات في ظل مجموعة واحدة من الشروط.",
-    "onceBody2": "العب مرة أخرى وسيتغير التقرير معك. يبقى مرتبطًا بالجري الحقيقي.",
+    "onceBody2": "العب مرة أخرى وسيتغير التقرير معك. يبقى مرتبطًا بلعبة حقيقية.",
     "ctaTitle": "على استعداد لرؤية النمط الخاص بك؟",
     "ctaBody": "احصل على أرصدة التقرير في تطبيق الهاتف المحمول وافتح تقريرك بعد اللعبة المكتملة التالية.",
     "ctaButton": "انظر التسعير"
@@ -704,12 +704,12 @@ const content = {
       }
     ],
     "purposeTitle": "Por que existe",
-    "purposeBody1": "O relatório foi elaborado para jogadores que desejam aprender economia, mas precisam de um ponto de partida. Começa com uma brincadeira e depois explica o que significa.",
+    "purposeBody1": "O relatório foi elaborado para jogadores que desejam aprender economia, mas precisam de um ponto de partida. Começa com o jogo e depois explica o que significa.",
     "purposeBody2": "Isso torna mais fácil de ler, lembrar e usar.",
     "diffTitle": "Por que isso se destaca",
     "diff": [
       {
-        "title": "Vem do jogo, não de uma forma.",
+        "title": "Vem do jogo, não de um formulário.",
         "body": "A fonte é o próprio estado do jogo: escolhas, timing, ativos, passivos e resultados."
       },
       {
@@ -777,7 +777,7 @@ const content = {
     "diffTitle": "Perché si distingue",
     "diff": [
       {
-        "title": "Viene dal gioco, non da una forma.",
+        "title": "Viene dal gioco, non da un questionario.",
         "body": "La fonte è lo stato del gioco stesso: scelte, tempistiche, attività, passività e risultati."
       },
       {
@@ -845,7 +845,7 @@ const content = {
     "diffTitle": "Waarom het zich onderscheidt",
     "diff": [
       {
-        "title": "Het komt voort uit spel, niet uit een vorm.",
+        "title": "Het komt voort uit spel, niet uit een formulier.",
         "body": "De bron is de spelstatus zelf: keuzes, timing, activa, passiva en resultaten."
       },
       {
@@ -913,7 +913,7 @@ const content = {
     "diffTitle": "Mengapa itu berdiri terpisah",
     "diff": [
       {
-        "title": "Itu berasal dari permainan, bukan bentuk.",
+        "title": "Itu berasal dari permainan, bukan dari kuesioner.",
         "body": "Sumbernya adalah keadaan permainan itu sendiri: pilihan, waktu, aset, kewajiban, dan hasil."
       },
       {

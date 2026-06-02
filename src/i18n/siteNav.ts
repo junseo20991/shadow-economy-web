@@ -241,7 +241,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "footerGame": "Informazioni sul gioco",
     "footerReport": "Informazioni sul rapporto",
     "footerPricing": "Prezzi",
-    "footerPrivacy": "politica sulla riservatezza",
+    "footerPrivacy": "Informativa sulla privacy",
     "footerTerms": "Termini di servizio",
     "footerSupport": "Supporto",
     "copyright": "© 2026 Shadow Economy. All rights reserved.",

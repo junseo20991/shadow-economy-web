@@ -392,7 +392,7 @@ const content = {
     "disclaimer": "Shadow Economy est une simulation pédagogique. Les rapports ne constituent pas des conseils financiers, d’investissement, fiscaux, juridiques ou professionnels, et l’achat ou la lecture d’un rapport ne garantit aucun résultat réel."
   },
   "de": {
-    "badge": "Credits melden",
+    "badge": "Berichtsguthaben",
     "headline": "Wählen Sie den Bericht, der zu Ihrem Stück passt.",
     "sub": "1 Guthaben schaltet 1 personalisierten Bericht für ein abgeschlossenes Spiel frei. Credits verfallen nie.",
     "starter": {
@@ -447,7 +447,7 @@ const content = {
     "disclaimer": "Shadow Economy ist eine Lernsimulation. Bei Berichten handelt es sich nicht um Finanz-, Anlage-, Steuer-, Rechts- oder Fachberatung, und der Kauf oder das Lesen eines Berichts ist keine Garantie für ein reales Ergebnis."
   },
   "ru": {
-    "badge": "Сообщить об авторах",
+    "badge": "Кредиты для отчётов",
     "headline": "Выберите отчет, который соответствует вашей игре.",
     "sub": "1 кредит открывает 1 персональный отчет по одной завершенной игре. Кредиты никогда не истекают.",
     "starter": {
@@ -484,7 +484,7 @@ const content = {
     "how": [
       {
         "step": "1",
-        "title": "Завершить пробежку",
+        "title": "Завершите игру",
         "body": "Завершите игру, чтобы разблокировать экран отчета."
       },
       {
@@ -502,7 +502,7 @@ const content = {
     "disclaimer": "Shadow Economy — образовательный симулятор. Отчеты не являются финансовыми, инвестиционными, налоговыми, юридическими или профессиональными советами, и покупка или чтение отчета не гарантирует какого-либо реального результата."
   },
   "ar": {
-    "badge": "تقرير الاعتمادات",
+    "badge": "أرصدة التقارير",
     "headline": "اختر التقرير الذي يناسب لعبتك.",
     "sub": "رصيد واحد يفتح تقريرًا مخصصًا واحدًا للعبة واحدة مكتملة. الاعتمادات لا تنتهي أبدا.",
     "starter": {
@@ -539,7 +539,7 @@ const content = {
     "how": [
       {
         "step": "1",
-        "title": "قم بإنهاء الجري",
+        "title": "أكمل جولة",
         "body": "أكمل لعبة لفتح شاشة التقرير."
       },
       {
@@ -612,7 +612,7 @@ const content = {
     "disclaimer": "Shadow Economy é uma simulação educacional. Os relatórios não constituem aconselhamento financeiro, de investimento, fiscal, jurídico ou profissional, e comprar ou ler um relatório não garante qualquer resultado no mundo real."
   },
   "it": {
-    "badge": "Segnala crediti",
+    "badge": "Crediti per i report",
     "headline": "Scegli il rapporto adatto al tuo gioco.",
     "sub": "1 credito sblocca 1 report personalizzato per un gioco completato. I crediti non scadono mai.",
     "starter": {
@@ -667,7 +667,7 @@ const content = {
     "disclaimer": "Shadow Economy è una simulazione educativa. I report non costituiscono consulenza finanziaria, di investimento, fiscale, legale o professionale e l'acquisto o la lettura di un report non garantisce alcun risultato reale."
   },
   "nl": {
-    "badge": "Credits rapporteren",
+    "badge": "Rapportcredits",
     "headline": "Kies het rapport dat bij uw spel past.",
     "sub": "Met 1 tegoed ontgrendel je 1 persoonlijk rapport voor één voltooid spel. Tegoeden verlopen nooit.",
     "starter": {

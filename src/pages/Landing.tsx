@@ -246,7 +246,7 @@ const content = {
     "quoteSub": "Shadow Economy фокусируется на стоимости, компромиссах и том, что остается."
   },
   "ar": {
-    "badge": "المحاكاة الاقتصادية القائمة على الدوران",
+    "badge": "محاكاة اقتصادية قائمة على الأدوار",
     "headline1": "كل قرار يترك",
     "headline2": "أثرًا.",
     "sub": "محاكاة تعتمد على الأدوار حول الاختيارات المالية وتغيير المجتمع وما يتبقى بعد كل دور.",
@@ -337,7 +337,7 @@ const content = {
       {
         "icon": "●",
         "title": "Echte economische logica",
-        "desc": "Activa, passiva, kredietscores en cashflow volgen geaarde regels."
+        "desc": "Activa, passiva, kredietscores en cashflow volgen gefundeerde regels."
       },
       {
         "icon": "◆",
