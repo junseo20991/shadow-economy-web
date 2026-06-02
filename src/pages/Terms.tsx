@@ -11,13 +11,21 @@ type TermsContent = {
   sections: Section[]
 }
 
-const loaders: Record<Lang, () => Promise<{ default: TermsContent }>> = {
+const loaders: Record<Lang, () => Promise<{ default: unknown }>> = {
   en: () => import('./policy-data/terms/en'),
   ko: () => import('./policy-data/terms/ko'),
   ja: () => import('./policy-data/terms/ja'),
   zh: () => import('./policy-data/terms/zh'),
   es: () => import('./policy-data/terms/es'),
   sv: () => import('./policy-data/terms/sv'),
+  fr: () => import('./policy-data/terms/fr'),
+  de: () => import('./policy-data/terms/de'),
+  ru: () => import('./policy-data/terms/ru'),
+  ar: () => import('./policy-data/terms/ar'),
+  pt: () => import('./policy-data/terms/pt'),
+  it: () => import('./policy-data/terms/it'),
+  nl: () => import('./policy-data/terms/nl'),
+  id: () => import('./policy-data/terms/id'),
 }
 
 function Chevron({ open }: { open: boolean }) {
@@ -45,15 +53,19 @@ export function Terms() {
   useEffect(() => {
     let cancelled = false
     const load = loaders[lang] ?? loaders.en
-    setTx(null)
-    setOpenSections(new Set())
     load()
       .then((mod) => {
-        if (!cancelled) setTx(mod.default)
+        if (!cancelled) {
+          setTx(mod.default as TermsContent)
+          setOpenSections(new Set())
+        }
       })
       .catch(async () => {
         const fallback = await loaders.en()
-        if (!cancelled) setTx(fallback.default)
+        if (!cancelled) {
+          setTx(fallback.default as TermsContent)
+          setOpenSections(new Set())
+        }
       })
     return () => {
       cancelled = true

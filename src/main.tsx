@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { StrictMode, Suspense, lazy } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -11,6 +12,7 @@ const PricingPage = lazy(() => import('./pages/PricingPage').then((m) => ({ defa
 const Privacy = lazy(() => import('./pages/Privacy').then((m) => ({ default: m.Privacy })))
 const Terms = lazy(() => import('./pages/Terms').then((m) => ({ default: m.Terms })))
 const Support = lazy(() => import('./pages/Support').then((m) => ({ default: m.Support })))
+const AccountDeletionPage = lazy(() => import('./pages/AccountDeletionPage').then((m) => ({ default: m.AccountDeletionPage })))
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -25,6 +27,7 @@ createRoot(document.getElementById('root')!).render(
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/support" element={<Support />} />
+            <Route path="/account-deletion" element={<AccountDeletionPage />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

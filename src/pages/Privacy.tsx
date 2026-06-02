@@ -11,13 +11,21 @@ type PolicyContent = {
   sections: Section[]
 }
 
-const loaders: Record<Lang, () => Promise<{ default: PolicyContent }>> = {
+const loaders: Record<Lang, () => Promise<{ default: unknown }>> = {
   en: () => import('./policy-data/privacy/en'),
   ko: () => import('./policy-data/privacy/ko'),
   ja: () => import('./policy-data/privacy/ja'),
   zh: () => import('./policy-data/privacy/zh'),
   es: () => import('./policy-data/privacy/es'),
   sv: () => import('./policy-data/privacy/sv'),
+  fr: () => import('./policy-data/privacy/fr'),
+  de: () => import('./policy-data/privacy/de'),
+  ru: () => import('./policy-data/privacy/ru'),
+  ar: () => import('./policy-data/privacy/ar'),
+  pt: () => import('./policy-data/privacy/pt'),
+  it: () => import('./policy-data/privacy/it'),
+  nl: () => import('./policy-data/privacy/nl'),
+  id: () => import('./policy-data/privacy/id'),
 }
 
 function Chevron({ open }: { open: boolean }) {
@@ -45,15 +53,19 @@ export function Privacy() {
   useEffect(() => {
     let cancelled = false
     const load = loaders[lang] ?? loaders.en
-    setTx(null)
-    setOpenSections(new Set())
     load()
       .then((mod) => {
-        if (!cancelled) setTx(mod.default)
+        if (!cancelled) {
+          setTx(mod.default as PolicyContent)
+          setOpenSections(new Set())
+        }
       })
       .catch(async () => {
         const fallback = await loaders.en()
-        if (!cancelled) setTx(fallback.default)
+        if (!cancelled) {
+          setTx(fallback.default as PolicyContent)
+          setOpenSections(new Set())
+        }
       })
     return () => {
       cancelled = true

@@ -2,96 +2,384 @@ import { Layout } from '../components/Layout'
 import { useLanguage } from '../context/LanguageContext'
 
 const content = {
-  en: {
-    badge: 'Turn-Based Economic Simulation',
-    headline1: 'Every decision leaves',
-    headline2: 'a trace.',
-    sub: 'A turn-based simulation about financial choices, community change, and what remains after each turn.',
-    appStore: 'App Store coming soon',
-    googlePlay: 'Google Play coming soon',
-    features: [
-      { icon: '●', title: 'Real Economic Logic', desc: 'Assets, liabilities, credit scores, and cash flow follow grounded rules.' },
-      { icon: '◆', title: 'Community Impact', desc: 'Your decisions change the world around you and what comes next.' },
-      { icon: '◐', title: 'Personalized Analysis', desc: 'The report shows what happened, what it means, and what changed.' },
+  "en": {
+    "badge": "Turn-Based Economic Simulation",
+    "headline1": "Every decision leaves",
+    "headline2": "a trace.",
+    "sub": "A turn-based simulation about financial choices, community change, and what remains after each turn.",
+    "appStore": "App Store coming soon",
+    "googlePlay": "Google Play coming soon",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Real Economic Logic",
+        "desc": "Assets, liabilities, credit scores, and cash flow follow grounded rules."
+      },
+      {
+        "icon": "◆",
+        "title": "Community Impact",
+        "desc": "Your decisions change the world around you and what comes next."
+      },
+      {
+        "icon": "◐",
+        "title": "Personalized Analysis",
+        "desc": "The report shows what happened, what it means, and what changed."
+      }
     ],
-    quote: '"What you build is only part of the story."',
-    quoteSub: 'Shadow Economy focuses on cost, tradeoffs, and what remains.',
+    "quote": "\"What you build is only part of the story.\"",
+    "quoteSub": "Shadow Economy focuses on cost, tradeoffs, and what remains."
   },
-  ko: {
-    badge: '턴제 경제 시뮬레이션',
-    headline1: '모든 선택은',
-    headline2: '흔적을 남깁니다.',
-    sub: '금융 선택, 공동체의 변화, 그리고 한 턴 뒤에도 남는 결과를 다루는 턴제 시뮬레이션입니다.',
-    appStore: 'App Store 출시 예정',
-    googlePlay: 'Google Play 출시 예정',
-    features: [
-      { icon: '●', title: '실제 경제 원리', desc: '자산, 부채, 신용점수, 현금흐름은 현실적인 규칙으로 움직입니다.' },
-      { icon: '◆', title: '공동체의 변화', desc: '당신의 선택은 주변 세계를 바꾸고, 다음 국면으로 이어집니다.' },
-      { icon: '◐', title: '개인화 분석', desc: '중요한 선택 뒤에 무엇이 일어났는지, 무엇이 달라졌는지 보여줍니다.' },
+  "ko": {
+    "badge": "턴제 경제 시뮬레이션",
+    "headline1": "모든 선택은",
+    "headline2": "흔적을 남깁니다.",
+    "sub": "금융 선택, 공동체의 변화, 그리고 한 턴 뒤에도 남는 결과를 다루는 턴제 시뮬레이션입니다.",
+    "appStore": "App Store 출시 예정",
+    "googlePlay": "Google Play 출시 예정",
+    "features": [
+      {
+        "icon": "●",
+        "title": "실제 경제 원리",
+        "desc": "자산, 부채, 신용점수, 현금흐름은 현실적인 규칙으로 움직입니다."
+      },
+      {
+        "icon": "◆",
+        "title": "공동체의 변화",
+        "desc": "당신의 선택은 주변 세계를 바꾸고, 다음 국면으로 이어집니다."
+      },
+      {
+        "icon": "◐",
+        "title": "개인화 분석",
+        "desc": "중요한 선택 뒤에 무엇이 일어났는지, 무엇이 달라졌는지 보여줍니다."
+      }
     ],
-    quote: '"만든 것만이 이야기는 아닙니다."',
-    quoteSub: '이 게임은 비용과 남는 영향까지 함께 보여줍니다.',
+    "quote": "\"만든 것만이 이야기는 아닙니다.\"",
+    "quoteSub": "이 게임은 비용과 남는 영향까지 함께 보여줍니다."
   },
-  ja: {
-    badge: 'ターン制の経済シミュレーション',
-    headline1: 'すべての選択が',
-    headline2: '痕跡を残す。',
-    sub: '金融の選択、コミュニティの変化、そして一手ごとに残る結果を扱うターン制シミュレーションです。',
-    appStore: 'App Store 近日公開',
-    googlePlay: 'Google Play 近日公開',
-    features: [
-      { icon: '●', title: '現実的な経済ロジック', desc: '資産、負債、信用スコア、キャッシュフローは現実に沿ったルールで動きます。' },
-      { icon: '◆', title: 'コミュニティへの影響', desc: 'あなたの選択は周囲を変え、次の展開へつながります。' },
-      { icon: '◐', title: '個別化された分析', desc: '重要な選択のあとに、何が起きたか、何が変わったかを示します。' },
+  "ja": {
+    "badge": "ターン制の経済シミュレーション",
+    "headline1": "すべての選択が",
+    "headline2": "痕跡を残す。",
+    "sub": "金融の選択、コミュニティの変化、そして一手ごとに残る結果を扱うターン制シミュレーションです。",
+    "appStore": "App Store 近日公開",
+    "googlePlay": "Google Play 近日公開",
+    "features": [
+      {
+        "icon": "●",
+        "title": "現実的な経済ロジック",
+        "desc": "資産、負債、信用スコア、キャッシュフローは現実に沿ったルールで動きます。"
+      },
+      {
+        "icon": "◆",
+        "title": "コミュニティへの影響",
+        "desc": "あなたの選択は周囲を変え、次の展開へつながります。"
+      },
+      {
+        "icon": "◐",
+        "title": "個別化された分析",
+        "desc": "重要な選択のあとに、何が起きたか、何が変わったかを示します。"
+      }
     ],
-    quote: '"作ったものだけが物語ではありません。"',
-    quoteSub: 'このゲームは、コストと残る影響まで扱います。',
+    "quote": "\"作ったものだけが物語ではありません。\"",
+    "quoteSub": "このゲームは、コストと残る影響まで扱います。"
   },
-  zh: {
-    badge: '回合制经济模拟',
-    headline1: '每个选择都会',
-    headline2: '留下痕迹。',
-    sub: '一款围绕金融选择、社区变化，以及每回合之后仍然存在的结果的回合制模拟游戏。',
-    appStore: 'App Store 即将推出',
-    googlePlay: 'Google Play 即将推出',
-    features: [
-      { icon: '●', title: '真实的经济逻辑', desc: '资产、负债、信用分数和现金流都按现实规则运作。' },
-      { icon: '◆', title: '社区影响', desc: '你的每个选择都会改变周围世界，并影响后续走向。' },
-      { icon: '◐', title: '个性化分析', desc: '重要决策后，报告会展示发生了什么，以及哪些地方发生了变化。' },
+  "zh": {
+    "badge": "回合制经济模拟",
+    "headline1": "每个选择都会",
+    "headline2": "留下痕迹。",
+    "sub": "一款围绕金融选择、社区变化，以及每回合之后仍然存在的结果的回合制模拟游戏。",
+    "appStore": "App Store 即将推出",
+    "googlePlay": "Google Play 即将推出",
+    "features": [
+      {
+        "icon": "●",
+        "title": "真实的经济逻辑",
+        "desc": "资产、负债、信用分数和现金流都按现实规则运作。"
+      },
+      {
+        "icon": "◆",
+        "title": "社区影响",
+        "desc": "你的每个选择都会改变周围世界，并影响后续走向。"
+      },
+      {
+        "icon": "◐",
+        "title": "个性化分析",
+        "desc": "重要决策后，报告会展示发生了什么，以及哪些地方发生了变化。"
+      }
     ],
-    quote: '"作品只是故事的一部分。"',
-    quoteSub: '这款游戏呈现结果、代价与留下的影响。',
+    "quote": "\"作品只是故事的一部分。\"",
+    "quoteSub": "这款游戏呈现结果、代价与留下的影响。"
   },
-  es: {
-    badge: 'Simulación económica por turnos',
-    headline1: 'Cada decisión deja',
-    headline2: 'una huella.',
-    sub: 'Una simulación por turnos sobre decisiones financieras, cambio comunitario y lo que permanece después de cada turno.',
-    appStore: 'Próximamente en App Store',
-    googlePlay: 'Próximamente en Google Play',
-    features: [
-      { icon: '●', title: 'Lógica económica real', desc: 'Activos, pasivos, puntuación crediticia y flujo de caja siguen reglas concretas.' },
-      { icon: '◆', title: 'Impacto comunitario', desc: 'Cada decisión cambia el mundo que te rodea y lo que viene después.' },
-      { icon: '◐', title: 'Análisis personalizado', desc: 'Después de decisiones clave, el informe muestra qué ocurrió y qué cambió.' },
+  "es": {
+    "badge": "Simulación económica por turnos",
+    "headline1": "Cada decisión deja",
+    "headline2": "una huella.",
+    "sub": "Una simulación por turnos sobre decisiones financieras, cambio comunitario y lo que permanece después de cada turno.",
+    "appStore": "Próximamente en App Store",
+    "googlePlay": "Próximamente en Google Play",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Lógica económica real",
+        "desc": "Activos, pasivos, puntuación crediticia y flujo de caja siguen reglas concretas."
+      },
+      {
+        "icon": "◆",
+        "title": "Impacto comunitario",
+        "desc": "Cada decisión cambia el mundo que te rodea y lo que viene después."
+      },
+      {
+        "icon": "◐",
+        "title": "Análisis personalizado",
+        "desc": "Después de decisiones clave, el informe muestra qué ocurrió y qué cambió."
+      }
     ],
-    quote: '"Lo que construyes es solo una parte de la historia."',
-    quoteSub: 'El juego pone el foco en el coste, el intercambio y lo que queda.',
+    "quote": "\"Lo que construyes es solo una parte de la historia.\"",
+    "quoteSub": "El juego pone el foco en el coste, el intercambio y lo que queda."
   },
-  sv: {
-    badge: 'Turbaserad ekonomisimulering',
-    headline1: 'Varje beslut lämnar',
-    headline2: 'ett spår.',
-    sub: 'En turbaserad simulering om finansiella beslut, samhällsförändring och det som består efter varje tur.',
-    appStore: 'Kommer snart till App Store',
-    googlePlay: 'Kommer snart till Google Play',
-    features: [
-      { icon: '●', title: 'Verklig ekonomisk logik', desc: 'Tillgångar, skulder, kreditpoäng och kassaflöde följer konkreta regler.' },
-      { icon: '◆', title: 'Påverkan på omgivningen', desc: 'Varje beslut förändrar världen omkring dig och det som kommer efter.' },
-      { icon: '◐', title: 'Personlig analys', desc: 'Efter viktiga beslut visar rapporten vad som hände och vad som förändrades.' },
+  "sv": {
+    "badge": "Turbaserad ekonomisimulering",
+    "headline1": "Varje beslut lämnar",
+    "headline2": "ett spår.",
+    "sub": "En turbaserad simulering om finansiella beslut, samhällsförändring och det som består efter varje tur.",
+    "appStore": "Kommer snart till App Store",
+    "googlePlay": "Kommer snart till Google Play",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Verklig ekonomisk logik",
+        "desc": "Tillgångar, skulder, kreditpoäng och kassaflöde följer konkreta regler."
+      },
+      {
+        "icon": "◆",
+        "title": "Påverkan på omgivningen",
+        "desc": "Varje beslut förändrar världen omkring dig och det som kommer efter."
+      },
+      {
+        "icon": "◐",
+        "title": "Personlig analys",
+        "desc": "Efter viktiga beslut visar rapporten vad som hände och vad som förändrades."
+      }
     ],
-    quote: '"Det du bygger är bara en del av berättelsen."',
-    quoteSub: 'Spelet lyfter fram kostnaden, avvägningen och det som blir kvar.',
+    "quote": "\"Det du bygger är bara en del av berättelsen.\"",
+    "quoteSub": "Spelet lyfter fram kostnaden, avvägningen och det som blir kvar."
   },
+  "fr": {
+    "badge": "Simulation économique au tour par tour",
+    "headline1": "Chaque décision laisse",
+    "headline2": "une trace.",
+    "sub": "Une simulation au tour par tour sur les choix financiers, les changements communautaires et ce qui reste après chaque tour.",
+    "appStore": "App Store à venir",
+    "googlePlay": "Google Play bientôt disponible",
+    "features": [
+      {
+        "icon": "●",
+        "title": "La vraie logique économique",
+        "desc": "Les actifs, les passifs, les cotes de crédit et les flux de trésorerie suivent des règles fondées."
+      },
+      {
+        "icon": "◆",
+        "title": "Impact sur la communauté",
+        "desc": "Vos décisions changent le monde qui vous entoure et ce qui va suivre."
+      },
+      {
+        "icon": "◐",
+        "title": "Analyse personnalisée",
+        "desc": "Le rapport montre ce qui s'est passé, ce que cela signifie et ce qui a changé."
+      }
+    ],
+    "quote": "\"Ce que vous construisez n'est qu'une partie de l'histoire.\"",
+    "quoteSub": "Shadow Economy se concentre sur les coûts, les compromis et ce qui reste."
+  },
+  "de": {
+    "badge": "Rundenbasierte Wirtschaftssimulation",
+    "headline1": "Jede Entscheidung hinterlässt",
+    "headline2": "eine Spur.",
+    "sub": "Eine rundenbasierte Simulation über finanzielle Entscheidungen, Veränderungen in der Gemeinschaft und was nach jeder Runde übrig bleibt.",
+    "appStore": "App Store kommt bald",
+    "googlePlay": "Google Play kommt bald",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Echte Wirtschaftslogik",
+        "desc": "Vermögenswerte, Verbindlichkeiten, Kreditwürdigkeit und Cashflow folgen fundierten Regeln."
+      },
+      {
+        "icon": "◆",
+        "title": "Auswirkungen auf die Gemeinschaft",
+        "desc": "Ihre Entscheidungen verändern die Welt um Sie herum und was als nächstes kommt."
+      },
+      {
+        "icon": "◐",
+        "title": "Personalisierte Analyse",
+        "desc": "Der Bericht zeigt, was passiert ist, was es bedeutet und was sich geändert hat."
+      }
+    ],
+    "quote": "„Was Sie bauen, ist nur ein Teil der Geschichte.“",
+    "quoteSub": "Shadow Economy konzentriert sich auf Kosten, Kompromisse und was übrig bleibt."
+  },
+  "ru": {
+    "badge": "Пошаговое экономическое моделирование",
+    "headline1": "Каждое решение оставляет",
+    "headline2": "след.",
+    "sub": "Пошаговая симуляция финансового выбора, изменений в сообществе и того, что остается после каждого хода.",
+    "appStore": "App Store скоро появится",
+    "googlePlay": "Google Play скоро появится",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Реальная экономическая логика",
+        "desc": "Активы, обязательства, кредитные рейтинги и потоки денежных средств подчиняются обоснованным правилам."
+      },
+      {
+        "icon": "◆",
+        "title": "Влияние сообщества",
+        "desc": "Ваши решения меняют мир вокруг вас и то, что будет дальше."
+      },
+      {
+        "icon": "◐",
+        "title": "Персонализированный анализ",
+        "desc": "В отчете показано, что произошло, что это значит и что изменилось."
+      }
+    ],
+    "quote": "«То, что вы строите, — это только часть истории».",
+    "quoteSub": "Shadow Economy фокусируется на стоимости, компромиссах и том, что остается."
+  },
+  "ar": {
+    "badge": "المحاكاة الاقتصادية القائمة على الدوران",
+    "headline1": "كل قرار يترك",
+    "headline2": "أثرًا.",
+    "sub": "محاكاة تعتمد على الأدوار حول الاختيارات المالية وتغيير المجتمع وما يتبقى بعد كل دور.",
+    "appStore": "App Store قريبا",
+    "googlePlay": "Google Play قريبا",
+    "features": [
+      {
+        "icon": "●",
+        "title": "المنطق الاقتصادي الحقيقي",
+        "desc": "تتبع الأصول والالتزامات ودرجات الائتمان والتدفق النقدي قواعد ثابتة."
+      },
+      {
+        "icon": "◆",
+        "title": "تأثير المجتمع",
+        "desc": "قراراتك تغير العالم من حولك وما سيأتي بعد ذلك."
+      },
+      {
+        "icon": "◐",
+        "title": "تحليل شخصي",
+        "desc": "ويبين التقرير ما حدث وماذا يعني وما تغير."
+      }
+    ],
+    "quote": "\"ما تبنيه ليس سوى جزء من القصة.\"",
+    "quoteSub": "يركز Shadow Economy على التكلفة والمقايضات وما تبقى."
+  },
+  "pt": {
+    "badge": "Simulação Econômica Baseada em Turnos",
+    "headline1": "Toda decisão deixa",
+    "headline2": "um rastro.",
+    "sub": "Uma simulação baseada em turnos sobre escolhas financeiras, mudanças na comunidade e o que resta após cada turno.",
+    "appStore": "App Store em breve",
+    "googlePlay": "Google Play em breve",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Lógica Econômica Real",
+        "desc": "Ativos, passivos, pontuação de crédito e fluxo de caixa seguem regras fundamentadas."
+      },
+      {
+        "icon": "◆",
+        "title": "Impacto na comunidade",
+        "desc": "Suas decisões mudam o mundo ao seu redor e o que vem a seguir."
+      },
+      {
+        "icon": "◐",
+        "title": "Análise Personalizada",
+        "desc": "O relatório mostra o que aconteceu, o que significa e o que mudou."
+      }
+    ],
+    "quote": "\"O que você constrói é apenas parte da história.\"",
+    "quoteSub": "Shadow Economy concentra-se em custos, compensações e no que resta."
+  },
+  "it": {
+    "badge": "Simulazione economica a turni",
+    "headline1": "Ogni decisione lascia",
+    "headline2": "una traccia.",
+    "sub": "Una simulazione a turni sulle scelte finanziarie, il cambiamento della comunità e ciò che rimane dopo ogni turno.",
+    "appStore": "App Store in arrivo",
+    "googlePlay": "Google Play in arrivo",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Logica economica reale",
+        "desc": "Attività, passività, punteggi di credito e flusso di cassa seguono regole radicate."
+      },
+      {
+        "icon": "◆",
+        "title": "Impatto sulla comunità",
+        "desc": "Le tue decisioni cambiano il mondo intorno a te e ciò che verrà dopo."
+      },
+      {
+        "icon": "◐",
+        "title": "Analisi personalizzata",
+        "desc": "Il rapporto mostra cosa è successo, cosa significa e cosa è cambiato."
+      }
+    ],
+    "quote": "\"Ciò che costruisci è solo una parte della storia.\"",
+    "quoteSub": "Shadow Economy si concentra sui costi, sui compromessi e su ciò che rimane."
+  },
+  "nl": {
+    "badge": "Turn-based economische simulatie",
+    "headline1": "Elke beslissing laat",
+    "headline2": "een spoor na.",
+    "sub": "Een turn-based simulatie over financiële keuzes, veranderingen in de gemeenschap en wat er na elke beurt overblijft.",
+    "appStore": "App Store binnenkort beschikbaar",
+    "googlePlay": "Google Play binnenkort beschikbaar",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Echte economische logica",
+        "desc": "Activa, passiva, kredietscores en cashflow volgen geaarde regels."
+      },
+      {
+        "icon": "◆",
+        "title": "Gemeenschappelijke impact",
+        "desc": "Jouw beslissingen veranderen de wereld om je heen en wat daarna komt."
+      },
+      {
+        "icon": "◐",
+        "title": "Gepersonaliseerde analyse",
+        "desc": "Het rapport laat zien wat er is gebeurd, wat het betekent en wat er is veranderd."
+      }
+    ],
+    "quote": "\"Wat je bouwt is slechts een deel van het verhaal.\"",
+    "quoteSub": "Shadow Economy richt zich op kosten, afwegingen en wat er overblijft."
+  },
+  "id": {
+    "badge": "Simulasi Ekonomi Berbasis Giliran",
+    "headline1": "Setiap keputusan meninggalkan",
+    "headline2": "sebuah jejak.",
+    "sub": "Simulasi berbasis giliran tentang pilihan finansial, perubahan komunitas, dan apa yang tersisa setelah setiap giliran.",
+    "appStore": "App Store segera hadir",
+    "googlePlay": "Google Play segera hadir",
+    "features": [
+      {
+        "icon": "●",
+        "title": "Logika Ekonomi Riil",
+        "desc": "Aset, kewajiban, nilai kredit, dan arus kas mengikuti aturan yang mendasar."
+      },
+      {
+        "icon": "◆",
+        "title": "Dampak Komunitas",
+        "desc": "Keputusan Anda mengubah dunia di sekitar Anda dan apa yang akan terjadi selanjutnya."
+      },
+      {
+        "icon": "◐",
+        "title": "Analisis yang Dipersonalisasi",
+        "desc": "Laporan tersebut menunjukkan apa yang terjadi, apa artinya, dan apa yang berubah."
+      }
+    ],
+    "quote": "“Apa yang Anda bangun hanyalah sebagian dari cerita.”",
+    "quoteSub": "Shadow Economy berfokus pada biaya, pengorbanan, dan hal-hal yang tersisa."
+  }
 }
 
 export function Landing() {

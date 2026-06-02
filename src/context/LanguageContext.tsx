@@ -1,6 +1,7 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, useEffect } from 'react'
 
-export type Lang = 'en' | 'ko' | 'ja' | 'zh' | 'es' | 'sv'
+export type Lang = 'en' | 'ko' | 'ja' | 'zh' | 'es' | 'sv' | 'fr' | 'de' | 'ru' | 'ar' | 'pt' | 'it' | 'nl' | 'id'
 
 export const LANGUAGES: { code: Lang; label: string }[] = [
   { code: 'en', label: 'EN' },
@@ -9,7 +10,21 @@ export const LANGUAGES: { code: Lang; label: string }[] = [
   { code: 'zh', label: '中文' },
   { code: 'es', label: 'ES' },
   { code: 'sv', label: 'SV' },
+  { code: 'fr', label: 'FR' },
+  { code: 'de', label: 'DE' },
+  { code: 'ru', label: 'RU' },
+  { code: 'ar', label: 'العربية' },
+  { code: 'pt', label: 'PT' },
+  { code: 'it', label: 'IT' },
+  { code: 'nl', label: 'NL' },
+  { code: 'id', label: 'ID' },
 ]
+
+const LANGUAGE_CODES = LANGUAGES.map((language) => language.code)
+
+function isLang(value: string | null): value is Lang {
+  return !!value && (LANGUAGE_CODES as string[]).includes(value)
+}
 
 const LanguageContext = createContext<{
   lang: Lang
@@ -18,17 +33,15 @@ const LanguageContext = createContext<{
 
 function detectLang(): Lang {
   try {
-    const saved = localStorage.getItem('lang') as Lang | null
-    if (saved && ['en', 'ko', 'ja', 'zh', 'es', 'sv'].includes(saved)) return saved
+    const saved = localStorage.getItem('lang')
+    if (isLang(saved)) return saved
   } catch {
     // Some private or hardened browser contexts block storage access.
   }
   const nav = navigator.language.toLowerCase()
-  if (nav.startsWith('ko')) return 'ko'
-  if (nav.startsWith('ja')) return 'ja'
+  const base = nav.split('-')[0]
+  if (isLang(base)) return base
   if (nav.startsWith('zh')) return 'zh'
-  if (nav.startsWith('es')) return 'es'
-  if (nav.startsWith('sv')) return 'sv'
   return 'en'
 }
 
@@ -46,6 +59,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     document.documentElement.lang = lang
+    document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr'
   }, [lang])
 
   return (
