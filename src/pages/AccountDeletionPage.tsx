@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Layout } from '../components/Layout'
 import { useLanguage } from '../context/LanguageContext'
+import { siteNav } from '../i18n/siteNav'
 
 const content = {
   "en": {
@@ -25,9 +26,7 @@ const content = {
       "Refund requests for app-store purchases are handled under Apple App Store or Google Play policies and procedures."
     ],
     "policyPrefix": "For more detail, review the",
-    "privacyLink": "Privacy Policy",
     "policyMiddle": "and",
-    "termsLink": "Terms of Service"
   },
   "fr": {
     "title": "Suppression de compte",
@@ -51,9 +50,7 @@ const content = {
       "Les demandes de remboursement pour les achats sur l'App Store sont traitées conformément aux politiques et procédures Apple App Store ou Google Play."
     ],
     "policyPrefix": "Pour plus de détails, consultez le",
-    "privacyLink": "Politique de confidentialité",
     "policyMiddle": "et",
-    "termsLink": "Conditions d'utilisation"
   },
   "de": {
     "title": "Kontolöschung",
@@ -77,9 +74,7 @@ const content = {
       "Rückerstattungsanträge für App-Store-Käufe werden gemäß den Richtlinien und Verfahren von Apple App Store oder Google Play bearbeitet."
     ],
     "policyPrefix": "Weitere Einzelheiten finden Sie in der",
-    "privacyLink": "Datenschutzrichtlinie",
     "policyMiddle": "und",
-    "termsLink": "Nutzungsbedingungen"
   },
   "ru": {
     "title": "Удаление учетной записи",
@@ -103,9 +98,7 @@ const content = {
       "Запросы на возврат средств за покупки в магазине приложений обрабатываются в соответствии с политиками и процедурами Apple App Store или Google Play."
     ],
     "policyPrefix": "Для более подробной информации ознакомьтесь с",
-    "privacyLink": "Политика конфиденциальности",
     "policyMiddle": "и",
-    "termsLink": "Условия использования"
   },
   "ar": {
     "title": "حذف الحساب",
@@ -129,9 +122,7 @@ const content = {
       "تتم معالجة طلبات استرداد الأموال الخاصة بمشتريات متجر التطبيقات بموجب سياسات وإجراءات Apple App Store أو Google Play."
     ],
     "policyPrefix": "لمزيد من التفاصيل، قم بمراجعة",
-    "privacyLink": "سياسة الخصوصية",
     "policyMiddle": "و",
-    "termsLink": "شروط الخدمة"
   },
   "pt": {
     "title": "Exclusão de conta",
@@ -155,9 +146,7 @@ const content = {
       "As solicitações de reembolso para compras na app store são tratadas de acordo com as políticas e procedimentos Apple App Store ou Google Play."
     ],
     "policyPrefix": "Para mais detalhes, revise o",
-    "privacyLink": "Política de Privacidade",
     "policyMiddle": "e",
-    "termsLink": "Termos de Serviço"
   },
   "it": {
     "title": "Cancellazione dell'account",
@@ -181,9 +170,7 @@ const content = {
       "Le richieste di rimborso per gli acquisti effettuati sull'app store vengono gestite in base alle politiche e procedure Apple App Store o Google Play."
     ],
     "policyPrefix": "Per maggiori dettagli, rivedere il",
-    "privacyLink": "politica sulla riservatezza",
     "policyMiddle": "E",
-    "termsLink": "Termini di servizio"
   },
   "nl": {
     "title": "Accountverwijdering",
@@ -207,9 +194,7 @@ const content = {
       "Terugbetalingsverzoeken voor aankopen in de app-store worden afgehandeld volgens het beleid en de procedures van Apple App Store of Google Play."
     ],
     "policyPrefix": "Voor meer details, bekijk de",
-    "privacyLink": "Privacybeleid",
     "policyMiddle": "en",
-    "termsLink": "Servicevoorwaarden"
   },
   "id": {
     "title": "Penghapusan Akun",
@@ -233,9 +218,7 @@ const content = {
       "Permintaan pengembalian dana untuk pembelian toko aplikasi ditangani berdasarkan kebijakan dan prosedur Apple App Store atau Google Play."
     ],
     "policyPrefix": "Untuk lebih jelasnya, tinjau",
-    "privacyLink": "Kebijakan Privasi",
     "policyMiddle": "dan",
-    "termsLink": "Ketentuan Layanan"
   },
   "ko": {
     "title": "계정 삭제",
@@ -259,9 +242,7 @@ const content = {
       "앱 스토어 구매에 대한 환불 요청은 Apple App Store 또는 Google Play 정책 및 절차에 따라 처리됩니다."
     ],
     "policyPrefix": "자세한 내용은 다음을 검토하세요.",
-    "privacyLink": "개인 정보 보호 정책",
     "policyMiddle": "그리고",
-    "termsLink": "서비스 약관"
   },
   "ja": {
     "title": "アカウントの削除",
@@ -285,9 +266,7 @@ const content = {
       "アプリストアでの購入に対する返金リクエストは、Apple App Store または Google Play のポリシーと手順に基づいて処理されます。"
     ],
     "policyPrefix": "詳細については、を参照してください。",
-    "privacyLink": "プライバシーポリシー",
     "policyMiddle": "そして",
-    "termsLink": "利用規約"
   },
   "zh": {
     "title": "帐户删除",
@@ -311,9 +290,7 @@ const content = {
       "应用商店购买的退款请求根据 Apple App Store 或 Google Play 政策和程序进行处理。"
     ],
     "policyPrefix": "有关更多详细信息，请查看",
-    "privacyLink": "隐私政策",
     "policyMiddle": "和",
-    "termsLink": "服务条款"
   },
   "es": {
     "title": "Eliminación de cuenta",
@@ -337,9 +314,7 @@ const content = {
       "Las solicitudes de reembolso para compras en tiendas de aplicaciones se manejan según las políticas y procedimientos Apple App Store o Google Play."
     ],
     "policyPrefix": "Para más detalles, revise el",
-    "privacyLink": "política de privacidad",
     "policyMiddle": "y",
-    "termsLink": "Términos de servicio"
   },
   "sv": {
     "title": "Radering av konto",
@@ -363,15 +338,14 @@ const content = {
       "Återbetalningsbegäranden för köp i appbutiker hanteras enligt Apple App Store eller Google Play policyer och procedurer."
     ],
     "policyPrefix": "För mer information, se",
-    "privacyLink": "Sekretesspolicy",
     "policyMiddle": "och",
-    "termsLink": "Användarvillkor"
   }
 }
 
 export function AccountDeletionPage() {
   const { lang } = useLanguage()
   const tx = content[lang]
+  const nav = siteNav[lang]
 
   return (
     <Layout>
@@ -413,9 +387,9 @@ export function AccountDeletionPage() {
 
           <p className="text-xs text-gray-600">
             {tx.policyPrefix}{' '}
-            <Link to="/privacy" className="text-amber-400 hover:text-amber-300">{tx.privacyLink}</Link>
+            <Link to="/privacy" className="text-amber-400 hover:text-amber-300">{nav.footerPrivacy}</Link>
             {' '}{tx.policyMiddle}{' '}
-            <Link to="/terms" className="text-amber-400 hover:text-amber-300">{tx.termsLink}</Link>.
+            <Link to="/terms" className="text-amber-400 hover:text-amber-300">{nav.footerTerms}</Link>.
           </p>
         </section>
       </div>
