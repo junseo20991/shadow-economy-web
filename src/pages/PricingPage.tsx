@@ -39,7 +39,6 @@ const content = {
       "credits": "8 credits · 1 credit per completed game",
       "tagline": "The full path of an analyst. How will you be recorded? Experience and traces, your world alone.",
       "perReport": "$2.00 / report",
-      "saving": "Save 33% per report vs. Observer",
       "cta": "In-app purchase only"
     },
     "features": [
@@ -94,7 +93,6 @@ const content = {
       "credits": "크레딧 8개 · 완료한 게임 1회당 1개",
       "tagline": "완전한 분석가의 길, 어떤 사람으로 기록될까요? 경험과 흔적, 오직 당신의 세계입니다.",
       "perReport": "보고서 1회당 $2.00",
-      "saving": "관찰자 팩 대비 보고서당 33% 절약",
       "cta": "앱 내 구매만 가능"
     },
     "features": [
@@ -149,7 +147,6 @@ const content = {
       "credits": "クレジット8個 · 完了したゲーム1回につき1個",
       "tagline": "完全な分析家の道。あなたはどんな人物として記録されるでしょうか。経験と痕跡、ただあなたの世界です。",
       "perReport": "レポート1件あたり $2.00",
-      "saving": "観察者パックと比べてレポート1件あたり33%お得",
       "cta": "アプリ内購入のみ"
     },
     "features": [
@@ -204,7 +201,6 @@ const content = {
       "credits": "8个积分 · 每完成一局使用1个",
       "tagline": "完整的分析家之路。你会被记录成怎样的人？经验与痕迹，只属于你的世界。",
       "perReport": "每份报告 $2.00",
-      "saving": "相比观察者套餐，每份报告节省33%",
       "cta": "仅限应用内购买"
     },
     "features": [
@@ -259,7 +255,6 @@ const content = {
       "credits": "8 créditos · 1 crédito por partida completada",
       "tagline": "El camino completo del analista. ¿Cómo quedarás registrado? Experiencia y huellas, solo tu mundo.",
       "perReport": "$2.00 / informe",
-      "saving": "Ahorra un 33% por informe frente al pack Observador",
       "cta": "Solo compra en la app"
     },
     "features": [
@@ -314,7 +309,6 @@ const content = {
       "credits": "8 krediter · 1 kredit per slutförd omgång",
       "tagline": "Den fullständiga analytikerns väg. Hur kommer du att bli ihågkommen? Upplevelse och spår, bara din värld.",
       "perReport": "$2.00 / rapport",
-      "saving": "Spara 33% per rapport jämfört med Observatör-paketet",
       "cta": "Endast i appen"
     },
     "features": [
@@ -369,7 +363,6 @@ const content = {
       "credits": "8 crédits · 1 crédit par partie terminée",
       "tagline": "Le parcours complet de l’analyste. Comment serez-vous consigné ? Expériences et traces, votre monde à vous seul.",
       "perReport": "$2.00 / rapport",
-      "saving": "Économisez 33 % par rapport face au pack Observateur",
       "cta": "Achat intégré uniquement"
     },
     "features": [
@@ -424,7 +417,6 @@ const content = {
       "credits": "8 Guthaben · 1 Guthaben pro abgeschlossenem Spiel",
       "tagline": "Der vollständige Weg eines Analysten. Als was werden Sie festgehalten? Erfahrung und Spuren, allein Ihre Welt.",
       "perReport": "$2.00 / Bericht",
-      "saving": "33% pro Bericht gegenüber Beobachter sparen",
       "cta": "Nur In-App-Kauf"
     },
     "features": [
@@ -479,7 +471,6 @@ const content = {
       "credits": "8 кредитов · 1 кредит за завершённую игру",
       "tagline": "Полный путь аналитика. Каким человеком вы останетесь в записи? Опыт и следы, только ваш мир.",
       "perReport": "$2.00 / отчёт",
-      "saving": "Экономия 33% за отчёт по сравнению с Наблюдателем",
       "cta": "Только внутриигровая покупка"
     },
     "features": [
@@ -534,7 +525,6 @@ const content = {
       "credits": "8 أرصدة · رصيد واحد لكل لعبة مكتملة",
       "tagline": "المسار الكامل للمحلل. كيف سيتم تسجيلك؟ التجربة والآثار، عالمك وحدك.",
       "perReport": "$2.00 / تقرير",
-      "saving": "وفّر 33% لكل تقرير مقارنة بباقة المراقب",
       "cta": "الشراء داخل التطبيق فقط"
     },
     "features": [
@@ -589,7 +579,6 @@ const content = {
       "credits": "8 créditos · 1 crédito por jogo concluído",
       "tagline": "O caminho completo do analista. Como você será registrado? Experiência e vestígios, apenas o seu mundo.",
       "perReport": "$2.00 / relatório",
-      "saving": "Economize 33% por relatório em relação ao Observador",
       "cta": "Apenas compra no app"
     },
     "features": [
@@ -644,7 +633,6 @@ const content = {
       "credits": "8 crediti · 1 credito per partita completata",
       "tagline": "Il percorso completo dell’analista. Come verrai ricordato? Esperienza e tracce, solo il tuo mondo.",
       "perReport": "$2.00 / rapporto",
-      "saving": "Risparmia il 33% per rapporto rispetto a Osservatore",
       "cta": "Solo acquisto in-app"
     },
     "features": [
@@ -699,7 +687,6 @@ const content = {
       "credits": "8 tegoeden · 1 tegoed per voltooid spel",
       "tagline": "Het volledige pad van de analist. Hoe word jij vastgelegd? Ervaring en sporen, alleen jouw wereld.",
       "perReport": "$2.00 / rapport",
-      "saving": "Bespaar 33% per rapport tegenover Waarnemer",
       "cta": "Alleen in-app aankoop"
     },
     "features": [
@@ -754,7 +741,6 @@ const content = {
       "credits": "8 kredit · 1 kredit per permainan selesai",
       "tagline": "Jalur lengkap seorang analis. Akan tercatat sebagai orang seperti apa Anda? Pengalaman dan jejak, hanya dunia Anda.",
       "perReport": "$2.00 / laporan",
-      "saving": "Hemat 33% per laporan dibanding Pengamat",
       "cta": "Pembelian dalam aplikasi saja"
     },
     "features": [
@@ -855,6 +841,7 @@ export function PricingPage() {
             selectedId={regionId}
             title={ui.regionModalTitle}
             closeLabel={ui.regionModalClose}
+            searchPlaceholder={ui.regionSearchPlaceholder}
             onClose={() => setPickerOpen(false)}
             onSelect={handleRegionSelect}
           />
@@ -924,8 +911,7 @@ export function PricingPage() {
                 <div className="flex items-baseline gap-2 mb-1">
                   <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'power')}</span>
                 </div>
-                <p className="text-xs text-amber-500/70 mb-1">{tx.power.credits} · {perReport('power')}</p>
-                <p className="text-xs text-amber-400/60 mb-4">{tx.power.saving}</p>
+                <p className="text-xs text-amber-500/70 mb-4">{tx.power.credits} · {perReport('power')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.power.tagline}</p>
               </div>
 
