@@ -1,9 +1,18 @@
+import { useEffect, useState } from 'react'
 import { Layout } from '../components/Layout'
+import { PricingRegionPicker } from '../components/PricingRegionPicker'
 import { useLanguage } from '../context/LanguageContext'
-
-const STARTER_PRICE = '$8.99'
-const MIDDLE_PRICE = '$12.99'
-const POWER_PRICE = '$15.99'
+import {
+  LANG_DEFAULT_REGION,
+  PRICING_REGION_BY_ID,
+  formatPackPrice,
+  formatPerReportPrice,
+  readStoredRegionId,
+  regionDisplayName,
+  storeRegionId,
+  type PricingRegionId,
+} from '../data/appleStorePricing'
+import { PRICING_UI } from '../i18n/pricingUi'
 
 const content = {
   "en": {
@@ -789,6 +798,27 @@ function CheckIcon() {
 export function PricingPage() {
   const { lang } = useLanguage()
   const tx = content[lang]
+  const ui = PRICING_UI[lang]
+  const [regionId, setRegionId] = useState<PricingRegionId>(
+    () => readStoredRegionId() ?? LANG_DEFAULT_REGION[lang],
+  )
+  const [pickerOpen, setPickerOpen] = useState(false)
+
+  useEffect(() => {
+    const stored = readStoredRegionId()
+    if (!stored) setRegionId(LANG_DEFAULT_REGION[lang])
+  }, [lang])
+
+  const region = PRICING_REGION_BY_ID[regionId]
+  const regionLabel = regionDisplayName(region, lang)
+
+  const handleRegionSelect = (id: PricingRegionId) => {
+    setRegionId(id)
+    storeRegionId(id)
+  }
+
+  const perReport = (pack: 'starter' | 'middle' | 'power') =>
+    `${formatPerReportPrice(region, pack)} ${ui.perReportSuffix}`
 
   return (
     <Layout>
@@ -806,6 +836,29 @@ export function PricingPage() {
       {/* Pricing cards */}
       <section className="border-t border-gray-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+          <div className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5 sm:p-6 text-left">
+            <p className="text-sm leading-relaxed text-gray-400">{ui.pricingNotice}</p>
+            <button
+              type="button"
+              onClick={() => setPickerOpen(true)}
+              className="mt-4 inline-flex items-center gap-2 rounded-lg border border-amber-500/40 bg-amber-500/10 px-4 py-2.5 text-sm font-semibold text-amber-300 transition-colors hover:bg-amber-500/20"
+            >
+              <span aria-hidden>🌐</span>
+              {ui.selectRegion}
+              <span className="text-amber-400/80 font-normal">· {regionLabel}</span>
+            </button>
+          </div>
+
+          <PricingRegionPicker
+            open={pickerOpen}
+            lang={lang}
+            selectedId={regionId}
+            title={ui.regionModalTitle}
+            closeLabel={ui.regionModalClose}
+            onClose={() => setPickerOpen(false)}
+            onSelect={handleRegionSelect}
+          />
+
           <div className="grid sm:grid-cols-3 gap-5">
 
             {/* Starter */}
@@ -813,9 +866,9 @@ export function PricingPage() {
               <div className="mb-6">
                 <p className="text-sm font-semibold text-gray-300 mb-1">{tx.starter.name}</p>
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-4xl font-bold text-white">{STARTER_PRICE}</span>
+                  <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'starter')}</span>
                 </div>
-                <p className="text-xs text-gray-500 mb-4">{tx.starter.credits} · {tx.starter.perReport}</p>
+                <p className="text-xs text-gray-500 mb-4">{tx.starter.credits} · {perReport('starter')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.starter.tagline}</p>
               </div>
 
@@ -838,9 +891,9 @@ export function PricingPage() {
               <div className="mb-6">
                 <p className="text-sm font-semibold text-gray-300 mb-1">{tx.middle.name}</p>
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-4xl font-bold text-white">{MIDDLE_PRICE}</span>
+                  <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'middle')}</span>
                 </div>
-                <p className="text-xs text-gray-500 mb-4">{tx.middle.credits} · {tx.middle.perReport}</p>
+                <p className="text-xs text-gray-500 mb-4">{tx.middle.credits} · {perReport('middle')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.middle.tagline}</p>
               </div>
 
@@ -869,9 +922,9 @@ export function PricingPage() {
               <div className="mb-6">
                 <p className="text-sm font-semibold text-amber-400 mb-1">{tx.power.name}</p>
                 <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-4xl font-bold text-white">{POWER_PRICE}</span>
+                  <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'power')}</span>
                 </div>
-                <p className="text-xs text-amber-500/70 mb-1">{tx.power.credits} · {tx.power.perReport}</p>
+                <p className="text-xs text-amber-500/70 mb-1">{tx.power.credits} · {perReport('power')}</p>
                 <p className="text-xs text-amber-400/60 mb-4">{tx.power.saving}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.power.tagline}</p>
               </div>
