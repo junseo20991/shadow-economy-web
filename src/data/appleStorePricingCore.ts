@@ -135,6 +135,13 @@ export function region(
 
 const CREDITS = { starter: 3, middle: 5, power: 8 } as const
 
+/** US & Canada list pre-tax prices; App Store adds tax at checkout. */
+const TAX_EXCLUDED_AT_CHECKOUT = new Set(['us', 'ca'])
+
+export function regionPricesIncludeTax(regionId: string): boolean {
+  return !TAX_EXCLUDED_AT_CHECKOUT.has(regionId)
+}
+
 const INTEGER_FORMATS: Set<ApplePriceFormat> = new Set([
   'jpy',
   'krw',

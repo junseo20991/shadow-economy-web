@@ -7,6 +7,8 @@ export type PricingUiStrings = {
   regionModalClose: string
   regionSearchPlaceholder: string
   perReportSuffix: string
+  /** Shown next to pack prices when tax is included in the listed price (not US/Canada). */
+  taxIncludedLabel: string
 }
 
 export const PRICING_UI: Record<Lang, PricingUiStrings> = {
@@ -18,6 +20,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Close',
     regionSearchPlaceholder: 'Search country or region',
     perReportSuffix: '/ report',
+    taxIncludedLabel: '(tax included)',
   },
   ko: {
     pricingNotice:
@@ -27,6 +30,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: '닫기',
     regionSearchPlaceholder: '국가·지역 검색',
     perReportSuffix: '/ 보고서',
+    taxIncludedLabel: '(세금 포함)',
   },
   ja: {
     pricingNotice:
@@ -36,6 +40,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: '閉じる',
     regionSearchPlaceholder: '国・地域を検索',
     perReportSuffix: '/ レポート',
+    taxIncludedLabel: '(税込)',
   },
   zh: {
     pricingNotice:
@@ -45,6 +50,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: '关闭',
     regionSearchPlaceholder: '搜索国家/地区',
     perReportSuffix: '/ 报告',
+    taxIncludedLabel: '(含税)',
   },
   es: {
     pricingNotice:
@@ -54,6 +60,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Cerrar',
     regionSearchPlaceholder: 'Buscar país o región',
     perReportSuffix: '/ informe',
+    taxIncludedLabel: '(impuestos incluidos)',
   },
   sv: {
     pricingNotice:
@@ -63,6 +70,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Stäng',
     regionSearchPlaceholder: 'Sök land eller region',
     perReportSuffix: '/ rapport',
+    taxIncludedLabel: '(inkl. moms)',
   },
   fr: {
     pricingNotice:
@@ -72,6 +80,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Fermer',
     regionSearchPlaceholder: 'Rechercher un pays ou une région',
     perReportSuffix: '/ rapport',
+    taxIncludedLabel: '(taxes incluses)',
   },
   de: {
     pricingNotice:
@@ -81,6 +90,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Schließen',
     regionSearchPlaceholder: 'Land oder Region suchen',
     perReportSuffix: '/ Bericht',
+    taxIncludedLabel: '(inkl. MwSt.)',
   },
   ru: {
     pricingNotice:
@@ -90,6 +100,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Закрыть',
     regionSearchPlaceholder: 'Поиск страны или региона',
     perReportSuffix: '/ отчёт',
+    taxIncludedLabel: '(с учётом налога)',
   },
   ar: {
     pricingNotice:
@@ -99,6 +110,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'إغلاق',
     regionSearchPlaceholder: 'البحث عن بلد أو منطقة',
     perReportSuffix: '/ تقرير',
+    taxIncludedLabel: '(شامل الضريبة)',
   },
   pt: {
     pricingNotice:
@@ -108,6 +120,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Fechar',
     regionSearchPlaceholder: 'Pesquisar país ou região',
     perReportSuffix: '/ relatório',
+    taxIncludedLabel: '(impostos incluídos)',
   },
   it: {
     pricingNotice:
@@ -117,6 +130,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Chiudi',
     regionSearchPlaceholder: 'Cerca paese o regione',
     perReportSuffix: '/ rapporto',
+    taxIncludedLabel: '(IVA inclusa)',
   },
   nl: {
     pricingNotice:
@@ -126,6 +140,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Sluiten',
     regionSearchPlaceholder: 'Zoek land of regio',
     perReportSuffix: '/ rapport',
+    taxIncludedLabel: '(incl. btw)',
   },
   id: {
     pricingNotice:
@@ -135,5 +150,6 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
     regionModalClose: 'Tutup',
     regionSearchPlaceholder: 'Cari negara atau wilayah',
     perReportSuffix: '/ laporan',
+    taxIncludedLabel: '(termasuk pajak)',
   },
 }

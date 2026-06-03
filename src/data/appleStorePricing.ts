@@ -12,6 +12,7 @@ export {
   formatApplePrice,
   formatPackPrice,
   formatPerReportPrice,
+  regionPricesIncludeTax,
   sortRegionsForLang,
 } from './appleStorePricingCore'
 

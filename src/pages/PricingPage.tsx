@@ -7,6 +7,7 @@ import {
   PRICING_REGION_BY_ID,
   formatPackPrice,
   formatPerReportPrice,
+  regionPricesIncludeTax,
   readStoredRegionId,
   regionDisplayName,
   storeRegionId,
@@ -806,6 +807,21 @@ export function PricingPage() {
   const perReport = (pack: 'starter' | 'middle' | 'power') =>
     `${formatPerReportPrice(region, pack)} ${ui.perReportSuffix}`
 
+  const showTaxIncluded = regionPricesIncludeTax(regionId)
+
+  const packPriceLine = (
+    pack: 'starter' | 'middle' | 'power',
+    priceClass: string,
+    taxClass: string,
+  ) => (
+    <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 mb-1">
+      <span className={priceClass}>{formatPackPrice(region, pack)}</span>
+      {showTaxIncluded ? (
+        <span className={taxClass}>{ui.taxIncludedLabel}</span>
+      ) : null}
+    </div>
+  )
+
   return (
     <Layout>
       {/* Hero */}
@@ -852,9 +868,11 @@ export function PricingPage() {
             <div className="flex flex-col rounded-2xl border border-gray-700 bg-gray-900/50 p-6 sm:p-8">
               <div className="mb-6">
                 <p className="text-sm font-semibold text-gray-300 mb-1">{tx.starter.name}</p>
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'starter')}</span>
-                </div>
+                {packPriceLine(
+                  'starter',
+                  'text-4xl font-bold text-white',
+                  'text-sm font-normal text-gray-500',
+                )}
                 <p className="text-xs text-gray-500 mb-4">{tx.starter.credits} · {perReport('starter')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.starter.tagline}</p>
               </div>
@@ -877,9 +895,11 @@ export function PricingPage() {
             <div className="flex flex-col rounded-2xl border border-gray-700 bg-gray-900/50 p-6 sm:p-8">
               <div className="mb-6">
                 <p className="text-sm font-semibold text-gray-300 mb-1">{tx.middle.name}</p>
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'middle')}</span>
-                </div>
+                {packPriceLine(
+                  'middle',
+                  'text-4xl font-bold text-white',
+                  'text-sm font-normal text-gray-500',
+                )}
                 <p className="text-xs text-gray-500 mb-4">{tx.middle.credits} · {perReport('middle')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.middle.tagline}</p>
               </div>
@@ -908,9 +928,11 @@ export function PricingPage() {
 
               <div className="mb-6">
                 <p className="text-sm font-semibold text-amber-400 mb-1">{tx.power.name}</p>
-                <div className="flex items-baseline gap-2 mb-1">
-                  <span className="text-4xl font-bold text-white">{formatPackPrice(region, 'power')}</span>
-                </div>
+                {packPriceLine(
+                  'power',
+                  'text-4xl font-bold text-white',
+                  'text-sm font-normal text-amber-500/60',
+                )}
                 <p className="text-xs text-amber-500/70 mb-4">{tx.power.credits} · {perReport('power')}</p>
                 <p className="text-sm text-gray-400 leading-relaxed">{tx.power.tagline}</p>
               </div>
