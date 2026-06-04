@@ -3,21 +3,22 @@ import { createContext, useContext, useState, useEffect } from 'react'
 
 export type Lang = 'en' | 'ko' | 'ja' | 'zh' | 'es' | 'sv' | 'fr' | 'de' | 'ru' | 'ar' | 'pt' | 'it' | 'nl' | 'id'
 
+/** Endonym labels (each language’s name in that language). */
 export const LANGUAGES: { code: Lang; label: string }[] = [
-  { code: 'en', label: 'EN' },
+  { code: 'en', label: 'English' },
   { code: 'ko', label: '한국어' },
   { code: 'ja', label: '日本語' },
   { code: 'zh', label: '中文' },
-  { code: 'es', label: 'ES' },
-  { code: 'sv', label: 'SV' },
-  { code: 'fr', label: 'FR' },
-  { code: 'de', label: 'DE' },
-  { code: 'ru', label: 'RU' },
+  { code: 'es', label: 'Español' },
+  { code: 'sv', label: 'Svenska' },
+  { code: 'fr', label: 'Français' },
+  { code: 'de', label: 'Deutsch' },
+  { code: 'ru', label: 'Русский' },
   { code: 'ar', label: 'العربية' },
-  { code: 'pt', label: 'PT' },
-  { code: 'it', label: 'IT' },
-  { code: 'nl', label: 'NL' },
-  { code: 'id', label: 'ID' },
+  { code: 'pt', label: 'Português' },
+  { code: 'it', label: 'Italiano' },
+  { code: 'nl', label: 'Nederlands' },
+  { code: 'id', label: 'Bahasa Indonesia' },
 ]
 
 const LANGUAGE_CODES = LANGUAGES.map((language) => language.code)

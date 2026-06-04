@@ -57,7 +57,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <select
               value={lang}
               onChange={(e) => setLang(e.target.value as typeof lang)}
-              className="ml-1 cursor-pointer rounded border border-gray-700 bg-gray-900 px-2 py-1 text-xs text-gray-300 focus:outline-none focus:border-amber-500"
+              className="ml-1 max-w-[11rem] cursor-pointer rounded border border-gray-700 bg-gray-900 px-2 py-1 text-xs text-gray-300 focus:outline-none focus:border-amber-500"
             >
               {LANGUAGES.map((l) => (
                 <option key={l.code} value={l.code}>{l.label}</option>
@@ -69,7 +69,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <select
               value={lang}
               onChange={(e) => setLang(e.target.value as typeof lang)}
-              className="cursor-pointer rounded border border-gray-700 bg-gray-900 px-2 py-1 text-xs text-gray-300 focus:outline-none focus:border-amber-500"
+              className="max-w-[9.5rem] cursor-pointer rounded border border-gray-700 bg-gray-900 px-2 py-1 text-xs text-gray-300 focus:outline-none focus:border-amber-500"
             >
               {LANGUAGES.map((l) => (
                 <option key={l.code} value={l.code}>{l.label}</option>
