@@ -893,7 +893,7 @@ export function GamePage() {
   return (
     <Layout>
       <section className="border-t border-gray-800">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.philosophyTitle}</h2>
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {tx.philosophy.map((p) => (
@@ -907,7 +907,7 @@ export function GamePage() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-14 sm:py-20 text-center">
+        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20 text-center">
           <h2 className="text-2xl font-bold text-white mb-8">{tx.shadowTitle}</h2>
           <p className="text-gray-400 leading-relaxed mb-5">{tx.shadowBody}</p>
           <p className="text-gray-400 leading-relaxed mb-10">{tx.shadowBody2}</p>
@@ -932,7 +932,7 @@ export function GamePage() {
       </section>
 
       <section className="border-t border-gray-800">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.mechanicsTitle}</h2>
           <div className="grid sm:grid-cols-3 gap-6 sm:gap-6">
             {tx.mechanics.map((m) => (
@@ -946,7 +946,7 @@ export function GamePage() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-14 sm:py-20 text-center">
+        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20 text-center">
           <h2 className="text-2xl font-bold text-white mb-7">{tx.whyTitle}</h2>
           <p className="text-gray-400 leading-relaxed mb-5">{tx.whyBody}</p>
           <p className="text-gray-300 leading-relaxed">{tx.whyBody2}</p>
@@ -954,7 +954,7 @@ export function GamePage() {
       </section>
 
       <section className="border-t border-gray-800">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20">
+        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.whoTitle}</h2>
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-5 mb-10 sm:mb-12">
             {tx.whoProfiles.map((p) => (

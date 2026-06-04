@@ -388,7 +388,7 @@ export function Landing() {
 
   return (
     <Layout>
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-24 text-center">
+      <section className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-24 text-center">
         <div className="inline-block mb-6 px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-medium tracking-wider uppercase">
           {tx.badge}
         </div>
@@ -409,7 +409,7 @@ export function Landing() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-14 sm:py-20 grid sm:grid-cols-3 gap-8 sm:gap-10">
+        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20 grid sm:grid-cols-3 gap-8 sm:gap-10">
           {tx.features.map((f) => (
             <div key={f.title} className="text-center">
               <div className="text-3xl mb-4 text-amber-400">{f.icon}</div>

@@ -7,11 +7,9 @@ type LanguagePickerProps = {
   onChange: (lang: Lang) => void
   label: string
   className?: string
-  /** Hide word label on very narrow mobile header columns */
-  compact?: boolean
 }
 
-export function LanguagePicker({ lang, onChange, label, className = '', compact = false }: LanguagePickerProps) {
+export function LanguagePicker({ lang, onChange, label, className = '' }: LanguagePickerProps) {
   const [open, setOpen] = useState(false)
   const rootRef = useRef<HTMLDivElement>(null)
 
@@ -42,7 +40,7 @@ export function LanguagePicker({ lang, onChange, label, className = '', compact 
         className="inline-flex h-8 max-w-full items-center gap-1.5 rounded-lg border border-gray-700 bg-gray-900 px-2 text-xs text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 sm:gap-2 sm:px-2.5"
       >
         <GlobeMark className="shrink-0 text-sm text-gray-400" />
-        <span className={`whitespace-nowrap ${compact ? 'max-[380px]:hidden' : ''}`}>{label}</span>
+        <span className="whitespace-nowrap">{label}</span>
         <svg
           width="12"
           height="12"
