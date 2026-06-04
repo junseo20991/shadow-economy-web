@@ -1,41 +1,9 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { useLanguage, LANGUAGES, type Lang } from '../context/LanguageContext'
-import { GlobeMark } from './GlobeMark'
+import { useLanguage } from '../context/LanguageContext'
+import { LanguagePicker } from './LanguagePicker'
 
 import { siteNav as t } from '../i18n/siteNav'
-
-function LanguageSelect({
-  lang,
-  onChange,
-  className = '',
-}: {
-  lang: Lang
-  onChange: (lang: Lang) => void
-  className?: string
-}) {
-  const current = LANGUAGES.find((l) => l.code === lang)
-
-  return (
-    <div
-      className={`relative inline-flex h-8 w-8 shrink-0 items-center justify-center rounded border border-gray-700 bg-gray-900 ${className}`.trim()}
-    >
-      <GlobeMark className="pointer-events-none text-sm text-gray-400" />
-      <select
-        value={lang}
-        onChange={(e) => onChange(e.target.value as Lang)}
-        aria-label={current?.label ?? 'Language'}
-        className="absolute inset-0 cursor-pointer opacity-0"
-      >
-        {LANGUAGES.map((l) => (
-          <option key={l.code} value={l.code}>
-            {l.label}
-          </option>
-        ))}
-      </select>
-    </div>
-  )
-}
 
 const navItemClass = 'shrink-0 whitespace-nowrap'
 
@@ -127,7 +95,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex flex-col bg-gray-950 text-gray-100">
       <header className="relative z-40 border-b border-gray-800">
         {/* Mobile: menu | brand (center) | language */}
-        <div className="grid h-14 w-full grid-cols-[2.5rem_1fr_2.5rem] items-center gap-2 px-3 sm:hidden">
+        <div className="grid h-14 w-full grid-cols-[auto_1fr_auto] items-center gap-2 px-3 sm:hidden md:px-6">
           <button
             type="button"
             onClick={() => setMenuOpen((v) => !v)}
@@ -151,12 +119,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <BrandLink onClick={close} className="justify-self-center" />
 
           <div className="flex justify-end justify-self-end">
-            <LanguageSelect lang={lang} onChange={setLang} />
+            <LanguagePicker lang={lang} onChange={setLang} label={tx.languageLabel} compact />
           </div>
         </div>
 
         {/* Desktop: brand (left) | nav (center) | language (right) */}
-        <div className="mx-auto hidden h-14 w-full max-w-6xl grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-4 px-4 sm:grid sm:px-6 lg:max-w-7xl lg:gap-6">
+        <div className="hidden h-14 w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-5 px-4 sm:grid sm:px-6 md:gap-7 md:px-10 lg:gap-8 lg:px-14 xl:px-16">
           <BrandLink onClick={close} className="justify-self-start" />
 
           <nav
@@ -165,8 +133,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
             {navLinks}
           </nav>
 
-          <div className="flex justify-end justify-self-end">
-            <LanguageSelect lang={lang} onChange={setLang} />
+          <div className="flex justify-end justify-self-end pl-2">
+            <LanguagePicker lang={lang} onChange={setLang} label={tx.languageLabel} />
           </div>
         </div>
 

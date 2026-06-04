@@ -17,6 +17,7 @@ export type SiteNavStrings = {
   copyright: string
   accountDeletion: string
   footerAccountDeletion: string
+  languageLabel: string
   disclaimer: string
 }
 
@@ -38,6 +39,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Account Deletion",
     "footerAccountDeletion": "Account Deletion",
+        "languageLabel": "Language",
     "disclaimer": "Shadow Economy is an educational simulation game. It is not financial, investment, tax, legal, accounting, or other professional advice."
   },
   "ko": {
@@ -57,6 +59,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "계정 삭제",
     "footerAccountDeletion": "계정 삭제",
+        "languageLabel": "언어",
     "disclaimer": "Shadow Economy는 교육용 시뮬레이션 게임입니다. 이는 재정, 투자, 세금, 법률, 회계 또는 기타 전문적인 조언이 아닙니다."
   },
   "ja": {
@@ -76,6 +79,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "アカウントの削除",
     "footerAccountDeletion": "アカウントの削除",
+        "languageLabel": "言語",
     "disclaimer": "Shadow Economy は教育シミュレーション ゲームです。これは財務、投資、税金、法律、会計、その他の専門的なアドバイスではありません。"
   },
   "zh": {
@@ -95,6 +99,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "帐户删除",
     "footerAccountDeletion": "帐户删除",
+        "languageLabel": "语言",
     "disclaimer": "Shadow Economy是一款教育模拟游戏。它不是财务、投资、税务、法律、会计或其他专业建议。"
   },
   "es": {
@@ -114,6 +119,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Eliminación de cuenta",
     "footerAccountDeletion": "Eliminación de cuenta",
+        "languageLabel": "Idioma",
     "disclaimer": "Shadow Economy es un juego de simulación educativo. No se trata de asesoramiento financiero, de inversión, fiscal, legal, contable ni de otro tipo."
   },
   "sv": {
@@ -133,6 +139,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Radering av konto",
     "footerAccountDeletion": "Radering av konto",
+        "languageLabel": "Språk",
     "disclaimer": "Shadow Economy är ett pedagogiskt simuleringsspel. Det är inte finansiell rådgivning, investeringsrådgivning, skatt, juridisk rådgivning, redovisning eller annan professionell rådgivning."
   },
   "fr": {
@@ -152,6 +159,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Suppression de compte",
     "footerAccountDeletion": "Suppression de compte",
+        "languageLabel": "Langue",
     "disclaimer": "Shadow Economy est un jeu de simulation pédagogique. Il ne s’agit pas de conseils financiers, d’investissement, fiscaux, juridiques, comptables ou autres conseils professionnels."
   },
   "de": {
@@ -171,6 +179,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Kontolöschung",
     "footerAccountDeletion": "Kontolöschung",
+        "languageLabel": "Sprache",
     "disclaimer": "Shadow Economy ist ein pädagogisches Simulationsspiel. Es handelt sich nicht um Finanz-, Anlage-, Steuer-, Rechts-, Buchhaltungs- oder sonstige professionelle Beratung."
   },
   "ru": {
@@ -190,6 +199,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Удаление учетной записи",
     "footerAccountDeletion": "Удаление учетной записи",
+        "languageLabel": "Язык",
     "disclaimer": "Shadow Economy — образовательная игра-симулятор. Это не финансовая, инвестиционная, налоговая, юридическая, бухгалтерская или другая профессиональная консультация."
   },
   "ar": {
@@ -209,6 +219,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "حذف الحساب",
     "footerAccountDeletion": "حذف الحساب",
+        "languageLabel": "اللغة",
     "disclaimer": "Shadow Economy هي لعبة محاكاة تعليمية. إنها ليست نصيحة مالية أو استثمارية أو ضريبية أو قانونية أو محاسبية أو أي نصيحة مهنية أخرى."
   },
   "pt": {
@@ -228,6 +239,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Exclusão de conta",
     "footerAccountDeletion": "Exclusão de conta",
+        "languageLabel": "Idioma",
     "disclaimer": "Shadow Economy é um jogo de simulação educacional. Não se trata de aconselhamento financeiro, de investimento, fiscal, jurídico, contábil ou outro aconselhamento profissional."
   },
   "it": {
@@ -247,6 +259,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Cancellazione dell'account",
     "footerAccountDeletion": "Cancellazione dell'account",
+        "languageLabel": "Lingua",
     "disclaimer": "Shadow Economy è un gioco di simulazione educativo. Non si tratta di consulenza finanziaria, di investimento, fiscale, legale, contabile o di altro tipo."
   },
   "nl": {
@@ -266,6 +279,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Accountverwijdering",
     "footerAccountDeletion": "Accountverwijdering",
+        "languageLabel": "Taal",
     "disclaimer": "Shadow Economy is een educatief simulatiespel. Het is geen financieel, investerings-, fiscaal, juridisch, boekhoudkundig of ander professioneel advies."
   },
   "id": {
@@ -285,6 +299,7 @@ export const siteNav: Record<Lang, SiteNavStrings> = {
     "copyright": "© 2026 Shadow Economy. All rights reserved.",
     "accountDeletion": "Penghapusan Akun",
     "footerAccountDeletion": "Penghapusan Akun",
+        "languageLabel": "Bahasa",
     "disclaimer": "Shadow Economy adalah game simulasi edukasi. Ini bukan nasihat keuangan, investasi, pajak, hukum, akuntansi, atau profesional lainnya."
   }
 }
