@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { GlobeMark } from '../components/GlobeMark'
 import { Layout } from '../components/Layout'
 import { PricingRegionPicker } from '../components/PricingRegionPicker'
 import { useLanguage } from '../context/LanguageContext'
@@ -845,7 +846,7 @@ export function PricingPage() {
               onClick={() => setPickerOpen(true)}
               className="mt-4 inline-flex items-center gap-2 rounded-lg border border-amber-500/40 bg-amber-500/10 px-4 py-2.5 text-sm font-semibold text-amber-300 transition-colors hover:bg-amber-500/20"
             >
-              <span aria-hidden>🌐</span>
+              <GlobeMark className="text-base" />
               {ui.selectRegion}
               <span className="text-amber-400/80 font-normal">· {regionLabel}</span>
             </button>

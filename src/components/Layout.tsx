@@ -1,8 +1,38 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { useLanguage, LANGUAGES } from '../context/LanguageContext'
+import { useLanguage, LANGUAGES, type Lang } from '../context/LanguageContext'
+import { GlobeMark } from './GlobeMark'
 
 import { siteNav as t } from '../i18n/siteNav'
+
+function LanguageSelect({
+  lang,
+  onChange,
+  className = '',
+}: {
+  lang: Lang
+  onChange: (lang: Lang) => void
+  className?: string
+}) {
+  return (
+    <div
+      className={`inline-flex items-center gap-1.5 rounded border border-gray-700 bg-gray-900 ${className}`.trim()}
+    >
+      <GlobeMark className="shrink-0 pl-2 text-sm text-gray-400" />
+      <select
+        value={lang}
+        onChange={(e) => onChange(e.target.value as Lang)}
+        className="max-w-[11rem] cursor-pointer border-0 bg-transparent py-1 pr-2 text-xs text-gray-300 focus:outline-none focus:ring-0"
+      >
+        {LANGUAGES.map((l) => (
+          <option key={l.code} value={l.code}>
+            {l.label}
+          </option>
+        ))}
+      </select>
+    </div>
+  )
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const { pathname } = useLocation()
@@ -17,8 +47,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-950 text-gray-100">
       <header className="relative z-40 border-b border-gray-800">
-        <div className="mx-auto flex h-14 max-w-4xl items-center justify-between px-4 sm:px-6">
-          <Link to="/" onClick={close} className="flex shrink-0 items-center gap-2 text-sm font-semibold tracking-wide text-amber-400">
+        <div className="mx-auto flex h-14 max-w-4xl items-center justify-between pl-2 pr-4 sm:pl-3 sm:pr-6">
+          <Link to="/" onClick={close} className="-ml-0.5 flex shrink-0 items-center gap-2 text-sm font-semibold tracking-wide text-amber-400">
             <img
               src="/shadow-economy-logo.png"
               alt=""
@@ -54,27 +84,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
             >
               {tx.accountDeletion}
             </Link>
-            <select
-              value={lang}
-              onChange={(e) => setLang(e.target.value as typeof lang)}
-              className="ml-1 max-w-[11rem] cursor-pointer rounded border border-gray-700 bg-gray-900 px-2 py-1 text-xs text-gray-300 focus:outline-none focus:border-amber-500"
-            >
-              {LANGUAGES.map((l) => (
-                <option key={l.code} value={l.code}>{l.label}</option>
-              ))}
-            </select>
+            <LanguageSelect lang={lang} onChange={setLang} className="ml-1" />
           </nav>
 
           <div className="flex items-center gap-2 sm:hidden">
-            <select
-              value={lang}
-              onChange={(e) => setLang(e.target.value as typeof lang)}
-              className="max-w-[9.5rem] cursor-pointer rounded border border-gray-700 bg-gray-900 px-2 py-1 text-xs text-gray-300 focus:outline-none focus:border-amber-500"
-            >
-              {LANGUAGES.map((l) => (
-                <option key={l.code} value={l.code}>{l.label}</option>
-              ))}
-            </select>
+            <LanguageSelect
+              lang={lang}
+              onChange={setLang}
+              className="[&_select]:max-w-[9.5rem]"
+            />
             <button
               onClick={() => setMenuOpen((v) => !v)}
               aria-label={menuOpen ? 'Close menu' : 'Open menu'}
