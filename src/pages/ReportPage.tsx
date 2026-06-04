@@ -963,7 +963,7 @@ export function ReportPage() {
 
   return (
     <Layout>
-      <section className="max-w-6xl mx-auto w-full px-3 sm:px-4 pt-14 pb-10 sm:pt-24 sm:pb-16 text-center">
+      <section className="w-full px-2 sm:px-2.5 md:px-3 pt-14 pb-10 sm:pt-24 sm:pb-16 text-center">
         <div className="inline-block mb-6 px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-medium tracking-wider uppercase">
           {tx.badge}
         </div>
@@ -975,7 +975,7 @@ export function ReportPage() {
       </section>
 
       <section className="border-t border-gray-800">
-        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20">
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.valueTitle}</h2>
           <div className="grid gap-4 sm:grid-cols-3">
             {tx.value.map((item) => (
@@ -989,7 +989,7 @@ export function ReportPage() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20">
           <div className="grid gap-6 sm:grid-cols-2">
             <div>
               <h2 className="text-2xl font-bold text-white mb-4">{tx.purposeTitle}</h2>
@@ -1012,7 +1012,7 @@ export function ReportPage() {
       </section>
 
       <section className="border-t border-gray-800">
-        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20">
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.whatTitle}</h2>
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-5">
             {tx.what.map((w) => (
@@ -1029,7 +1029,7 @@ export function ReportPage() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="max-w-2xl mx-auto px-4 sm:px-6 py-14 sm:py-20 text-center">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20 text-center">
           <h2 className="text-2xl font-bold text-white mb-6">{tx.onceTitle}</h2>
           <p className="text-gray-400 leading-relaxed mb-5">{tx.onceBody}</p>
           <p className="text-gray-300 leading-relaxed font-medium">{tx.onceBody2}</p>
@@ -1037,7 +1037,7 @@ export function ReportPage() {
       </section>
 
       <section className="border-t border-gray-800">
-        <div className="max-w-xl mx-auto px-4 sm:px-6 py-14 sm:py-20 text-center">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20 text-center">
           <h2 className="text-xl font-bold text-white mb-3">{tx.ctaTitle}</h2>
           <p className="text-gray-400 text-sm leading-relaxed mb-8">{tx.ctaBody}</p>
           <Link

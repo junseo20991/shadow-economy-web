@@ -826,7 +826,7 @@ export function PricingPage() {
   return (
     <Layout>
       {/* Hero */}
-      <section className="max-w-6xl mx-auto w-full px-3 sm:px-4 pt-14 pb-10 sm:pt-24 sm:pb-16 text-center">
+      <section className="w-full px-2 sm:px-2.5 md:px-3 pt-14 pb-10 sm:pt-24 sm:pb-16 text-center">
         <div className="inline-block mb-6 px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-medium tracking-wider uppercase">
           {tx.badge}
         </div>
@@ -838,7 +838,7 @@ export function PricingPage() {
 
       {/* Pricing cards */}
       <section className="border-t border-gray-800">
-        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20">
           <div className="mb-8 rounded-2xl border border-gray-800 bg-gray-900/40 p-5 sm:p-6 text-left">
             <p className="text-sm leading-relaxed text-gray-400">{ui.pricingNotice}</p>
             <button
@@ -961,7 +961,7 @@ export function PricingPage() {
 
       {/* How it works */}
       <section className="border-t border-gray-800 bg-gray-900/30">
-        <div className="max-w-6xl mx-auto w-full px-3 sm:px-4 py-14 sm:py-20">
+        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20">
           <h2 className="text-xl font-bold text-white mb-10 text-center">{tx.howTitle}</h2>
           <div className="grid sm:grid-cols-3 gap-6 sm:gap-8">
             {tx.how.map((h) => (

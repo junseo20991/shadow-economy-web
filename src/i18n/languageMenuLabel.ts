@@ -1,7 +1,6 @@
 import type { Lang } from '../context/LanguageContext'
 
-/** Header control label: the word “language” in each UI locale (not “idiom”, “bahasa”, etc.). */
-export const LANGUAGE_MENU_LABEL: Record<Lang, string> = {
+const NATIVE_LANGUAGE_WORD: Record<Lang, string> = {
   en: 'Language',
   ko: '언어',
   ja: '言語',
@@ -17,3 +16,11 @@ export const LANGUAGE_MENU_LABEL: Record<Lang, string> = {
   nl: 'Taal',
   id: 'Bahasa',
 }
+
+/** Button label: native word + English “Language” so non-readers can find the control (e.g. 语言 / Language). */
+export const LANGUAGE_MENU_LABEL: Record<Lang, string> = Object.fromEntries(
+  (Object.entries(NATIVE_LANGUAGE_WORD) as [Lang, string][]).map(([lang, native]) => [
+    lang,
+    lang === 'en' ? native : `${native} / Language`,
+  ]),
+) as Record<Lang, string>

@@ -3,10 +3,9 @@ import { Link, useLocation } from 'react-router-dom'
 import { useLanguage } from '../context/LanguageContext'
 import { LanguagePicker } from './LanguagePicker'
 
+import { SITE_GUTTER } from '../constants/layout'
 import { LANGUAGE_MENU_LABEL } from '../i18n/languageMenuLabel'
 import { siteNav as t } from '../i18n/siteNav'
-
-const headerPad = 'px-2 sm:px-3 lg:px-4'
 
 const navItemClass = 'shrink-0 whitespace-nowrap'
 
@@ -99,7 +98,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen flex flex-col bg-gray-950 text-gray-100">
       <header className="relative z-40 border-b border-gray-800">
         {/* Mobile: menu | brand (center) | language */}
-        <div className={`grid h-14 w-full grid-cols-[auto_1fr_auto] items-center gap-1.5 sm:hidden ${headerPad}`}>
+        <div className={`grid h-14 w-full grid-cols-[auto_1fr_auto] items-center gap-1.5 sm:hidden ${SITE_GUTTER}`}>
           <button
             type="button"
             onClick={() => setMenuOpen((v) => !v)}
@@ -128,7 +127,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
 
         {/* Desktop: brand (left) | nav (center) | language (right) */}
-        <div className={`hidden h-14 w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 sm:grid sm:gap-4 md:gap-5 ${headerPad}`}>
+        <div className={`hidden h-14 w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 sm:grid sm:gap-4 md:gap-5 ${SITE_GUTTER}`}>
           <BrandLink onClick={close} className="justify-self-start" />
 
           <nav
@@ -144,7 +143,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
         {menuOpen && (
           <div className="absolute w-full border-t border-gray-800 bg-gray-950 shadow-xl sm:hidden">
-            <nav className="mx-auto flex max-w-4xl flex-col px-4 py-3">
+            <nav className="flex w-full flex-col px-2 py-3 sm:px-2.5">
               <Link
                 to="/game"
                 onClick={close}
@@ -217,7 +216,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1">{children}</main>
 
       <footer className="border-t border-gray-800 py-8">
-        <div className={`mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-3 py-8 text-xs text-gray-600 sm:flex-row ${headerPad}`}>
+        <div className={`flex w-full flex-col items-center justify-between gap-3 py-8 text-xs text-gray-600 sm:flex-row ${SITE_GUTTER}`}>
           <span className="text-center sm:text-left">{tx.copyright}</span>
           <p className="max-w-xl text-center text-[11px] leading-relaxed text-gray-700 sm:text-left">{tx.disclaimer}</p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-5">

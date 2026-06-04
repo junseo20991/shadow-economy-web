@@ -460,7 +460,7 @@ export function Support() {
 
   return (
     <Layout>
-      <div className="max-w-2xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div className="w-full px-2 sm:px-2.5 md:px-3 py-12 sm:py-16">
         <h1 className="text-3xl font-bold text-white mb-10">{tx.title}</h1>
         <div className="space-y-10 text-sm text-gray-300">
           <section>

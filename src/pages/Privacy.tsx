@@ -89,7 +89,7 @@ export function Privacy() {
 
   return (
     <Layout>
-      <div className="max-w-2xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <div className="w-full px-2 sm:px-2.5 md:px-3 py-12 sm:py-16">
         {tx ? (
           <>
             <h1 className="text-3xl font-bold text-white mb-2">{tx.title}</h1>
