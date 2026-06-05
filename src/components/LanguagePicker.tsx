@@ -37,7 +37,7 @@ export function LanguagePicker({ lang, onChange, label, className = '' }: Langua
         aria-expanded={open}
         aria-haspopup="listbox"
         aria-label={label}
-        className="inline-flex h-8 max-w-[min(100%,12.5rem)] items-center gap-1 rounded-lg border border-gray-700 bg-gray-900 px-1.5 text-[10px] text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 sm:max-w-none sm:gap-1.5 sm:px-2 sm:text-xs"
+        className="inline-flex h-8 max-w-[8.5rem] items-center gap-1 rounded-lg border border-gray-700 bg-gray-900 px-1.5 text-[10px] text-gray-300 transition-colors hover:border-gray-600 hover:bg-gray-800 sm:max-w-[10rem] sm:gap-1.5 sm:px-2 sm:text-xs xl:max-w-none"
       >
         <GlobeMark className="shrink-0 text-sm text-gray-400" />
         <span className="truncate sm:whitespace-nowrap">{label}</span>
@@ -60,7 +60,7 @@ export function LanguagePicker({ lang, onChange, label, className = '' }: Langua
         <ul
           role="listbox"
           aria-label={label}
-          className="absolute right-0 z-50 mt-1.5 max-h-72 min-w-[12.5rem] overflow-y-auto rounded-xl border border-gray-700 bg-gray-950 py-1 shadow-2xl ring-1 ring-black/40"
+          className="absolute end-0 z-50 mt-1.5 max-h-72 min-w-[12.5rem] overflow-y-auto rounded-xl border border-gray-700 bg-gray-950 py-1 shadow-2xl ring-1 ring-black/40"
         >
           {LANGUAGES.map((entry) => {
             const selected = entry.code === lang

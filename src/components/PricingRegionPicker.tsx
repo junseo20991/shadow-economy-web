@@ -40,9 +40,10 @@ export function PricingRegionPicker({
     if (!open && dialog.open) dialog.close()
   }, [open])
 
-  useEffect(() => {
-    if (!open) setQuery('')
-  }, [open])
+  const handleClose = () => {
+    setQuery('')
+    onClose()
+  }
 
   const sorted = useMemo(
     () => sortRegionsForLang(lang, PRICING_REGIONS, LANG_REGION_PRIORITY[lang] ?? []),
@@ -68,13 +69,13 @@ export function PricingRegionPicker({
     <dialog
       ref={dialogRef}
       className="max-w-lg w-[calc(100%-2rem)] rounded-2xl border border-gray-700 bg-gray-950 p-0 text-white shadow-2xl backdrop:bg-black/70 open:flex open:flex-col"
-      onClose={onClose}
+      onClose={handleClose}
     >
       <div className="flex items-center justify-between border-b border-gray-800 px-5 py-4">
         <h2 className="text-lg font-semibold">{title}</h2>
         <button
           type="button"
-          onClick={onClose}
+          onClick={handleClose}
           className="rounded-lg px-3 py-1.5 text-sm text-gray-400 hover:bg-gray-800 hover:text-white"
         >
           {closeLabel}
@@ -103,7 +104,7 @@ export function PricingRegionPicker({
               selected={region.id === selectedId}
               onSelect={() => {
                 onSelect(region.id as PricingRegionId)
-                onClose()
+                handleClose()
               }}
             />
           ))

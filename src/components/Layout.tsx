@@ -97,8 +97,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col bg-gray-950 text-gray-100">
       <header className="relative z-40 border-b border-gray-800">
-        {/* Mobile: menu | brand (center) | language */}
-        <div className={`grid h-14 w-full grid-cols-[auto_1fr_auto] items-center gap-1.5 sm:hidden ${SITE_GUTTER}`}>
+        {/* Compact: menu | brand (center) | language */}
+        <div className={`grid h-14 w-full grid-cols-[auto_1fr_auto] items-center gap-1.5 xl:hidden ${SITE_GUTTER}`}>
           <button
             type="button"
             onClick={() => setMenuOpen((v) => !v)}
@@ -127,11 +127,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
 
         {/* Desktop: brand (left) | nav (center) | language (right) */}
-        <div className={`hidden h-14 w-full grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-3 sm:grid sm:gap-4 md:gap-5 ${SITE_GUTTER}`}>
+        <div className={`hidden h-14 w-full grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-6 xl:grid ${SITE_GUTTER}`}>
           <BrandLink onClick={close} className="justify-self-start" />
 
           <nav
-            className="flex min-w-0 flex-nowrap items-center justify-center gap-3 overflow-x-auto overscroll-x-contain px-1 text-xs text-gray-400 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:gap-4"
+            className="flex min-w-0 flex-nowrap items-center justify-center gap-5 overflow-x-auto overscroll-x-contain px-2 text-xs text-gray-400 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden xl:gap-6"
           >
             {navLinks}
           </nav>
@@ -142,7 +142,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
 
         {menuOpen && (
-          <div className="absolute w-full border-t border-gray-800 bg-gray-950 shadow-xl sm:hidden">
+          <div className="absolute max-h-[calc(100vh-3.5rem)] w-full overflow-y-auto border-t border-gray-800 bg-gray-950 shadow-xl xl:hidden">
             <nav className="flex w-full flex-col px-2 py-3 sm:px-2.5">
               <Link
                 to="/game"
@@ -216,17 +216,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <main className="flex-1">{children}</main>
 
       <footer className="border-t border-gray-800 py-8">
-        <div className={`flex w-full flex-col items-center justify-between gap-3 py-8 text-xs text-gray-600 sm:flex-row ${SITE_GUTTER}`}>
+        <div className={`flex w-full flex-col items-center justify-between gap-3 py-8 text-xs text-gray-400 sm:flex-row ${SITE_GUTTER}`}>
           <span className="text-center sm:text-left">{tx.copyright}</span>
-          <p className="max-w-xl text-center text-[11px] leading-relaxed text-gray-700 sm:text-left">{tx.disclaimer}</p>
+          <p className="max-w-xl text-center text-[11px] leading-relaxed text-gray-500 sm:text-left">{tx.disclaimer}</p>
           <div className="flex flex-wrap justify-center gap-4 sm:gap-5">
-            <Link to="/game" className="transition-colors hover:text-gray-400">{tx.footerGame}</Link>
-            <Link to="/report" className="transition-colors hover:text-gray-400">{tx.footerReport}</Link>
-            <Link to="/pricing" className="transition-colors hover:text-gray-400">{tx.footerPricing}</Link>
-            <Link to="/privacy" className="transition-colors hover:text-gray-400">{tx.footerPrivacy}</Link>
-            <Link to="/terms" className="transition-colors hover:text-gray-400">{tx.footerTerms}</Link>
-            <Link to="/support" className="transition-colors hover:text-gray-400">{tx.footerSupport}</Link>
-            <Link to="/account-deletion" className="transition-colors hover:text-gray-400">{tx.footerAccountDeletion}</Link>
+            <Link to="/game" className="transition-colors hover:text-white">{tx.footerGame}</Link>
+            <Link to="/report" className="transition-colors hover:text-white">{tx.footerReport}</Link>
+            <Link to="/pricing" className="transition-colors hover:text-white">{tx.footerPricing}</Link>
+            <Link to="/privacy" className="transition-colors hover:text-white">{tx.footerPrivacy}</Link>
+            <Link to="/terms" className="transition-colors hover:text-white">{tx.footerTerms}</Link>
+            <Link to="/support" className="transition-colors hover:text-white">{tx.footerSupport}</Link>
+            <Link to="/account-deletion" className="transition-colors hover:text-white">{tx.footerAccountDeletion}</Link>
           </div>
         </div>
       </footer>

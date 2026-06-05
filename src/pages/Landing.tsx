@@ -1,4 +1,5 @@
 import { Layout } from '../components/Layout'
+import { PAGE_SECTION } from '../constants/layout'
 import { useLanguage } from '../context/LanguageContext'
 
 const content = {
@@ -388,7 +389,7 @@ export function Landing() {
 
   return (
     <Layout>
-      <section className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-24 text-center">
+      <section className={`${PAGE_SECTION} py-14 text-center sm:py-24`}>
         <div className="inline-block mb-6 px-3 py-1 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-medium tracking-wider uppercase">
           {tx.badge}
         </div>
@@ -409,7 +410,7 @@ export function Landing() {
       </section>
 
       <section className="border-t border-gray-800 bg-gray-900/50">
-        <div className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20 grid sm:grid-cols-3 gap-8 sm:gap-10">
+        <div className={`${PAGE_SECTION} grid gap-8 py-14 sm:grid-cols-3 sm:gap-10 sm:py-20`}>
           {tx.features.map((f) => (
             <div key={f.title} className="text-center">
               <div className="text-3xl mb-4 text-amber-400">{f.icon}</div>
@@ -420,7 +421,7 @@ export function Landing() {
         </div>
       </section>
 
-      <section className="w-full px-2 sm:px-2.5 md:px-3 py-14 sm:py-20 text-center">
+      <section className={`${PAGE_SECTION} py-14 text-center sm:py-20`}>
         <blockquote className="text-lg sm:text-xl text-gray-300 italic leading-relaxed mb-4">{tx.quote}</blockquote>
         <p className="text-sm text-gray-600">{tx.quoteSub}</p>
       </section>

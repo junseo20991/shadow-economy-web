@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Layout } from '../components/Layout'
 import { PolicyBlocks, type PolicyBlock } from '../components/PolicyBlocks'
+import { TEXT_SECTION } from '../constants/layout'
 import { useLanguage, type Lang } from '../context/LanguageContext'
 
 type Section = { title: string; blocks: PolicyBlock[] }
@@ -89,12 +90,12 @@ export function Terms() {
 
   return (
     <Layout>
-      <div className="w-full px-2 sm:px-2.5 md:px-3 py-12 sm:py-16">
+      <div className={`${TEXT_SECTION} py-12 sm:py-16`}>
         {tx ? (
           <>
-            <h1 className="text-3xl font-bold text-white mb-2">{tx.title}</h1>
+            <h1 className="mb-2 break-words text-2xl font-bold leading-tight text-white sm:text-3xl">{tx.title}</h1>
             <p className="text-xs text-gray-600 mb-6">{tx.updated}</p>
-            <div className="space-y-4 text-sm text-gray-400 leading-relaxed mb-8">
+            <div className="mb-8 space-y-4 break-words text-sm leading-relaxed text-gray-400 [overflow-wrap:anywhere]">
               {introParagraphs.map((paragraph) => (
                 <p key={paragraph.slice(0, 48)}>{paragraph}</p>
               ))}
@@ -114,9 +115,9 @@ export function Terms() {
                       aria-expanded={isOpen}
                       aria-controls={panelId}
                       onClick={() => toggleSection(index)}
-                      className="flex w-full items-center justify-between gap-3 px-4 py-3.5 text-left transition-colors hover:bg-gray-800/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/60 focus-visible:ring-inset"
+                      className="flex w-full items-center justify-between gap-3 px-3.5 py-3.5 text-left transition-colors hover:bg-gray-800/50 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500/60 focus-visible:ring-inset sm:px-4"
                     >
-                      <span className="text-base font-semibold text-white pr-2">{section.title}</span>
+                      <span className="min-w-0 flex-1 break-words pr-2 text-base font-semibold text-white">{section.title}</span>
                       <Chevron open={isOpen} />
                     </button>
                     {isOpen && (
@@ -124,7 +125,7 @@ export function Terms() {
                         id={panelId}
                         role="region"
                         aria-labelledby={`${panelId}-trigger`}
-                        className="border-t border-gray-800/80 px-4 py-4"
+                        className="border-t border-gray-800/80 px-3.5 py-4 sm:px-4"
                       >
                         <PolicyBlocks blocks={section.blocks} />
                       </div>
