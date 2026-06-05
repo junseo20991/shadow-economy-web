@@ -187,7 +187,7 @@ export default {
             'Email address',
             'Display name or basic profile information provided by Google when you use Google sign-in, according to your authorization',
             'Display name or basic profile information provided by Apple when you use Sign in with Apple, according to your authorization (if you choose Hide My Email, Apple may provide a private relay email address instead of your personal email)',
-            'Contact details, request content, and related information you provide when submitting a customer support request'
+            'Contact details, request content, and related information you provide when submitting a customer support request. Please do not include real financial account details, payment card numbers, government-issued identifiers, tax records, credit records, or real investment records in support messages.'
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'The Operator currently does not intentionally collect the following information.'
-        },
-        {
-          type: 'ul' as const,
-          items: [
-            'Precise location information',
-            'Camera information',
-            'Microphone information',
-            'Contact list information',
-            'Photo library information',
-            'Advertising identifiers for advertising purposes (IDFA, GAID)',
-            'Behavioral information through third-party advertising SDKs',
-            'Cross-app or cross-website tracking information for advertising purposes',
-            'Payment card numbers or full financial account information',
-            'Biometric information',
-            'Health information',
-            'Real financial account information',
-            'Real investment records',
-            'Real tax information',
-            'Real credit information',
-            'National identification numbers, passport numbers, or comparable government-issued unique identifiers',
-            'Sensitive information concerning race, religion, political views, trade union membership, sexual orientation, or similar categories'
-          ]
+          text: 'The Service does not request or collect real financial accounts, real investment, tax, or credit records, payment card numbers, national identification numbers, passport numbers, or comparable government-issued identifiers. Personalized reports are generated from virtual gameplay data within the Service.'
         },
         {
           type: 'p' as const,
-          text: 'The Service is a virtual economic simulation game. You should not enter real financial accounts, payment card numbers, national identification numbers, passport numbers, tax information, credit information, real investment records, or other sensitive real-world financial information into the Service. The Operator does not request such information.'
+          text: 'The Service currently does not use third-party advertising SDKs, advertising identifiers (IDFA/GAID), or cross-app or cross-website tracking for advertising purposes.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Payments are processed by the relevant app store payment platform. The Operator does not access payment card numbers or full payment authentication credentials.'
         },
         {
           type: 'p' as const,

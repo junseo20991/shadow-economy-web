@@ -187,7 +187,7 @@ export default {
             "E-Mail-Adresse",
             "Anzeigename oder grundlegende Profilinformationen, die von Google bereitgestellt werden, wenn Sie die Google-Anmeldung verwenden, entsprechend Ihrer Autorisierung",
             "Anzeigename oder grundlegende Profilinformationen, die von Apple bereitgestellt werden, wenn Sie Sign in with Apple gemäß Ihrer Autorisierung verwenden (wenn Sie „Meine E-Mail-Adresse ausblenden“ wählen, stellt Apple möglicherweise eine private Relay-E-Mail-Adresse anstelle Ihrer persönlichen E-Mail-Adresse bereit).",
-            "Kontaktdaten, Anfrageinhalte und zugehörige Informationen, die Sie beim Einreichen einer Kundensupportanfrage angeben"
+            "Kontaktdaten, Anfrageinhalte und zugehörige Informationen, die Sie beim Einreichen einer Kundensupportanfrage angeben. Bitte geben Sie in Supportnachrichten keine echten Finanzkonten, Zahlungskartennummern, behördlich ausgestellten Identifikatoren oder echten Steuer-, Bonitäts- oder Anlageunterlagen an."
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Der Betreiber erhebt derzeit nicht absichtlich die folgenden Informationen."
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Präzise Standortinformationen",
-            "Kamerainformationen",
-            "Informationen zum Mikrofon",
-            "Informationen zur Kontaktliste",
-            "Informationen zur Fotobibliothek",
-            "Werbekennungen für Werbezwecke (IDFA, GAID)",
-            "Verhaltensinformationen durch Werbe-SDKs von Drittanbietern",
-            "App- oder websiteübergreifende Trackinginformationen für Werbezwecke",
-            "Zahlungskartennummern oder vollständige Finanzkontoinformationen",
-            "Biometrische Informationen",
-            "Gesundheitsinformationen",
-            "Echte Finanzkontoinformationen",
-            "Echte Investitionsrekorde",
-            "Echte Steuerinformationen",
-            "Echte Bonitätsinformationen",
-            "Nationale Identifikationsnummern, Reisepassnummern oder vergleichbare, von der Regierung ausgestellte eindeutige Identifikatoren",
-            "Sensible Informationen zu Rasse, Religion, politischen Ansichten, Gewerkschaftszugehörigkeit, sexueller Orientierung oder ähnlichen Kategorien"
-          ]
+          "text": "Der Dienst fordert keine echten Finanzkonten, echten Anlage-, Steuer- oder Bonitätsunterlagen, Zahlungskartennummern, nationalen Identifikationsnummern, Reisepassnummern oder vergleichbaren behördlich ausgestellten eindeutigen Identifikatoren an und sammelt sie nicht. Personalisierte Berichte werden aus virtuellen Spieldaten innerhalb des Dienstes erstellt."
         },
         {
           "type": "p",
-          "text": "Der Service ist ein virtuelles Wirtschaftssimulationsspiel. Sie sollten keine echten Finanzkonten, Zahlungskartennummern, Personalausweisnummern, Reisepassnummern, Steuerinformationen, Kreditinformationen, echte Investitionsunterlagen oder andere sensible reale Finanzinformationen in den Dienst eingeben. Der Betreiber fordert solche Informationen nicht an."
+          "text": "Der Dienst verwendet derzeit keine Werbe-SDKs von Drittanbietern, keine Werbekennungen (IDFA/GAID) und kein app- oder websiteübergreifendes Tracking zu Werbezwecken."
+        },
+        {
+          "type": "p",
+          "text": "Zahlungen werden über die Zahlungsplattform des jeweiligen App Stores verarbeitet. Der Betreiber hat keinen Zugriff auf Zahlungskartennummern oder vollständige Zahlungsauthentifizierungsdaten."
         },
         {
           "type": "p",

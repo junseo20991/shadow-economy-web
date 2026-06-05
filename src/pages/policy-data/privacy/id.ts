@@ -187,7 +187,7 @@ export default {
             "Alamat email",
             "Nama tampilan atau informasi profil dasar yang diberikan oleh Google saat Anda menggunakan login Google, sesuai dengan otorisasi Anda",
             "Nama tampilan atau informasi profil dasar yang diberikan oleh Apple saat Anda menggunakan Sign in with Apple, sesuai dengan otorisasi Anda (jika Anda memilih Sembunyikan Email Saya, Apple dapat memberikan alamat email relai pribadi, bukan email pribadi Anda)",
-            "Detail kontak, konten permintaan, dan informasi terkait yang Anda berikan saat mengirimkan permintaan dukungan pelanggan"
+            "Detail kontak, konten permintaan, dan informasi terkait yang Anda berikan saat mengirimkan permintaan dukungan pelanggan. Jangan sertakan rekening keuangan nyata, nomor kartu pembayaran, pengenal yang diterbitkan pemerintah, atau catatan pajak, kredit, atau investasi nyata dalam pesan dukungan."
           ]
         },
         {
@@ -338,34 +338,16 @@ export default {
           "text": "3.7 Informasi yang Saat Ini Kami Tidak Kumpulkan"
         },
         {
-          "type": "hal",
-          "text": "Operator saat ini tidak dengan sengaja mengumpulkan informasi berikut."
+          "type": "p",
+          "text": "Layanan tidak meminta atau mengumpulkan rekening keuangan nyata, catatan investasi, pajak, atau kredit nyata, nomor kartu pembayaran, nomor identifikasi nasional, nomor paspor, atau pengenal unik serupa yang diterbitkan pemerintah. Laporan yang dipersonalisasi dibuat dari data gameplay virtual di dalam Layanan."
         },
         {
-          "type": "jalan",
-          "items": [
-            "Informasi lokasi yang tepat",
-            "Informasi kamera",
-            "Informasi mikrofon",
-            "Informasi daftar kontak",
-            "Informasi perpustakaan foto",
-            "Pengidentifikasi iklan untuk tujuan periklanan (IDFA, GAID)",
-            "Informasi perilaku melalui SDK periklanan pihak ketiga",
-            "Informasi pelacakan lintas aplikasi atau lintas situs web untuk tujuan periklanan",
-            "Nomor kartu pembayaran atau informasi rekening keuangan lengkap",
-            "Informasi biometrik",
-            "Informasi kesehatan",
-            "Informasi akun keuangan nyata",
-            "Catatan investasi nyata",
-            "Informasi pajak nyata",
-            "Informasi kredit nyata",
-            "Nomor identifikasi nasional, nomor paspor, atau tanda pengenal unik serupa yang dikeluarkan pemerintah",
-            "Informasi sensitif mengenai ras, agama, pandangan politik, keanggotaan serikat pekerja, orientasi seksual, atau kategori serupa"
-          ]
+          "type": "p",
+          "text": "Saat ini Layanan tidak menggunakan SDK periklanan pihak ketiga, pengidentifikasi iklan (IDFA/GAID), atau pelacakan lintas aplikasi atau lintas situs web untuk tujuan periklanan."
         },
         {
-          "type": "hal",
-          "text": "Layanan ini adalah game simulasi ekonomi virtual. Anda tidak boleh memasukkan rekening keuangan nyata, nomor kartu pembayaran, nomor identifikasi nasional, nomor paspor, informasi pajak, informasi kredit, catatan investasi nyata, atau informasi keuangan dunia nyata sensitif lainnya ke dalam Layanan. Operator tidak meminta informasi tersebut."
+          "type": "p",
+          "text": "Pembayaran diproses oleh platform pembayaran toko aplikasi yang relevan. Operator tidak mengakses nomor kartu pembayaran atau kredensial autentikasi pembayaran lengkap."
         },
         {
           "type": "hal",

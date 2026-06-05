@@ -187,7 +187,7 @@ export default {
             "Endereço de e-mail",
             "Nome de exibição ou informações básicas de perfil fornecidas pelo Google quando você usa o login do Google, de acordo com sua autorização",
             "Nome de exibição ou informações básicas de perfil fornecidas pela Apple quando você usa Sign in with Apple, de acordo com sua autorização (se você escolher Ocultar meu e-mail, a Apple poderá fornecer um endereço de e-mail de retransmissão privado em vez de seu e-mail pessoal)",
-            "Detalhes de contato, conteúdo da solicitação e informações relacionadas que você fornece ao enviar uma solicitação de suporte ao cliente"
+            "Detalhes de contato, conteúdo da solicitação e informações relacionadas que você fornece ao enviar uma solicitação de suporte ao cliente. Não inclua contas financeiras reais, números de cartão de pagamento, identificadores emitidos pelo governo ou registros reais fiscais, de crédito ou de investimento em mensagens de suporte."
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "A Operadora atualmente não coleta intencionalmente as seguintes informações."
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Informações precisas de localização",
-            "Informações da câmera",
-            "Informações do microfone",
-            "Informações da lista de contatos",
-            "Informações da biblioteca de fotos",
-            "Identificadores de publicidade para fins publicitários (IDFA, GAID)",
-            "Informações comportamentais por meio de SDKs de publicidade de terceiros",
-            "Informações de rastreamento entre aplicativos ou sites para fins publicitários",
-            "Números de cartão de pagamento ou informações completas da conta financeira",
-            "Informações biométricas",
-            "Informação de saúde",
-            "Informações reais da conta financeira",
-            "Registros reais de investimento",
-            "Informações fiscais reais",
-            "Informações de crédito reais",
-            "Números de identificação nacional, números de passaporte ou identificadores exclusivos comparáveis emitidos pelo governo",
-            "Informações confidenciais sobre raça, religião, opiniões políticas, filiação sindical, orientação sexual ou categorias semelhantes"
-          ]
+          "text": "O Serviço não solicita nem coleta contas financeiras reais, registros reais de investimento, fiscais ou de crédito, números de cartão de pagamento, números de identificação nacional, números de passaporte ou identificadores únicos comparáveis emitidos pelo governo. Os relatórios personalizados são gerados a partir de dados virtuais de jogo dentro do Serviço."
         },
         {
           "type": "p",
-          "text": "The Service é um jogo de simulação econômica virtual. Você não deve inserir contas financeiras reais, números de cartões de pagamento, números de identificação nacional, números de passaporte, informações fiscais, informações de crédito, registros de investimentos reais ou outras informações financeiras confidenciais do mundo real no Serviço. A Operadora não solicita tais informações."
+          "text": "Atualmente, o Serviço não utiliza SDKs de publicidade de terceiros, identificadores de publicidade (IDFA/GAID) nem rastreamento entre aplicativos ou sites para fins publicitários."
+        },
+        {
+          "type": "p",
+          "text": "Os pagamentos são processados pela plataforma de pagamento da loja de aplicativos correspondente. A Operadora não acessa números de cartão de pagamento nem credenciais completas de autenticação de pagamento."
         },
         {
           "type": "p",

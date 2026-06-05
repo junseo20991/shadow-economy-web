@@ -187,7 +187,7 @@ export default {
             'E-postadress',
             'Visningsnamn eller grundläggande profilinformation som Google tillhandahåller när du använder Google-inloggning, enligt din auktorisering',
             'Visningsnamn eller grundläggande profilinformation som Apple tillhandahåller när du använder Logga in med Apple, enligt din auktorisering (om du väljer Dölj min e-post kan Apple tillhandahålla en privat vidarebefordringsadress i stället för din personliga e-post)',
-            'Kontaktuppgifter, innehåll i begäran och relaterad information som du lämnar vid kundsupport'
+            'Kontaktuppgifter, innehåll i begäran och relaterad information som du lämnar vid kundsupport. Inkludera inte verkliga finansiella konton, betalkortsnummer, myndighetsutfärdade identifierare eller verkliga skatte-, kredit- eller investeringsuppgifter i supportmeddelanden.'
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Följande information samlas för närvarande inte in avsiktligt av operatören.'
-        },
-        {
-          type: 'ul' as const,
-          items: [
-            'Exakt platsinformation',
-            'Kamerainformation',
-            'Mikrofoninformation',
-            'Kontaktlista information',
-            'Fotobiblioteksinformation',
-            'Annonsidentifierare för reklamändamål (IDFA, GAID)',
-            'Beteendeinsikter genom tredjeparts reklam-SDK:er',
-            'Spåra information mellan appar eller webbplatser för reklamändamål',
-            'Betalkortsnummer eller fullständig information om finansiellt konto',
-            'Biometrisk information',
-            'Hälsoinformation',
-            'Verklig finansiell kontoinformation',
-            'Riktiga investeringsrekord',
-            'Faktisk skatteinformation',
-            'Faktisk kreditinformation',
-            'Nationella identifikationsnummer, passnummer eller andra unika identifierare utfärdade av motsvarande offentliga myndigheter',
-            'Känslig information om ras, religion, politiska åsikter, medlemskap i fackförening, sexuell läggning eller liknande kategorier'
-          ]
+          text: 'Tjänsten begär eller samlar inte in verkliga finansiella konton, verkliga investerings-, skatte- eller kredituppgifter, betalkortsnummer, nationella identifikationsnummer, passnummer eller jämförbara myndighetsutfärdade unika identifierare. Anpassade rapporter genereras från virtuell speldata i tjänsten.'
         },
         {
           type: 'p' as const,
-          text: 'Tjänsten är ett virtuellt ekonomiskt simuleringsspel. Du får inte ange riktiga finansiella konton, kortnummer, nationella identifikationsnummer, passnummer, skatteinformation, kreditinformation, riktiga investeringsuppgifter eller annan känslig finansiell information från den verkliga världen i tjänsten. Operatören begär inte sådan information.'
+          text: 'Tjänsten använder för närvarande inte tredjeparts reklam-SDK:er, annonsidentifierare (IDFA/GAID) eller spårning mellan appar eller webbplatser för reklamändamål.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Betalningar behandlas av den relevanta appbutikens betalningsplattform. Operatören har inte åtkomst till betalkortsnummer eller fullständiga betalningsautentiseringsuppgifter.'
         },
         {
           type: 'p' as const,

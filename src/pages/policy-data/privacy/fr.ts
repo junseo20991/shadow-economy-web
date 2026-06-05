@@ -187,7 +187,7 @@ export default {
             "Adresse e-mail",
             "Nom d'affichage ou informations de profil de base fournies par Google lorsque vous utilisez la connexion Google, conformément à votre autorisation",
             "Nom d'affichage ou informations de profil de base fournis par Apple lorsque vous utilisez Sign in with Apple, selon votre autorisation (si vous choisissez Masquer mon e-mail, Apple peut fournir une adresse e-mail de relais privée au lieu de votre adresse e-mail personnelle)",
-            "Coordonnées, contenu de la demande et informations connexes que vous fournissez lors de la soumission d'une demande d'assistance client"
+            "Coordonnées, contenu de la demande et informations connexes que vous fournissez lors de la soumission d'une demande d'assistance client. N'incluez pas de comptes financiers réels, de numéros de carte de paiement, d'identifiants émis par une autorité publique, ni de dossiers fiscaux, de crédit ou d'investissement réels dans les messages d'assistance."
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'Opérateur ne collecte actuellement pas intentionnellement les informations suivantes."
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Informations de localisation précises",
-            "Informations sur la caméra",
-            "Informations sur les microphones",
-            "Informations sur la liste de contacts",
-            "Informations sur la photothèque",
-            "Identifiants publicitaires à des fins publicitaires (IDFA, GAID)",
-            "Informations comportementales via des SDK publicitaires tiers",
-            "Informations de suivi inter-applications ou inter-sites à des fins publicitaires",
-            "Numéros de carte de paiement ou informations complètes sur le compte financier",
-            "Informations biométriques",
-            "Informations sur la santé",
-            "Informations sur le compte financier réel",
-            "De vrais dossiers d’investissement",
-            "Informations fiscales réelles",
-            "Informations de crédit réelles",
-            "Numéros d'identification nationaux, numéros de passeport ou identifiants uniques comparables émis par le gouvernement",
-            "Informations sensibles concernant la race, la religion, les opinions politiques, l'appartenance syndicale, l'orientation sexuelle ou des catégories similaires"
-          ]
+          "text": "Le Service ne demande ni ne collecte de comptes financiers réels, de dossiers réels d'investissement, fiscaux ou de crédit, de numéros de carte de paiement, de numéros d'identification nationale, de numéros de passeport ni d'identifiants uniques comparables émis par une autorité publique. Les rapports personnalisés sont générés à partir des données de jeu virtuelles du Service."
         },
         {
           "type": "p",
-          "text": "Le Service est un jeu de simulation économique virtuelle. Vous ne devez pas saisir de comptes financiers réels, de numéros de carte de paiement, de numéros d'identification nationaux, de numéros de passeport, d'informations fiscales, d'informations de crédit, de dossiers d'investissement réels ou d'autres informations financières sensibles du monde réel dans le Service. L'Opérateur ne demande pas de telles informations."
+          "text": "Le Service n'utilise actuellement pas de SDK publicitaires tiers, d'identifiants publicitaires (IDFA/GAID) ni de suivi inter-applications ou inter-sites à des fins publicitaires."
+        },
+        {
+          "type": "p",
+          "text": "Les paiements sont traités par la plateforme de paiement de la boutique d'applications concernée. L'Opérateur n'a pas accès aux numéros de carte de paiement ni aux identifiants complets d'authentification de paiement."
         },
         {
           "type": "p",
@@ -1181,7 +1163,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Lorsque la loi australienne sur la confidentialité de 1988 s'applique, vous pouvez demander l'accès et la correction de vos données personnelles. If a complaint about personal data processing is not resolved, you may lodge a complaint with the Office of the Australian Information Commissioner."
+          "text": "Lorsque la loi australienne sur la protection de la vie privée de 1988 s'applique, vous pouvez demander l'accès et la correction de vos données personnelles. Si une plainte relative au traitement des données personnelles n'est pas résolue, vous pouvez déposer une plainte auprès de l'Office of the Australian Information Commissioner."
         },
         {
           "type": "h3",
@@ -1189,7 +1171,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Where PIPEDA or provincial privacy laws in Canada apply, you may request access to and correction of personal data and object to how personal data is processed."
+          "text": "Lorsque la LPRPDE ou des lois provinciales canadiennes sur la protection de la vie privée s’appliquent, vous pouvez demander l’accès à vos données personnelles, leur correction et vous opposer à la manière dont elles sont traitées."
         },
         {
           "type": "h3",
@@ -1226,11 +1208,11 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Le Service est un jeu de simulation économique éducatif et divertissant qui peut être proposé à un public de tous âges. However, an all-ages rating does not mean the Service is primarily directed at children under 13 or designed to knowingly collect personal data from children."
+          "text": "Le Service est un jeu de simulation économique éducatif et de divertissement qui peut être proposé avec une classification tous publics. Toutefois, une classification tous publics ne signifie pas que le Service s'adresse principalement aux enfants de moins de 13 ans ou qu'il est conçu pour collecter sciemment des données personnelles auprès d'enfants."
         },
         {
           "type": "p",
-          "text": "The Operator does not primarily offer the Service to children under 13 and does not knowingly collect personal data from children under 13. The Operator also does not process children's personal data for third-party tracking for advertising purposes, third-party personalized advertising, or advertising profile creation."
+          "text": "L'Opérateur ne propose pas principalement le Service aux enfants de moins de 13 ans et ne collecte pas sciemment de données personnelles auprès d'enfants de moins de 13 ans. L'Opérateur ne traite pas non plus les données personnelles d'enfants à des fins de suivi publicitaire par des tiers, de publicité personnalisée par des tiers ou de création de profils publicitaires."
         },
         {
           "type": "p",

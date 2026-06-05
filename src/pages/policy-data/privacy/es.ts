@@ -187,7 +187,7 @@ export default {
             'Dirección de correo electrónico',
             'Nombre para mostrar o información básica del perfil que Google proporciona cuando utiliza el inicio de sesión con Google, según su autorización',
             'Nombre para mostrar o información básica del perfil que Apple proporciona cuando utiliza Iniciar sesión con Apple, según su autorización (si elige Ocultar mi correo electrónico, Apple puede proporcionar una dirección de retransmisión privada en lugar de su correo personal)',
-            'Datos de contacto, contenido de la solicitud e información relacionada que usted proporcione al enviar una solicitud de atención al cliente'
+            'Datos de contacto, contenido de la solicitud e información relacionada que usted proporcione al enviar una solicitud de atención al cliente. No incluya cuentas financieras reales, números de tarjetas de pago, identificadores emitidos por el gobierno, registros fiscales, crediticios o de inversión reales en los mensajes de soporte.'
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Actualmente, el Operador no recopila intencionadamente la siguiente información.'
-        },
-        {
-          type: 'ul' as const,
-          items: [
-            'Información de ubicación precisa',
-            'Información de la cámara',
-            'Información del micrófono',
-            'Información de la lista de contactos',
-            'Información de la biblioteca de fotos',
-            'Identificadores publicitarios con fines publicitarios (IDFA, GAID)',
-            'Información conductual mediante SDK publicitarios de terceros',
-            'Información de seguimiento entre aplicaciones o sitios web con fines publicitarios',
-            'Números de tarjeta de pago o información completa de cuentas financieras',
-            'Información biométrica',
-            'Información sanitaria',
-            'Información de cuentas financieras reales',
-            'Registros de inversiones reales',
-            'Información fiscal real',
-            'Información crediticia real',
-            'Números de identificación nacional, números de pasaporte u otros identificadores únicos emitidos por autoridades públicas equivalentes',
-            'Información sensible relativa a raza, religión, opiniones políticas, afiliación sindical, orientación sexual o categorías similares'
-          ]
+          text: 'El Servicio no solicita ni recopila cuentas financieras reales, registros reales de inversión, fiscales o crediticios, números de tarjetas de pago, números de identificación nacional, números de pasaporte ni identificadores únicos comparables emitidos por autoridades públicas. Los informes personalizados se generan a partir de datos de juego virtuales dentro del Servicio.'
         },
         {
           type: 'p' as const,
-          text: 'El Servicio es un juego de simulación económica virtual. No debe introducir cuentas financieras reales, números de tarjeta, números de identificación nacional, números de pasaporte, información fiscal, información crediticia, registros de inversiones reales u otra información financiera sensible del mundo real en el Servicio. El Operador no solicita dicha información.'
+          text: 'Actualmente, el Servicio no utiliza SDK publicitarios de terceros, identificadores publicitarios (IDFA/GAID) ni seguimiento entre aplicaciones o sitios web con fines publicitarios.'
+        },
+        {
+          type: 'p' as const,
+          text: 'Los pagos son procesados por la plataforma de pago de la tienda de aplicaciones correspondiente. El Operador no accede a números de tarjetas de pago ni a credenciales completas de autenticación de pago.'
         },
         {
           type: 'p' as const,

@@ -187,7 +187,7 @@ export default {
             "Indirizzo e-mail",
             "Nome visualizzato o informazioni di base del profilo fornite da Google quando utilizzi l'accesso a Google, in base alla tua autorizzazione",
             "Visualizza il nome o le informazioni di base del profilo fornite da Apple quando usi Sign in with Apple, in base alla tua autorizzazione (se scegli Nascondi la mia email, Apple potrebbe fornire un indirizzo email di inoltro privato invece della tua email personale)",
-            "Dettagli di contatto, contenuto della richiesta e informazioni correlate fornite quando si invia una richiesta di assistenza clienti"
+            "Dettagli di contatto, contenuto della richiesta e informazioni correlate fornite quando si invia una richiesta di assistenza clienti. Non includere nei messaggi di assistenza conti finanziari reali, numeri di carte di pagamento, identificativi rilasciati da autorità pubbliche o registri fiscali, creditizi o di investimento reali."
           ]
         },
         {
@@ -338,34 +338,16 @@ export default {
           "text": "3.7 Informazioni che attualmente non raccogliamo"
         },
         {
-          "type": "P",
-          "text": "L'Operatore attualmente non raccoglie intenzionalmente le seguenti informazioni."
+          "type": "p",
+          "text": "Il Servizio non richiede né raccoglie conti finanziari reali, registri reali di investimento, fiscali o creditizi, numeri di carte di pagamento, numeri di identificazione nazionale, numeri di passaporto o identificatori univoci comparabili rilasciati da autorità pubbliche. I report personalizzati sono generati dai dati di gioco virtuali all'interno del Servizio."
         },
         {
-          "type": "ul",
-          "items": [
-            "Informazioni precise sulla posizione",
-            "Informazioni sulla fotocamera",
-            "Informazioni sul microfono",
-            "Informazioni sull'elenco dei contatti",
-            "Informazioni sulla libreria fotografica",
-            "Identificatori pubblicitari per scopi pubblicitari (IDFA, GAID)",
-            "Informazioni comportamentali tramite SDK pubblicitari di terze parti",
-            "Informazioni di tracciamento tra app o tra siti Web per scopi pubblicitari",
-            "Numeri di carte di pagamento o informazioni complete sul conto finanziario",
-            "Informazioni biometriche",
-            "Informazioni sanitarie",
-            "Informazioni sul conto finanziario reale",
-            "Record di investimenti reali",
-            "Informazioni fiscali reali",
-            "Informazioni sul credito reale",
-            "Numeri di identificazione nazionale, numeri di passaporto o identificatori univoci comparabili rilasciati dal governo",
-            "Informazioni sensibili riguardanti razza, religione, opinioni politiche, appartenenza sindacale, orientamento sessuale o categorie simili"
-          ]
+          "type": "p",
+          "text": "Attualmente il Servizio non utilizza SDK pubblicitari di terze parti, identificatori pubblicitari (IDFA/GAID) né tracciamento tra app o siti web a fini pubblicitari."
         },
         {
-          "type": "P",
-          "text": "Il Servizio è un gioco di simulazione economica virtuale. Non è necessario inserire nel Servizio conti finanziari reali, numeri di carte di pagamento, numeri di identificazione nazionale, numeri di passaporto, informazioni fiscali, informazioni sul credito, registri di investimenti reali o altre informazioni finanziarie sensibili del mondo reale. L'Operatore non richiede tali informazioni."
+          "type": "p",
+          "text": "I pagamenti sono elaborati dalla piattaforma di pagamento dell'app store pertinente. L'Operatore non accede ai numeri delle carte di pagamento né alle credenziali complete di autenticazione del pagamento."
         },
         {
           "type": "P",

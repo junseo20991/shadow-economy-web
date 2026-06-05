@@ -187,7 +187,7 @@ export default {
             "E-mailadres",
             "Weergavenaam of basisprofielinformatie die door Google wordt verstrekt wanneer u zich aanmeldt bij Google, afhankelijk van uw toestemming",
             "Weergavenaam of basisprofielinformatie die door Apple wordt verstrekt wanneer u Sign in with Apple gebruikt, op basis van uw toestemming (als u Mijn e-mail verbergen kiest, kan Apple een privé e-mailadres opgeven in plaats van uw persoonlijke e-mailadres)",
-            "Contactgegevens, verzoekinhoud en gerelateerde informatie die u verstrekt bij het indienen van een verzoek om klantenondersteuning"
+            "Contactgegevens, verzoekinhoud en gerelateerde informatie die u verstrekt bij het indienen van een verzoek om klantenondersteuning. Neem geen echte financiële rekeningen, betaalkaartnummers, door de overheid uitgegeven identificatiegegevens of echte belasting-, krediet- of beleggingsgegevens op in ondersteuningsberichten."
           ]
         },
         {
@@ -339,33 +339,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "De Operator verzamelt momenteel niet opzettelijk de volgende informatie."
-        },
-        {
-          "type": "ul",
-          "items": [
-            "Nauwkeurige locatie-informatie",
-            "Camera-informatie",
-            "Microfoon informatie",
-            "Contactlijstinformatie",
-            "Informatie over de fotobibliotheek",
-            "Advertentie-ID's voor advertentiedoeleinden (IDFA, GAID)",
-            "Gedragsinformatie via advertentie-SDK's van derden",
-            "Cross-app of cross-website tracking-informatie voor reclamedoeleinden",
-            "Betaalkaartnummers of volledige financiële rekeninginformatie",
-            "Biometrische informatie",
-            "Gezondheidsinformatie",
-            "Echte financiële rekeninginformatie",
-            "Echte investeringsrecords",
-            "Echte belastinginformatie",
-            "Echte kredietinformatie",
-            "Nationale identificatienummers, paspoortnummers of vergelijkbare, door de overheid uitgegeven unieke identificatiegegevens",
-            "Gevoelige informatie over ras, religie, politieke opvattingen, lidmaatschap van een vakbond, seksuele geaardheid of soortgelijke categorieën"
-          ]
+          "text": "De Dienst vraagt niet om en verzamelt geen echte financiële rekeningen, echte beleggings-, belasting- of kredietgegevens, betaalkaartnummers, nationale identificatienummers, paspoortnummers of vergelijkbare door de overheid uitgegeven unieke identificatiegegevens. Gepersonaliseerde rapporten worden gegenereerd op basis van virtuele spelgegevens binnen de Dienst."
         },
         {
           "type": "p",
-          "text": "The Service is een virtueel economisch simulatiespel. U mag geen echte financiële rekeningen, betaalkaartnummers, nationale identificatienummers, paspoortnummers, belastinginformatie, kredietinformatie, echte beleggingsgegevens of andere gevoelige financiële informatie uit de echte wereld in de Dienst invoeren. De Operator vraagt ​​niet om dergelijke informatie."
+          "text": "De Dienst gebruikt momenteel geen advertentie-SDK's van derden, advertentie-ID's (IDFA/GAID) of tracking tussen apps of websites voor advertentiedoeleinden."
+        },
+        {
+          "type": "p",
+          "text": "Betalingen worden verwerkt door het betaalplatform van de betreffende app store. De Operator heeft geen toegang tot betaalkaartnummers of volledige betalingsauthenticatiegegevens."
         },
         {
           "type": "p",
