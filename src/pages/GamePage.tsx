@@ -386,38 +386,38 @@ const content = {
     "philosophy": [
       {
         "title": "La survie avant tout",
-        "body": "Les flux de trésorerie vous maintiennent dans le jeu. S'il s'arrête, la course se termine. La valeur nette n’a d’importance que si vous pouvez continuer."
+        "body": "La trésorerie vous garde dans la partie. Si elle s’arrête, la partie s’arrête aussi. La valeur nette ne compte que si vous pouvez continuer."
       },
       {
         "title": "Les instincts ne sont pas des faits",
-        "body": "L’endettement peut sembler dangereux. L’argent liquide peut sembler en sécurité. Le jeu montre où ces instincts vous aident et où ils vous coûtent."
+        "body": "La dette peut paraître dangereuse. Le cash peut paraître rassurant. Le jeu montre quand ces réflexes aident et quand ils coûtent cher."
       },
       {
         "title": "La richesse laisse une trace",
-        "body": "Chaque atout change le Ward autour de vous. Le Ward vous change."
+        "body": "Chaque actif transforme le Ward autour de vous. Le Ward vous transforme en retour."
       },
       {
         "title": "Pas de réponse unique",
-        "body": "La simulation ne choisit pas de gagnant. Il montre le coût de chaque chemin."
+        "body": "La simulation ne choisit pas de gagnant. Elle montre le coût de chaque trajectoire."
       }
     ],
     "shadowTitle": "Le Ward",
-    "shadowBody": "Votre Ward répond à chaque mouvement que vous effectuez.",
-    "shadowBody2": "Les vitrines des magasins sont sombres. Les rues se calment. Les valeurs des propriétés bougent. Le changement est visible avant d’être expliqué.",
-    "shadowQuote": "Vos décisions façonnent le Ward. Le Ward façonne vos retours.",
-    "mechanicsTitle": "Mécanique",
+    "shadowBody": "Votre Ward réagit à chacune de vos décisions.",
+    "shadowBody2": "Les vitrines s’assombrissent. Les rues se calment. Les valeurs immobilières bougent. Le changement se voit avant d’être expliqué.",
+    "shadowQuote": "Vos décisions façonnent le Ward. Le Ward façonne vos rendements.",
+    "mechanicsTitle": "Mécaniques",
     "mechanics": [
       {
-        "title": "Pointage de crédit",
-        "body": "Un dossier vierge a un plafond. Le système récompense la gestion de la dette, pas son évitement."
+        "title": "Score de crédit",
+        "body": "Un dossier impeccable a aussi un plafond. Le système récompense la gestion de la dette, pas son évitement."
       },
       {
         "title": "Effets retardés",
-        "body": "Les choix ne se décident pas d’un coup. Leurs effets reviennent quelques tours plus tard, souvent après que vous ayez quitté la partie."
+        "body": "Les choix ne se règlent pas immédiatement. Leurs effets reviennent quelques tours plus tard, souvent quand vous êtes déjà passé à autre chose."
       },
       {
-        "title": "Flux de trésorerie par rapport à la valeur nette",
-        "body": "Vous pouvez posséder plus que ce que vous pouvez payer. La plupart des pertes proviennent du timing et non de la propriété."
+        "title": "Trésorerie et valeur nette",
+        "body": "Vous pouvez posséder plus que ce que vous pouvez financer. La plupart des pertes viennent du timing, pas de la propriété."
       }
     ],
     "whyTitle": "Pourquoi une simulation",
@@ -431,42 +431,42 @@ const content = {
       },
       {
         "quote": "\"Je connais les concepts. Je me fige encore quand vient le temps de décider.\"",
-        "label": "Connaître la théorie, pas le mouvement"
+        "label": "Connaît la théorie, bloque au moment d’agir"
       },
       {
         "quote": "\"J'ai lu des livres. Rien n'a vraiment changé ma façon de voir l'argent.\"",
-        "label": "Appris, mais inchangé"
+        "label": "A appris, sans changer"
       },
       {
         "quote": "\"Je veux comprendre comment fonctionne le système, pas seulement comment y survivre.\"",
         "label": "Curieux de connaître la structure"
       }
     ],
-    "whoClose": "Le jeu ne vous dit pas quoi faire. Cela montre ce que révèlent vos choix."
+    "whoClose": "Le jeu ne vous dit pas quoi faire. Il montre ce que vos choix révèlent."
   },
   "de": {
     "philosophyTitle": "Gestaltungsprinzipien",
     "philosophy": [
       {
         "title": "Überleben zuerst",
-        "body": "Der Cashflow hält Sie im Spiel. Wenn es stoppt, endet der Lauf. Das Vermögen zählt nur, wenn man weitermachen kann."
+        "body": "Der Cashflow hält Sie im Spiel. Wenn er versiegt, endet die Runde. Das Nettovermögen zählt nur, wenn Sie weitermachen können."
       },
       {
         "title": "Instinkte sind keine Fakten",
-        "body": "Schulden können gefährlich sein. Bargeld kann sich sicher anfühlen. Das Spiel zeigt, wo diese Instinkte helfen und wo sie Sie kosten."
+        "body": "Schulden können sich gefährlich anfühlen. Bargeld kann sich sicher anfühlen. Das Spiel zeigt, wann diese Instinkte helfen und wann sie teuer werden."
       },
       {
         "title": "Reichtum hinterlässt Spuren",
-        "body": "Jeder Vermögenswert verändert die Ward um Sie herum. Der Ward verändert Sie zurück."
+        "body": "Jeder Vermögenswert verändert den Ward um Sie herum. Der Ward verändert auch Sie."
       },
       {
-        "title": "Keine einheitliche Antwort",
-        "body": "Die Simulation ermittelt keinen Gewinner. Es zeigt die Kosten für jeden Pfad."
+        "title": "Keine einzige richtige Antwort",
+        "body": "Die Simulation ermittelt keinen Gewinner. Sie zeigt die Kosten jedes Weges."
       }
     ],
     "shadowTitle": "Der Ward",
-    "shadowBody": "Ihr Ward reagiert auf jede Ihrer Bewegungen.",
-    "shadowBody2": "Schaufenster sind dunkel. Es wird ruhiger auf den Straßen. Immobilienwerte verschieben sich. Die Änderung ist sichtbar, bevor sie erklärt wird.",
+    "shadowBody": "Ihr Ward reagiert auf jede Ihrer Entscheidungen.",
+    "shadowBody2": "Schaufenster werden dunkel. Die Straßen werden ruhiger. Immobilienwerte verschieben sich. Die Änderung ist sichtbar, bevor sie erklärt wird.",
     "shadowQuote": "Ihre Entscheidungen prägen den Ward. Der Ward prägt Ihre Rendite.",
     "mechanicsTitle": "Mechanik",
     "mechanics": [
@@ -476,11 +476,11 @@ const content = {
       },
       {
         "title": "Verzögerte Auswirkungen",
-        "body": "Entscheidungen werden nicht sofort getroffen. Ihre Effekte kehren einige Runden später zurück, oft nachdem Sie weitergezogen sind."
+        "body": "Entscheidungen sind nicht sofort abgeschlossen. Ihre Effekte tauchen einige Runden später wieder auf, oft wenn Sie schon weitergezogen sind."
       },
       {
         "title": "Cashflow vs. Nettovermögen",
-        "body": "Sie können mehr besitzen, als Sie bezahlen können. Die meisten Verluste entstehen durch das Timing, nicht durch Eigentum."
+        "body": "Sie können mehr besitzen, als Sie bezahlen können. Die meisten Verluste entstehen durch Timing, nicht durch Eigentum."
       }
     ],
     "whyTitle": "Warum eine Simulation?",
@@ -493,8 +493,8 @@ const content = {
         "label": "Brauche einen Ausgangspunkt"
       },
       {
-        "quote": "„Ich kenne die Konzepte. Ich friere immer noch, wenn es Zeit ist, eine Entscheidung zu treffen.“",
-        "label": "Kennen Sie die Theorie, nicht die Bewegung"
+        "quote": "„Ich kenne die Konzepte. Ich blockiere immer noch, wenn es Zeit ist, eine Entscheidung zu treffen.“",
+        "label": "Kennt die Theorie, aber nicht den nächsten Schritt"
       },
       {
         "quote": "„Ich habe die Bücher gelesen. An meiner Einstellung zu Geld hat sich nichts wirklich geändert.“",
@@ -505,32 +505,32 @@ const content = {
         "label": "Neugierig auf die Struktur"
       }
     ],
-    "whoClose": "Das Spiel sagt einem nicht, was man tun soll. Es zeigt, was Ihre Entscheidungen offenbaren."
+    "whoClose": "Das Spiel sagt Ihnen nicht, was Sie tun sollen. Es zeigt, was Ihre Entscheidungen offenbaren."
   },
   "ru": {
-    "philosophyTitle": "Принципы проектирования",
+    "philosophyTitle": "Принципы дизайна",
     "philosophy": [
       {
         "title": "Выживание прежде всего",
-        "body": "Денежный поток удерживает вас в игре. Если он остановится, пробег закончится. Чистый капитал имеет значение только в том случае, если вы можете продолжать идти вперед."
+        "body": "Денежный поток удерживает вас в игре. Если он остановится, партия закончится. Чистый капитал важен только тогда, когда вы можете продолжать."
       },
       {
         "title": "Инстинкты – это не факты",
-        "body": "Долг может показаться опасным. Наличные могут чувствовать себя в безопасности. Игра показывает, где эти инстинкты помогают и чего они вам стоят."
+        "body": "Долг может казаться опасным. Наличные могут казаться безопасными. Игра показывает, когда эти инстинкты помогают и когда они обходятся дорого."
       },
       {
         "title": "Богатство оставляет след",
-        "body": "Каждый актив меняет Ward вокруг вас. Ward возвращает вас обратно."
+        "body": "Каждый актив меняет Ward вокруг вас. Ward меняет вас в ответ."
       },
       {
         "title": "Нет единого ответа",
-        "body": "Симуляция не выбирает победителя. Он показывает стоимость каждого пути."
+        "body": "Симуляция не выбирает победителя. Она показывает цену каждого пути."
       }
     ],
     "shadowTitle": "Ward",
-    "shadowBody": "Ваш Ward реагирует на каждое ваше движение.",
-    "shadowBody2": "Витрины магазинов тусклые. Улицы затихли. Стоимость недвижимости меняется. Изменение становится видимым еще до того, как оно будет объяснено.",
-    "shadowQuote": "Ваши решения формируют Ward. Ward формирует вашу прибыль.",
+    "shadowBody": "Ваш Ward реагирует на каждое ваше решение.",
+    "shadowBody2": "Витрины темнеют. Улицы затихают. Стоимость недвижимости меняется. Перемены видны еще до объяснений.",
+    "shadowQuote": "Ваши решения формируют Ward. Ward формирует вашу доходность.",
     "mechanicsTitle": "Механика",
     "mechanics": [
       {
@@ -539,15 +539,15 @@ const content = {
       },
       {
         "title": "Отложенные эффекты",
-        "body": "Выбор не принимается сразу. Их эффекты возвращаются через несколько ходов, часто после того, как вы пошли дальше."
+        "body": "Выбор не закрывается сразу. Его последствия возвращаются через несколько ходов, часто уже после того, как вы пошли дальше."
       },
       {
-        "title": "Денежный поток против собственного капитала",
-        "body": "Вы можете владеть большим, чем можете заплатить. Большинство потерь происходит из-за времени, а не из-за владения."
+        "title": "Денежный поток и чистый капитал",
+        "body": "Вы можете владеть большим, чем можете заплатить. Большинство потерь происходит из-за момента, а не из-за самого владения."
       }
     ],
     "whyTitle": "Почему симуляция",
-    "whyBody": "Книги объясняют правила. Моделирование позволяет протестировать их под давлением.",
+    "whyBody": "Книги объясняют правила. Симуляция позволяет проверить их под давлением.",
     "whyBody2": "Это облегчит запоминание урока. Ошибка стоит перезагрузки, а не лет.",
     "whoTitle": "Сделано для игроков, которые",
     "whoProfiles": [
@@ -557,7 +557,7 @@ const content = {
       },
       {
         "quote": "«Я знаю концепции. Я все еще замираю, когда приходит время решать».",
-        "label": "Знай теорию, а не ход"
+        "label": "Знают теорию, но не следующий шаг"
       },
       {
         "quote": "«Я читал книги. Ничто по-настоящему не изменило мое отношение к деньгам».",
@@ -565,36 +565,36 @@ const content = {
       },
       {
         "quote": "«Я хочу понять, как работает система, а не только то, как в ней выжить».",
-        "label": "Интересно о структуре"
+        "label": "Интересуется структурой"
       }
     ],
-    "whoClose": "Игра не говорит вам, что делать. Это показывает, что показывает ваш выбор."
+    "whoClose": "Игра не говорит вам, что делать. Она показывает, что раскрывает ваш выбор."
   },
   "ar": {
     "philosophyTitle": "مبادئ التصميم",
     "philosophy": [
       {
         "title": "البقاء على قيد الحياة أولا",
-        "body": "التدفق النقدي يبقيك في اللعبة. إذا توقف، ينتهي السباق. القيمة الصافية مهمة فقط إذا كان بإمكانك الاستمرار."
+        "body": "يبقيك التدفق النقدي داخل اللعبة. إذا توقف، تنتهي الجولة. لا يهم صافي الثروة إلا إذا استطعت الاستمرار."
       },
       {
         "title": "الغرائز ليست حقائق",
-        "body": "يمكن أن تبدو الديون خطيرة. يمكن للنقود أن تشعر بالأمان. تُظهر اللعبة أين تساعد هذه الغرائز وأين تكلفك."
+        "body": "قد تبدو الديون خطيرة. وقد تبدو النقود آمنة. تُظهر اللعبة متى تساعد هذه الغرائز ومتى تكلّفك."
       },
       {
         "title": "الثروة تترك علامة",
-        "body": "كل أصل يغير Ward من حولك. Ward يغيرك مرة أخرى."
+        "body": "كل أصل يغيّر Ward من حولك. وWard يغيّرك بدوره."
       },
       {
         "title": "لا توجد إجابة واحدة",
-        "body": "المحاكاة لا تختار الفائز. ويبين تكلفة كل مسار."
+        "body": "المحاكاة لا تختار الفائز. إنها تعرض تكلفة كل مسار."
       }
     ],
     "shadowTitle": "Ward",
-    "shadowBody": "يستجيب Ward الخاص بك لكل خطوة تقوم بها.",
-    "shadowBody2": "واجهات المحلات قاتمة. الشوارع هادئة. تتحرك قيم الممتلكات. التغيير مرئي قبل أن يتم شرحه.",
-    "shadowQuote": "قراراتك تشكل Ward. يشكل Ward عوائدك.",
-    "mechanicsTitle": "ميكانيكا",
+    "shadowBody": "يستجيب Ward الخاص بك لكل قرار تتخذه.",
+    "shadowBody2": "تخفت واجهات المتاجر. تهدأ الشوارع. تتحرك قيم العقارات. يظهر التغيير قبل أن يُشرح.",
+    "shadowQuote": "قراراتك تشكل Ward. ويشكل Ward عوائدك.",
+    "mechanicsTitle": "آليات",
     "mechanics": [
       {
         "title": "درجة الائتمان",
@@ -602,17 +602,17 @@ const content = {
       },
       {
         "title": "آثار متأخرة",
-        "body": "الاختيارات لا تستقر دفعة واحدة. تعود تأثيراتها بعد عدة دورات، غالبًا بعد انتقالك إلى مكان آخر."
+        "body": "لا تُحسم الاختيارات فورًا. تعود آثارها بعد عدة أدوار، غالبًا بعد أن تكون قد انتقلت إلى قرار آخر."
       },
       {
-        "title": "التدفق النقدي مقابل صافي القيمة",
-        "body": "يمكنك امتلاك أكثر مما يمكنك دفع ثمنه. معظم الخسائر تأتي من التوقيت، وليس الملكية."
+        "title": "التدفق النقدي وصافي الثروة",
+        "body": "قد تملك أكثر مما تستطيع دفع تكلفته. معظم الخسائر تأتي من التوقيت، لا من الملكية."
       }
     ],
     "whyTitle": "لماذا المحاكاة",
-    "whyBody": "كتب تشرح القواعد. تتيح لك المحاكاة اختبارها تحت الضغط.",
-    "whyBody2": "وهذا يجعل الدرس أسهل للتذكر. الخطأ يكلف إعادة ضبط، وليس سنوات.",
-    "whoTitle": "صنع للاعبين الذين",
+    "whyBody": "الكتب تشرح القواعد. أما المحاكاة فتتيح لك اختبارها تحت الضغط.",
+    "whyBody2": "وهذا يجعل الدرس أسهل للتذكر. الخطأ يكلّف إعادة تشغيل، لا سنوات.",
+    "whoTitle": "مصممة للاعبين الذين",
     "whoProfiles": [
       {
         "quote": "\"الجميع من حولي يستثمرون، لكنني لا أعرف حتى ما الذي يجب أن أطلبه\".",
@@ -620,56 +620,56 @@ const content = {
       },
       {
         "quote": "\"أنا أعرف المفاهيم. ومازلت أتجمد عندما يحين وقت اتخاذ القرار.\"",
-        "label": "تعرف على النظرية، وليس هذه الخطوة"
+        "label": "يعرفون النظرية، لكنهم يترددون عند القرار"
       },
       {
         "quote": "\"لقد قرأت الكتب. ولم يغير أي شيء حقًا طريقة تفكيري بشأن المال.\"",
-        "label": "تعلمت ولكن لم تتغير"
+        "label": "تعلّموا، لكنهم لم يتغيروا"
       },
       {
         "quote": "\"أريد أن أفهم كيف يعمل النظام، وليس فقط كيفية البقاء على قيد الحياة فيه.\"",
-        "label": "فضولي حول الهيكل"
+        "label": "فضوليون بشأن البنية"
       }
     ],
-    "whoClose": "اللعبة لا تخبرك بما يجب عليك فعله. إنه يوضح ما تكشفه اختياراتك."
+    "whoClose": "اللعبة لا تخبرك بما يجب أن تفعله. إنها توضح ما تكشفه اختياراتك."
   },
   "pt": {
     "philosophyTitle": "Princípios de design",
     "philosophy": [
       {
-        "title": "Sobrevivência primeiro",
-        "body": "O fluxo de caixa mantém você no jogo. Se parar, a corrida termina. O patrimônio líquido só importa se você continuar."
+        "title": "Sobreviver primeiro",
+        "body": "O fluxo de caixa mantém você no jogo. Se ele para, a partida termina. O patrimônio líquido só importa se você consegue continuar."
       },
       {
-        "title": "Instintos não são fatos",
-        "body": "A dívida pode parecer perigosa. O dinheiro pode parecer seguro. O jogo mostra onde esses instintos ajudam e onde eles custam caro."
+        "title": "Instinto não é fato",
+        "body": "A dívida pode parecer perigosa. Dinheiro em caixa pode parecer seguro. O jogo mostra quando esses instintos ajudam e quando custam caro."
       },
       {
         "title": "A riqueza deixa uma marca",
-        "body": "Cada ativo muda o Ward ao seu redor. O Ward muda você de volta."
+        "body": "Cada ativo muda o Ward ao seu redor. O Ward também muda você."
       },
       {
         "title": "Nenhuma resposta única",
-        "body": "A simulação não escolhe um vencedor. Mostra o custo de cada caminho."
+        "body": "A simulação não escolhe um vencedor. Ela mostra o custo de cada caminho."
       }
     ],
     "shadowTitle": "O Ward",
-    "shadowBody": "Seu Ward responde a cada movimento que você faz.",
-    "shadowBody2": "As vitrines escurecem. As ruas se acalmam. Os valores das propriedades mudam. A mudança é visível antes de ser explicada.",
+    "shadowBody": "Seu Ward responde a cada decisão que você toma.",
+    "shadowBody2": "As vitrines escurecem. As ruas ficam mais silenciosas. Os valores dos imóveis mudam. A mudança aparece antes de ser explicada.",
     "shadowQuote": "Suas decisões moldam o Ward. O Ward molda seus retornos.",
     "mechanicsTitle": "Mecânica",
     "mechanics": [
       {
         "title": "Pontuação de crédito",
-        "body": "Um histórico limpo tem um teto. O sistema recompensa a gestão da dívida, não a sua evitação."
+        "body": "Um histórico limpo tem um teto. O sistema recompensa a gestão da dívida, não simplesmente evitá-la."
       },
       {
         "title": "Efeitos atrasados",
-        "body": "As escolhas não são resolvidas de uma só vez. Seus efeitos retornam alguns turnos depois, geralmente após você seguir em frente."
+        "body": "As escolhas não se resolvem de uma só vez. Seus efeitos aparecem alguns turnos depois, muitas vezes quando você já seguiu em frente."
       },
       {
         "title": "Fluxo de caixa vs. patrimônio líquido",
-        "body": "Você pode possuir mais do que pode pagar. A maioria das perdas vem do timing e não da propriedade."
+        "body": "Você pode possuir mais do que pode pagar. A maioria das perdas vem do momento, não da propriedade."
       }
     ],
     "whyTitle": "Por que uma simulação",
@@ -683,11 +683,11 @@ const content = {
       },
       {
         "quote": "\"Eu conheço os conceitos. Ainda fico paralisado na hora de decidir.\"",
-        "label": "Conheça a teoria, não o movimento"
+        "label": "Conhece a teoria, mas trava na decisão"
       },
       {
         "quote": "\"Eu li os livros. Nada realmente mudou a forma como penso sobre dinheiro.\"",
-        "label": "Aprendido, mas inalterado"
+        "label": "Aprendeu, mas não mudou"
       },
       {
         "quote": "“Quero entender como funciona o sistema, e não apenas como sobreviver nele.”",
@@ -697,19 +697,19 @@ const content = {
     "whoClose": "O jogo não diz o que fazer. Mostra o que suas escolhas revelam."
   },
   "it": {
-    "philosophyTitle": "Principi di progettazione",
+    "philosophyTitle": "Principi di design",
     "philosophy": [
       {
         "title": "Prima la sopravvivenza",
-        "body": "Il flusso di cassa ti mantiene in gioco. Se si ferma, la corsa finisce. Il patrimonio netto conta solo se puoi andare avanti."
+        "body": "Il flusso di cassa ti mantiene in gioco. Se si ferma, la partita finisce. Il patrimonio netto conta solo se puoi andare avanti."
       },
       {
         "title": "Gli istinti non sono fatti",
-        "body": "Il debito può sembrare pericoloso. I contanti possono sentirsi al sicuro. Il gioco mostra dove questi istinti aiutano e dove ti costano."
+        "body": "Il debito può sembrare pericoloso. La liquidità può sembrare sicura. Il gioco mostra quando questi istinti aiutano e quando ti costano."
       },
       {
         "title": "La ricchezza lascia il segno",
-        "body": "Ogni risorsa cambia lo Ward intorno a te. Lo Ward ti cambia."
+        "body": "Ogni asset cambia lo Ward intorno a te. Lo Ward cambia anche te."
       },
       {
         "title": "Nessuna risposta unica",
@@ -718,13 +718,13 @@ const content = {
     ],
     "shadowTitle": "Lo Ward",
     "shadowBody": "Il tuo Ward risponde a ogni tuo movimento.",
-    "shadowBody2": "Vetrine dei negozi fioche. Le strade si calmano. I valori delle proprietà si spostano. Il cambiamento è visibile prima ancora che venga spiegato.",
-    "shadowQuote": "Le tue decisioni danno forma alla Ward. Lo Ward dà forma ai tuoi rendimenti.",
+    "shadowBody2": "Le vetrine si spengono. Le strade si fanno più silenziose. I valori immobiliari si spostano. Il cambiamento è visibile prima ancora che venga spiegato.",
+    "shadowQuote": "Le tue decisioni danno forma allo Ward. Lo Ward dà forma ai tuoi rendimenti.",
     "mechanicsTitle": "Meccanica",
     "mechanics": [
       {
         "title": "Punteggio di credito",
-        "body": "Un record pulito ha un limite. Il sistema premia la gestione del debito, non l’evitarlo."
+        "body": "Una storia creditizia pulita ha un limite. Il sistema premia la gestione del debito, non l’evitarlo."
       },
       {
         "title": "Effetti ritardati",
@@ -732,7 +732,7 @@ const content = {
       },
       {
         "title": "Flusso di cassa rispetto al patrimonio netto",
-        "body": "Puoi possedere più di quanto puoi pagare. La maggior parte delle perdite deriva dalle tempistiche, non dalla proprietà."
+        "body": "Puoi possedere più di quanto puoi pagare. La maggior parte delle perdite deriva dal tempismo, non dalla proprietà."
       }
     ],
     "whyTitle": "Perché una simulazione",
@@ -746,15 +746,15 @@ const content = {
       },
       {
         "quote": "\"Conosco i concetti. Mi blocco ancora quando è il momento di decidere.\"",
-        "label": "Conosci la teoria, non la mossa"
+        "label": "Conosce la teoria, ma si blocca sulla scelta"
       },
       {
         "quote": "\"Ho letto i libri. Niente ha veramente cambiato il modo in cui penso al denaro.\"",
-        "label": "Imparato, ma immutato"
+        "label": "Ha imparato, ma non è cambiato"
       },
       {
         "quote": "\"Voglio capire come funziona il sistema, non solo come sopravvivere al suo interno.\"",
-        "label": "Curioso per la struttura"
+        "label": "Curioso della struttura"
       }
     ],
     "whoClose": "Il gioco non ti dice cosa fare. Mostra ciò che rivelano le tue scelte."
@@ -764,30 +764,30 @@ const content = {
     "philosophy": [
       {
         "title": "Overleven eerst",
-        "body": "Cashflow houdt je in het spel. Als het stopt, eindigt de run. Het nettovermogen doet er alleen toe als u door kunt gaan."
+        "body": "Cashflow houdt je in het spel. Als die stopt, eindigt de ronde. Het nettovermogen doet er alleen toe als je kunt doorgaan."
       },
       {
         "title": "Instincten zijn geen feiten",
-        "body": "Schulden kunnen gevaarlijk aanvoelen. Contant geld kan veilig voelen. De game laat zien waar die instincten helpen, en waar ze je kosten."
+        "body": "Schulden kunnen gevaarlijk aanvoelen. Contant geld kan veilig voelen. Het spel laat zien waar die instincten helpen en waar ze je geld kosten."
       },
       {
         "title": "Rijkdom laat sporen na",
-        "body": "Elke aanwinst verandert de Ward om je heen. De Ward verandert jou terug."
+        "body": "Elk bezit verandert de Ward om je heen. De Ward verandert jou ook."
       },
       {
-        "title": "Geen enkel antwoord",
-        "body": "De simulatie kiest geen winnaar. Het toont de kosten van elk pad."
+        "title": "Geen eenduidig antwoord",
+        "body": "De simulatie kiest geen winnaar. Ze toont de kosten van elk pad."
       }
     ],
     "shadowTitle": "De Ward",
-    "shadowBody": "Je Ward reageert op elke beweging die je maakt.",
+    "shadowBody": "Je Ward reageert op elke beslissing die je neemt.",
     "shadowBody2": "Etalages doven. Straten worden stil. Vastgoedwaarden verschuiven. De verandering is zichtbaar voordat ze wordt uitgelegd.",
-    "shadowQuote": "Jouw beslissingen vormen de Ward. De Ward geeft vorm aan uw rendement.",
+    "shadowQuote": "Je beslissingen vormen de Ward. De Ward vormt ook je rendement.",
     "mechanicsTitle": "Mechanica",
     "mechanics": [
       {
         "title": "Kredietscore",
-        "body": "Een schoon record heeft een plafond. Het systeem beloont het beheren van schulden, niet het vermijden ervan."
+        "body": "Een schone kredietgeschiedenis heeft een plafond. Het systeem beloont het beheren van schulden, niet het vermijden ervan."
       },
       {
         "title": "Vertraagde effecten",
@@ -799,7 +799,7 @@ const content = {
       }
     ],
     "whyTitle": "Waarom een simulatie",
-    "whyBody": "Boeken leggen de regels uit. Met een simulatie kunt u ze onder druk testen.",
+    "whyBody": "Boeken leggen de regels uit. Met een simulatie kun je ze onder druk testen.",
     "whyBody2": "Dat maakt de les makkelijker te onthouden. Een fout kost een reset, geen jaren.",
     "whoTitle": "Gemaakt voor spelers die",
     "whoProfiles": [
@@ -808,8 +808,8 @@ const content = {
         "label": "Een startpunt nodig"
       },
       {
-        "quote": "\"Ik ken de concepten. Ik bevries nog steeds als het tijd is om te beslissen.\"",
-        "label": "Ken de theorie, niet de zet"
+        "quote": "\"Ik ken de concepten. Ik blokkeer nog steeds als het tijd is om te beslissen.\"",
+        "label": "Kent de theorie, maar niet de volgende stap"
       },
       {
         "quote": "\"Ik heb de boeken gelezen. Niets heeft de manier waarop ik over geld denk echt veranderd.\"",
@@ -820,50 +820,50 @@ const content = {
         "label": "Benieuwd naar de structuur"
       }
     ],
-    "whoClose": "Het spel vertelt je niet wat je moet doen. Het laat zien wat uw keuzes onthullen."
+    "whoClose": "Het spel vertelt je niet wat je moet doen. Het laat zien wat je keuzes onthullen."
   },
   "id": {
     "philosophyTitle": "Prinsip desain",
     "philosophy": [
       {
         "title": "Bertahan hidup dulu",
-        "body": "Arus kas membuat Anda tetap dalam permainan. Jika berhenti, maka perjalanan berakhir. Kekayaan bersih hanya penting jika Anda bisa terus maju."
+        "body": "Arus kas membuat Anda tetap bermain. Jika berhenti, permainan berakhir. Kekayaan bersih hanya penting jika Anda bisa terus maju."
       },
       {
         "title": "Naluri bukanlah fakta",
-        "body": "Hutang bisa terasa berbahaya. Uang tunai bisa terasa aman. Permainan ini menunjukkan di mana naluri tersebut membantu, dan di mana kerugiannya."
+        "body": "Utang bisa terasa berbahaya. Kas bisa terasa aman. Permainan ini menunjukkan kapan naluri itu membantu dan kapan justru merugikan."
       },
       {
         "title": "Kekayaan meninggalkan bekas",
-        "body": "Setiap aset mengubah Ward di sekitar Anda. Ward mengubah Anda kembali."
+        "body": "Setiap aset mengubah Ward di sekitar Anda. Ward juga mengubah Anda."
       },
       {
         "title": "Tidak ada jawaban tunggal",
-        "body": "Simulasi tidak memilih pemenang. Ini menunjukkan biaya setiap jalur."
+        "body": "Simulasi tidak memilih pemenang. Simulasi menunjukkan biaya setiap jalur."
       }
     ],
     "shadowTitle": "Ward",
-    "shadowBody": "Ward Anda merespons setiap gerakan yang Anda lakukan.",
-    "shadowBody2": "Etalase toko redup. Jalanan menjadi tenang. Nilai properti bergerak. Perubahannya terlihat sebelum dijelaskan.",
+    "shadowBody": "Ward Anda merespons setiap keputusan yang Anda ambil.",
+    "shadowBody2": "Etalase toko meredup. Jalanan menjadi tenang. Nilai properti berubah. Perubahannya terlihat sebelum dijelaskan.",
     "shadowQuote": "Keputusan Anda membentuk Ward. Ward membentuk keuntungan Anda.",
     "mechanicsTitle": "Mekanika",
     "mechanics": [
       {
         "title": "Skor kredit",
-        "body": "Rekor yang bersih memiliki batas tertinggi. Sistem ini memberi penghargaan pada pengelolaan utang, bukan menghindarinya."
+        "body": "Riwayat yang bersih tetap punya batas. Sistem memberi penghargaan pada pengelolaan utang, bukan menghindarinya."
       },
       {
         "title": "Efek tertunda",
-        "body": "Pilihan tidak bisa diselesaikan secara instan. Efeknya kembali beberapa putaran kemudian, sering kali setelah Anda melanjutkan."
+        "body": "Pilihan tidak langsung selesai. Efeknya kembali beberapa giliran kemudian, sering kali setelah Anda melanjutkan."
       },
       {
         "title": "Arus kas vs. kekayaan bersih",
-        "body": "Anda dapat memiliki lebih dari yang dapat Anda bayar. Kebanyakan kerugian berasal dari waktu, bukan kepemilikan."
+        "body": "Anda dapat memiliki lebih dari yang dapat Anda bayar. Sebagian besar kerugian berasal dari momen, bukan kepemilikan."
       }
     ],
     "whyTitle": "Mengapa simulasi",
-    "whyBody": "Buku menjelaskan aturannya. Sebuah simulasi memungkinkan Anda mengujinya di bawah tekanan.",
-    "whyBody2": "Hal ini membuat pelajaran lebih mudah diingat. Sebuah kesalahan membutuhkan penyetelan ulang, bukan bertahun-tahun.",
+    "whyBody": "Buku menjelaskan aturannya. Simulasi memungkinkan Anda mengujinya di bawah tekanan.",
+    "whyBody2": "Hal ini membuat pelajaran lebih mudah diingat. Satu kesalahan hanya membutuhkan reset, bukan bertahun-tahun.",
     "whoTitle": "Dibuat untuk pemain yang",
     "whoProfiles": [
       {
@@ -872,7 +872,7 @@ const content = {
       },
       {
         "quote": "“Saya tahu konsepnya. Saya masih terdiam ketika tiba waktunya untuk mengambil keputusan.”",
-        "label": "Ketahui teorinya, bukan langkahnya"
+        "label": "Tahu teorinya, tapi ragu melangkah"
       },
       {
         "quote": "\"Saya sudah membaca bukunya. Tidak ada yang benar-benar mengubah cara berpikir saya tentang uang.\"",
@@ -883,7 +883,7 @@ const content = {
         "label": "Penasaran dengan strukturnya"
       }
     ],
-    "whoClose": "Permainan tidak memberi tahu Anda apa yang harus dilakukan. Ini menunjukkan apa yang diungkapkan oleh pilihan Anda."
+    "whoClose": "Permainan tidak memberi tahu Anda apa yang harus dilakukan. Permainan menunjukkan apa yang terungkap dari pilihan Anda."
   }
 }
 

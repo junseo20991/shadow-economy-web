@@ -9,6 +9,23 @@ import { siteNav as t } from '../i18n/siteNav'
 
 const navItemClass = 'shrink-0 whitespace-nowrap'
 
+const MENU_TOGGLE_LABELS = {
+  en: { open: 'Open menu', close: 'Close menu' },
+  ko: { open: '메뉴 열기', close: '메뉴 닫기' },
+  ja: { open: 'メニューを開く', close: 'メニューを閉じる' },
+  zh: { open: '打开菜单', close: '关闭菜单' },
+  es: { open: 'Abrir menú', close: 'Cerrar menú' },
+  sv: { open: 'Öppna meny', close: 'Stäng meny' },
+  fr: { open: 'Ouvrir le menu', close: 'Fermer le menu' },
+  de: { open: 'Menü öffnen', close: 'Menü schließen' },
+  ru: { open: 'Открыть меню', close: 'Закрыть меню' },
+  ar: { open: 'فتح القائمة', close: 'إغلاق القائمة' },
+  pt: { open: 'Abrir menu', close: 'Fechar menu' },
+  it: { open: 'Apri menu', close: 'Chiudi menu' },
+  nl: { open: 'Menu openen', close: 'Menu sluiten' },
+  id: { open: 'Buka menu', close: 'Tutup menu' },
+} as const
+
 function BrandLink({ onClick, className = '' }: { onClick?: () => void; className?: string }) {
   const { lang } = useLanguage()
   const tx = t[lang]
@@ -35,6 +52,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const tx = t[lang]
   const languageLabel = LANGUAGE_MENU_LABEL[lang]
   const [menuOpen, setMenuOpen] = useState(false)
+  const menuToggleLabel = menuOpen ? MENU_TOGGLE_LABELS[lang].close : MENU_TOGGLE_LABELS[lang].open
 
   function close() {
     setMenuOpen(false)
@@ -102,7 +120,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <button
             type="button"
             onClick={() => setMenuOpen((v) => !v)}
-            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-label={menuToggleLabel}
             className="flex h-10 w-10 items-center justify-center justify-self-start text-gray-400 transition-colors hover:text-white"
           >
             {menuOpen ? (

@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'Shadow Economy iOS および Android モバイルアプリケーション',
+            '現在提供されている Shadow Economy iOS モバイルアプリケーション、および将来提供される場合の Android または Google Play 版',
             'shadoweconomyapp.com ウェブサイト',
             'ゲームプレイ、アカウント、クラウド保存、レポートクレジット、教育用カスタムレポートおよびカスタマーサポート',
             '本規約を参照する、または本規約と関連するその他の機能、コンテンツおよびサービス'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '「アプリ」とは、Apple App Store または Google Play を通じて配信される Shadow Economy モバイルアプリケーションを意味します。'
+          text: '「アプリ」とは、現在 Apple App Store を通じて配信されている Shadow Economy iOS モバイルアプリケーション、および将来提供される場合の Android または Google Play 版を意味します。'
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Android アプリの場合、本利用権は、Google Play および Android 端末関連のポリシーで許可される範囲内で適用されます。'
+          text: '将来 Android アプリまたは Google Play 版が提供される場合、本利用権は Google Play および Android 端末関連のポリシーで許可される範囲内で当該版に適用されます。'
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: '本サービス内の購入は、Apple App Store または Google Play を通じて処理されます。運営者は、決済カード番号、銀行口座情報または決済認証情報の全体を直接収集または保存しません。'
+          text: '現在の iOS アプリにおける本サービス内の購入は、Apple App Store を通じて処理されます。将来 Android アプリまたは Google Play 版でアプリ内購入が提供される場合、当該購入は Google Play を通じて処理されることがあります。運営者は、決済カード番号、銀行口座情報または決済認証情報の全体を直接収集または保存しません。'
         },
         {
           type: 'p' as const,
@@ -315,7 +315,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '法令またはアプリストアのポリシーが別途要求しない限り、レポートクレジットのような消耗型デジタル商品は、購入完了後直ちに提供される場合があり、使用または消耗後は返金または取消が制限される場合があります。返金の可否は、関連法令、Apple App Store または Google Play のポリシーおよび具体的な事情に応じて決定されます。'
+          text: '法令またはアプリストアのポリシーが別途要求しない限り、レポートクレジットのような消耗型デジタル商品は、購入完了後直ちに提供される場合があり、使用または消耗後は返金または取消が制限される場合があります。返金の可否は、関連法令、Apple App Store および該当する場合は Google Play のポリシーならびに具体的な事情に応じて決定されます。'
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Google Play を通じた購入には、Google Play の返金ポリシーおよび手続きが適用されます。'
+          text: '将来 Google Play を通じた購入が提供される場合、当該購入には Google Play の返金ポリシーおよび手続きが適用されます。'
         },
         {
           type: 'p' as const,
@@ -840,7 +840,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Apple App Store または Google Play を通じてアプリをダウンロードまたは利用する場合、当該プラットフォームの規約、ポリシーおよび利用規則も適用されます。'
+          text: 'Apple App Store を通じてアプリをダウンロードまたは利用する場合、または将来提供される場合に Google Play を通じて利用する場合、当該プラットフォームの規約、ポリシーおよび利用規則も適用されます。'
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Android アプリに関連して、以下の条件が適用されます。'
+          text: '将来 Android アプリまたは Google Play 版が提供される場合、当該版に関連して以下の条件が適用されます。'
         },
         {
           type: 'ul' as const,

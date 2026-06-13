@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'Las aplicaciones móviles Shadow Economy para iOS y Android',
+            'La aplicación móvil Shadow Economy para iOS actualmente disponible y cualquier versión para Android o Google Play que se ofrezca en el futuro',
             'El sitio web shadoweconomyapp.com',
             'La jugabilidad, las cuentas, los guardados en la nube, los créditos de informe, los informes educativos personalizados y la atención al cliente',
             'Otras funciones, contenidos y servicios que hagan referencia a estos Términos o estén vinculados a ellos'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Aplicación» designa la aplicación móvil Shadow Economy distribuida a través de Apple App Store o Google Play.'
+          text: '«Aplicación» designa la aplicación móvil Shadow Economy para iOS actualmente disponible a través de Apple App Store, así como cualquier versión para Android o Google Play si se ofrece en el futuro.'
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'En el caso de la aplicación para Android, esta licencia se aplica en la medida permitida por las políticas de Google Play y de dispositivos Android.'
+          text: 'Si en el futuro se ofrece una aplicación para Android o una distribución en Google Play, esta licencia se aplicará a esa versión en la medida permitida por las políticas de Google Play y de dispositivos Android.'
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Las compras dentro del Servicio se procesan a través de Apple App Store o Google Play. El Operador no recopila ni almacena directamente números de tarjeta de pago, datos bancarios ni credenciales completas de autenticación de pago.'
+          text: 'En la app iOS actual, las compras dentro del Servicio se procesan a través de Apple App Store. Si en el futuro se ofrece una app Android o una distribución en Google Play con compras integradas, dichas compras podrán procesarse a través de Google Play. El Operador no recopila ni almacena directamente números de tarjeta de pago, datos bancarios ni credenciales completas de autenticación de pago.'
         },
         {
           type: 'p' as const,
@@ -315,7 +315,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Salvo que la ley o la política de la tienda de aplicaciones exijan lo contrario, los bienes digitales consumibles como los créditos de informe pueden entregarse inmediatamente tras completar la compra, y los reembolsos o cancelaciones pueden restringirse tras su uso o consumo. La elegibilidad para reembolso se determina conforme a la Legislación aplicable, las políticas de Apple App Store o Google Play y las circunstancias concretas.'
+          text: 'Salvo que la ley o la política de la tienda de aplicaciones exijan lo contrario, los bienes digitales consumibles como los créditos de informe pueden entregarse inmediatamente tras completar la compra, y los reembolsos o cancelaciones pueden restringirse tras su uso o consumo. La elegibilidad para reembolso se determina conforme a la Legislación aplicable, las políticas de Apple App Store y, cuando corresponda, Google Play, y las circunstancias concretas.'
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Las compras a través de Google Play están sujetas a las políticas y procedimientos de reembolso de Google Play.'
+          text: 'Si en el futuro se ofrecen compras a través de Google Play, dichas compras estarán sujetas a las políticas y procedimientos de reembolso de Google Play.'
         },
         {
           type: 'p' as const,
@@ -840,7 +840,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Si descarga o utiliza la aplicación a través de Apple App Store o Google Play, también se aplican los términos, políticas y reglas de uso de la plataforma correspondiente.'
+          text: 'Si descarga o utiliza la aplicación a través de Apple App Store, o a través de Google Play si se ofrece en el futuro, también se aplican los términos, políticas y reglas de uso de la plataforma correspondiente.'
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Se aplican las siguientes condiciones respecto de la aplicación para Android:'
+          text: 'Si en el futuro se ofrece una aplicación para Android o una distribución en Google Play, se aplican las siguientes condiciones respecto de esa versión:'
         },
         {
           type: 'ul' as const,

@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   "title": "Política de Privacidade",
   "updated": "Última atualização: 29 de maio de 2026",
   "intro": [
@@ -31,7 +31,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "E-mail: contato@shadoweconomyapp.com"
+          "text": "E-mail: contact@shadoweconomyapp.com"
         },
         {
           "type": "p",
@@ -74,7 +74,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Contato: contato@shadoweconomyapp.com"
+          "text": "Contato: contact@shadoweconomyapp.com"
         },
         {
           "type": "p",
@@ -1296,7 +1296,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "E-mail: contato@shadoweconomyapp.com"
+          "text": "E-mail: contact@shadoweconomyapp.com"
         },
         {
           "type": "p",

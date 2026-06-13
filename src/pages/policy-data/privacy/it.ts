@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   "title": "politica sulla riservatezza",
   "updated": "Ultimo aggiornamento: 29 maggio 2026",
   "intro": [
@@ -14,31 +14,31 @@ export default {
       "title": "1. Titolare del trattamento e ambito di applicazione",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Il titolare del trattamento dei dati per questo Servizio è Junseo Park, uno sviluppatore individuale residente in Nuova Zelanda e operatore di \"Shadow Economy\". In quanto sviluppatore indipendente con sede in Nuova Zelanda, l'Operatore è responsabile del trattamento dei dati personali in relazione a questo Servizio."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Shadow Economy è attualmente gestito come servizio di sviluppo indipendente piuttosto che come entità aziendale e l'Operatore è il responsabile del trattamento dei dati ai sensi delle leggi sulla privacy applicabili. Puoi richiedere l'accesso, la correzione, la cancellazione, la limitazione del trattamento, la cancellazione dell'account, segnalare problemi di sicurezza, presentare reclami relativi alla privacy o esercitare altri diritti contattandoci all'indirizzo riportato di seguito."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Contatto privacy"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Contatto: operatore Shadow Economy"
         },
         {
-          "type": "P",
-          "text": "E-mail: contatto@shadoweconomyapp.com"
+          "type": "p",
+          "text": "E-mail: contact@shadoweconomyapp.com"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Questioni gestite: accesso, correzione, cancellazione, limitazione del trattamento, cancellazione dell'account, problemi di sicurezza e reclami relativi alla privacy"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "La presente Politica si applica a quanto segue:"
         },
         {
@@ -52,7 +52,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Questa politica non si applica direttamente alle informazioni che terze parti come Apple, Google, Supabase o Vercel elaborano in modo indipendente in base alle proprie politiche sulla privacy. Se utilizzi i loro servizi o piattaforme, le loro politiche e termini sulla privacy potrebbero applicarsi separatamente."
         }
       ]
@@ -61,107 +61,107 @@ export default {
       "title": "2. Sintesi del trattamento dei dati personali",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Questo riepilogo è fornito per comodità. Se c'è qualche differenza tra questo riassunto e il testo principale, prevale il testo principale."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Controllore"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Shadow Economy Operatore, sviluppatore indipendente con sede in Nuova Zelanda"
         },
         {
-          "type": "P",
-          "text": "Contatto: contatto@shadoweconomyapp.com"
+          "type": "p",
+          "text": "Contatto: contact@shadoweconomyapp.com"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Natura del Servizio"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Gioco di simulazione economica educativo e di intrattenimento per utenti generici"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Classificazione per età dell'app"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio può essere offerto come gioco adatto a tutte le età; tuttavia, dal punto di vista del trattamento dei dati personali, non è rivolto principalmente ai minori di 13 anni, né è progettato per raccogliere consapevolmente dati personali da minori di 13 anni."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Principali categorie di dati raccolti"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Indirizzo email, nome visualizzato o informazioni di base del profilo quando si accede con Google o Sign in with Apple, dati sull'avanzamento del gioco, rapporto sul saldo del credito, metadati di acquisto in-app, informazioni sulla sessione di autenticazione, registri tecnici limitati, registri degli errori e registri di sicurezza"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Principali finalità d'uso"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Creazione e accesso all'account, salvataggio e sincronizzazione dei progressi di gioco, evasione degli acquisti, concessione di crediti di report, generazione di report formativi personalizzati, mantenimento della sicurezza, risposta agli errori, assistenza clienti e conformità legale"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Vendita e pubblicità mirata"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non vende dati personali e non li condivide per pubblicità comportamentale intercontestuale o scopi pubblicitari personalizzati di terze parti."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "SDK di pubblicità e analisi"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore attualmente non utilizza SDK pubblicitari di terzi e non utilizza strumenti di analisi per pubblicità personalizzata di terzi, creazione di profili pubblicitari o pubblicità comportamentale intercontestuale. Se in futuro verranno introdotti strumenti di analisi limitati per la diagnosi degli errori, la sicurezza, il miglioramento delle prestazioni o del prodotto, l'Operatore rifletterà le categorie trattate, gli scopi e i fornitori nella presente Informativa e, ove richiesto, fornirà ulteriore avviso o otterrà il consenso."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Notifiche push"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio attualmente non fornisce funzionalità di notifica push e l'Operatore non raccoglie token di notifica push. Se la funzionalità di notifica push verrà introdotta in futuro, l'Operatore rifletterà i dettagli necessari nella presente Informativa e, ove richiesto, fornirà un avviso aggiuntivo o otterrà il consenso."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Processori e piattaforme di terze parti"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Potrebbero essere coinvolti fornitori e piattaforme necessari per gestire il Servizio, come Supabase, Vercel, Apple e Google. Gli acquisti in-app nell'attuale app iOS vengono elaborati tramite il sistema di pagamento in-app Apple App Store. Se in futuro verrà offerta un'app Android o una distribuzione Google Play che include funzionalità di acquisto in-app, tali acquisti potrebbero essere elaborati tramite il sistema di pagamento Google Play e in conformità con le politiche di Google Play."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Elaborazione internazionale"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I dati personali possono essere archiviati o elaborati a Singapore, negli Stati Uniti, in Nuova Zelanda e in altri paesi in cui i fornitori di servizi gestiscono server, supporto, sicurezza o infrastrutture."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Periodi di conservazione"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I dati dell'account vengono conservati mentre l'account rimane attivo. Dopo la cancellazione dell'account, i dati vengono generalmente cancellati o resi anonimi entro 30 giorni, tranne nei casi in cui la conservazione è richiesta dalla legge, dalla prevenzione delle frodi, dalla sicurezza, dalla risoluzione delle controversie, dalla verifica dei pagamenti, dalla gestione dei rimborsi o dalla conservazione dei backup."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Diritti dell'utente"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "A seconda del tuo luogo di residenza, potresti avere diritti quali l'accesso, la rettifica, la cancellazione, la limitazione del trattamento, la portabilità, l'opposizione, la revoca del consenso e la presentazione di un reclamo."
         }
       ]
@@ -170,7 +170,7 @@ export default {
       "title": "3. Dati personali che raccogliamo",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore raccoglie o genera le seguenti informazioni nella misura necessaria per fornire il Servizio."
         },
         {
@@ -178,7 +178,7 @@ export default {
           "text": "3.1 Informazioni fornite direttamente dall'utente"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Informazioni sull'account"
         },
         {
@@ -191,7 +191,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore può fornire funzionalità di accesso tramite credenziali di autenticazione emesse dai provider di accesso social; tuttavia, l'Operatore non raccoglie né memorizza direttamente la password del tuo account Google o la password dell'ID Apple."
         },
         {
@@ -199,7 +199,7 @@ export default {
           "text": "3.2 Informazioni generate attraverso l'utilizzo del Servizio"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Dati di gioco e di progresso"
         },
         {
@@ -212,7 +212,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Dati relativi al rapporto"
         },
         {
@@ -225,7 +225,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Informazioni sulle impostazioni"
         },
         {
@@ -241,15 +241,15 @@ export default {
           "text": "3.3 Informazioni su pagamenti e transazioni"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Gli acquisti in-app nell'attuale app iOS vengono elaborati tramite il sistema di pagamento in-app Apple App Store. Se in futuro verrà offerta un'app Android o una distribuzione Google Play che include funzionalità di acquisto in-app, tali acquisti potrebbero essere elaborati tramite il sistema di pagamento Google Play e in conformità con le politiche di Google Play."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non raccoglie direttamente informazioni sensibili di pagamento come numeri di carte di pagamento, dettagli del conto bancario o credenziali di autenticazione complete del pagamento."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Tuttavia, l'Operatore può elaborare i seguenti metadati di pagamento per evadere acquisti, concedere crediti, prevenire transazioni fraudolente, gestire rimborsi e fornire assistenza clienti."
         },
         {
@@ -271,7 +271,7 @@ export default {
           "text": "3.4 Informazioni tecniche raccolte automaticamente"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Le seguenti informazioni tecniche limitate possono essere registrate automaticamente per il funzionamento del servizio, la sicurezza, la risposta agli errori e la prevenzione degli abusi."
         },
         {
@@ -293,7 +293,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Queste informazioni vengono utilizzate per fornire il Servizio, mantenere la sicurezza, rispondere agli incidenti, prevenire usi impropri, migliorare la stabilità del servizio e rispettare la legge applicabile."
         },
         {
@@ -301,11 +301,11 @@ export default {
           "text": "3.5 Informazioni sulle notifiche push"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio attualmente non fornisce funzionalità di notifica push e l'Operatore non raccoglie token push del dispositivo per l'invio di notifiche push."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se il Servizio fornisce funzionalità di notifica push in futuro, l'Operatore può elaborare le seguenti informazioni per inviare notifiche e riflettere le preferenze dell'utente."
         },
         {
@@ -318,7 +318,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se viene introdotta la funzionalità di notifica push, puoi modificare se ricevere le notifiche tramite le impostazioni del dispositivo o le impostazioni dell'app. L'Operatore non utilizza le informazioni delle notifiche push per scopi pubblicitari, per scopi pubblicitari personalizzati di terzi o per la creazione di profili pubblicitari."
         },
         {
@@ -326,11 +326,11 @@ export default {
           "text": "3.6 Analisi degli errori e informazioni diagnostiche"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Per la stabilità del servizio, la risposta agli errori e il mantenimento della sicurezza, l'Operatore può elaborare i registri degli errori e le informazioni diagnostiche. Ciò può includere la versione dell'app, la versione del sistema operativo, il modello del dispositivo, l'ora in cui si è verificato l'errore, il messaggio di errore, lo stato della richiesta e i relativi registri tecnici."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non utilizza queste informazioni per scopi pubblicitari, scopi pubblicitari personalizzati di terzi o per creare profili pubblicitari sugli utenti."
         },
         {
@@ -350,7 +350,7 @@ export default {
           "text": "I pagamenti sono elaborati dalla piattaforma di pagamento dell'app store pertinente. L'Operatore non accede ai numeri delle carte di pagamento né alle credenziali complete di autenticazione del pagamento."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Tuttavia, il sistema operativo, l'app store, il provider di accesso o la piattaforma di pagamento possono elaborare informazioni separate nel corso della fornitura dei propri servizi e tale elaborazione è regolata dall'informativa sulla privacy della terza parte interessata."
         }
       ]
@@ -359,7 +359,7 @@ export default {
       "title": "4. Fonti di raccolta dei dati personali",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore può raccogliere o generare dati personali dalle seguenti fonti."
         },
         {
@@ -376,7 +376,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non acquista profili utente da intermediari di dati pubblici e non raccoglie profili comportamentali degli utenti da reti pubblicitarie."
         }
       ]
@@ -385,7 +385,7 @@ export default {
       "title": "5. Finalità dell'utilizzo dei dati personali",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Gestore tratta i dati personali per le seguenti finalità."
         },
         {
@@ -434,7 +434,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Gli acquisti in-app nell'attuale app iOS vengono elaborati tramite il sistema di pagamento in-app Apple App Store. Se in futuro verranno offerti acquisti in-app tramite un'app Android o una distribuzione Google Play, tali acquisti potrebbero essere elaborati tramite il sistema di pagamento Google Play e in conformità con le politiche di Google Play."
         },
         {
@@ -451,11 +451,11 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Shadow Economy e i relativi rapporti sono contenuti di simulazione economica educativa e di intrattenimento. Le informazioni, i risultati dei giochi e i resoconti all'interno del Servizio non costituiscono una reale consulenza finanziaria, di investimento, fiscale, legale, contabile o professionale e non devono essere utilizzati come base per le tue reali decisioni finanziarie."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non richiede i tuoi conti finanziari reali, i registri degli investimenti reali, le informazioni sul credito reale, le informazioni fiscali reali o gli identificatori univoci emessi dal governo per generare report personalizzati. I report vengono generati in base ai dati di gioco virtuali all'interno del Servizio."
         },
         {
@@ -489,7 +489,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore attualmente non utilizza SDK pubblicitari di terzi e non utilizza strumenti di analisi per pubblicità personalizzata di terzi, creazione di profili pubblicitari o pubblicità comportamentale intercontestuale. Se in futuro verranno introdotti strumenti di analisi limitati per la diagnosi degli errori, la sicurezza, il miglioramento delle prestazioni o del prodotto, l'Operatore rifletterà le categorie trattate, gli scopi e i fornitori nella presente Informativa e, ove richiesto, fornirà ulteriore avviso o otterrà il consenso."
         },
         {
@@ -513,7 +513,7 @@ export default {
       "title": "6. Basi giuridiche del trattamento",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Se risiedi nello Spazio Economico Europeo (SEE), nel Regno Unito o in un'altra regione con un quadro giuridico simile, l'Operatore tratta i dati personali sulle seguenti basi giuridiche."
         },
         {
@@ -521,11 +521,11 @@ export default {
           "text": "6.1 Esecuzione di un Contratto"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il trattamento dei dati personali necessario per fornire il Servizio si basa sull'esecuzione di un contratto o sulle misure adottate su richiesta dell'utente prima della conclusione di un contratto."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Esempi:"
         },
         {
@@ -544,7 +544,7 @@ export default {
           "text": "6.2 Interessi legittimi"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore può trattare i dati personali in base ai seguenti interessi legittimi, a condizione che tali interessi non siano prevalsi sui tuoi diritti e libertà."
         },
         {
@@ -564,7 +564,7 @@ export default {
           "text": "6.3 Obbligo legale"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore può trattare i dati personali per conformarsi alla legge applicabile, fiscale, contabile, tutela dei consumatori, notifica di incidenti di sicurezza o richieste delle autorità di vigilanza."
         },
         {
@@ -572,7 +572,7 @@ export default {
           "text": "6.4 Consenso"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non fa affidamento solo sul consenso come unica base per fornire le funzionalità principali del Servizio. Tuttavia, se in futuro verranno introdotti marketing facoltativo, analisi facoltativa, funzionalità AI facoltative, autorizzazioni facoltative del dispositivo, notifiche push facoltative o altre funzionalità basate sul consenso, l'Operatore fornirà un chiaro avviso in anticipo, otterrà il consenso richiesto e fornirà un metodo per revocare il consenso."
         }
       ]
@@ -581,15 +581,15 @@ export default {
       "title": "7. Report personalizzati, elaborazione automatizzata e utilizzo dell'intelligenza artificiale",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "I rapporti in Shadow Economy vengono generati quando completi un gioco e utilizzi i crediti dei rapporti per sbloccarli. I rapporti sono testi didattici forniti al proprietario dell'account in base ai dati di gioco completati."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "La generazione di report viene attualmente eseguita mediante una logica basata su regole all'interno del Servizio e i servizi di intelligenza artificiale generativa di terze parti non vengono utilizzati per scrivere il contenuto dei report."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non utilizza report o dati di gioco per effettuare le seguenti operazioni."
         },
         {
@@ -602,11 +602,11 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I rapporti che scegli di salvare potrebbero essere archiviati nell'archivio del tuo account server per l'accesso su più dispositivi. Tranne laddove necessario per il funzionamento del servizio, la sicurezza, l'assistenza clienti, la conformità legale o la gestione delle richieste, l'Operatore non esamina il contenuto del rapporto salvato né lo utilizza per scopi di marketing."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se in futuro verranno introdotte funzionalità di IA generativa o di elaborazione di IA esterna, l'Operatore spiegherà lo scopo del trattamento, i fornitori, l'ambito dei dati, la conservazione, le scelte dell'utente e i relativi diritti attraverso la presente Politica o un avviso separato."
         }
       ]
@@ -615,7 +615,7 @@ export default {
       "title": "8. Condivisione dei dati personali e trattamento da parte di terzi",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore condivide i dati personali con terzi o affida il trattamento a terzi solo nella misura necessaria per gestire il Servizio."
         },
         {
@@ -623,39 +623,39 @@ export default {
           "text": "8.1 Fornitori di servizi"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Supabase, Inc."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Scopo: autenticazione, database, archiviazione nel cloud, gestione delle sessioni"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Luoghi di elaborazione principali: regione Asia-Pacifico, Singapore e luoghi simili"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Ruolo: infrastruttura e processore backend per la fornitura del Servizio"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Vercel Inc."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Scopo: hosting del sito Web shadoweconomyapp.com, CDN, distribuzione e registri tecnici"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Luoghi del trattamento: Stati Uniti e infrastrutture globali"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Ruolo: hosting di siti web e fornitore di infrastrutture"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I fornitori di servizi di cui sopra elaborano le informazioni solo nella misura necessaria per il funzionamento del servizio, la sicurezza, l'archiviazione, la trasmissione, l'autenticazione, la distribuzione e l'elaborazione dei registri tecnici. L'Operatore utilizza funzionalità di sicurezza e controllo dell'accesso fornite dai fornitori di servizi per proteggere i dati personali."
         },
         {
@@ -663,35 +663,35 @@ export default {
           "text": "8.2 Piattaforma e fornitori di pagamenti"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Apple Inc."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Scopo: distribuzione dell'app iOS, Sign in with Apple, pagamenti in-app App Store, verifica dell'acquisto, elaborazione del rimborso"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Ruolo: processore indipendente secondo i termini e l'informativa sulla privacy di Apple"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Google LLC"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Scopo: accesso a Google e autenticazione basata sull'account Google. Se in futuro verrà offerta un'app Android o una distribuzione Google Play, distribuzione dell'app Android, pagamenti in-app Google Play, verifica degli acquisti ed elaborazione dei rimborsi"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Ruolo: responsabile del trattamento indipendente secondo i termini e l'informativa sulla privacy di Google"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'accesso, il download dell'app, il pagamento, il rimborso, la gestione dell'account o l'utilizzo dello store tramite Apple o Google sono soggetti alle politiche e ai termini sulla privacy di tali società. Per tali attività, Apple e Google possono agire come responsabili del trattamento indipendenti o in una capacità comparabile in base ai propri scopi e obblighi legali, piuttosto che come semplici responsabili del trattamento che agiscono esclusivamente su istruzioni dell'Operatore."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Una distribuzione Google Play potrebbe non essere attualmente disponibile. Se in futuro verrà offerta una distribuzione Google Play, l'elaborazione dei dati personali, la verifica degli acquisti, l'elaborazione dei rimborsi e le politiche della piattaforma relative a tale distribuzione potrebbero essere applicate in conformità con le politiche di Google Play e questa Politica."
         },
         {
@@ -699,7 +699,7 @@ export default {
           "text": "8.3 Informativa per Finalità Legali e di Tutela dei Diritti"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore può divulgare dati personali nelle seguenti circostanze."
         },
         {
@@ -717,7 +717,7 @@ export default {
           "text": "8.4 Trasferimenti d'impresa"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se tutto o parte del Servizio diventa soggetto a fusione, acquisizione, riorganizzazione, trasferimento di beni, investimento, conversione in un'entità aziendale o transazione simile, i dati personali possono essere trasferiti alle parti interessate nella misura consentita dalla legge. In tali casi, l'Operatore fornirà l'avviso richiesto dalla legge applicabile e, ove possibile, offrirà l'opportunità di eliminare l'account o gestire le informazioni."
         },
         {
@@ -725,11 +725,11 @@ export default {
           "text": "8.5 Nessuna condivisione per la vendita o scopi pubblicitari mirati"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non vende dati personali. L'Operatore inoltre non fornisce dati personali in un modo che costituisca una \"vendita\" o \"condivisione per pubblicità comportamentale intercontestuale\" ai sensi delle leggi applicabili come il California Consumer Privacy Act."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non fornisce i tuoi dati personali a reti pubblicitarie, intermediari di dati o fornitori di pubblicità personalizzata di terze parti."
         }
       ]
@@ -738,11 +738,11 @@ export default {
       "title": "9. Trasferimenti internazionali",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio può essere offerto a utenti in tutto il mondo e i dati personali potrebbero essere trattati al di fuori del Paese o della regione di residenza."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I dati personali possono essere archiviati o elaborati nei seguenti paesi o regioni."
         },
         {
@@ -755,15 +755,15 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Le leggi sulla privacy in questi paesi potrebbero differire da quelle del tuo paese o regione di residenza."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I dati personali possono essere archiviati o elaborati al di fuori del Paese di residenza dell'utente nel corso delle operazioni relative al server, al supporto, alla sicurezza, all'elaborazione dei registri o all'infrastruttura dei fornitori di servizi. Laddove si applichi il New Zealand Privacy Act 2020 e il relativo trattamento costituisca una divulgazione di informazioni personali a un destinatario estero, l'Operatore verifica garanzie comparabili o un'altra base di trasferimento legale ai sensi della legge applicabile."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Laddove i dati personali vengano trasferiti da regioni con quadri di protezione del trasferimento all'estero come il SEE o il Regno Unito, l'Operatore utilizza le seguenti garanzie, se necessario."
         },
         {
@@ -781,7 +781,7 @@ export default {
       "title": "10. Periodi di conservazione",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore conserva i dati personali solo per il tempo necessario a conseguire gli scopi per i quali sono stati raccolti, dopodiché vengono cancellati, resi anonimi o deidentificati."
         },
         {
@@ -789,11 +789,11 @@ export default {
           "text": "10.1 Account e dati di gioco"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Le informazioni sull'account, i dati sull'avanzamento del gioco, i report salvati, i saldi dei crediti dei report e dati simili vengono conservati mentre l'account rimane attivo."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Quando viene elaborata una richiesta di eliminazione di un account, i dati archiviati nel cloud, i dati sui progressi del gioco, i crediti dei report e i report salvati vengono generalmente eliminati o resi anonimi entro 30 giorni, tranne nei casi in cui la conservazione è richiesta dalla legge, dalla sicurezza, dalla prevenzione delle frodi, dalla risoluzione delle controversie, dalla verifica dei pagamenti, dalla gestione dei rimborsi o dalla conservazione dei backup."
         },
         {
@@ -801,11 +801,11 @@ export default {
           "text": "10.2 Dati di pagamento e transazione"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I metadati di pagamento necessari per la verifica degli acquisti, la contabilità, le imposte, i rimborsi, la prevenzione delle frodi e la gestione delle controversie possono essere conservati per un certo periodo in conformità con la legge applicabile o con la legittima necessità operativa."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Anche dopo la cancellazione dell'account, i record e i registri minimi delle transazioni necessari per la verifica dei pagamenti, i rimborsi, le imposte e la contabilità, la prevenzione delle frodi, le indagini sugli incidenti di sicurezza o la gestione delle controversie legali possono essere conservati separatamente per il periodo richiesto dalla legge applicabile o da una legittima necessità. In tali casi, le informazioni non vengono utilizzate per le ordinarie finalità di fruizione del servizio."
         },
         {
@@ -813,7 +813,7 @@ export default {
           "text": "10.3 Server e registri tecnici"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I registri del server, i registri di sicurezza e i registri tecnici vengono normalmente conservati per un massimo di 90 giorni. Tuttavia, potrebbero essere conservati per periodi più o meno lunghi a seconda delle indagini sugli incidenti di sicurezza, della risposta agli abusi, degli obblighi legali, della gestione delle controversie o delle politiche di conservazione del fornitore di servizi."
         },
         {
@@ -821,7 +821,7 @@ export default {
           "text": "10.4 Backup dei dati"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Le informazioni archiviate nei sistemi di backup potrebbero non essere cancellate immediatamente a causa di caratteristiche tecniche. I dati di backup sono protetti da misure di sicurezza ed eliminati in base ai cicli di rotazione dei backup o alle policy di ripristino. I dati di backup non vengono utilizzati per scopi operativi ordinari e sono accessibili solo laddove siano richiesti ripristino di emergenza, sicurezza, conformità legale o gestione delle controversie."
         },
         {
@@ -829,11 +829,11 @@ export default {
           "text": "10.5 Dati archiviati localmente"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I dati locali archiviati nell'app o nel browser potrebbero rimanere sul dispositivo finché non elimini l'app, i dati del browser o non modifichi le impostazioni del dispositivo."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'eliminazione dei dati locali potrebbe ripristinare i progressi o le impostazioni del gioco locale. Tuttavia, se accedi con lo stesso account, i dati cloud archiviati sul server potrebbero essere ripristinati."
         }
       ]
@@ -842,11 +842,11 @@ export default {
       "title": "11. Privacy e sicurezza",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore utilizza garanzie tecniche e organizzative ragionevoli e adeguate per proteggere i dati personali."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Le principali tutele attualmente applicate sono le seguenti."
         },
         {
@@ -866,11 +866,11 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Tuttavia, Internet, le app mobili, i servizi cloud e i metodi di archiviazione elettronica non possono garantire la completa sicurezza. Se sospetti una compromissione dell'account, un accesso anomalo o un problema di sicurezza, contatta immediatamente contact@shadoweconomyapp.com."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se si verifica una violazione dei dati personali o un incidente di sicurezza e la notifica è richiesta ai sensi della legge applicabile, l'Operatore fornirà l'avviso richiesto agli utenti interessati e alle autorità di vigilanza in conformità con la legge applicabile."
         }
       ]
@@ -883,11 +883,11 @@ export default {
           "text": "12.1 Sito web"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il sito attualmente non utilizza cookie di tracciamento di terze parti per scopi pubblicitari."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il sito Web può utilizzare localStorage del browser, cookie o tecnologie simili per i seguenti scopi limitati."
         },
         {
@@ -901,7 +901,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "È possibile eliminare localStorage o i dati dei cookie tramite le impostazioni del browser."
         },
         {
@@ -909,11 +909,11 @@ export default {
           "text": "12.2 Applicazione mobile"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'app può archiviare l'avanzamento del gioco, le informazioni sulla sessione, le impostazioni della lingua e lo stato predefinito nel localStorage del dispositivo o in uno spazio di archiviazione equivalente."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Questo spazio di archiviazione non serve per il monitoraggio della pubblicità di terze parti e serve per fornire funzionalità dell'app e mantenere l'esperienza dell'utente."
         },
         {
@@ -921,7 +921,7 @@ export default {
           "text": "12.3 Non tracciare e disattivare i segnali"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non vende dati personali né li condivide per pubblicità comportamentale intercontestuale. Laddove richiesto dalla legge, i segnali di rinuncia riconosciuti per la vendita o la pubblicità mirata vengono trattati come tali richieste. Tuttavia, poiché l’Operatore non svolge tali attività, potrebbe non esserci alcun cambiamento pratico nel trattamento."
         }
       ]
@@ -930,7 +930,7 @@ export default {
       "title": "13. Le tue scelte e controlli",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Puoi gestire i dati personali nei seguenti modi."
         },
         {
@@ -938,15 +938,15 @@ export default {
           "text": "13.1 Cancellazione dell'account"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Puoi eliminare il tuo account tramite Impostazioni nell'app → Account → Elimina account."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Puoi anche richiedere la cancellazione dell'account inviando un'e-mail a contact@shadoweconomyapp.com dall'indirizzo e-mail collegato al tuo account."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Dopo l'eliminazione dell'account, i dati archiviati nel cloud, i dati sull'avanzamento del gioco, i crediti dei report e i report salvati vengono eliminati o resi anonimi, tranne nei casi in cui la conservazione è richiesta dalla legge, dalla sicurezza, dalla prevenzione delle frodi, dalla risoluzione delle controversie, dalla verifica dei pagamenti, dalla gestione dei rimborsi o dalla conservazione dei backup. Crediti eliminati, dati salvati e report potrebbero non essere recuperabili."
         },
         {
@@ -954,7 +954,7 @@ export default {
           "text": "13.2 Accesso e portabilità"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "È possibile richiedere una copia dei dati personali detenuti dall'Operatore. Ove tecnicamente fattibile, l'Operatore può fornire le informazioni in un formato strutturato, di uso comune e leggibile da una macchina."
         },
         {
@@ -962,7 +962,7 @@ export default {
           "text": "13.3 Correzione"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se ritieni che le informazioni del tuo account o i dati personali siano imprecisi, puoi richiedere la correzione."
         },
         {
@@ -970,19 +970,19 @@ export default {
           "text": "13.4 Gestione delle autorizzazioni degli account Google e Apple"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se utilizzi l'accesso con Google, puoi rivedere o revocare le autorizzazioni concesse a Shadow Economy nelle impostazioni del tuo account Google."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "La revoca delle autorizzazioni dell'account Google potrebbe limitare la tua capacità di utilizzare il Servizio tramite l'accesso a Google. Se desideri eliminare il tuo account, utilizza la funzione di eliminazione dell'account in-app o richiedi l'eliminazione all'indirizzo contact@shadoweconomyapp.com."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se utilizzi Sign in with Apple, puoi rivedere o interrompere l'utilizzo del tuo ID Apple con Shadow Economy nelle impostazioni del tuo account ID Apple sui dispositivi supportati (ad esempio, Impostazioni > ID Apple > Password e sicurezza > App che utilizzano l'ID Apple)."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'interruzione di Sign in with Apple per Shadow Economy potrebbe limitare la capacità dell'utente di utilizzare il Servizio tramite Sign in with Apple. Se scegli Nascondi la mia email, Apple potrebbe fornire un indirizzo di inoltro privato; l'Operatore può comunque utilizzare quell'indirizzo di inoltro per gestire il tuo account e contattarti in merito al Servizio. Per eliminare il tuo account di servizio, utilizza la funzione di eliminazione dell'account in-app o richiedi l'eliminazione all'indirizzo contact@shadoweconomyapp.com."
         },
         {
@@ -990,11 +990,11 @@ export default {
           "text": "13.5 Impostazioni dispositivo e App Store"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Puoi gestire i dati delle app, la cronologia degli acquisti, le autorizzazioni di accesso e le impostazioni correlate tramite le impostazioni del dispositivo, l'eliminazione delle app, l'eliminazione dei dati del browser o le impostazioni dell'account Apple o Google."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "La gestione degli acquisti in-app, dei rimborsi e della cronologia dei pagamenti nell'attuale app iOS può seguire le politiche e le procedure di Apple App Store. Se in futuro verrà offerta una distribuzione Google Play che include acquisti in-app, la gestione di tali acquisti, rimborsi e cronologia dei pagamenti potrebbe seguire le politiche e le procedure Google Play."
         },
         {
@@ -1002,11 +1002,11 @@ export default {
           "text": "13.6 Notifiche push"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio attualmente non fornisce funzionalità di notifica push."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se in futuro verrà offerta la funzionalità di notifica push, potrai modificare la ricezione delle notifiche push tramite le impostazioni del dispositivo o dell'app."
         },
         {
@@ -1014,11 +1014,11 @@ export default {
           "text": "13.7 Comunicazioni di marketing"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore attualmente non invia email promozionali. Tuttavia, potrebbero essere inviati avvisi transazionali o amministrativi necessari per il funzionamento del servizio, come sicurezza dell'account, acquisti, modifiche del servizio o avvisi legali."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se in futuro verranno offerti messaggi di marketing facoltativi, l'Operatore otterrà il consenso richiesto e fornirà un metodo di rinuncia."
         }
       ]
@@ -1027,7 +1027,7 @@ export default {
       "title": "14. I tuoi diritti in qualità di interessato",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "A seconda del tuo Paese o regione di residenza, potresti avere i seguenti diritti."
         },
         {
@@ -1047,19 +1047,19 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Puoi esercitare i tuoi diritti contattando contact@shadoweconomyapp.com."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore generalmente risponde alle richieste entro 30 giorni in conformità con la legge applicabile. Per richieste complesse o richieste multiple, il periodo di risposta può essere prolungato nella misura consentita dalla legge applicabile e, ove possibile, l'Operatore fornirà un preavviso."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Per impedire l'accesso non autorizzato o l'imitazione, l'Operatore può richiedere la verifica dell'e-mail dell'account, la conferma dello stato di accesso o una ragionevole verifica dell'identità prima di elaborare una richiesta."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se una richiesta viene respinta, l'Operatore spiegherà il motivo e i metodi di opposizione o ricorso disponibili nella misura richiesta dalla legge applicabile."
         }
       ]
@@ -1068,7 +1068,7 @@ export default {
       "title": "15. Avvisi aggiuntivi specifici per regione",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Questa sezione potrebbe applicarsi anche agli utenti di regioni specifiche. Se la legge nella tua regione garantisce diritti più forti di quelli della presente Politica, prevarrà la legge locale obbligatoria."
         },
         {
@@ -1076,15 +1076,15 @@ export default {
           "text": "15.1 Nuova Zelanda"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore ha sede in Nuova Zelanda. Laddove si applica il New Zealand Privacy Act 2020, l'Operatore tratta i dati personali in conformità con tale legge e sostiene i tuoi diritti di accesso, correzione ed esercizio dei diritti correlati relativi ai tuoi dati personali."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Laddove i dati personali vengano divulgati a destinatari al di fuori della Nuova Zelanda, l'Operatore verifica ragionevolmente che tali destinatari forniscano garanzie comparabili o conduca il trasferimento su un'altra base consentita dalla legge applicabile."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "In caso di reclamo sul trattamento dei dati personali, contattare prima contact@shadoweconomyapp.com. Se la questione non viene risolta, è possibile presentare un reclamo all'Ufficio del Commissario per la Privacy in Nuova Zelanda."
         },
         {
@@ -1092,7 +1092,7 @@ export default {
           "text": "15.2 SEE e Regno Unito"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se risiedi nel SEE o nel Regno Unito, potresti avere i seguenti diritti ai sensi del GDPR o del GDPR del Regno Unito."
         },
         {
@@ -1109,11 +1109,11 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non esegue esclusivamente processi decisionali automatizzati che producono effetti giuridici o effetti similmente significativi nei tuoi confronti."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se l'Operatore trasferisce dati personali al di fuori del SEE o del Regno Unito, l'Operatore può utilizzare decisioni di adeguatezza, clausole contrattuali standard, l'Addendum sul trasferimento internazionale dei dati del Regno Unito o altre garanzie riconosciute dalla legge applicabile."
         },
         {
@@ -1121,7 +1121,7 @@ export default {
           "text": "15.3 California"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se risiedi in California, potresti avere i seguenti diritti ai sensi del CCPA e del CPRA."
         },
         {
@@ -1138,11 +1138,11 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non vende dati personali e non condivide i dati personali per la pubblicità comportamentale intercontestuale."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non raccoglie né utilizza informazioni personali sensibili come definito dal CPRA oltre l'ambito necessario per fornire il Servizio."
         },
         {
@@ -1150,11 +1150,11 @@ export default {
           "text": "15.4 Altri Stati degli Stati Uniti"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I residenti degli stati degli Stati Uniti con leggi sulla privacy complete, come Colorado, Connecticut, Virginia, Utah, Oregon e Texas, possono avere il diritto di accedere, correggere, eliminare, trasferire, rinunciare a determinati trattamenti o opporsi o ricorrere ai sensi della legge applicabile."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non tratta i dati personali in un modo che costituisca vendita o pubblicità mirata ai sensi di tali leggi."
         },
         {
@@ -1162,7 +1162,7 @@ export default {
           "text": "15,5Australia"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Laddove si applica l'Australian Privacy Act del 1988, è possibile richiedere l'accesso e la correzione dei dati personali. Se un reclamo relativo al trattamento dei dati personali non viene risolto, è possibile presentare un reclamo all'Ufficio del Commissario australiano per l'informazione."
         },
         {
@@ -1170,7 +1170,7 @@ export default {
           "text": "15.6 Canada"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Laddove si applichino PIPEDA o le leggi provinciali sulla privacy in Canada, è possibile richiedere l'accesso e la correzione dei dati personali e opporsi al modo in cui i dati personali vengono elaborati."
         },
         {
@@ -1178,7 +1178,7 @@ export default {
           "text": "15.7 Brasile"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Laddove si applica la LGPD brasiliana, potresti avere i diritti di conferma del trattamento, accesso, correzione, anonimizzazione, blocco, cancellazione, portabilità, informazioni sulla condivisione, revoca del consenso e presentazione di un reclamo a un'autorità di controllo."
         },
         {
@@ -1186,11 +1186,11 @@ export default {
           "text": "15.8 Repubblica di Corea"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Laddove si applichino leggi applicabili come il Personal Information Protection Act della Repubblica di Corea, potresti avere il diritto di accedere, correggere o eliminare, sospendere il trattamento e revocare il consenso. Ove richiesto dalla legge applicabile, l'Operatore supporta l'esercizio di tali diritti."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Domande sulla privacy, richieste sui diritti e gestione dei reclami possono essere richieste a contact@shadoweconomyapp.com."
         },
         {
@@ -1198,7 +1198,7 @@ export default {
           "text": "15.9 Altre Regioni"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Anche se risiedi in una regione non elencata sopra, potresti avere diritti ai sensi delle leggi sulla privacy della tua regione. Se contatti contact@shadoweconomyapp.com, l'Operatore esaminerà e risponderà alla tua richiesta in conformità con la legge applicabile."
         }
       ]
@@ -1207,27 +1207,27 @@ export default {
       "title": "16. Dati Personali di Bambini e Minori",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio è un gioco di simulazione economica educativo e di intrattenimento che può essere offerto con una classificazione per tutte le età. Tuttavia, una classificazione per tutte le età non significa che il Servizio sia rivolto principalmente a bambini di età inferiore a 13 anni o progettato per raccogliere consapevolmente dati personali di bambini."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore non offre il Servizio principalmente a bambini di età inferiore a 13 anni e non raccoglie consapevolmente dati personali di bambini di età inferiore a 13 anni. Inoltre, l'Operatore non elabora i dati personali dei bambini per il tracciamento di terzi per scopi pubblicitari, pubblicità personalizzata di terzi o creazione di profili pubblicitari."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se hai meno di 13 anni, o meno dell'età in cui è richiesto il consenso dei genitori o del tutore legale secondo la legge del tuo luogo di residenza, non devi creare un account o fornire dati personali senza il consenso dei genitori o del tutore legale."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se un minore utilizza il Servizio, il genitore o il tutore legale è responsabile della gestione adeguata dell'utilizzo del Servizio da parte del minore, della creazione dell'account, degli acquisti in-app, dei pagamenti, delle impostazioni dell'app store e delle impostazioni del controllo parentale del dispositivo."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se l'Operatore viene a conoscenza di aver raccolto dati personali da un bambino che richiede il consenso dei genitori ai sensi della legge applicabile senza il consenso appropriato, l'Operatore eliminerà tali informazioni o adotterà le azioni necessarie. I genitori o i tutori che desiderano richiedere l'accesso, la cancellazione, la sospensione del trattamento o la cancellazione dell'account dei dati personali di un bambino possono contattare contact@shadoweconomyapp.com."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Gli acquisti in-app, i pagamenti o l'utilizzo di funzionalità a pagamento da parte di minorenni potrebbero essere soggetti alle Apple App Store attualmente disponibili, alle impostazioni del dispositivo, alle impostazioni del controllo parentale e alla legge applicabile. Se in futuro verrà offerta una distribuzione Google Play, gli acquisti, i pagamenti o l'utilizzo delle funzionalità a pagamento tramite tale distribuzione potrebbero essere soggetti alle politiche Google Play, alle impostazioni del dispositivo, alle impostazioni del controllo parentale e alla legge applicabile."
         }
       ]
@@ -1236,11 +1236,11 @@ export default {
       "title": "17. Collegamenti di terze parti e servizi esterni",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Il Servizio o il sito Web possono includere collegamenti a servizi di terze parti come Apple, Google, Supabase, Vercel, app store, piattaforme di pagamento, canali di assistenza clienti o altri servizi di terze parti."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "I servizi di terze parti sono fuori dal controllo dell'Operatore e si applicano le politiche sulla privacy e i termini di tali terze parti. L'Operatore non è responsabile del modo in cui tali terzi trattano i dati personali."
         }
       ]
@@ -1249,19 +1249,19 @@ export default {
       "title": "18. Rapporto tra le etichette sulla privacy App Store e la presente informativa",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Le informazioni relative alla privacy visualizzate sullo Apple App Store possono essere fornite come riepilogo della presente Informativa. Se in futuro verrà offerta una distribuzione Google Play, le informazioni relative alla privacy o la sezione Sicurezza dei dati visualizzata su Google Play potrebbero essere fornite come riepilogo della presente Politica."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore compie ogni ragionevole sforzo per mantenere le etichette sulla privacy dell'app store, gli avvisi in-app e la presente Politica coerenti tra loro. Se in futuro verrà offerta una distribuzione Google Play, l'Operatore farà ogni ragionevole sforzo per mantenere la sezione Sicurezza dei dati Google Play e questa Politica coerenti tra loro."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se esiste una differenza tra la presente Politica e le informazioni visualizzate sull'app store, l'Operatore la esaminerà e cercherà di correggerla entro un periodo ragionevole, ove necessario."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Le descrizioni relative alla privacy visualizzate su app store o piattaforme possono essere riepilogate in base al formato e ai criteri di classificazione di ciascuna piattaforma. La presente Informativa fornisce una spiegazione più dettagliata su come il Servizio tratta i dati personali."
         }
       ]
@@ -1270,19 +1270,19 @@ export default {
       "title": "19. Modifiche alla presente Informativa sulla privacy",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "La presente Politica può essere modificata a causa di modifiche al Servizio, alla legge applicabile, alla tecnologia o ai metodi operativi."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "In caso di modifiche sostanziali, l'Operatore fornirà avviso tramite app, sito web, e-mail o altri mezzi appropriati almeno 14 giorni prima della data di entrata in vigore, ove possibile. Tuttavia, se necessario per motivi di sicurezza, conformità legale o esigenze operative urgenti, le modifiche potrebbero entrare in vigore entro un periodo più breve."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "La data \"Ultimo aggiornamento\" in alto indica la versione corrente."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "Se continui a utilizzare il Servizio dopo che le modifiche sono entrate in vigore, puoi rivedere la Politica rivista. Tuttavia, laddove sia richiesto un consenso separato ai sensi della legge applicabile per una modifica nel trattamento dei dati personali, l'Operatore otterrà tale consenso separatamente."
         }
       ]
@@ -1291,19 +1291,19 @@ export default {
       "title": "20. Autorità di contatto e di vigilanza",
       "blocks": [
         {
-          "type": "P",
+          "type": "p",
           "text": "Richieste relative al trattamento dei dati personali, all'esercizio dei diritti, alla cancellazione dell'account, ai problemi di sicurezza o alla presente Politica possono essere inviate al contatto riportato di seguito."
         },
         {
-          "type": "P",
-          "text": "E-mail: contatto@shadoweconomyapp.com"
+          "type": "p",
+          "text": "E-mail: contact@shadoweconomyapp.com"
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "L'Operatore si impegna a rispondere entro 30 giorni nella misura consentita dalla legge applicabile."
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "A seconda del tuo luogo di residenza, puoi presentare un reclamo alle seguenti autorità o all'autorità di controllo competente nella tua regione."
         },
         {
@@ -1320,7 +1320,7 @@ export default {
           ]
         },
         {
-          "type": "P",
+          "type": "p",
           "text": "La presente Politica non limita i diritti obbligatori di protezione dei consumatori, i diritti alla privacy o altri diritti legali nel tuo Paese o regione di residenza."
         }
       ]

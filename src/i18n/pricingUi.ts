@@ -114,8 +114,8 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   pt: {
     pricingNotice:
-      'A nossa política de preços baseia-se nas diretrizes regionais de preços da Apple App Store e, em alguns países, procuramos oferecer preços mais favoráveis ao utilizador do que a política estrita da App Store. Os preços podem variar conforme o país devido à taxa de câmbio e ao IVA na sua região de residência. Em alguns países, como os Estados Unidos e o Canadá, os impostos são acrescentados separadamente no momento do pagamento, de acordo com a legislação local, pelo que os preços apresentados podem parecer relativamente mais baixos do que noutros países. Na maioria dos outros países, os preços apresentados já incluem impostos. Selecione a sua região abaixo para ver os preços.',
-    selectRegion: 'Selecionar a sua região',
+      'Nossa política de preços segue as diretrizes regionais de preços da Apple App Store e, em alguns países, buscamos oferecer valores mais favoráveis aos usuários do que a política estrita da App Store. Os preços podem variar por país devido ao câmbio e aos impostos da sua região de residência. Em alguns países, como Estados Unidos e Canadá, os impostos são adicionados separadamente no checkout, de acordo com a legislação local, então os preços exibidos podem parecer relativamente mais baixos do que em outros países. Na maioria dos demais países, os preços exibidos já incluem impostos. Selecione sua região abaixo para ver os preços.',
+    selectRegion: 'Selecionar sua região',
     regionModalTitle: 'Escolher país ou região',
     regionModalClose: 'Fechar',
     regionSearchPlaceholder: 'Pesquisar país ou região',

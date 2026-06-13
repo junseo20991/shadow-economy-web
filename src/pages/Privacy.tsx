@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Layout } from '../components/Layout'
+import { linkifyText } from '../components/LinkedText'
 import { PolicyBlocks, type PolicyBlock } from '../components/PolicyBlocks'
 import { TEXT_SECTION } from '../constants/layout'
 import { useLanguage, type Lang } from '../context/LanguageContext'
@@ -97,7 +98,7 @@ export function Privacy() {
             <p className="text-xs text-gray-600 mb-6">{tx.updated}</p>
             <div className="mb-8 space-y-4 break-words text-sm leading-relaxed text-gray-400 [overflow-wrap:anywhere]">
               {introParagraphs.map((paragraph) => (
-                <p key={paragraph.slice(0, 48)}>{paragraph}</p>
+                <p key={paragraph.slice(0, 48)}>{linkifyText(paragraph)}</p>
               ))}
             </div>
             <div className="space-y-2">

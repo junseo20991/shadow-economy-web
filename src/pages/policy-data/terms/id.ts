@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   "title": "Ketentuan Layanan",
   "updated": "Terakhir diperbarui: 29 Mei 2026",
   "intro": [
@@ -6,39 +6,39 @@ export default {
     "Dengan mengunduh, menginstal, mengakses, menggunakan, atau membuat akun untuk Layanan, Anda menyetujui Ketentuan ini. Jika Anda tidak menyetujui Ketentuan ini, Anda tidak boleh menggunakan Layanan.",
     "Shadow Economy adalah game simulasi ekonomi untuk tujuan pendidikan dan hiburan. Layanan tidak memberikan nasihat keuangan, investasi, pajak, hukum, akuntansi, asuransi, karier, bisnis, atau profesional lainnya yang sebenarnya.",
     "Fitur tertentu, pembuatan akun, pembelian, atau penggunaan fitur berbayar mungkin memerlukan konfirmasi, persetujuan, atau prosedur pembayaran platform terpisah.",
-    "Hubungi: hubungi@shadoweconomyapp.com"
+    "Hubungi: contact@shadoweconomyapp.com"
   ],
   "sections": [
     {
       "title": "1. Penerapan dan Penerimaan Persyaratan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan ini merupakan perjanjian hukum antara Anda dan Junseo Park, pengembang individu yang berbasis di Selandia Baru dan operator \"Shadow Economy\" (\"Operator\", \"kami\", atau \"milik kami\")."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator adalah pengembang individu yang berbasis di Selandia Baru yang mengoperasikan Layanan Shadow Economy. Untuk pertanyaan, keluhan, klaim, akun, pembelian, privasi, atau dukungan Layanan terkait aplikasi, Anda dapat menghubungi kami di contact@shadoweconomyapp.com."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan ini berlaku untuk hal-hal berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
-            "Aplikasi seluler Shadow Economy iOS dan Android",
+            "Aplikasi seluler Shadow Economy iOS yang saat ini tersedia dan versi Android atau Google Play apa pun yang ditawarkan di masa mendatang",
             "Situs web shadoweconomyapp.com",
             "Gameplay, akun, penyimpanan cloud, kredit laporan, laporan pendidikan yang dipersonalisasi, dan dukungan pelanggan",
             "Fitur, konten, dan layanan lain yang merujuk atau tertaut dengan Ketentuan ini"
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Dengan menggunakan Layanan, Anda menyatakan dan menjamin bahwa:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Anda memiliki wewenang dan kapasitas untuk menyetujui Ketentuan ini.",
             "Anda setidaknya mencapai usia minimum yang diperlukan untuk menggunakan Layanan dan menyetujui pemrosesan informasi pribadi di yurisdiksi Anda.",
@@ -47,7 +47,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Anda menggunakan Layanan atas nama perusahaan, organisasi, atau pihak ketiga, Anda menyatakan bahwa Anda memiliki wewenang untuk mengikat entitas atau pihak ketiga tersebut dengan Ketentuan ini. Namun, Shadow Economy disediakan terutama untuk penggunaan pribadi dan non-komersial."
         }
       ]
@@ -56,51 +56,51 @@ export default {
       "title": "2. Definisi",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Istilah-istilah penting berikut yang digunakan dalam Ketentuan ini mempunyai arti sebagaimana diuraikan di bawah ini."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Layanan\" berarti aplikasi seluler Shadow Economy, situs web, fitur permainan, fitur akun, penyimpanan cloud, kredit laporan, laporan pendidikan yang dipersonalisasi, dukungan pelanggan, dan fitur terkait."
         },
         {
-          "type": "hal",
-          "text": "\"Aplikasi\" berarti aplikasi seluler Shadow Economy yang didistribusikan melalui Apple App Store atau Google Play."
+          "type": "p",
+          "text": "\"Aplikasi\" berarti aplikasi seluler Shadow Economy iOS yang saat ini tersedia melalui Apple App Store, serta versi Android atau Google Play apa pun jika ditawarkan di masa mendatang."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Situs Web\" berarti shadoweconomyapp.com dan subhalamannya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Akun\" berarti akun Layanan yang Anda buat atau gunakan melalui metode autentikasi yang didukung seperti Masuk dengan Google atau Sign in with Apple."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Penggunaan Tamu\" berarti menggunakan Layanan tanpa membuat akun atau masuk, dengan kemajuan disimpan secara lokal di perangkat Anda."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Data Game\" berarti kemajuan game, aset, kewajiban, pendapatan, pengeluaran, pilihan, riwayat giliran, status akhir, penyimpanan data, dan informasi lain yang dihasilkan selama bermain game."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Kredit Laporan\" berarti item digital yang dapat dikonsumsi yang dapat digunakan untuk membuka laporan pendidikan yang dipersonalisasi untuk gameplay yang telah selesai."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Laporan\" berarti teks yang dipersonalisasi untuk pemilik akun, yang dibuat untuk tujuan pendidikan dan hiburan berdasarkan data gameplay yang lengkap."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Item Digital\" berarti kredit laporan, laporan tersimpan, data game, atau item non-fisik lainnya yang disediakan dalam Layanan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "\"Platform\" berarti Apple App Store, Google Play, Sign in with Apple, Masuk dengan Google, sistem operasi, produsen perangkat, pemroses pembayaran, atau layanan pihak ketiga yang terlibat dalam pendistribusian, pembayaran, atau autentikasi Layanan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "“Hukum yang Berlaku” mencakup undang-undang, aturan, perintah, peraturan perlindungan konsumen, peraturan privasi, sanksi dan peraturan kontrol ekspor, serta kebijakan toko aplikasi yang berlaku untuk Anda atau Operator."
         }
       ]
@@ -109,11 +109,11 @@ export default {
       "title": "3. Deskripsi Layanan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Shadow Economy adalah game simulasi ekonomi untuk tujuan pendidikan dan hiburan. Layanan dapat mencakup fitur-fitur berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Gameplay simulasi ekonomi",
             "Permainan tamu",
@@ -126,15 +126,15 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Kecuali dinyatakan lain, alur permainan sebenarnya dan pembelian dalam aplikasi disediakan melalui aplikasi seluler. Situs web dapat dioperasikan untuk informasi Layanan, dukungan pelanggan, dan penyediaan dokumen hukum."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat memodifikasi, meningkatkan, membatasi, menangguhkan, atau menghentikan seluruh atau sebagian Layanan sejauh diizinkan oleh hukum. Ini mungkin termasuk yang berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Menambah, mengubah, atau menghapus fitur",
             "Mengubah keseimbangan permainan, struktur ekonomi, kesulitan, atau metode perhitungan",
@@ -146,11 +146,11 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat mengubah Layanan untuk peningkatan Layanan, keamanan, kepatuhan hukum, kepatuhan kebijakan platform, keseimbangan permainan, atau kebutuhan operasional. Namun, apabila perubahan berdampak signifikan pada kegunaan inti item digital berbayar, Operator akan memberikan pemberitahuan atau tindakan yang diwajibkan oleh Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Perubahan atau penghentian tertentu dapat mengakibatkan hilangnya akses ke fitur tertentu, data game, item digital, atau informasi yang disimpan. Namun, apabila diwajibkan oleh Hukum yang Berlaku, Operator akan memberikan pemberitahuan atau tindakan yang diperlukan kepada pengguna."
         }
       ]
@@ -159,23 +159,23 @@ export default {
       "title": "4. Lisensi Penggunaan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Tunduk pada kepatuhan Anda terhadap Ketentuan ini, Operator memberi Anda lisensi terbatas, dapat dibatalkan, non-eksklusif, tidak dapat dialihkan, dan tidak dapat disublisensikan untuk menggunakan Layanan untuk tujuan pribadi dan non-komersial."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Lisensi ini tidak mengalihkan kepemilikan Layanan atau konten apa pun di dalamnya. Semua hak dalam Layanan, aplikasi, desain permainan, perangkat lunak, teks, grafik, merek dagang, logo, format laporan, struktur basis data, kode, UI, suara, dokumentasi, dan konten lainnya adalah milik Operator atau pemegang hak masing-masing."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Untuk aplikasi iOS, lisensi ini terbatas pada lisensi yang tidak dapat dialihkan untuk menggunakan aplikasi pada produk bermerek Apple yang Anda miliki atau kendalikan, sesuai dengan Aturan Penggunaan dalam Syarat dan Ketentuan Layanan Media Apple. Namun, jika diizinkan oleh kebijakan Apple, Keluarga Berbagi atau pembelian dalam jumlah besar mungkin berlaku dalam cakupannya."
         },
         {
-          "type": "hal",
-          "text": "Untuk aplikasi Android, lisensi ini berlaku sejauh diizinkan oleh kebijakan terkait perangkat Google Play dan Android."
+          "type": "p",
+          "text": "Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang, lisensi ini berlaku untuk versi tersebut sejauh diizinkan oleh kebijakan terkait perangkat Google Play dan Android."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Hak apa pun yang tidak secara tegas diberikan dalam Ketentuan ini dimiliki oleh Operator dan pemegang hak."
         }
       ]
@@ -184,27 +184,27 @@ export default {
       "title": "5. Akun dan Masuk",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Layanan dapat digunakan sebagai tamu; namun, selama penggunaan tamu, kemajuan game, kredit laporan, data tersimpan, atau laporan mungkin tidak disimpan karena batasan sesi, penghapusan aplikasi, perubahan perangkat, penghapusan data browser, atau alasan teknis lainnya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Anda membuat akun dan masuk dengan metode masuk yang sama, sinkronisasi kemajuan game lintas perangkat, penyimpanan kredit laporan, dan akses ke laporan tersimpan dapat diberikan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Metode masuk yang didukung mungkin mencakup Masuk dengan Google dan Sign in with Apple. Metode yang tersedia mungkin bergantung pada perangkat, sistem operasi, versi aplikasi, atau wilayah Anda."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda bertanggung jawab untuk mengelola kredensial akun dan metode masuk Anda dengan aman. Anda mungkin bertanggung jawab atas aktivitas yang diakibatkan oleh penggunaan akun Anda secara tidak sah karena kesengajaan atau kelalaian Anda. Namun, hal ini tidak berlaku terhadap kesalahan Operator, kegagalan platform, insiden keamanan, atau alasan-alasan yang menjadi tanggung jawab Operator berdasarkan Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda tidak boleh:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Menggunakan akun orang lain tanpa izin",
             "Buat akun dengan informasi palsu",
@@ -215,11 +215,11 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat membatasi, menangguhkan, atau menghentikan akses akun jika diperlukan karena pelanggaran Ketentuan, penipuan, risiko keamanan, penyalahgunaan pembayaran, kewajiban hukum, pelanggaran kebijakan platform, atau perlindungan integritas Layanan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda dapat meminta penghapusan akun melalui fitur Pengaturan → Akun → Hapus Akun dalam aplikasi atau dengan menghubungi contact@shadoweconomyapp.com. Setelah akun dihapus, data game, kredit laporan, laporan tersimpan, dan data sinkronisasi cloud dapat dihapus atau dianonimkan sesuai dengan Hukum yang Berlaku dan Kebijakan Privasi, dan data serta item digital yang dihapus tidak dapat dipulihkan atau diterbitkan kembali."
         }
       ]
@@ -228,15 +228,15 @@ export default {
       "title": "6. Penggunaan Tamu dan Data Penyimpanan Lokal",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Selama penggunaan tamu, kemajuan dan pengaturan game dapat disimpan di penyimpanan lokal di perangkat atau browser Anda."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Data penyimpanan lokal mungkin hilang karena alasan berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Penghapusan aplikasi",
             "Penghapusan data peramban",
@@ -248,7 +248,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator tidak bertanggung jawab atas hilangnya data lokal selama penggunaan tamu sejauh diizinkan oleh Hukum yang Berlaku. Untuk menyimpan kemajuan penting, kredit laporan, atau laporan tersimpan, Anda harus menggunakan fitur masuk akun yang didukung."
         }
       ]
@@ -257,15 +257,15 @@ export default {
       "title": "7. Laporan Kredit dan Barang Digital",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Kredit laporan adalah item digital yang dapat dikonsumsi yang dapat digunakan untuk membuka laporan pendidikan yang dipersonalisasi untuk gameplay yang telah selesai."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan berikut ini berlaku untuk kredit laporan dan item digital lainnya:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Kredit laporan diatribusikan ke akun yang digunakan untuk pembayaran.",
             "Kredit laporan mewakili lisensi terbatas untuk digunakan dalam Layanan, bukan kepemilikan.",
@@ -278,15 +278,15 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Setelah penghapusan akun, penghentian akun karena pelanggaran Ketentuan, atau penghentian Layanan, kredit yang tidak terpakai akan ditangani sesuai dengan Hukum yang Berlaku, kebijakan platform, atau prosedur kompensasi, transfer, atau periode penggunaan terpisah yang diberitahukan oleh Operator. Kecuali diwajibkan lain oleh Hukum yang Berlaku, kredit laporan tidak dapat ditukarkan dengan uang tunai."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat memperbaiki, mengklaim kembali, mengurangi, atau membatalkan kredit laporan atau barang digital yang diberikan atau digunakan secara tidak semestinya karena kesalahan, duplikat hibah, pembatalan pembayaran, pengembalian uang, penipuan, eksploitasi bug, kesalahan sistem, atau kegagalan verifikasi platform."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat mengubah nama, fitur, ketentuan penggunaan, metode hibah, atau metode penyediaan barang digital untuk pengoperasian Layanan, kepatuhan hukum, keamanan, kebijakan platform, stabilitas sistem ekonomi, atau tujuan anti-penyalahgunaan. Namun, apabila perubahan berdampak signifikan pada kegunaan inti item digital berbayar, Operator akan memberikan pemberitahuan atau tindakan yang diwajibkan oleh Hukum yang Berlaku."
         }
       ]
@@ -295,15 +295,15 @@ export default {
       "title": "8. Pembelian dan Pembayaran Dalam Aplikasi",
       "blocks": [
         {
-          "type": "hal",
-          "text": "Pembelian dalam Layanan diproses melalui Apple App Store atau Google Play. Operator tidak secara langsung mengumpulkan atau menyimpan nomor kartu pembayaran, informasi rekening bank, atau kredensial otentikasi pembayaran lengkap."
+          "type": "p",
+          "text": "Pada aplikasi iOS saat ini, pembelian dalam Layanan diproses melalui Apple App Store. Jika aplikasi Android atau distribusi Google Play dengan pembelian dalam aplikasi ditawarkan di masa mendatang, pembelian tersebut dapat diproses melalui Google Play. Operator tidak secara langsung mengumpulkan atau menyimpan nomor kartu pembayaran, informasi rekening bank, atau kredensial otentikasi pembayaran lengkap."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan berikut berlaku untuk pembelian dalam aplikasi:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Jumlah tagihan sebenarnya mengikuti kebijakan mata uang, pajak, biaya, dan platform lokal Anda seperti yang ditampilkan di setiap toko aplikasi.",
             "Harga USD atau informasi harga lainnya yang ditampilkan di situs web atau dalam Layanan mungkin hanya untuk referensi; ketentuan pembayaran akhir diatur oleh apa yang ditampilkan di setiap layar pembayaran toko aplikasi.",
@@ -314,11 +314,11 @@ export default {
           ]
         },
         {
-          "type": "hal",
-          "text": "Kecuali diwajibkan lain oleh undang-undang atau kebijakan toko aplikasi, barang digital yang dapat dikonsumsi seperti kredit laporan dapat dikirimkan segera setelah pembelian selesai, dan pengembalian uang atau pembatalan mungkin dibatasi setelah digunakan atau dikonsumsi. Kelayakan pengembalian dana ditentukan oleh Hukum yang Berlaku, kebijakan Apple App Store atau Google Play, dan keadaan tertentu."
+          "type": "p",
+          "text": "Kecuali diwajibkan lain oleh undang-undang atau kebijakan toko aplikasi, barang digital yang dapat dikonsumsi seperti kredit laporan dapat dikirimkan segera setelah pembelian selesai, dan pengembalian uang atau pembatalan mungkin dibatasi setelah digunakan atau dikonsumsi. Kelayakan pengembalian dana ditentukan oleh Hukum yang Berlaku, kebijakan Apple App Store dan, jika berlaku, Google Play, serta keadaan tertentu."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat menyelidiki dan mengambil tindakan yang diperlukan terkait kesalahan pembelian, pembayaran ganda, tidak terkirim, transaksi penipuan, atau masalah teknis sesuai dengan Hukum yang Berlaku, kebijakan platform, atau penilaian dukungan pelanggan."
         }
       ]
@@ -327,31 +327,31 @@ export default {
       "title": "9. Pengembalian Dana, Pembatalan, dan Hak Penarikan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Pengembalian dana, pembatalan, penarikan, dan perselisihan terkait pembelian terutama diatur oleh kebijakan dan prosedur platform tempat pembelian dilakukan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Pembelian melalui Apple App Store tunduk pada kebijakan dan prosedur pengembalian dana Apple."
         },
         {
-          "type": "hal",
-          "text": "Pembelian melalui Google Play tunduk pada kebijakan dan prosedur pengembalian dana Google Play."
+          "type": "p",
+          "text": "Jika pembelian melalui Google Play ditawarkan di masa mendatang, pembelian tersebut akan tunduk pada kebijakan dan prosedur pengembalian dana Google Play."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika undang-undang perlindungan konsumen wajib di negara atau wilayah tempat tinggal Anda menjamin hak pengembalian uang, pembatalan, atau penarikan, hak tersebut tidak dibatasi oleh Ketentuan ini."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Apabila konten digital atau layanan digital dikirimkan dengan segera, atau kredit laporan diberikan atau digunakan atas permintaan Anda, hak penarikan atau pembatalan mungkin dibatasi sejauh diizinkan oleh Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Penghapusan akun, penghapusan aplikasi, perubahan perangkat, pencabutan izin masuk, atau penghentian penggunaan Layanan bukan merupakan dasar otomatis untuk pengembalian dana atas pembelian yang telah diselesaikan. Namun, apabila ditentukan lain oleh Hukum yang Berlaku atau kebijakan platform, maka ketentuan tersebut akan berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Apabila permintaan pengembalian dana pengguna diterima atau diproses melalui platform, Operator dapat mengambil langkah-langkah wajar yang diperlukan untuk pemrosesan pengembalian dana, seperti verifikasi pembelian, reklamasi kredit, pembatasan akses laporan, atau konfirmasi catatan transaksi."
         }
       ]
@@ -360,15 +360,15 @@ export default {
       "title": "10. Data Game, Keseimbangan, dan Integritas Layanan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Sebagai game simulasi ekonomi, angka dalam game, metode perhitungan, struktur ekonomi, peristiwa, kesulitan, metode pembuatan laporan, dan aturan perkembangan di Shadow Economy dapat berubah untuk kualitas Layanan, tujuan pendidikan, keseimbangan game, dan keamanan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat meninjau, memperbaiki, membatasi, mengambil kembali, membatalkan, atau mengembalikan data game, item digital, kredit laporan, atau status akun sejauh diizinkan oleh Hukum yang Berlaku dalam kasus berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Pembuatan data tidak normal karena bug, kesalahan, atau kerentanan",
             "Kecurangan, otomatisasi, skrip, gangguan, atau pengelakan",
@@ -380,7 +380,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator akan berusaha memperbaiki kesalahan dengan cara yang wajar dan meminimalkan dampak terhadap pengguna jika memungkinkan. Namun, pelestarian semua data game, item digital, atau kemajuan tidak dijamin."
         }
       ]
@@ -389,11 +389,11 @@ export default {
       "title": "11. Perilaku yang Dilarang",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda tidak boleh melakukan tindakan berikut saat menggunakan Layanan:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Digunakan untuk tujuan ilegal, menipu, melanggar, merugikan, atau tidak pantas",
             "Melanggar akun, informasi pribadi, atau hak orang lain",
@@ -413,7 +413,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika terdapat dugaan pelanggaran, Operator dapat menyelidiki, membatasi akses, menangguhkan atau menghentikan akun, mengambil kembali barang digital, menahan verifikasi pembelian, membatasi dukungan pelanggan, atau mengambil tindakan hukum."
         }
       ]
@@ -422,15 +422,15 @@ export default {
       "title": "12. Laporan Keamanan dan Perilaku Terkait Kerentanan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator memperhatikan keamanan Layanan dan perlindungan pengguna dengan serius. Jika Anda menemukan kerentanan keamanan, kesalahan, atau perilaku abnormal, Anda dapat melaporkannya ke contact@shadoweconomyapp.com."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Namun, tindakan berikut tidak diperbolehkan:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Akses tidak sah ke Layanan atau data pengguna",
             "Serangan aktual, ekstraksi data, modifikasi data, atau gangguan Layanan",
@@ -441,7 +441,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Laporan kerentanan harus dibuat dengan itikad baik dan dengan cara yang tidak merugikan Layanan atau pengguna."
         }
       ]
@@ -450,11 +450,11 @@ export default {
       "title": "13. Kekayaan Intelektual",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Segala hak dalam Layanan dan komponen-komponennya adalah milik Operator atau pemegang hak masing-masing. Ini termasuk yang berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Aplikasi dan situs web",
             "Perangkat lunak, kode, struktur database, dan konfigurasi teknis",
@@ -465,15 +465,15 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Tidak ada hak yang dialihkan kepada Anda selain lisensi terbatas berdasarkan Ketentuan ini."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Kecuali diizinkan oleh undang-undang, Anda tidak boleh mereproduksi, mendistribusikan, mengirimkan, menjual, menyewakan, menampilkan secara publik, memodifikasi, menerjemahkan, membuat karya turunan, merekayasa balik, mengubahnya menjadi kumpulan data, atau mengeksploitasi Layanan atau konten secara komersial."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Nama, logo, merek dagang, atau elemen merek Shadow Economy tidak boleh digunakan tanpa izin tertulis sebelumnya dari Operator."
         }
       ]
@@ -482,23 +482,23 @@ export default {
       "title": "14. Konten dan Umpan Balik Pengguna",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Layanan saat ini tidak menyediakan fitur jejaring sosial atau postingan publik secara umum. Namun, Anda dapat menyampaikan informasi atau pendapat kepada Operator melalui dukungan pelanggan, umpan balik, saran, laporan kesalahan, atau cara lainnya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Anda memberikan saran, ide, pendapat perbaikan, atau laporan kesalahan kepada Operator, Operator dapat menggunakan umpan balik tersebut untuk pengembangan, peningkatan, pengoperasian, keamanan, dan peningkatan kualitas Layanan tanpa kewajiban kompensasi terpisah kepada Anda."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator tidak berkewajiban untuk menggunakan umpan balik dan tidak menanggung kewajiban kompensasi terpisah atas penggunaan umpan balik."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator memproses informasi pribadi yang terkandung dalam umpan balik sesuai dengan Kebijakan Privasi dan Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda tidak boleh mengirimkan materi kepada Operator yang melanggar hak orang lain atau mengandung konten ilegal."
         }
       ]
@@ -507,19 +507,19 @@ export default {
       "title": "15. Konten Pendidikan dan Tidak Ada Nasihat Profesional",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Layanan dan laporan memberikan informasi pendidikan dan hiburan umum serta hasil simulasi. Itu bukan nasihat keuangan, investasi, pajak, hukum, akuntansi, asuransi, karir, bisnis, atau profesional lainnya yang bersifat individual."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Hasil permainan, angka, deskripsi, laporan, atau saran dalam Layanan tidak menjamin kondisi ekonomi aktual, kinerja investasi, hasil keuangan, hasil pajak, atau dampak hukum."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda tidak boleh mengandalkan Layanan sebagai satu-satunya dasar pengambilan keputusan keuangan, hukum, atau bisnis yang sebenarnya. Untuk pengambilan keputusan sebenarnya, Anda harus meminta nasihat dari profesional berkualifikasi yang sesuai dengan situasi Anda."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator tidak menjamin bahwa informasi dalam Layanan atau laporan lengkap, akurat, terkini, bebas kesalahan, atau sesuai untuk tujuan spesifik Anda."
         }
       ]
@@ -528,19 +528,19 @@ export default {
       "title": "16. Layanan dan Platform Pihak Ketiga",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Layanan dapat berintegrasi dengan Apple, Google, Supabase, Vercel, sistem operasi, toko aplikasi, sistem pembayaran, penyedia autentikasi, produsen perangkat, atau layanan pihak ketiga lainnya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Layanan pihak ketiga mungkin tunduk pada persyaratan, kebijakan privasi, kebijakan, dan biaya mereka sendiri. Operator tidak bertanggung jawab sejauh diizinkan oleh Hukum yang Berlaku atas ketersediaan, keamanan, kebijakan, proses pembayaran, pengembalian uang, proses masuk, kegagalan, atau perubahan layanan pihak ketiga."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika layanan pihak ketiga ditangguhkan, dibatasi, diubah, atau dihentikan, beberapa fitur Layanan mungkin terpengaruh."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Saat menggunakan layanan pihak ketiga, Anda harus mematuhi persyaratan dan kebijakan mereka."
         }
       ]
@@ -549,19 +549,19 @@ export default {
       "title": "17. Pembaruan dan Kompatibilitas",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat memberikan pembaruan aplikasi untuk keamanan Layanan, stabilitas, peningkatan fitur, kepatuhan hukum, atau kepatuhan kebijakan platform."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Fitur tertentu mungkin memerlukan versi aplikasi terbaru, versi sistem operasi tertentu, kinerja perangkat tertentu, konektivitas jaringan, atau proses masuk akun."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat membatasi atau menghentikan dukungan untuk versi aplikasi lama. Penggunaan versi aplikasi yang lebih lama secara terus-menerus dapat mengakibatkan beberapa fitur, verifikasi pembayaran, penyimpanan cloud, pembuatan laporan, atau dukungan pelanggan tidak disediakan secara normal."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda bertanggung jawab untuk selalu memperbarui aplikasi, sistem operasi, dan perangkat."
         }
       ]
@@ -570,15 +570,15 @@ export default {
       "title": "18. Penangguhan dan Pengakhiran Layanan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat menangguhkan, membatasi, atau menghentikan seluruh atau sebagian Layanan untuk sementara atau permanen sejauh diizinkan oleh hukum."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Alasan penangguhan atau penghentian Layanan dapat mencakup hal-hal berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Pemeliharaan, pemeriksaan keamanan, atau kegagalan teknis",
             "Kegagalan server, hosting, autentikasi, pembayaran, atau platform",
@@ -589,15 +589,15 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator akan berusaha untuk memberikan pemberitahuan awal yang wajar jika memungkinkan. Namun, jika terdapat masalah keamanan yang mendesak, kewajiban hukum, persyaratan platform, kegagalan, atau force majeure, tindakan dapat diambil tanpa pemberitahuan terlebih dahulu."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Operator menghentikan Layanan secara permanen karena alasannya sendiri, Operator akan, jika memungkinkan, memberikan pemberitahuan terlebih dahulu yang wajar bersama dengan jangka waktu untuk menggunakan kredit berbayar yang belum terpakai atau tindakan yang diwajibkan oleh Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Setelah Layanan dihentikan, akses ke akun, data game, kredit laporan, laporan tersimpan, atau item digital lainnya mungkin dibatasi atau dihentikan. Kecuali diwajibkan lain oleh Hukum yang Berlaku, kredit laporan tidak dapat ditukarkan dengan uang tunai."
         }
       ]
@@ -606,15 +606,15 @@ export default {
       "title": "19. Pembatasan dan Penghentian Penggunaan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda dapat menghentikan penggunaan Layanan kapan saja."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat membatasi, menangguhkan, atau menghentikan penggunaan Anda atas Layanan, akun, kredit laporan, atau akses ke fitur-fitur tertentu dalam kasus berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Pelanggaran terhadap Ketentuan ini",
             "Pelanggaran terhadap Hukum yang Berlaku atau kebijakan platform",
@@ -627,15 +627,15 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika akun dibatasi, ditangguhkan, atau dihentikan, Anda mungkin kehilangan akses ke data game, kredit laporan, laporan tersimpan, dan item digital lainnya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Penghapusan akun, penghentian akun, atau pembatasan penggunaan dapat terjadi secara terpisah dari tindakan penyimpanan data, penghapusan, anonimisasi, atau pelestarian hukum berdasarkan Kebijakan Privasi dan Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan-ketentuan dalam Ketentuan ini yang menurut sifatnya harus tetap berlaku setelah penghentian, terus berlaku setelah penghentian penggunaan Layanan. Hal ini mencakup kekayaan intelektual, barang digital, perilaku terlarang, penafian, pembatasan tanggung jawab, ganti rugi, hukum yang berlaku dan penyelesaian sengketa, privasi, dan ketentuan umum."
         }
       ]
@@ -644,15 +644,15 @@ export default {
       "title": "20. Penafian Jaminan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Sejauh diizinkan oleh Hukum yang Berlaku, Layanan disediakan \"sebagaimana adanya\" dan \"sebagaimana tersedia\"."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator tidak menjamin, termasuk jaminan tersurat, tersirat, atau menurut undang-undang, hal-hal berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Bahwa Layanan akan diberikan tanpa gangguan, aman, atau tanpa kesalahan",
             "Bahwa Layanan akan berfungsi di semua perangkat, sistem operasi, jaringan, atau wilayah",
@@ -664,7 +664,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jaminan, ketentuan, atau hak yang tidak dapat dikecualikan berdasarkan Hukum yang Berlaku tidak dibatasi oleh Ketentuan ini."
         }
       ]
@@ -673,11 +673,11 @@ export default {
       "title": "21. Batasan Tanggung Jawab",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Sejauh diizinkan oleh Hukum yang Berlaku, Operator tidak bertanggung jawab atas kerugian berikut yang timbul dari atau terkait dengan penggunaan atau ketidakmampuan menggunakan Layanan:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Kerusakan tidak langsung",
             "Kerusakan yang tidak disengaja",
@@ -693,22 +693,22 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Sejauh diizinkan oleh Hukum yang Berlaku, total tanggung jawab Operator atas semua klaim yang berkaitan dengan Layanan tidak akan melebihi jumlah yang lebih besar dari jumlah berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Jumlah yang sebenarnya Anda bayarkan untuk Layanan selama 12 bulan sebelum klaim muncul",
             "Lima puluh dolar AS (USD 50)"
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Beberapa yurisdiksi mungkin tidak mengizinkan batasan tanggung jawab di atas. Dalam hal demikian, tanggung jawab Operator terbatas pada batas maksimum yang diizinkan oleh Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Tidak ada ketentuan apa pun dalam Ketentuan ini yang membatasi tanggung jawab yang tidak dapat dibatasi atau dikecualikan berdasarkan Hukum yang Berlaku. Hal ini dapat mencakup tanggung jawab atas kesengajaan, kelalaian besar, penipuan, cedera atau kematian, atau tanggung jawab yang tidak dapat dikecualikan berdasarkan undang-undang perlindungan konsumen wajib."
         }
       ]
@@ -717,15 +717,15 @@ export default {
       "title": "22. Ganti Rugi",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Sejauh diizinkan oleh Hukum yang Berlaku, apabila klaim, kerusakan, kerugian, tanggung jawab, biaya, atau biaya pengacara yang wajar dari pihak ketiga timbul terhadap Operator karena pelanggaran yang disengaja atau bersifat material terhadap Ketentuan ini, tindakan melanggar hukum, pembayaran palsu, pelanggaran hak pihak ketiga, atau pelanggaran keamanan Layanan, Anda mungkin bertanggung jawab untuk mengganti kerugian Operator atas kerugian wajar yang diakibatkannya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Alasan-alasan yang dapat menimbulkan tanggung jawab ganti rugi adalah sebagai berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Pelanggaran material Anda terhadap Ketentuan ini",
             "Penyalahgunaan atau penggunaan Layanan yang melanggar hukum",
@@ -735,11 +735,11 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Namun, kewajiban ganti rugi Anda tidak berlaku sepanjang disebabkan oleh kesengajaan atau kelalaian besar Operator."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat menggunakan hak pembelaan secara langsung dalam hal-hal yang tunduk pada kewajiban ganti rugi Anda, dan Anda harus bekerja sama secara wajar."
         }
       ]
@@ -748,19 +748,19 @@ export default {
       "title": "23. Privasi",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Praktik pemrosesan informasi pribadi Operator dijelaskan dalam Kebijakan Privasi."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Kebijakan Privasi tersedia di shadoweconomyapp.com/privasi atau dalam pemberitahuan dalam Layanan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Dengan menggunakan Layanan, Anda mengakui bahwa Kebijakan Privasi berlaku untuk pemrosesan informasi pribadi terkait penggunaan Layanan."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Kebijakan Privasi dan Ketentuan ini bertentangan, Kebijakan Privasi yang berlaku sehubungan dengan pemrosesan informasi pribadi."
         }
       ]
@@ -769,15 +769,15 @@ export default {
       "title": "24. Pengendalian dan Sanksi Ekspor",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda dapat menggunakan Layanan hanya sejauh diizinkan oleh undang-undang pengendalian ekspor, sanksi, embargo, dan peraturan perdagangan yang berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda menyatakan dan menjamin bahwa:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Anda tidak berlokasi di negara atau wilayah yang terkena sanksi atau embargo perdagangan yang komprehensif.",
             "Anda tidak terdaftar dalam daftar sanksi pemerintah mana pun.",
@@ -786,7 +786,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat membatasi atau menghentikan akses Layanan jika diperlukan untuk sanksi, pengendalian ekspor, atau kepatuhan terhadap undang-undang terkait."
         }
       ]
@@ -795,15 +795,15 @@ export default {
       "title": "25. Sumber Terbuka",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Layanan dapat mencakup komponen-komponen yang tunduk pada lisensi sumber terbuka terpisah."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Komponen sumber terbuka tunduk pada ketentuan lisensi sumber terbuka masing-masing, dan apabila Ketentuan ini bertentangan dengan lisensi sumber terbuka, maka ketentuan lisensi sumber terbuka yang berlaku untuk komponen tersebut."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Pemberitahuan sumber terbuka atau daftar lisensi dapat diberikan melalui pemberitahuan dalam aplikasi, situs web, atau atas permintaan ke contact@shadoweconomyapp.com."
         }
       ]
@@ -812,15 +812,15 @@ export default {
       "title": "26. Laporan Pelanggaran Hak Cipta dan Kekayaan Intelektual",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Anda yakin konten pada Layanan atau situs web melanggar hak cipta, merek dagang, atau hak kekayaan intelektual lainnya, Anda dapat melaporkannya ke contact@shadoweconomyapp.com."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika memungkinkan, harap sertakan informasi berikut dalam laporan Anda:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Nama dan informasi kontak pemegang hak atau agen resmi",
             "Deskripsi hak atau karya yang diklaim dilanggar",
@@ -830,7 +830,7 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator akan meninjau laporan sesuai dengan Hukum yang Berlaku dan dapat mengambil penghapusan, modifikasi, pembatasan akses, atau tindakan lain terkait konten, materi, tautan, atau elemen dalam Layanan yang relevan jika diperlukan."
         }
       ]
@@ -839,15 +839,15 @@ export default {
       "title": "27. Ketentuan Tambahan App Store",
       "blocks": [
         {
-          "type": "hal",
-          "text": "Jika Anda mengunduh atau menggunakan aplikasi melalui Apple App Store atau Google Play, syarat, kebijakan, dan aturan penggunaan platform terkait juga berlaku."
+          "type": "p",
+          "text": "Jika Anda mengunduh atau menggunakan aplikasi melalui Apple App Store, atau melalui Google Play jika ditawarkan di masa mendatang, syarat, kebijakan, dan aturan penggunaan platform terkait juga berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan ini merupakan perjanjian antara Anda dan Operator, bukan dengan Apple Inc., Google LLC, atau afiliasinya."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika ketentuan atau kebijakan toko bertentangan dengan Ketentuan ini, ketentuan atau kebijakan toko mungkin berlaku sehubungan dengan pengunduhan, pembayaran, pembaruan, atau pengembalian dana pada platform terkait."
         },
         {
@@ -855,11 +855,11 @@ export default {
           "text": "27.1 Ketentuan Apple"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan berikut berlaku sehubungan dengan aplikasi iOS:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Apple bukan merupakan pihak dalam Ketentuan ini.",
             "Tanggung jawab atas pemeliharaan dan dukungan aplikasi terletak pada Operator sesuai dengan Hukum yang Berlaku dan Ketentuan ini; Apple tidak berkewajiban menyediakan pemeliharaan atau dukungan untuk aplikasi tersebut.",
@@ -877,11 +877,11 @@ export default {
           "text": "27.2 Persyaratan Google"
         },
         {
-          "type": "hal",
-          "text": "Ketentuan berikut berlaku sehubungan dengan aplikasi Android:"
+          "type": "p",
+          "text": "Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang, ketentuan berikut berlaku untuk versi tersebut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Google bukan pihak dalam Persyaratan ini.",
             "Pengunduhan, pembaruan, pembayaran, pengembalian dana, dan pengelolaan akun melalui Google Play mungkin tunduk pada syarat dan kebijakan Google Play.",
@@ -896,23 +896,23 @@ export default {
       "title": "28. Hukum yang Mengatur dan Penyelesaian Sengketa",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan ini diatur oleh hukum Selandia Baru. Namun, undang-undang perlindungan konsumen wajib, undang-undang privasi, atau hak hukum lain yang tidak dapat dikecualikan di negara atau wilayah tempat tinggal Anda akan diutamakan jika berlaku, dan hak-hak tersebut tidak dibatasi."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Untuk perselisihan terkait Ketentuan atau Layanan ini, Anda dan Operator menyetujui yurisdiksi non-eksklusif pengadilan Selandia Baru. Hal ini tidak membatasi hak wajib yang mungkin Anda miliki untuk mengajukan perkara di tempat tinggal Anda atau yurisdiksi lain berdasarkan Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika timbul perselisihan, Anda dapat menghubungi contact@shadoweconomyapp.com terlebih dahulu untuk meminta penyelesaian. Operator akan berusaha menyelesaikan perselisihan secara informal hingga batas yang wajar."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Bagi konsumen di EEA atau Inggris Raya, penyelesaian sengketa secara online atau prosedur perlindungan konsumen lokal mungkin tersedia jika diizinkan oleh Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Tidak ada ketentuan apa pun dalam Ketentuan ini yang membatasi hak Anda terhadap otoritas pengatur, badan perlindungan konsumen, atau pengadilan sebagaimana ditentukan oleh hukum."
         }
       ]
@@ -921,27 +921,27 @@ export default {
       "title": "29. Perubahan Ketentuan",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat merevisi Ketentuan ini karena perubahan Layanan, perubahan hukum, perubahan kebijakan platform, kebutuhan keamanan, atau kebutuhan operasional."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Apabila terjadi perubahan material, Operator akan, jika memungkinkan, memberikan pemberitahuan setidaknya 14 hari sebelum tanggal efektif melalui aplikasi, situs web, email, atau cara lain yang sesuai. Namun, jika terdapat keamanan, kepatuhan hukum, persyaratan platform, atau kebutuhan operasional yang mendesak, perubahan dapat berlaku dalam jangka waktu yang lebih singkat."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Penggunaan Layanan yang berkelanjutan setelah perubahan dapat dianggap sebagai penerimaan terhadap Ketentuan yang direvisi. Namun, apabila persetujuan terpisah diwajibkan oleh Hukum yang Berlaku, Penyelenggara akan memperoleh persetujuan tersebut secara terpisah."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Apabila perubahan berdampak signifikan pada fitur berbayar, kredit laporan, atau hak inti pengguna, Operator akan memberikan pemberitahuan, persetujuan, masa tenggang, atau tindakan lain yang diwajibkan oleh Hukum yang Berlaku."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika Anda tidak menyetujui Ketentuan yang direvisi, Anda dapat menghentikan penggunaan Layanan dan menghapus akun Anda."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Tanggal \"Terakhir diperbarui\" di bagian atas menunjukkan versi Ketentuan saat ini."
         }
       ]
@@ -950,11 +950,11 @@ export default {
       "title": "30. Pemberitahuan Elektronik",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Sepanjang diizinkan oleh hukum, Anda setuju bahwa Operator dapat memberikan pemberitahuan dengan cara berikut:"
         },
         {
-          "type": "jalan",
+          "type": "ul",
           "items": [
             "Pemberitahuan dalam aplikasi",
             "Postingan situs web",
@@ -964,11 +964,11 @@ export default {
           ]
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Pemberitahuan elektronik dapat mempunyai dampak yang sama dengan pemberitahuan tertulis sepanjang diperbolehkan oleh undang-undang."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda bertanggung jawab untuk selalu memperbarui alamat email akun dan informasi kontak Anda."
         }
       ]
@@ -981,7 +981,7 @@ export default {
           "text": "31.1 Keseluruhan Perjanjian"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan ini, Kebijakan Privasi, dan pemberitahuan eksplisit dalam Layanan merupakan keseluruhan perjanjian antara Anda dan Operator mengenai penggunaan Layanan."
         },
         {
@@ -989,7 +989,7 @@ export default {
           "text": "31.2 Keterpisahan"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Jika ada ketentuan dalam Ketentuan ini yang dianggap tidak sah, melanggar hukum, atau tidak dapat dilaksanakan, ketentuan lainnya akan tetap berlaku. Ketentuan yang terkena dampak akan ditafsirkan sebagai ketentuan yang sah dan dapat dilaksanakan yang paling mencerminkan maksud awal."
         },
         {
@@ -997,7 +997,7 @@ export default {
           "text": "31.3 Tidak Ada Pengabaian"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Kegagalan atau keterlambatan Operator dalam melaksanakan hak apa pun berdasarkan Ketentuan ini bukan merupakan pelepasan hak tersebut."
         },
         {
@@ -1005,11 +1005,11 @@ export default {
           "text": "31.4 Penugasan"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Anda tidak boleh mengalihkan, mengalihkan, atau mendelegasikan hak atau kewajiban Anda berdasarkan Ketentuan ini tanpa izin tertulis sebelumnya dari Operator."
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator dapat mengalihkan hak dan kewajibannya berdasarkan Ketentuan ini sehubungan dengan merger, akuisisi, konversi perusahaan, perubahan organisasi, pengalihan aset, investasi, pengalihan bisnis, atau pengalihan pengoperasian Layanan. Apabila diwajibkan oleh hukum, Operator akan memberikan pemberitahuan yang relevan."
         },
         {
@@ -1017,7 +1017,7 @@ export default {
           "text": "31.5 Keadaan Kahar"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Operator tidak bertanggung jawab atas keterlambatan, penangguhan, atau kegagalan kinerja karena bencana alam, perang, terorisme, kerusuhan, tindakan pemerintah, perubahan hukum, pemadaman listrik, kegagalan komunikasi, kegagalan internet, kegagalan toko aplikasi, kegagalan sistem pembayaran, kegagalan hosting, kegagalan layanan cloud, insiden keamanan, pemogokan, epidemi, atau penyebab lain di luar kendali wajar Operator."
         },
         {
@@ -1025,7 +1025,7 @@ export default {
           "text": "31.6 Bahasa"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Ketentuan ini awalnya ditulis dalam bahasa Korea. Jika terjemahan dalam bahasa lain disediakan di masa mendatang, terjemahan tersebut disediakan hanya untuk kenyamanan. Jika terjadi konflik, kecuali diwajibkan lain oleh Hukum yang Berlaku, versi Korea akan berlaku dan berlaku."
         },
         {
@@ -1033,7 +1033,7 @@ export default {
           "text": "31.7 Judul"
         },
         {
-          "type": "hal",
+          "type": "p",
           "text": "Judul dalam Ketentuan ini hanya untuk kemudahan dan tidak mempengaruhi penafsiran Ketentuan."
         }
       ]
@@ -1042,12 +1042,12 @@ export default {
       "title": "32. Kontak",
       "blocks": [
         {
-          "type": "hal",
+          "type": "p",
           "text": "Untuk pertanyaan mengenai Ketentuan ini, Layanan, akun, pembelian, kredit laporan, kekayaan intelektual, atau dukungan pelanggan, silakan hubungi kami di alamat di bawah."
         },
         {
-          "type": "hal",
-          "text": "Email: hubungi@shadoweconomyapp.com"
+          "type": "p",
+          "text": "Email: contact@shadoweconomyapp.com"
         }
       ]
     }

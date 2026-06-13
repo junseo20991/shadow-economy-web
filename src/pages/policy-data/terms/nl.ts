@@ -27,7 +27,7 @@ export default {
         {
           "type": "ul",
           "items": [
-            "De Shadow Economy iOS en Android mobiele applicaties",
+            "De momenteel beschikbare Shadow Economy iOS-app en elke Android- of Google Play-versie die in de toekomst wordt aangeboden",
             "De shadoweconomyapp.com-website",
             "Gameplay, accounts, cloudopslag, rapportcredits, educatieve gepersonaliseerde rapporten en klantenondersteuning",
             "Andere functies, inhoud en diensten die verwijzen naar of verband houden met deze Voorwaarden"
@@ -65,7 +65,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"App\" betekent de mobiele Shadow Economy-applicatie die wordt gedistribueerd via de Apple App Store of Google Play."
+          "text": "\"App\" betekent de momenteel beschikbare Shadow Economy iOS-app die via de Apple App Store wordt gedistribueerd, en elke Android- of Google Play-versie indien die in de toekomst wordt aangeboden."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Voor de Android-app is deze licentie van toepassing voor zover toegestaan door het Google Play- en Android-apparaatgerelateerd beleid."
+          "text": "Als in de toekomst een Android-app of Google Play-distributie wordt aangeboden, is deze licentie op die versie van toepassing voor zover toegestaan door het Google Play- en Android-apparaatgerelateerd beleid."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Aankopen binnen de Dienst worden verwerkt via de Apple App Store of Google Play. De Operator verzamelt of bewaart niet rechtstreeks betaalkaartnummers, bankrekeninggegevens of volledige authenticatiegegevens voor betalingen."
+          "text": "In de huidige iOS-app worden aankopen binnen de Dienst verwerkt via de Apple App Store. Als in de toekomst een Android-app of Google Play-distributie met in-app-aankopen wordt aangeboden, kunnen dergelijke aankopen via Google Play worden verwerkt. De Operator verzamelt of bewaart niet rechtstreeks betaalkaartnummers, bankrekeninggegevens of volledige authenticatiegegevens voor betalingen."
         },
         {
           "type": "p",
@@ -315,7 +315,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tenzij anders vereist door de wet of het app store-beleid, kunnen verbruiksartikelen zoals rapportcredits onmiddellijk na voltooiing van de aankoop worden geleverd, en kunnen terugbetalingen of annuleringen na gebruik of consumptie worden beperkt. Of u in aanmerking komt voor restitutie wordt bepaald door de toepasselijke wetgeving, het Apple App Store- of Google Play-beleid en specifieke omstandigheden."
+          "text": "Tenzij anders vereist door de wet of het app store-beleid, kunnen verbruiksartikelen zoals rapportcredits onmiddellijk na voltooiing van de aankoop worden geleverd, en kunnen terugbetalingen of annuleringen na gebruik of consumptie worden beperkt. Of u in aanmerking komt voor restitutie wordt bepaald door de toepasselijke wetgeving, het beleid van de Apple App Store en, waar van toepassing, Google Play, en specifieke omstandigheden."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Aankopen via Google Play zijn onderworpen aan het terugbetalingsbeleid en de -procedures van Google Play."
+          "text": "Als in de toekomst aankopen via Google Play worden aangeboden, zijn die aankopen onderworpen aan het terugbetalingsbeleid en de -procedures van Google Play."
         },
         {
           "type": "p",
@@ -840,7 +840,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Als u de app downloadt of gebruikt via de Apple App Store of Google Play, zijn ook de voorwaarden, het beleid en de gebruiksregels van het relevante platform van toepassing."
+          "text": "Als u de app downloadt of gebruikt via de Apple App Store, of via Google Play indien dit in de toekomst wordt aangeboden, zijn ook de voorwaarden, het beleid en de gebruiksregels van het relevante platform van toepassing."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Met betrekking tot de Android-app zijn de volgende voorwaarden van toepassing:"
+          "text": "Als in de toekomst een Android-app of Google Play-distributie wordt aangeboden, zijn de volgende voorwaarden op die versie van toepassing:"
         },
         {
           "type": "ul",

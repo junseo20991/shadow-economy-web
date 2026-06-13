@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'The Shadow Economy iOS and Android mobile applications',
+            'The currently available Shadow Economy iOS mobile application and any Android or Google Play version offered in the future',
             'The shadoweconomyapp.com website',
             'Gameplay, accounts, cloud saves, report credits, educational personalized reports, and customer support',
             'Other features, content, and services that reference or are linked to these Terms'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"App" means the Shadow Economy mobile application distributed through the Apple App Store or Google Play.'
+          text: '"App" means the currently available Shadow Economy iOS mobile application distributed through the Apple App Store, and any Android or Google Play version if offered in the future.'
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'For the Android app, this license applies to the extent permitted by Google Play and Android device-related policies.'
+          text: 'If an Android app or Google Play distribution is offered in the future, this license applies to that version to the extent permitted by Google Play and Android device-related policies.'
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Purchases within the Service are processed through the Apple App Store or Google Play. The Operator does not directly collect or store payment card numbers, bank account information, or full payment authentication credentials.'
+          text: 'In the current iOS app, purchases within the Service are processed through the Apple App Store. If an Android app or Google Play distribution is offered in the future with in-app purchases, those purchases may be processed through Google Play. The Operator does not directly collect or store payment card numbers, bank account information, or full payment authentication credentials.'
         },
         {
           type: 'p' as const,
@@ -315,7 +315,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Unless otherwise required by law or app store policy, consumable digital goods such as report credits may be delivered immediately upon purchase completion, and refunds or cancellations may be restricted after use or consumption. Refund eligibility is determined by Applicable Law, Apple App Store or Google Play policies, and specific circumstances.'
+          text: 'Unless otherwise required by law or app store policy, consumable digital goods such as report credits may be delivered immediately upon purchase completion, and refunds or cancellations may be restricted after use or consumption. Refund eligibility is determined by Applicable Law, Apple App Store and, where applicable, Google Play policies, and specific circumstances.'
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Purchases through Google Play are subject to Google Play\'s refund policies and procedures.'
+          text: 'If purchases are offered through Google Play in the future, those purchases will be subject to Google Play\'s refund policies and procedures.'
         },
         {
           type: 'p' as const,
@@ -840,7 +840,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'If you download or use the app through the Apple App Store or Google Play, the terms, policies, and usage rules of the relevant platform also apply.'
+          text: 'If you download or use the app through the Apple App Store, or through Google Play if offered in the future, the terms, policies, and usage rules of the relevant platform also apply.'
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'The following terms apply with respect to the Android app:'
+          text: 'If an Android app or Google Play distribution is offered in the future, the following terms apply with respect to that version:'
         },
         {
           type: 'ul' as const,

@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'Shadow Economy iOS 及 Android 移动应用程序',
+            '当前提供的 Shadow Economy iOS 移动应用程序，以及未来可能提供的 Android 或 Google Play 版本',
             'shadoweconomyapp.com 网站',
             '游戏玩法、账户、云存档、报告积分、教育类个性化报告及客户支持',
             '引用本条款或与本条款关联的其他功能、内容及服务'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '「应用程序」指通过 Apple App Store 或 Google Play 分发的 Shadow Economy 移动应用程序。'
+          text: '「应用程序」指当前通过 Apple App Store 分发的 Shadow Economy iOS 移动应用程序，以及未来可能提供的 Android 或 Google Play 版本。'
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '对于 Android 应用程序，本许可在 Google Play 及 Android 设备相关政策允许的范围内适用。'
+          text: '如果未来提供 Android 应用程序或 Google Play 版本，本许可将在 Google Play 及 Android 设备相关政策允许的范围内适用于该版本。'
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: '服务内购买通过 Apple App Store 或 Google Play 处理。运营方不直接收集或存储支付卡号、银行账户信息或完整支付认证信息。'
+          text: '当前 iOS 应用中的服务内购买通过 Apple App Store 处理。如果未来提供包含应用内购买的 Android 应用程序或 Google Play 版本，该等购买可能通过 Google Play 处理。运营方不直接收集或存储支付卡号、银行账户信息或完整支付认证信息。'
         },
         {
           type: 'p' as const,
@@ -315,7 +315,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '除法律或应用商店政策另有要求外，报告积分等可消耗型数字商品可在购买完成后立即提供，使用或消耗后可能限制退款或取消。退款资格依相关法律、Apple App Store 或 Google Play 政策及具体情况而定。'
+          text: '除法律或应用商店政策另有要求外，报告积分等可消耗型数字商品可在购买完成后立即提供，使用或消耗后可能限制退款或取消。退款资格依相关法律、Apple App Store 以及适用时的 Google Play 政策和具体情况而定。'
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '通过 Google Play 的购买适用 Google Play 的退款政策及程序。'
+          text: '如果未来提供通过 Google Play 的购买，该等购买适用 Google Play 的退款政策及程序。'
         },
         {
           type: 'p' as const,
@@ -840,7 +840,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: '通过 Apple App Store 或 Google Play 下载或使用应用程序时，亦适用相应平台的条款、政策及使用规则。'
+          text: '通过 Apple App Store 下载或使用应用程序时，或未来提供时通过 Google Play 使用应用程序时，亦适用相应平台的条款、政策及使用规则。'
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '与 Android 应用程序相关，适用以下条件：'
+          text: '如果未来提供 Android 应用程序或 Google Play 版本，以下条件适用于该版本：'
         },
         {
           type: 'ul' as const,

@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'Shadow Economy iOS- och Android-mobilappar',
+            'Den för närvarande tillgängliga Shadow Economy iOS-mobilappen och eventuell Android- eller Google Play-version som erbjuds i framtiden',
             'webbplatsen shadoweconomyapp.com',
             'spelupplevelse, konton, molnlagring, rapportkrediter, utbildningsanpassade rapporter och kundsupport',
             'övriga funktioner, innehåll och tjänster som hänvisar till eller är kopplade till dessa Villkor'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Appen» avser Shadow Economy-mobilappen som distribueras via Apple App Store eller Google Play.'
+          text: '«Appen» avser den för närvarande tillgängliga Shadow Economy iOS-mobilappen som distribueras via Apple App Store, samt eventuell Android- eller Google Play-version om den erbjuds i framtiden.'
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'För Android-appen gäller denna licens inom de gränser som Google Play och policyer för Android-enheter tillåter.'
+          text: 'Om en Android-app eller Google Play-distribution erbjuds i framtiden gäller denna licens för den versionen inom de gränser som Google Play och policyer för Android-enheter tillåter.'
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Köp inom Tjänsten behandlas via Apple App Store eller Google Play. Operatören samlar inte in eller lagrar betalkortsnummer, bankkontouppgifter eller fullständiga betalningsautentiseringsuppgifter direkt.'
+          text: 'I den nuvarande iOS-appen behandlas köp inom Tjänsten via Apple App Store. Om en Android-app eller Google Play-distribution med köp i appen erbjuds i framtiden kan sådana köp behandlas via Google Play. Operatören samlar inte in eller lagrar betalkortsnummer, bankkontouppgifter eller fullständiga betalningsautentiseringsuppgifter direkt.'
         },
         {
           type: 'p' as const,
@@ -315,7 +315,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Om inte lag eller appbutikspolicy kräver annat kan förbrukningsbara digitala varor såsom rapportkrediter tillhandahållas omedelbart efter slutfört köp, och återbetalning eller annullering kan begränsas efter användning eller förbrukning. Möjligheten till återbetalning avgörs enligt tillämplig lag, Apple App Stores eller Google Plays policyer och de konkreta omständigheterna.'
+          text: 'Om inte lag eller appbutikspolicy kräver annat kan förbrukningsbara digitala varor såsom rapportkrediter tillhandahållas omedelbart efter slutfört köp, och återbetalning eller annullering kan begränsas efter användning eller förbrukning. Möjligheten till återbetalning avgörs enligt tillämplig lag, Apple App Stores och, i förekommande fall, Google Plays policyer och de konkreta omständigheterna.'
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Köp via Google Play omfattas av Google Plays återbetalningspolicy och förfaranden.'
+          text: 'Om köp via Google Play erbjuds i framtiden omfattas sådana köp av Google Plays återbetalningspolicy och förfaranden.'
         },
         {
           type: 'p' as const,
@@ -840,7 +840,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Om du laddar ner eller använder appen via Apple App Store eller Google Play gäller även respektive plattforms villkor, policyer och användningsregler.'
+          text: 'Om du laddar ner eller använder appen via Apple App Store, eller via Google Play om det erbjuds i framtiden, gäller även respektive plattforms villkor, policyer och användningsregler.'
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Följande villkor gäller för Android-appen:'
+          text: 'Om en Android-app eller Google Play-distribution erbjuds i framtiden gäller följande villkor för den versionen:'
         },
         {
           type: 'ul' as const,

@@ -417,7 +417,7 @@ const content = {
     "headline": "Une partie terminée devient un rapport.",
     "headlineSub": "Construit à partir de vos propres décisions.",
     "sub": "Un jeu terminé devient un rapport construit à partir de vos décisions, de votre timing, de votre tolérance au risque et de vos compromis.",
-    "valueTitle": "Ce que ça te donne",
+    "valueTitle": "Ce que le rapport vous apporte",
     "value": [
       {
         "title": "Une lecture plus claire de vos habitudes",
@@ -429,11 +429,11 @@ const content = {
       },
       {
         "title": "Une raison de rejouer",
-        "body": "Une deuxième exécution crée un nouveau rapport."
+        "body": "Une deuxième partie crée un nouveau rapport."
       }
     ],
-    "purposeTitle": "Pourquoi ça existe",
-    "purposeBody1": "Le rapport est conçu pour les joueurs qui souhaitent apprendre l’économie mais qui ont besoin d’un point de départ. Cela commence par un jeu, puis explique ce que cela signifie.",
+    "purposeTitle": "Pourquoi il existe",
+    "purposeBody1": "Le rapport est conçu pour les joueurs qui souhaitent apprendre l’économie mais qui ont besoin d’un point de départ. Il commence par votre partie, puis explique ce qu’elle signifie.",
     "purposeBody2": "Cela le rend plus facile à lire, plus facile à retenir et plus facile à utiliser.",
     "diffTitle": "Pourquoi il se démarque",
     "diff": [
@@ -442,8 +442,8 @@ const content = {
         "body": "La source est l’état du jeu lui-même : choix, timing, actifs, passifs et résultats."
       },
       {
-        "title": "Chaque idée pointe vers une action.",
-        "body": "Le rapport relie un modèle à ce qui s’est passé dans le jeu."
+        "title": "Chaque insight renvoie à une action.",
+        "body": "Le rapport relie un schéma à ce qui s’est passé dans le jeu."
       },
       {
         "title": "Clair, pas surchargé.",
@@ -454,7 +454,7 @@ const content = {
     "what": [
       {
         "icon": "⏱",
-        "title": "Rétrospective de la décision",
+        "title": "Rétrospective des décisions",
         "body": "Le moment où votre chemin a changé et le choix qui le sous-tend."
       },
       {
@@ -465,18 +465,18 @@ const content = {
       {
         "icon": "⚖️",
         "title": "Chemins alternatifs",
-        "body": "Différents résultats possibles à partir du même point de départ, montrant comment la course pourrait se dérouler de plusieurs manières."
+        "body": "Différents résultats possibles à partir du même point de départ, montrant comment la partie pourrait évoluer de plusieurs manières."
       },
       {
         "icon": "🧠",
         "title": "Signature cognitive",
-        "body": "Les habitudes et les préjugés qui ont façonné vos choix."
+        "body": "Les habitudes et les biais qui ont façonné vos choix."
       }
     ],
     "onceTitle": "Un rapport, une partie",
-    "onceBody": "Le rapport est généré à la fin d'une exécution. Il capture un ensemble de décisions dans un ensemble de conditions.",
-    "onceBody2": "Jouez à nouveau et le rapport change avec vous. Cela reste lié à une vraie course.",
-    "ctaTitle": "Prêt à voir votre propre modèle ?",
+    "onceBody": "Le rapport est généré à la fin d’une partie. Il capture une série de décisions dans des conditions précises.",
+    "onceBody2": "Jouez à nouveau et le rapport change avec vous. Il reste lié à une vraie partie.",
+    "ctaTitle": "Prêt à voir vos propres schémas ?",
     "ctaBody": "Obtenez des crédits de rapport dans l'application mobile et débloquez votre rapport après votre prochaine partie terminée.",
     "ctaButton": "Voir les tarifs"
   },
@@ -485,23 +485,23 @@ const content = {
     "headline": "Ein abgeschlossener Spieldurchgang wird zu einem Bericht.",
     "headlineSub": "Basierend auf Ihren eigenen Entscheidungen.",
     "sub": "Ein abgeschlossenes Spiel wird zu einem Bericht, der auf Ihren Entscheidungen, Ihrem Timing, Ihrer Risikotoleranz und Ihren Kompromissen basiert.",
-    "valueTitle": "Was es dir gibt",
+    "valueTitle": "Was der Bericht Ihnen gibt",
     "value": [
       {
-        "title": "Eine klarere Aussage über Ihre Gewohnheiten",
+        "title": "Ein klarerer Blick auf Ihre Gewohnheiten",
         "body": "Sehen Sie, wie Sie in der Simulation unter Druck gespielt haben."
       },
       {
         "title": "Eine Brücke zur Finanzkompetenz",
-        "body": "Spielverhalten wird zur nutzbaren Wirtschaftssprache."
+        "body": "Spielverhalten wird in nutzbare wirtschaftliche Begriffe übersetzt."
       },
       {
         "title": "Ein Grund zum Wiederholen",
         "body": "Bei einem zweiten Durchlauf wird ein neuer Bericht erstellt."
       }
     ],
-    "purposeTitle": "Warum es existiert",
-    "purposeBody1": "Der Bericht richtet sich an Spieler, die Wirtschaftswissenschaften erlernen möchten, aber einen Ausgangspunkt benötigen. Es beginnt mit einem Spiel und erklärt dann, was es bedeutet.",
+    "purposeTitle": "Warum es ihn gibt",
+    "purposeBody1": "Der Bericht richtet sich an Spieler, die Wirtschaft lernen möchten, aber einen Ausgangspunkt brauchen. Er beginnt mit Ihrem eigenen Spieldurchgang und erklärt dann, was er bedeutet.",
     "purposeBody2": "Dadurch ist es leichter zu lesen, leichter zu merken und einfacher zu verwenden.",
     "diffTitle": "Warum es sich von anderen abhebt",
     "diff": [
@@ -510,7 +510,7 @@ const content = {
         "body": "Die Quelle ist der Spielzustand selbst: Entscheidungen, Zeitpunkt, Vermögenswerte, Verbindlichkeiten und Ergebnisse."
       },
       {
-        "title": "Jede Einsicht weist auf eine Aktion hin.",
+        "title": "Jede Erkenntnis verweist auf eine Handlung.",
         "body": "Der Bericht verknüpft ein Muster mit dem, was im Spiel passiert ist."
       },
       {
@@ -533,7 +533,7 @@ const content = {
       {
         "icon": "⚖️",
         "title": "Alternative Wege",
-        "body": "Unterschiedliche mögliche Ergebnisse vom gleichen Ausgangspunkt aus, die zeigen, wie sich der Lauf auf mehr als eine Weise entwickeln könnte."
+        "body": "Unterschiedliche mögliche Ergebnisse vom gleichen Ausgangspunkt aus, die zeigen, wie sich der Spieldurchgang auf mehr als eine Weise entwickeln könnte."
       },
       {
         "icon": "🧠",
@@ -542,8 +542,8 @@ const content = {
       }
     ],
     "onceTitle": "Ein Bericht, ein Durchspielen",
-    "onceBody": "Der Bericht wird am Ende eines Laufs generiert. Es erfasst eine Reihe von Entscheidungen unter einer Reihe von Bedingungen.",
-    "onceBody2": "Spielen Sie noch einmal und der Bericht ändert sich mit Ihnen. Es bleibt an einen echten Lauf gebunden.",
+    "onceBody": "Der Bericht wird am Ende eines Spieldurchgangs erstellt. Er erfasst eine Reihe von Entscheidungen unter bestimmten Bedingungen.",
+    "onceBody2": "Spielen Sie noch einmal und der Bericht ändert sich mit Ihnen. Er bleibt an einen echten Spieldurchgang gebunden.",
     "ctaTitle": "Sind Sie bereit, Ihr eigenes Muster zu sehen?",
     "ctaBody": "Holen Sie sich Berichtsguthaben in der mobilen App und schalten Sie Ihren Bericht nach Ihrem nächsten abgeschlossenen Spiel frei.",
     "ctaButton": "Siehe Preise"
@@ -568,8 +568,8 @@ const content = {
         "body": "При втором запуске создается новый отчет."
       }
     ],
-    "purposeTitle": "Почему это существует",
-    "purposeBody1": "Отчет создан для игроков, которые хотят изучать экономику, но им нужно с чего начать. Оно начинается с игры, затем объясняется, что это значит.",
+    "purposeTitle": "Зачем он нужен",
+    "purposeBody1": "Отчёт создан для игроков, которые хотят изучать экономику, но не знают, с чего начать. Он начинается с вашей игры, а затем объясняет, что она означает.",
     "purposeBody2": "Это облегчает чтение, запоминание и использование.",
     "diffTitle": "Почему он стоит особняком",
     "diff": [
@@ -582,8 +582,8 @@ const content = {
         "body": "Отчет связывает закономерность с тем, что произошло в игре."
       },
       {
-        "title": "Ясно, не многолюдно.",
-        "body": "Тон остается простым, а контент — полезным."
+        "title": "Понятно и без перегруза.",
+        "body": "Тон остается простым, а содержание — полезным."
       }
     ],
     "whatTitle": "Что в отчете",
@@ -596,12 +596,12 @@ const content = {
       {
         "icon": "🕳",
         "title": "Скрытая информация",
-        "body": "Сигналы, которые были там до того, как вы их увидели."
+        "body": "Сигналы, которые уже были рядом, прежде чем вы смогли их увидеть."
       },
       {
         "icon": "⚖️",
         "title": "Альтернативные пути",
-        "body": "Различные возможные результаты из одной и той же отправной точки, показывающие, как движение может развиваться более чем в одном направлении."
+        "body": "Разные возможные результаты из одной и той же отправной точки, показывающие, как партия могла развиваться по-разному."
       },
       {
         "icon": "🧠",
@@ -610,43 +610,43 @@ const content = {
       }
     ],
     "onceTitle": "Один отчет, одно прохождение",
-    "onceBody": "Отчет создается в конце прогона. Он фиксирует один набор решений при одном наборе условий.",
+    "onceBody": "Отчёт создается в конце прохождения. Он фиксирует один набор решений в конкретных условиях.",
     "onceBody2": "Сыграйте ещё раз, и отчёт изменится вместе с вами. Он остаётся привязанным к реальной игре.",
     "ctaTitle": "Готовы увидеть собственные закономерности?",
-    "ctaBody": "Получите баллы за отчеты в мобильном приложении и разблокируйте свой отчет после следующей завершенной игры.",
+    "ctaBody": "Получите кредиты для отчётов в мобильном приложении и откройте свой отчёт после следующей завершённой игры.",
     "ctaButton": "Посмотреть цены"
   },
   "ar": {
     "badge": "تقرير شخصي",
-    "headline": "تتحول عملية التشغيل المكتملة إلى تقرير.",
-    "headlineSub": "بنيت من قراراتك الخاصة.",
-    "sub": "تصبح اللعبة النهائية بمثابة تقرير مبني على قراراتك، وتوقيتك، وتحمل المخاطر، والمقايضات.",
-    "valueTitle": "ما يعطيك",
+    "headline": "تتحول جولة لعب مكتملة إلى تقرير.",
+    "headlineSub": "مبني على قراراتك أنت.",
+    "sub": "تتحول اللعبة المكتملة إلى تقرير مبني على قراراتك وتوقيتك وتحملك للمخاطر والمفاضلات التي واجهتها.",
+    "valueTitle": "ما الذي يقدمه لك",
     "value": [
       {
         "title": "قراءة أوضح لعاداتك",
         "body": "شاهد كيف لعبت تحت الضغط داخل المحاكاة."
       },
       {
-        "title": "جسر لمحو الأمية المالية",
+        "title": "جسر نحو الثقافة المالية",
         "body": "يصبح سلوك اللعبة لغة اقتصادية قابلة للاستخدام."
       },
       {
         "title": "سبب للإعادة",
-        "body": "يؤدي التشغيل الثاني إلى إنشاء تقرير جديد."
+        "body": "تنشئ جولة ثانية تقريرًا جديدًا."
       }
     ],
-    "purposeTitle": "لماذا هو موجود",
+    "purposeTitle": "لماذا يوجد",
     "purposeBody1": "تم تصميم التقرير للاعبين الذين يرغبون في تعلم الاقتصاد ولكنهم بحاجة إلى مكان للبدء. يبدأ باللعب، ثم يشرح ما يعنيه.",
     "purposeBody2": "وهذا يجعلها أسهل في القراءة، وأسهل في التذكر، وأسهل في الاستخدام.",
-    "diffTitle": "لماذا يقف بعيدا",
+    "diffTitle": "ما الذي يجعله مختلفًا",
     "diff": [
       {
         "title": "إنها تأتي من اللعب، وليس من استبيان.",
         "body": "المصدر هو حالة اللعبة نفسها: الاختيارات، والتوقيت، والأصول، والالتزامات، والنتائج."
       },
       {
-        "title": "كل رؤية تشير إلى إجراء ما.",
+        "title": "كل فكرة تشير إلى إجراء.",
         "body": "يربط التقرير نمطًا بما حدث في اللعبة."
       },
       {
@@ -658,7 +658,7 @@ const content = {
     "what": [
       {
         "icon": "⏱",
-        "title": "القرار بأثر رجعي",
+        "title": "مراجعة القرارات",
         "body": "في اللحظة التي تغير فيها طريقك، والاختيار وراءه."
       },
       {
@@ -669,7 +669,7 @@ const content = {
       {
         "icon": "⚖️",
         "title": "مسارات بديلة",
-        "body": "نتائج محتملة مختلفة من نفس نقطة البداية، توضح كيف يمكن للسباق أن يتكشف بأكثر من طريقة."
+        "body": "نتائج محتملة مختلفة من نقطة البداية نفسها، توضح كيف يمكن لجولة اللعب أن تتطور بأكثر من طريقة."
       },
       {
         "icon": "🧠",
@@ -678,17 +678,17 @@ const content = {
       }
     ],
     "onceTitle": "تقرير واحد، لعبة واحدة",
-    "onceBody": "يتم إنشاء التقرير في نهاية التشغيل. فهو يلتقط مجموعة واحدة من القرارات في ظل مجموعة واحدة من الشروط.",
+    "onceBody": "يتم إنشاء التقرير في نهاية جولة اللعب. وهو يلتقط مجموعة واحدة من القرارات ضمن ظروف محددة.",
     "onceBody2": "العب مرة أخرى وسيتغير التقرير معك. يبقى مرتبطًا بلعبة حقيقية.",
-    "ctaTitle": "على استعداد لرؤية النمط الخاص بك؟",
-    "ctaBody": "احصل على أرصدة التقرير في تطبيق الهاتف المحمول وافتح تقريرك بعد اللعبة المكتملة التالية.",
-    "ctaButton": "انظر التسعير"
+    "ctaTitle": "هل أنت مستعد لرؤية نمطك الخاص؟",
+    "ctaBody": "احصل على أرصدة التقرير في تطبيق الهاتف المحمول وافتح تقريرك بعد إكمال لعبتك التالية.",
+    "ctaButton": "عرض الأسعار"
   },
   "pt": {
     "badge": "Relatório personalizado",
-    "headline": "Uma jogada concluída torna-se um relatório.",
+    "headline": "Uma partida concluída vira um relatório.",
     "headlineSub": "Construído a partir de suas próprias decisões.",
-    "sub": "Um jogo finalizado torna-se um relatório construído a partir de suas decisões, tempo, tolerância ao risco e compensações.",
+    "sub": "Uma partida finalizada vira um relatório construído a partir de suas decisões, timing, tolerância ao risco e trade-offs.",
     "valueTitle": "O que isso te dá",
     "value": [
       {
@@ -696,12 +696,12 @@ const content = {
         "body": "Veja como você jogou sob pressão dentro da simulação."
       },
       {
-        "title": "Uma ponte para a alfabetização financeira",
-        "body": "O comportamento do jogo torna-se uma linguagem económica utilizável."
+        "title": "Uma ponte para a educação financeira",
+        "body": "O comportamento no jogo vira uma linguagem econômica que você pode usar."
       },
       {
         "title": "Um motivo para repetir",
-        "body": "Uma segunda execução cria um novo relatório."
+        "body": "Uma segunda partida cria um novo relatório."
       }
     ],
     "purposeTitle": "Por que existe",
@@ -718,7 +718,7 @@ const content = {
         "body": "O relatório vincula um padrão ao que aconteceu no jogo."
       },
       {
-        "title": "Claro, não lotado.",
+        "title": "Claro, sem excesso.",
         "body": "O tom permanece simples e o conteúdo permanece utilizável."
       }
     ],
@@ -726,7 +726,7 @@ const content = {
     "what": [
       {
         "icon": "⏱",
-        "title": "Retrospectiva de decisão",
+        "title": "Retrospectiva das decisões",
         "body": "O momento em que seu caminho mudou e a escolha por trás dele."
       },
       {
@@ -737,7 +737,7 @@ const content = {
       {
         "icon": "⚖️",
         "title": "Caminhos Alternativos",
-        "body": "Diferentes resultados possíveis a partir do mesmo ponto de partida, mostrando como a corrida poderia se desenrolar de mais de uma maneira."
+        "body": "Diferentes resultados possíveis a partir do mesmo ponto de partida, mostrando como a partida poderia se desenrolar de mais de uma maneira."
       },
       {
         "icon": "🧠",
@@ -745,18 +745,18 @@ const content = {
         "body": "Os hábitos e preconceitos que moldaram suas escolhas."
       }
     ],
-    "onceTitle": "Um relatório, uma jogada",
-    "onceBody": "O relatório é gerado no final de uma execução. Ele captura um conjunto de decisões sob um conjunto de condições.",
-    "onceBody2": "Jogue novamente e o relatório muda com você. Ele permanece vinculado a uma corrida real.",
+    "onceTitle": "Um relatório, uma partida",
+    "onceBody": "O relatório é gerado no final de uma partida. Ele captura um conjunto de decisões sob condições específicas.",
+    "onceBody2": "Jogue novamente e o relatório muda com você. Ele permanece ligado a uma partida real.",
     "ctaTitle": "Pronto para ver seu próprio padrão?",
-    "ctaBody": "Obtenha créditos de relatório no aplicativo móvel e desbloqueie seu relatório após a conclusão do próximo jogo.",
+    "ctaBody": "Obtenha créditos de relatório no aplicativo móvel e desbloqueie seu relatório após sua próxima partida concluída.",
     "ctaButton": "Ver preços"
   },
   "it": {
     "badge": "Rapporto personalizzato",
     "headline": "Una partita completata diventa un rapporto.",
     "headlineSub": "Costruito in base alle tue decisioni.",
-    "sub": "Un gioco finito diventa un report costruito in base alle tue decisioni, tempistiche, tolleranza al rischio e compromessi.",
+    "sub": "Una partita conclusa diventa un report costruito in base alle tue decisioni, al tempismo, alla tolleranza al rischio e ai compromessi.",
     "valueTitle": "Cosa ti dà",
     "value": [
       {
@@ -769,7 +769,7 @@ const content = {
       },
       {
         "title": "Un motivo per rigiocare",
-        "body": "Una seconda esecuzione crea un nuovo report."
+        "body": "Una seconda partita crea un nuovo report."
       }
     ],
     "purposeTitle": "Perché esiste",
@@ -786,7 +786,7 @@ const content = {
         "body": "Il rapporto collega uno schema a ciò che è accaduto nel gioco."
       },
       {
-        "title": "Chiaro, non affollato.",
+        "title": "Chiaro, senza sovraccarico.",
         "body": "Il tono rimane semplice e il contenuto rimane utilizzabile."
       }
     ],
@@ -794,7 +794,7 @@ const content = {
     "what": [
       {
         "icon": "⏱",
-        "title": "Retrospettiva della decisione",
+        "title": "Retrospettiva delle decisioni",
         "body": "Il momento in cui il tuo percorso è cambiato e la scelta dietro di esso."
       },
       {
@@ -805,7 +805,7 @@ const content = {
       {
         "icon": "⚖️",
         "title": "Percorsi alternativi",
-        "body": "Diversi risultati possibili dallo stesso punto di partenza, mostrando come la corsa potrebbe svolgersi in più di un modo."
+        "body": "Diversi risultati possibili dallo stesso punto di partenza, mostrando come la partita potrebbe svilupparsi in più di un modo."
       },
       {
         "icon": "🧠",
@@ -813,31 +813,31 @@ const content = {
         "body": "Le abitudini e i pregiudizi che hanno modellato le tue scelte."
       }
     ],
-    "onceTitle": "Un resoconto, una riproduzione",
-    "onceBody": "Il report viene generato al termine di un'esecuzione. Cattura una serie di decisioni in una serie di condizioni.",
-    "onceBody2": "Gioca ancora e il resoconto cambia con te. Rimane legato a una corsa reale.",
-    "ctaTitle": "Pronto a vedere il tuo modello?",
-    "ctaBody": "Ottieni crediti di report nell'app mobile e sblocca il tuo report dopo il prossimo gioco completato.",
+    "onceTitle": "Un report, una partita",
+    "onceBody": "Il report viene generato al termine di una partita. Cattura una serie di decisioni in condizioni specifiche.",
+    "onceBody2": "Gioca ancora e il report cambia con te. Rimane legato a una partita reale.",
+    "ctaTitle": "Pronto a vedere il tuo schema?",
+    "ctaBody": "Ottieni crediti di report nell'app mobile e sblocca il tuo report dopo la prossima partita completata.",
     "ctaButton": "Vedi i prezzi"
   },
   "nl": {
     "badge": "Gepersonaliseerd rapport",
-    "headline": "Een voltooide playthrough wordt een rapport.",
-    "headlineSub": "Gebouwd op basis van uw eigen beslissingen.",
-    "sub": "Eén voltooid spel wordt een rapport dat is opgebouwd op basis van uw beslissingen, timing, risicotolerantie en afwegingen.",
-    "valueTitle": "Wat het je geeft",
+    "headline": "Een voltooide speelsessie wordt een rapport.",
+    "headlineSub": "Gebouwd op basis van je eigen beslissingen.",
+    "sub": "Eén afgeronde game wordt een rapport op basis van je beslissingen, timing, risicotolerantie en afwegingen.",
+    "valueTitle": "Wat het rapport je geeft",
     "value": [
       {
-        "title": "Een duidelijker inzicht in uw gewoonten",
+        "title": "Een duidelijker inzicht in je gewoonten",
         "body": "Bekijk hoe je onder druk speelde in de simulatie."
       },
       {
-        "title": "Een brug naar financiële geletterdheid",
+        "title": "Een brug naar financieel inzicht",
         "body": "Spelgedrag wordt bruikbare economische taal."
       },
       {
         "title": "Een reden om opnieuw te spelen",
-        "body": "Bij een tweede run wordt een nieuw rapport gemaakt."
+        "body": "Een tweede speelsessie maakt een nieuw rapport."
       }
     ],
     "purposeTitle": "Waarom het bestaat",
@@ -847,7 +847,7 @@ const content = {
     "diff": [
       {
         "title": "Het komt voort uit spel, niet uit een formulier.",
-        "body": "De bron is de spelstatus zelf: keuzes, timing, activa, passiva en resultaten."
+        "body": "De bron is de game zelf: keuzes, timing, bezittingen, schulden en resultaten."
       },
       {
         "title": "Elk inzicht verwijst naar een actie.",
@@ -862,7 +862,7 @@ const content = {
     "what": [
       {
         "icon": "⏱",
-        "title": "Beslissing Terugblik",
+        "title": "Terugblik op beslissingen",
         "body": "Het moment dat jouw pad veranderde, en de keuze daarachter."
       },
       {
@@ -873,7 +873,7 @@ const content = {
       {
         "icon": "⚖️",
         "title": "Alternatieve paden",
-        "body": "Verschillende mogelijke uitkomsten vanuit hetzelfde startpunt, die laten zien hoe de run zich op meer dan één manier zou kunnen ontvouwen."
+        "body": "Verschillende mogelijke uitkomsten vanuit hetzelfde startpunt, die laten zien hoe de speelsessie zich op meer dan één manier kan ontvouwen."
       },
       {
         "icon": "🧠",
@@ -882,48 +882,48 @@ const content = {
       }
     ],
     "onceTitle": "Eén rapport, één playthrough",
-    "onceBody": "Het rapport wordt aan het einde van een run gegenereerd. Het omvat één reeks beslissingen onder één reeks voorwaarden.",
-    "onceBody2": "Speel opnieuw en het rapport verandert met u mee. Het blijft gekoppeld aan een echte run.",
+    "onceBody": "Het rapport wordt aan het einde van een speelsessie gegenereerd. Het legt één reeks beslissingen vast onder specifieke omstandigheden.",
+    "onceBody2": "Speel opnieuw en het rapport verandert met je mee. Het blijft gekoppeld aan een echte speelsessie.",
     "ctaTitle": "Klaar om je eigen patroon te zien?",
-    "ctaBody": "Ontvang rapportcredits in de mobiele app en ontgrendel uw rapport na uw volgende voltooide game.",
+    "ctaBody": "Ontvang rapportcredits in de mobiele app en ontgrendel je rapport na je volgende voltooide game.",
     "ctaButton": "Zie prijzen"
   },
   "id": {
-    "badge": "Laporan yang Dipersonalisasi",
-    "headline": "Permainan yang selesai menjadi laporan.",
-    "headlineSub": "Dibangun dari keputusan Anda sendiri.",
-    "sub": "Satu permainan yang selesai menjadi laporan yang dibuat dari keputusan, waktu, toleransi risiko, dan pengorbanan Anda.",
+    "badge": "Laporan personal",
+    "headline": "Permainan yang selesai berubah menjadi laporan.",
+    "headlineSub": "Disusun dari keputusan Anda sendiri.",
+    "sub": "Satu permainan yang selesai menjadi laporan berdasarkan keputusan, timing, toleransi risiko, dan trade-off Anda.",
     "valueTitle": "Apa yang diberikannya kepada Anda",
     "value": [
       {
-        "title": "Bacaan yang lebih jelas tentang kebiasaan Anda",
+        "title": "Gambaran yang lebih jelas tentang kebiasaan Anda",
         "body": "Lihat bagaimana Anda bermain di bawah tekanan di dalam simulasi."
       },
       {
-        "title": "Sebuah jembatan menuju literasi keuangan",
+        "title": "Jembatan menuju literasi keuangan",
         "body": "Perilaku permainan menjadi bahasa ekonomi yang dapat digunakan."
       },
       {
-        "title": "Alasan untuk memutar ulang",
-        "body": "Proses kedua akan membuat laporan baru."
+        "title": "Alasan untuk bermain lagi",
+        "body": "Permainan kedua akan membuat laporan baru."
       }
     ],
     "purposeTitle": "Mengapa itu ada",
     "purposeBody1": "Laporan ini dibuat untuk pemain yang ingin belajar ekonomi namun membutuhkan tempat untuk memulai. Dimulai dengan permainan, lalu dijelaskan maksudnya.",
     "purposeBody2": "Itu membuatnya lebih mudah dibaca, lebih mudah diingat, dan lebih mudah digunakan.",
-    "diffTitle": "Mengapa itu berdiri terpisah",
+    "diffTitle": "Mengapa laporan ini berbeda",
     "diff": [
       {
-        "title": "Itu berasal dari permainan, bukan dari kuesioner.",
+        "title": "Laporan ini berasal dari permainan, bukan dari kuesioner.",
         "body": "Sumbernya adalah keadaan permainan itu sendiri: pilihan, waktu, aset, kewajiban, dan hasil."
       },
       {
-        "title": "Setiap wawasan menunjuk pada suatu tindakan.",
-        "body": "Laporan tersebut menghubungkan suatu pola dengan apa yang terjadi dalam game."
+        "title": "Setiap wawasan mengarah pada tindakan.",
+        "body": "Laporan menghubungkan pola dengan apa yang terjadi di dalam game."
       },
       {
         "title": "Jelas, tidak ramai.",
-        "body": "Nadanya tetap sederhana dan kontennya tetap dapat digunakan."
+        "body": "Nada bahasanya tetap sederhana dan kontennya tetap dapat digunakan."
       }
     ],
     "whatTitle": "Apa yang ada di laporan itu",
@@ -931,7 +931,7 @@ const content = {
       {
         "icon": "⏱",
         "title": "Retrospektif Keputusan",
-        "body": "Saat jalan Anda berubah, dan pilihan di baliknya."
+        "body": "Momen ketika arah permainan Anda berubah, dan pilihan di baliknya."
       },
       {
         "icon": "🕳",
@@ -941,7 +941,7 @@ const content = {
       {
         "icon": "⚖️",
         "title": "Jalur Alternatif",
-        "body": "Kemungkinan hasil yang berbeda dari titik awal yang sama, menunjukkan bagaimana proses tersebut dapat terjadi melalui lebih dari satu cara."
+        "body": "Kemungkinan hasil yang berbeda dari titik awal yang sama, menunjukkan bagaimana permainan tersebut dapat berkembang dengan lebih dari satu cara."
       },
       {
         "icon": "🧠",
@@ -949,9 +949,9 @@ const content = {
         "body": "Kebiasaan dan bias yang membentuk pilihan Anda."
       }
     ],
-    "onceTitle": "Satu laporan, satu pemutaran",
-    "onceBody": "Laporan ini dihasilkan pada akhir proses. Ini menangkap satu set keputusan dalam satu set kondisi.",
-    "onceBody2": "Mainkan lagi dan laporannya berubah sesuai keinginan Anda. Itu tetap terikat pada lari sebenarnya.",
+    "onceTitle": "Satu laporan, satu permainan",
+    "onceBody": "Laporan ini dibuat di akhir permainan. Laporan menangkap satu set keputusan dalam kondisi tertentu.",
+    "onceBody2": "Mainkan lagi dan laporannya berubah bersama Anda. Laporan tetap terikat pada permainan nyata.",
     "ctaTitle": "Siap melihat pola Anda sendiri?",
     "ctaBody": "Dapatkan kredit laporan di aplikasi seluler dan buka kunci laporan Anda setelah permainan selesai berikutnya.",
     "ctaButton": "Lihat harga"

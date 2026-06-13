@@ -170,23 +170,23 @@ const content = {
     "headline1": "Chaque décision laisse",
     "headline2": "une trace.",
     "sub": "Une simulation au tour par tour sur les choix financiers, les changements communautaires et ce qui reste après chaque tour.",
-    "appStore": "App Store à venir",
-    "googlePlay": "Google Play bientôt disponible",
+    "appStore": "Bientôt sur l’App Store",
+    "googlePlay": "Bientôt sur Google Play",
     "features": [
       {
         "icon": "●",
-        "title": "La vraie logique économique",
-        "desc": "Les actifs, les passifs, les cotes de crédit et les flux de trésorerie suivent des règles fondées."
+        "title": "Logique économique réaliste",
+        "desc": "Actifs, passifs, score de crédit et trésorerie suivent des règles cohérentes."
       },
       {
         "icon": "◆",
-        "title": "Impact sur la communauté",
-        "desc": "Vos décisions changent le monde qui vous entoure et ce qui va suivre."
+        "title": "Impact sur le quartier",
+        "desc": "Vos décisions transforment le quartier autour de vous et la suite de la partie."
       },
       {
         "icon": "◐",
         "title": "Analyse personnalisée",
-        "desc": "Le rapport montre ce qui s'est passé, ce que cela signifie et ce qui a changé."
+        "desc": "Le rapport explique ce qui s’est passé, ce que cela signifie et ce qui a changé."
       }
     ],
     "quote": "\"Ce que vous construisez n'est qu'une partie de l'histoire.\"",
@@ -197,94 +197,94 @@ const content = {
     "headline1": "Jede Entscheidung hinterlässt",
     "headline2": "eine Spur.",
     "sub": "Eine rundenbasierte Simulation über finanzielle Entscheidungen, Veränderungen in der Gemeinschaft und was nach jeder Runde übrig bleibt.",
-    "appStore": "App Store kommt bald",
-    "googlePlay": "Google Play kommt bald",
+    "appStore": "Demnächst im App Store",
+    "googlePlay": "Demnächst bei Google Play",
     "features": [
       {
         "icon": "●",
-        "title": "Echte Wirtschaftslogik",
-        "desc": "Vermögenswerte, Verbindlichkeiten, Kreditwürdigkeit und Cashflow folgen fundierten Regeln."
+        "title": "Realistische Wirtschaftslogik",
+        "desc": "Vermögenswerte, Verbindlichkeiten, Kreditwürdigkeit und Cashflow folgen nachvollziehbaren Regeln."
       },
       {
         "icon": "◆",
-        "title": "Auswirkungen auf die Gemeinschaft",
-        "desc": "Ihre Entscheidungen verändern die Welt um Sie herum und was als nächstes kommt."
+        "title": "Auswirkungen auf das Umfeld",
+        "desc": "Ihre Entscheidungen verändern Ihr Umfeld und den weiteren Verlauf."
       },
       {
         "icon": "◐",
         "title": "Personalisierte Analyse",
-        "desc": "Der Bericht zeigt, was passiert ist, was es bedeutet und was sich geändert hat."
+        "desc": "Der Bericht zeigt, was passiert ist, was es bedeutet und was sich verändert hat."
       }
     ],
     "quote": "„Was Sie bauen, ist nur ein Teil der Geschichte.“",
-    "quoteSub": "Shadow Economy konzentriert sich auf Kosten, Kompromisse und was übrig bleibt."
+    "quoteSub": "Shadow Economy konzentriert sich auf Kosten, Abwägungen und das, was zurückbleibt."
   },
   "ru": {
-    "badge": "Пошаговое экономическое моделирование",
+    "badge": "Пошаговая экономическая симуляция",
     "headline1": "Каждое решение оставляет",
     "headline2": "след.",
     "sub": "Пошаговая симуляция финансового выбора, изменений в сообществе и того, что остается после каждого хода.",
-    "appStore": "App Store скоро появится",
-    "googlePlay": "Google Play скоро появится",
+    "appStore": "Скоро в App Store",
+    "googlePlay": "Скоро в Google Play",
     "features": [
       {
         "icon": "●",
-        "title": "Реальная экономическая логика",
-        "desc": "Активы, обязательства, кредитные рейтинги и потоки денежных средств подчиняются обоснованным правилам."
+        "title": "Реалистичная экономическая логика",
+        "desc": "Активы, обязательства, кредитный рейтинг и денежный поток подчиняются понятным правилам."
       },
       {
         "icon": "◆",
-        "title": "Влияние сообщества",
-        "desc": "Ваши решения меняют мир вокруг вас и то, что будет дальше."
+        "title": "Влияние на район",
+        "desc": "Ваши решения меняют район вокруг вас и дальнейший ход игры."
       },
       {
         "icon": "◐",
         "title": "Персонализированный анализ",
-        "desc": "В отчете показано, что произошло, что это значит и что изменилось."
+        "desc": "Отчёт показывает, что произошло, что это значит и что изменилось."
       }
     ],
     "quote": "«То, что вы строите, — это только часть истории».",
-    "quoteSub": "Shadow Economy фокусируется на стоимости, компромиссах и том, что остается."
+    "quoteSub": "Shadow Economy фокусируется на издержках, компромиссах и том, что остаётся."
   },
   "ar": {
     "badge": "محاكاة اقتصادية قائمة على الأدوار",
     "headline1": "كل قرار يترك",
     "headline2": "أثرًا.",
     "sub": "محاكاة تعتمد على الأدوار حول الاختيارات المالية وتغيير المجتمع وما يتبقى بعد كل دور.",
-    "appStore": "App Store قريبا",
-    "googlePlay": "Google Play قريبا",
+    "appStore": "قريبًا على App Store",
+    "googlePlay": "قريبًا على Google Play",
     "features": [
       {
         "icon": "●",
-        "title": "المنطق الاقتصادي الحقيقي",
-        "desc": "تتبع الأصول والالتزامات ودرجات الائتمان والتدفق النقدي قواعد ثابتة."
+        "title": "منطق اقتصادي واقعي",
+        "desc": "تخضع الأصول والالتزامات ودرجة الائتمان والتدفق النقدي لقواعد واضحة."
       },
       {
         "icon": "◆",
-        "title": "تأثير المجتمع",
-        "desc": "قراراتك تغير العالم من حولك وما سيأتي بعد ذلك."
+        "title": "أثر على المجتمع",
+        "desc": "تغيّر قراراتك العالم من حولك وما يحدث بعد ذلك."
       },
       {
         "icon": "◐",
         "title": "تحليل شخصي",
-        "desc": "ويبين التقرير ما حدث وماذا يعني وما تغير."
+        "desc": "يوضح التقرير ما حدث، وما يعنيه ذلك، وما الذي تغيّر."
       }
     ],
     "quote": "\"ما تبنيه ليس سوى جزء من القصة.\"",
-    "quoteSub": "يركز Shadow Economy على التكلفة والمقايضات وما تبقى."
+    "quoteSub": "يركز Shadow Economy على التكلفة والمفاضلات وما يبقى."
   },
   "pt": {
-    "badge": "Simulação Econômica Baseada em Turnos",
+    "badge": "Simulação econômica por turnos",
     "headline1": "Toda decisão deixa",
     "headline2": "um rastro.",
     "sub": "Uma simulação baseada em turnos sobre escolhas financeiras, mudanças na comunidade e o que resta após cada turno.",
-    "appStore": "App Store em breve",
-    "googlePlay": "Google Play em breve",
+    "appStore": "Em breve na App Store",
+    "googlePlay": "Em breve no Google Play",
     "features": [
       {
         "icon": "●",
-        "title": "Lógica Econômica Real",
-        "desc": "Ativos, passivos, pontuação de crédito e fluxo de caixa seguem regras fundamentadas."
+        "title": "Lógica econômica realista",
+        "desc": "Ativos, passivos, score de crédito e fluxo de caixa seguem regras consistentes."
       },
       {
         "icon": "◆",
@@ -293,12 +293,12 @@ const content = {
       },
       {
         "icon": "◐",
-        "title": "Análise Personalizada",
+        "title": "Análise personalizada",
         "desc": "O relatório mostra o que aconteceu, o que significa e o que mudou."
       }
     ],
     "quote": "\"O que você constrói é apenas parte da história.\"",
-    "quoteSub": "Shadow Economy concentra-se em custos, compensações e no que resta."
+    "quoteSub": "Shadow Economy se concentra em custos, trade-offs e no que fica."
   },
   "it": {
     "badge": "Simulazione economica a turni",
@@ -310,25 +310,25 @@ const content = {
     "features": [
       {
         "icon": "●",
-        "title": "Logica economica reale",
-        "desc": "Attività, passività, punteggi di credito e flusso di cassa seguono regole radicate."
+        "title": "Logica economica realistica",
+        "desc": "Attività, passività, punteggi di credito e flusso di cassa seguono regole coerenti."
       },
       {
         "icon": "◆",
         "title": "Impatto sulla comunità",
-        "desc": "Le tue decisioni cambiano il mondo intorno a te e ciò che verrà dopo."
+        "desc": "Le tue decisioni cambiano il mondo intorno a te e il seguito della partita."
       },
       {
         "icon": "◐",
         "title": "Analisi personalizzata",
-        "desc": "Il rapporto mostra cosa è successo, cosa significa e cosa è cambiato."
+        "desc": "Il report mostra cosa è successo, che cosa significa e che cosa è cambiato."
       }
     ],
     "quote": "\"Ciò che costruisci è solo una parte della storia.\"",
     "quoteSub": "Shadow Economy si concentra sui costi, sui compromessi e su ciò che rimane."
   },
   "nl": {
-    "badge": "Turn-based economische simulatie",
+    "badge": "Beurtgebaseerde economische simulatie",
     "headline1": "Elke beslissing laat",
     "headline2": "een spoor na.",
     "sub": "Een turn-based simulatie over financiële keuzes, veranderingen in de gemeenschap en wat er na elke beurt overblijft.",
@@ -342,8 +342,8 @@ const content = {
       },
       {
         "icon": "◆",
-        "title": "Gemeenschappelijke impact",
-        "desc": "Jouw beslissingen veranderen de wereld om je heen en wat daarna komt."
+        "title": "Impact op de gemeenschap",
+        "desc": "Je beslissingen veranderen de wereld om je heen en wat daarna gebeurt."
       },
       {
         "icon": "◐",
@@ -355,31 +355,31 @@ const content = {
     "quoteSub": "Shadow Economy richt zich op kosten, afwegingen en wat er overblijft."
   },
   "id": {
-    "badge": "Simulasi Ekonomi Berbasis Giliran",
+    "badge": "Simulasi ekonomi berbasis giliran",
     "headline1": "Setiap keputusan meninggalkan",
-    "headline2": "sebuah jejak.",
+    "headline2": "jejak.",
     "sub": "Simulasi berbasis giliran tentang pilihan finansial, perubahan komunitas, dan apa yang tersisa setelah setiap giliran.",
     "appStore": "App Store segera hadir",
     "googlePlay": "Google Play segera hadir",
     "features": [
       {
         "icon": "●",
-        "title": "Logika Ekonomi Riil",
-        "desc": "Aset, kewajiban, nilai kredit, dan arus kas mengikuti aturan yang mendasar."
+        "title": "Logika ekonomi realistis",
+        "desc": "Aset, kewajiban, skor kredit, dan arus kas mengikuti aturan yang jelas."
       },
       {
         "icon": "◆",
-        "title": "Dampak Komunitas",
+        "title": "Dampak komunitas",
         "desc": "Keputusan Anda mengubah dunia di sekitar Anda dan apa yang akan terjadi selanjutnya."
       },
       {
         "icon": "◐",
-        "title": "Analisis yang Dipersonalisasi",
-        "desc": "Laporan tersebut menunjukkan apa yang terjadi, apa artinya, dan apa yang berubah."
+        "title": "Analisis personal",
+        "desc": "Laporan menunjukkan apa yang terjadi, artinya, dan apa yang berubah."
       }
     ],
     "quote": "“Apa yang Anda bangun hanyalah sebagian dari cerita.”",
-    "quoteSub": "Shadow Economy berfokus pada biaya, pengorbanan, dan hal-hal yang tersisa."
+    "quoteSub": "Shadow Economy berfokus pada biaya, trade-off, dan hal yang tersisa."
   }
 }
 

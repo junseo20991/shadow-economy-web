@@ -1,4 +1,4 @@
-export default {
+﻿export default {
   "title": "Termos de Serviço",
   "updated": "Última atualização: 29 de maio de 2026",
   "intro": [
@@ -6,7 +6,7 @@ export default {
     "Ao baixar, instalar, acessar, usar ou criar uma conta para o Serviço, você concorda com estes Termos. Se você não concordar com estes Termos, você não deverá usar o Serviço.",
     "Shadow Economy é um jogo de simulação econômica para fins educacionais e de entretenimento. O Serviço não fornece aconselhamento financeiro, de investimento, fiscal, jurídico, contábil, de seguros, de carreira, de negócios ou outro aconselhamento profissional real.",
     "Certos recursos, criação de conta, compras ou uso de recursos pagos podem exigir confirmação, consentimento ou procedimentos de pagamento da plataforma separados.",
-    "Contato: contato@shadoweconomyapp.com"
+    "Contato: contact@shadoweconomyapp.com"
   ],
   "sections": [
     {
@@ -27,7 +27,7 @@ export default {
         {
           "type": "ul",
           "items": [
-            "Os aplicativos móveis Shadow Economy iOS e Android",
+            "O aplicativo móvel Shadow Economy para iOS atualmente disponível e qualquer versão Android ou Google Play oferecida no futuro",
             "O site shadoweconomyapp.com",
             "Jogabilidade, contas, salvamentos na nuvem, créditos de relatórios, relatórios educacionais personalizados e suporte ao cliente",
             "Outros recursos, conteúdos e serviços que fazem referência ou estão vinculados a estes Termos"
@@ -65,7 +65,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Aplicativo\" significa o aplicativo móvel Shadow Economy distribuído através do Apple App Store ou Google Play."
+          "text": "\"Aplicativo\" significa o aplicativo móvel Shadow Economy para iOS atualmente disponível através do Apple App Store, bem como qualquer versão Android ou Google Play se oferecida no futuro."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para o aplicativo Android, esta licença se aplica na medida permitida pelas políticas relacionadas ao dispositivo Google Play e Android."
+          "text": "Se um aplicativo Android ou uma distribuição Google Play for oferecida no futuro, esta licença se aplicará a essa versão na medida permitida pelas políticas relacionadas ao Google Play e a dispositivos Android."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "As compras dentro do Serviço são processadas através do Apple App Store ou Google Play. A Operadora não coleta ou armazena diretamente números de cartão de pagamento, informações de contas bancárias ou credenciais completas de autenticação de pagamento."
+          "text": "No aplicativo iOS atual, as compras dentro do Serviço são processadas através do Apple App Store. Se um aplicativo Android ou uma distribuição Google Play com compras no aplicativo for oferecida no futuro, essas compras poderão ser processadas através do Google Play. A Operadora não coleta ou armazena diretamente números de cartão de pagamento, informações de contas bancárias ou credenciais completas de autenticação de pagamento."
         },
         {
           "type": "p",
@@ -315,7 +315,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A menos que exigido de outra forma por lei ou pela política da loja de aplicativos, os bens digitais consumíveis, como créditos de relatório, podem ser entregues imediatamente após a conclusão da compra, e reembolsos ou cancelamentos podem ser restritos após uso ou consumo. A elegibilidade para reembolso é determinada pela legislação aplicável, políticas Apple App Store ou Google Play e circunstâncias específicas."
+          "text": "A menos que exigido de outra forma por lei ou pela política da loja de aplicativos, os bens digitais consumíveis, como créditos de relatório, podem ser entregues imediatamente após a conclusão da compra, e reembolsos ou cancelamentos podem ser restritos após uso ou consumo. A elegibilidade para reembolso é determinada pela legislação aplicável, pelas políticas do Apple App Store e, quando aplicável, do Google Play, e pelas circunstâncias específicas."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As compras através do Google Play estão sujeitas às políticas e procedimentos de reembolso do Google Play."
+          "text": "Se compras por meio do Google Play forem oferecidas no futuro, essas compras estarão sujeitas às políticas e procedimentos de reembolso do Google Play."
         },
         {
           "type": "p",
@@ -840,7 +840,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Se você baixar ou usar o aplicativo por meio do Apple App Store ou Google Play, os termos, políticas e regras de uso da plataforma relevante também se aplicarão."
+          "text": "Se você baixar ou usar o aplicativo por meio do Apple App Store, ou por meio do Google Play se oferecido no futuro, os termos, políticas e regras de uso da plataforma relevante também se aplicarão."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Os seguintes termos se aplicam ao aplicativo Android:"
+          "text": "Se um aplicativo Android ou uma distribuição Google Play for oferecida no futuro, os seguintes termos se aplicarão a essa versão:"
         },
         {
           "type": "ul",
@@ -1047,7 +1047,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "E-mail: contato@shadoweconomyapp.com"
+          "text": "E-mail: contact@shadoweconomyapp.com"
         }
       ]
     }

@@ -27,7 +27,7 @@ export default {
         {
           "type": "ul",
           "items": [
-            "Die mobilen Anwendungen Shadow Economy iOS und Android",
+            "Die derzeit verfügbare Shadow Economy iOS-Mobilanwendung und jede künftig angebotene Android- oder Google Play-Version",
             "Die shadoweconomyapp.com-Website",
             "Gameplay, Konten, Cloud-Speicherungen, Berichtsguthaben, personalisierte Bildungsberichte und Kundensupport",
             "Andere Funktionen, Inhalte und Dienste, die auf diese Bedingungen verweisen oder mit ihnen verknüpft sind"
@@ -65,7 +65,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "„App“ bezeichnet die mobile Anwendung Shadow Economy, die über Apple App Store oder Google Play vertrieben wird."
+          "text": "„App“ bezeichnet die derzeit über den Apple App Store vertriebene Shadow Economy iOS-Mobilanwendung sowie jede Android- oder Google Play-Version, sofern sie künftig angeboten wird."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für die Android-App gilt diese Lizenz in dem Umfang, der durch die gerätebezogenen Richtlinien von Google Play und Android zulässig ist."
+          "text": "Wenn künftig eine Android-App oder eine Google Play-Verteilung angeboten wird, gilt diese Lizenz für diese Version in dem Umfang, der durch die gerätebezogenen Richtlinien von Google Play und Android zulässig ist."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Käufe innerhalb des Dienstes werden über Apple App Store oder Google Play abgewickelt. Der Betreiber erhebt oder speichert nicht direkt Zahlungskartennummern, Bankkontoinformationen oder vollständige Zahlungsauthentifizierungsdaten."
+          "text": "In der aktuellen iOS-App werden Käufe innerhalb des Dienstes über den Apple App Store abgewickelt. Wenn künftig eine Android-App oder eine Google Play-Verteilung mit In-App-Käufen angeboten wird, können solche Käufe über Google Play abgewickelt werden. Der Betreiber erhebt oder speichert nicht direkt Zahlungskartennummern, Bankkontoinformationen oder vollständige Zahlungsauthentifizierungsdaten."
         },
         {
           "type": "p",
@@ -315,7 +315,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sofern gesetzlich oder durch App-Store-Richtlinien nichts anderes vorgeschrieben ist, können digitale Verbrauchsgüter wie Berichtsguthaben sofort nach Abschluss des Kaufs geliefert werden, und Rückerstattungen oder Stornierungen können nach der Nutzung oder dem Verbrauch eingeschränkt werden. Der Rückerstattungsanspruch richtet sich nach geltendem Recht, den Apple App Store- oder Google Play-Richtlinien und bestimmten Umständen."
+          "text": "Sofern gesetzlich oder durch App-Store-Richtlinien nichts anderes vorgeschrieben ist, können digitale Verbrauchsgüter wie Berichtsguthaben sofort nach Abschluss des Kaufs geliefert werden, und Rückerstattungen oder Stornierungen können nach der Nutzung oder dem Verbrauch eingeschränkt werden. Der Rückerstattungsanspruch richtet sich nach geltendem Recht, den Richtlinien des Apple App Store und, sofern anwendbar, von Google Play sowie den konkreten Umständen."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Käufe über Google Play unterliegen den Rückerstattungsrichtlinien und -verfahren von Google Play."
+          "text": "Wenn künftig Käufe über Google Play angeboten werden, unterliegen diese den Rückerstattungsrichtlinien und -verfahren von Google Play."
         },
         {
           "type": "p",
@@ -840,7 +840,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Wenn Sie die App über Apple App Store oder Google Play herunterladen oder nutzen, gelten auch die Bedingungen, Richtlinien und Nutzungsregeln der jeweiligen Plattform."
+          "text": "Wenn Sie die App über den Apple App Store herunterladen oder nutzen, oder künftig über Google Play, sofern angeboten, gelten auch die Bedingungen, Richtlinien und Nutzungsregeln der jeweiligen Plattform."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für die Android-App gelten die folgenden Bedingungen:"
+          "text": "Wenn künftig eine Android-App oder eine Google Play-Verteilung angeboten wird, gelten die folgenden Bedingungen für diese Version:"
         },
         {
           "type": "ul",

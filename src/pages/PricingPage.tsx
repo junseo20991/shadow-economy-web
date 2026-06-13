@@ -343,20 +343,20 @@ const content = {
     "disclaimer": "Shadow Economy är en pedagogisk simulering. Rapporter är inte finansiella, investerings-, skatte-, juridiska eller professionella råd, och att köpa eller läsa en rapport garanterar inte något verkligt resultat."
   },
   "fr": {
-    "badge": "Crédits du rapport",
-    "headline": "Choisissez le rapport qui correspond à votre jeu.",
+    "badge": "Crédits de rapport",
+    "headline": "Choisissez le rapport qui correspond à votre façon de jouer.",
     "sub": "1 crédit débloque 1 rapport personnalisé pour une partie terminée. Les crédits n'expirent jamais.",
     "starter": {
       "name": "Observateur",
       "credits": "3 crédits · 1 crédit par partie terminée",
-      "tagline": "Cela vaut au moins trois parties. Il n’existe pas une seule bonne façon de jouer. Vivez l’expérience. Ressentez quelque chose de nouveau.",
+      "tagline": "De quoi analyser au moins trois parties. Il n’existe pas une seule bonne façon de jouer. Vivez l’expérience. Ressentez quelque chose de nouveau.",
       "perReport": "$3.00 / rapport",
       "cta": "Achat intégré uniquement"
     },
     "middle": {
       "name": "Explorateur",
       "credits": "5 crédits · 1 crédit par partie terminée",
-      "tagline": "Plus d’expérience, plus de choix. Une meilleure valeur, façonnée par vos propres mains.",
+      "tagline": "Plus d’expérience, plus de choix. Un meilleur rapport valeur, façonné par vos propres décisions.",
       "perReport": "$2.60 / rapport",
       "cta": "Achat intégré uniquement"
     },
@@ -364,7 +364,7 @@ const content = {
       "name": "Analyste",
       "valueBadge": "Meilleure valeur",
       "credits": "8 crédits · 1 crédit par partie terminée",
-      "tagline": "Le parcours complet de l’analyste. Comment serez-vous consigné ? Expériences et traces, votre monde à vous seul.",
+      "tagline": "Le parcours complet de l’analyste. Comment votre partie sera-t-elle lue ? Expériences et traces, votre monde à vous seul.",
       "perReport": "$2.00 / rapport",
       "cta": "Achat intégré uniquement"
     },
@@ -379,18 +379,18 @@ const content = {
     "how": [
       {
         "step": "1",
-        "title": "Terminer une course",
+        "title": "Terminer une partie",
         "body": "Terminez une partie pour déverrouiller l'écran de rapport."
       },
       {
         "step": "2",
         "title": "Utiliser un crédit",
-        "body": "Un crédit débloque le rapport complet généré à partir de cette exécution terminée."
+        "body": "Un crédit débloque le rapport complet généré à partir de cette partie terminée."
       },
       {
         "step": "3",
         "title": "Rejouer",
-        "body": "Chaque exécution crée un rapport différent."
+        "body": "Chaque partie crée un rapport différent."
       }
     ],
     "note": "Les crédits sont ajoutés à votre compte immédiatement après l’achat. Ils n’expirent jamais et restent entre les sessions.",
@@ -398,19 +398,19 @@ const content = {
   },
   "de": {
     "badge": "Berichtsguthaben",
-    "headline": "Wählen Sie den Bericht, der zu Ihrem Stück passt.",
-    "sub": "1 Guthaben schaltet 1 personalisierten Bericht für ein abgeschlossenes Spiel frei. Credits verfallen nie.",
+    "headline": "Wählen Sie den Bericht, der zu Ihrer Spielweise passt.",
+    "sub": "1 Guthaben schaltet 1 personalisierten Bericht für ein abgeschlossenes Spiel frei. Guthaben verfallen nie.",
     "starter": {
       "name": "Beobachter",
       "credits": "3 Guthaben · 1 Guthaben pro abgeschlossenem Spiel",
-      "tagline": "Es lohnt sich, es mindestens dreimal zu spielen. Es gibt keinen einzigen richtigen Weg. Erlebe es einfach. Spüre etwas Neues.",
+      "tagline": "Reicht für mindestens drei Durchgänge. Es gibt keinen einzigen richtigen Weg. Erleben Sie es einfach. Spüren Sie etwas Neues.",
       "perReport": "$3.00 / Bericht",
       "cta": "Nur In-App-Kauf"
     },
     "middle": {
       "name": "Entdecker",
       "credits": "5 Guthaben · 1 Guthaben pro abgeschlossenem Spiel",
-      "tagline": "Mehr Erfahrung. Mehr Auswahl. Besserer Wert, geformt durch deine eigenen Hände.",
+      "tagline": "Mehr Erfahrung. Mehr Auswahl. Mehr Gegenwert, geformt durch Ihre eigenen Entscheidungen.",
       "perReport": "$2.60 / Bericht",
       "cta": "Nur In-App-Kauf"
     },
@@ -418,7 +418,7 @@ const content = {
       "name": "Analyst",
       "valueBadge": "Bester Wert",
       "credits": "8 Guthaben · 1 Guthaben pro abgeschlossenem Spiel",
-      "tagline": "Der vollständige Weg eines Analysten. Als was werden Sie festgehalten? Erfahrung und Spuren, allein Ihre Welt.",
+      "tagline": "Der vollständige Weg eines Analysten. Wie werden Sie festgehalten? Erfahrung und Spuren, allein Ihre Welt.",
       "perReport": "$2.00 / Bericht",
       "cta": "Nur In-App-Kauf"
     },
@@ -433,18 +433,18 @@ const content = {
     "how": [
       {
         "step": "1",
-        "title": "Beende einen Lauf",
+        "title": "Schließen Sie eine Partie ab",
         "body": "Schließe ein Spiel ab, um den Berichtsbildschirm freizuschalten."
       },
       {
         "step": "2",
         "title": "Verwenden Sie ein Guthaben",
-        "body": "Mit einem Guthaben wird der vollständige Bericht freigeschaltet, der aus diesem abgeschlossenen Lauf erstellt wurde."
+        "body": "Mit einem Guthaben wird der vollständige Bericht freigeschaltet, der aus dieser abgeschlossenen Partie erstellt wurde."
       },
       {
         "step": "3",
         "title": "Spielen Sie noch einmal",
-        "body": "Bei jedem Lauf wird ein anderer Bericht erstellt."
+        "body": "Jede Partie erstellt einen anderen Bericht."
       }
     ],
     "note": "Guthaben werden deinem Konto sofort nach dem Kauf gutgeschrieben. Sie laufen nie ab und bleiben zwischen Sitzungen erhalten.",
@@ -453,7 +453,7 @@ const content = {
   "ru": {
     "badge": "Кредиты для отчётов",
     "headline": "Выберите отчет, который соответствует вашей игре.",
-    "sub": "1 кредит открывает 1 персональный отчет по одной завершенной игре. Кредиты никогда не истекают.",
+    "sub": "1 кредит открывает 1 персональный отчёт по одной завершённой игре. Кредиты не имеют срока действия.",
     "starter": {
       "name": "Наблюдатель",
       "credits": "3 кредита · 1 кредит за завершённую игру",
@@ -477,11 +477,11 @@ const content = {
       "cta": "Только внутриигровая покупка"
     },
     "features": [
-      "Один отчет за завершенное прохождение",
+      "Один отчёт за завершённое прохождение",
       "Ретроспектива решений",
-      "Когнитивный анализ сигнатур",
-      "Скрытая информация раскрывается",
-      "Альтернативное моделирование пути"
+      "Анализ когнитивной сигнатуры",
+      "Раскрытие скрытой информации",
+      "Симуляция альтернативных путей"
     ],
     "howTitle": "Как это работает",
     "how": [
@@ -493,11 +493,11 @@ const content = {
       {
         "step": "2",
         "title": "Используйте один кредит",
-        "body": "Один кредит открывает полный отчет, созданный по результатам завершенного запуска."
+        "body": "Один кредит открывает полный отчёт, созданный по результатам завершённой игры."
       },
       {
         "step": "3",
-        "title": "Играй еще раз",
+        "title": "Сыграйте ещё раз",
         "body": "При каждом запуске создается отдельный отчет."
       }
     ],
@@ -507,7 +507,7 @@ const content = {
   "ar": {
     "badge": "أرصدة التقارير",
     "headline": "اختر التقرير الذي يناسب لعبتك.",
-    "sub": "رصيد واحد يفتح تقريرًا مخصصًا واحدًا للعبة واحدة مكتملة. الاعتمادات لا تنتهي أبدا.",
+    "sub": "رصيد واحد يفتح تقريرًا مخصصًا واحدًا للعبة مكتملة واحدة. الأرصدة لا تنتهي صلاحيتها.",
     "starter": {
       "name": "مراقب",
       "credits": "3 أرصدة · رصيد واحد لكل لعبة مكتملة",
@@ -531,11 +531,11 @@ const content = {
       "cta": "الشراء داخل التطبيق فقط"
     },
     "features": [
-      "تقرير واحد لكل عملية تشغيل مكتملة",
-      "القرار بأثر رجعي",
+      "تقرير واحد لكل جولة لعب مكتملة",
+      "مراجعة القرارات",
       "تحليل التوقيع المعرفي",
       "كشف المعلومات المخفية",
-      "محاكاة المسار البديل"
+      "محاكاة المسارات البديلة"
     ],
     "howTitle": "كيف يعمل",
     "how": [
@@ -547,7 +547,7 @@ const content = {
       {
         "step": "2",
         "title": "استخدم رصيدًا واحدًا",
-        "body": "يفتح رصيد واحد التقرير الكامل الذي تم إنشاؤه من هذا التشغيل المكتمل."
+        "body": "يفتح رصيد واحد التقرير الكامل الذي تم إنشاؤه من جولة اللعب المكتملة."
       },
       {
         "step": "3",
@@ -555,23 +555,23 @@ const content = {
         "body": "يقوم كل تشغيل بإنشاء تقرير مختلف."
       }
     ],
-    "note": "تُضاف الاعتمادات إلى حسابك فور الشراء. لا تنتهي صلاحيتها وتنتقل بين الجلسات.",
+    "note": "تُضاف الأرصدة إلى حسابك فور الشراء. لا تنتهي صلاحيتها وتنتقل بين الجلسات.",
     "disclaimer": "Shadow Economy هي محاكاة تعليمية. التقارير ليست مشورة مالية أو استثمارية أو ضريبية أو قانونية أو مهنية، كما أن شراء تقرير أو قراءته لا يضمن أي نتيجة واقعية."
   },
   "pt": {
-    "badge": "Créditos do relatório",
-    "headline": "Escolha o relatório que se adapta ao seu jogo.",
-    "sub": "1 crédito desbloqueia 1 relatório personalizado para um jogo concluído. Os créditos nunca expiram.",
+    "badge": "Créditos de relatório",
+    "headline": "Escolha o relatório que combina com sua forma de jogar.",
+    "sub": "1 crédito desbloqueia 1 relatório personalizado para uma partida concluída. Os créditos nunca expiram.",
     "starter": {
       "name": "Observador",
-      "credits": "3 créditos · 1 crédito por jogo concluído",
+      "credits": "3 créditos · 1 crédito por partida concluída",
       "tagline": "Vale a pena jogar pelo menos três vezes. Não existe uma única maneira certa. Apenas viva a experiência. Sinta algo novo.",
       "perReport": "$3.00 / relatório",
       "cta": "Apenas compra no app"
     },
     "middle": {
       "name": "Explorador",
-      "credits": "5 créditos · 1 crédito por jogo concluído",
+      "credits": "5 créditos · 1 crédito por partida concluída",
       "tagline": "Mais experiência, mais escolha. Melhor valor, moldado pelas suas próprias mãos.",
       "perReport": "$2.60 / relatório",
       "cta": "Apenas compra no app"
@@ -579,34 +579,34 @@ const content = {
     "power": {
       "name": "Analista",
       "valueBadge": "Melhor valor",
-      "credits": "8 créditos · 1 crédito por jogo concluído",
+      "credits": "8 créditos · 1 crédito por partida concluída",
       "tagline": "O caminho completo do analista. Como você será registrado? Experiência e vestígios, apenas o seu mundo.",
       "perReport": "$2.00 / relatório",
       "cta": "Apenas compra no app"
     },
     "features": [
-      "Um relatório por jogo concluído",
-      "Retrospectiva de decisão",
+      "Um relatório por partida concluída",
+      "Retrospectiva das decisões",
       "Análise de assinatura cognitiva",
       "Informações ocultas reveladas",
-      "Simulação de caminho alternativo"
+      "Simulação de caminhos alternativos"
     ],
     "howTitle": "Como funciona",
     "how": [
       {
         "step": "1",
-        "title": "Terminar uma corrida",
-        "body": "Complete um jogo para desbloquear a tela de relatório."
+        "title": "Concluir uma partida",
+        "body": "Complete uma partida para desbloquear a tela de relatório."
       },
       {
         "step": "2",
         "title": "Use um crédito",
-        "body": "Um crédito desbloqueia o relatório completo gerado a partir da execução concluída."
+        "body": "Um crédito desbloqueia o relatório completo gerado a partir da partida concluída."
       },
       {
         "step": "3",
         "title": "Jogue novamente",
-        "body": "Cada execução cria um relatório diferente."
+        "body": "Cada partida cria um relatório diferente."
       }
     ],
     "note": "Os créditos são adicionados à sua conta imediatamente após a compra. Eles nunca expiram e permanecem entre as sessões.",
@@ -614,8 +614,8 @@ const content = {
   },
   "it": {
     "badge": "Crediti per i report",
-    "headline": "Scegli il rapporto adatto al tuo gioco.",
-    "sub": "1 credito sblocca 1 report personalizzato per un gioco completato. I crediti non scadono mai.",
+    "headline": "Scegli il report adatto al tuo modo di giocare.",
+    "sub": "1 credito sblocca 1 report personalizzato per una partita completata. I crediti non scadono mai.",
     "starter": {
       "name": "Osservatore",
       "credits": "3 crediti · 1 credito per partita completata",
@@ -639,28 +639,28 @@ const content = {
       "cta": "Solo acquisto in-app"
     },
     "features": [
-      "Un rapporto per ogni partita completata",
-      "Decisione retrospettiva",
-      "Analisi delle firme cognitive",
-      "Rivelazione di informazioni nascoste",
+      "Un report per ogni partita completata",
+      "Retrospettiva delle decisioni",
+      "Analisi della firma cognitiva",
+      "Informazioni nascoste svelate",
       "Simulazione di percorsi alternativi"
     ],
     "howTitle": "Come funziona",
     "how": [
       {
         "step": "1",
-        "title": "Termina una corsa",
+        "title": "Completa una partita",
         "body": "Completa un gioco per sbloccare la schermata dei rapporti."
       },
       {
         "step": "2",
         "title": "Utilizza un credito",
-        "body": "Un credito sblocca il report completo generato da quella corsa completata."
+        "body": "Un credito sblocca il report completo generato da quella partita completata."
       },
       {
         "step": "3",
         "title": "Gioca di nuovo",
-        "body": "Ogni esecuzione crea un report diverso."
+        "body": "Ogni partita crea un report diverso."
       }
     ],
     "note": "I crediti vengono aggiunti subito al tuo account dopo l’acquisto. Non scadono mai e restano tra le sessioni.",
@@ -668,21 +668,21 @@ const content = {
   },
   "nl": {
     "badge": "Rapportcredits",
-    "headline": "Kies het rapport dat bij uw spel past.",
-    "sub": "Met 1 tegoed ontgrendel je 1 persoonlijk rapport voor één voltooid spel. Tegoeden verlopen nooit.",
+    "headline": "Kies het rapport dat bij je speelstijl past.",
+    "sub": "Met 1 tegoed ontgrendel je 1 gepersonaliseerd rapport voor één voltooid spel. Tegoeden verlopen nooit.",
     "starter": {
       "name": "Waarnemer",
       "credits": "3 tegoeden · 1 tegoed per voltooid spel",
       "tagline": "Het is minstens drie keer spelen waard. Er is niet één juiste manier. Beleef het gewoon. Voel iets nieuws.",
       "perReport": "$3.00 / rapport",
-      "cta": "Alleen in-app aankoop"
+      "cta": "Alleen aankoop in de app"
     },
     "middle": {
       "name": "Ontdekker",
       "credits": "5 tegoeden · 1 tegoed per voltooid spel",
       "tagline": "Meer ervaring, meer keuze. Betere waarde, gevormd door je eigen handen.",
       "perReport": "$2.60 / rapport",
-      "cta": "Alleen in-app aankoop"
+      "cta": "Alleen aankoop in de app"
     },
     "power": {
       "name": "Analist",
@@ -690,31 +690,31 @@ const content = {
       "credits": "8 tegoeden · 1 tegoed per voltooid spel",
       "tagline": "Het volledige pad van de analist. Hoe word jij vastgelegd? Ervaring en sporen, alleen jouw wereld.",
       "perReport": "$2.00 / rapport",
-      "cta": "Alleen in-app aankoop"
+      "cta": "Alleen aankoop in de app"
     },
     "features": [
-      "Eén rapport per voltooide playthrough",
-      "Beslissing met terugwerkende kracht",
+      "Eén rapport per voltooide speelsessie",
+      "Terugblik op beslissingen",
       "Cognitieve signatuuranalyse",
       "Verborgen informatie onthullen",
-      "Alternatieve padsimulatie"
+      "Simulatie van alternatieve paden"
     ],
     "howTitle": "Hoe het werkt",
     "how": [
       {
         "step": "1",
-        "title": "Maak een run af",
+        "title": "Rond een speelsessie af",
         "body": "Voltooi een spel om het rapportscherm te ontgrendelen."
       },
       {
         "step": "2",
         "title": "Gebruik één tegoed",
-        "body": "Met één tegoed wordt het volledige rapport ontgrendeld dat is gegenereerd op basis van die voltooide run."
+        "body": "Met één tegoed wordt het volledige rapport ontgrendeld dat is gegenereerd op basis van die voltooide speelsessie."
       },
       {
         "step": "3",
         "title": "Speel opnieuw",
-        "body": "Elke run creëert een ander rapport."
+        "body": "Elke speelsessie creëert een ander rapport."
       }
     ],
     "note": "Credits worden direct na aankoop aan je account toegevoegd. Ze verlopen nooit en blijven tussen sessies behouden.",
@@ -723,20 +723,20 @@ const content = {
   "id": {
     "badge": "Kredit Laporan",
     "headline": "Pilih laporan yang sesuai dengan permainan Anda.",
-    "sub": "1 kredit membuka 1 laporan yang dipersonalisasi untuk satu game yang diselesaikan. Kredit tidak pernah kedaluwarsa.",
+    "sub": "1 kredit membuka 1 laporan personal untuk satu permainan yang selesai. Kredit tidak pernah kedaluwarsa.",
     "starter": {
       "name": "Pengamat",
       "credits": "3 kredit · 1 kredit per permainan selesai",
       "tagline": "Layak dimainkan setidaknya tiga kali. Tidak ada satu cara yang benar. Rasakan saja. Rasakan sesuatu yang baru.",
       "perReport": "$3.00 / laporan",
-      "cta": "Pembelian dalam aplikasi saja"
+      "cta": "Hanya pembelian dalam aplikasi"
     },
     "middle": {
       "name": "Penjelajah",
       "credits": "5 kredit · 1 kredit per permainan selesai",
       "tagline": "Lebih banyak pengalaman, lebih banyak pilihan. Nilai yang lebih baik, dibentuk oleh tanganmu sendiri.",
       "perReport": "$2.60 / laporan",
-      "cta": "Pembelian dalam aplikasi saja"
+      "cta": "Hanya pembelian dalam aplikasi"
     },
     "power": {
       "name": "Analis",
@@ -744,11 +744,11 @@ const content = {
       "credits": "8 kredit · 1 kredit per permainan selesai",
       "tagline": "Jalur lengkap seorang analis. Akan tercatat sebagai orang seperti apa Anda? Pengalaman dan jejak, hanya dunia Anda.",
       "perReport": "$2.00 / laporan",
-      "cta": "Pembelian dalam aplikasi saja"
+      "cta": "Hanya pembelian dalam aplikasi"
     },
     "features": [
-      "Satu laporan per permainan yang diselesaikan",
-      "Retrospektif pengambilan keputusan",
+      "Satu laporan per permainan yang selesai",
+      "Retrospektif keputusan",
       "Analisis tanda tangan kognitif",
       "Informasi tersembunyi terungkap",
       "Simulasi jalur alternatif"
@@ -757,18 +757,18 @@ const content = {
     "how": [
       {
         "step": "1",
-        "title": "Selesaikan lari",
+        "title": "Selesaikan permainan",
         "body": "Selesaikan permainan untuk membuka kunci layar laporan."
       },
       {
         "step": "2",
         "title": "Gunakan satu kredit",
-        "body": "Satu kredit membuka laporan lengkap yang dihasilkan dari proses yang telah selesai."
+        "body": "Satu kredit membuka laporan lengkap yang dihasilkan dari permainan yang telah selesai."
       },
       {
         "step": "3",
         "title": "Mainkan lagi",
-        "body": "Setiap proses menghasilkan laporan yang berbeda."
+        "body": "Setiap permainan menghasilkan laporan yang berbeda."
       }
     ],
     "note": "Kredit akan langsung ditambahkan ke akun Anda setelah pembelian. Tidak pernah kedaluwarsa dan terbawa antar sesi.",

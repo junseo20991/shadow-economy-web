@@ -27,7 +27,7 @@ export default {
         {
           "type": "ul",
           "items": [
-            "Les applications mobiles Shadow Economy iOS et Android",
+            "L'application mobile Shadow Economy iOS actuellement disponible et toute version Android ou Google Play proposée à l'avenir",
             "Le site shadoweconomyapp.com",
             "Gameplay, comptes, sauvegardes dans le cloud, crédits de rapport, rapports éducatifs personnalisés et support client",
             "Autres fonctionnalités, contenus et services faisant référence ou liés à ces Conditions"
@@ -65,7 +65,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "« Application » désigne l'application mobile Shadow Economy distribuée via le Apple App Store ou le Google Play."
+          "text": "« Application » désigne l'application mobile Shadow Economy iOS actuellement disponible via l'Apple App Store, ainsi que toute version Android ou Google Play si elle est proposée à l'avenir."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour l'application Android, cette licence s'applique dans la mesure permise par les politiques relatives aux appareils Google Play et Android."
+          "text": "Si une application Android ou une distribution Google Play est proposée à l'avenir, cette licence s'appliquera à cette version dans la mesure permise par les politiques de Google Play et des appareils Android."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Les achats au sein du Service sont traités via le Apple App Store ou le Google Play. L'Opérateur ne collecte ni ne stocke directement les numéros de carte de paiement, les informations de compte bancaire ou les informations d'identification complètes d'authentification de paiement."
+          "text": "Dans l'application iOS actuelle, les achats au sein du Service sont traités via l'Apple App Store. Si une application Android ou une distribution Google Play avec achats intégrés est proposée à l'avenir, ces achats pourront être traités via Google Play. L'Opérateur ne collecte ni ne stocke directement les numéros de carte de paiement, les informations de compte bancaire ou les informations d'identification complètes d'authentification de paiement."
         },
         {
           "type": "p",
@@ -315,7 +315,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sauf disposition contraire de la loi ou de la politique de l'App Store, les biens numériques consommables tels que les crédits de rapport peuvent être livrés immédiatement après la fin de l'achat, et les remboursements ou les annulations peuvent être limités après utilisation ou consommation. L'éligibilité au remboursement est déterminée par la loi applicable, les politiques Apple App Store ou Google Play et les circonstances spécifiques."
+          "text": "Sauf disposition contraire de la loi ou de la politique de l'App Store, les biens numériques consommables tels que les crédits de rapport peuvent être livrés immédiatement après la fin de l'achat, et les remboursements ou les annulations peuvent être limités après utilisation ou consommation. L'éligibilité au remboursement est déterminée par la loi applicable, les politiques de l'Apple App Store et, le cas échéant, de Google Play, ainsi que par les circonstances spécifiques."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les achats via Google Play sont soumis aux politiques et procédures de remboursement de Google Play."
+          "text": "Si des achats via Google Play sont proposés à l'avenir, ils seront soumis aux politiques et procédures de remboursement de Google Play."
         },
         {
           "type": "p",
@@ -840,7 +840,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Si vous téléchargez ou utilisez l'application via Apple App Store ou Google Play, les conditions, politiques et règles d'utilisation de la plate-forme concernée s'appliquent également."
+          "text": "Si vous téléchargez ou utilisez l'application via l'Apple App Store, ou via Google Play si cela est proposé à l'avenir, les conditions, politiques et règles d'utilisation de la plate-forme concernée s'appliquent également."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les conditions suivantes s'appliquent à l'application Android :"
+          "text": "Si une application Android ou une distribution Google Play est proposée à l'avenir, les conditions suivantes s'appliquent à cette version :"
         },
         {
           "type": "ul",
