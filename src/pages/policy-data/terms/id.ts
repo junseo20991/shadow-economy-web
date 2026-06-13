@@ -27,7 +27,7 @@
         {
           "type": "ul",
           "items": [
-            "Aplikasi seluler Shadow Economy iOS yang saat ini tersedia dan versi Android atau Google Play apa pun yang ditawarkan di masa mendatang",
+            "Aplikasi seluler Shadow Economy untuk iOS yang saat ini tersedia dan aplikasi seluler Shadow Economy untuk Android / distribusi Google Play yang sedang disiapkan untuk peluncuran",
             "Situs web shadoweconomyapp.com",
             "Gameplay, akun, penyimpanan cloud, kredit laporan, laporan pendidikan yang dipersonalisasi, dan dukungan pelanggan",
             "Fitur, konten, dan layanan lain yang merujuk atau tertaut dengan Ketentuan ini"
@@ -65,7 +65,7 @@
         },
         {
           "type": "p",
-          "text": "\"Aplikasi\" berarti aplikasi seluler Shadow Economy iOS yang saat ini tersedia melalui Apple App Store, serta versi Android atau Google Play apa pun jika ditawarkan di masa mendatang."
+          "text": "\"Aplikasi\" berarti aplikasi seluler Shadow Economy yang didistribusikan melalui Apple App Store dan aplikasi seluler Shadow Economy untuk Android / distribusi Google Play yang sedang disiapkan untuk peluncuran."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@
         },
         {
           "type": "p",
-          "text": "Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang, lisensi ini berlaku untuk versi tersebut sejauh diizinkan oleh kebijakan terkait perangkat Google Play dan Android."
+          "text": "Untuk aplikasi Android atau distribusi Google Play yang sedang disiapkan untuk peluncuran, lisensi ini berlaku untuk versi tersebut sejauh diizinkan oleh Google Play dan kebijakan terkait perangkat Android."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Pada aplikasi iOS saat ini, pembelian dalam Layanan diproses melalui Apple App Store. Jika aplikasi Android atau distribusi Google Play dengan pembelian dalam aplikasi ditawarkan di masa mendatang, pembelian tersebut dapat diproses melalui Google Play. Operator tidak secara langsung mengumpulkan atau menyimpan nomor kartu pembayaran, informasi rekening bank, atau kredensial otentikasi pembayaran lengkap."
+          "text": "Pembelian dalam Layanan diproses melalui sistem pembayaran toko aplikasi yang digunakan untuk pembelian: Apple App Store untuk aplikasi iOS dan Google Play untuk distribusi Android / Google Play saat tersedia. Operator tidak secara langsung mengumpulkan atau menyimpan nomor kartu pembayaran, informasi rekening bank, atau kredensial autentikasi pembayaran lengkap."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@
         },
         {
           "type": "p",
-          "text": "Jika pembelian melalui Google Play ditawarkan di masa mendatang, pembelian tersebut akan tunduk pada kebijakan dan prosedur pengembalian dana Google Play."
+          "text": "Pembelian melalui Google Play tunduk pada kebijakan dan prosedur pengembalian dana Google Play."
         },
         {
           "type": "p",
@@ -836,11 +836,11 @@
       ]
     },
     {
-      "title": "27. Ketentuan Tambahan App Store",
+      "title": "27. Ketentuan Tambahan App Store dan Google Play",
       "blocks": [
         {
           "type": "p",
-          "text": "Jika Anda mengunduh atau menggunakan aplikasi melalui Apple App Store, atau melalui Google Play jika ditawarkan di masa mendatang, syarat, kebijakan, dan aturan penggunaan platform terkait juga berlaku."
+          "text": "Jika Anda mengunduh atau menggunakan aplikasi melalui Apple App Store atau Google Play, ketentuan, kebijakan, dan aturan penggunaan platform terkait juga berlaku."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@
         },
         {
           "type": "p",
-          "text": "Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang, ketentuan berikut berlaku untuk versi tersebut:"
+          "text": "Untuk aplikasi Android atau distribusi Google Play yang sedang disiapkan untuk peluncuran, ketentuan berikut berlaku untuk versi tersebut:"
         },
         {
           "type": "ul",

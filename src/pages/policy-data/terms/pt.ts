@@ -27,7 +27,7 @@
         {
           "type": "ul",
           "items": [
-            "O aplicativo móvel Shadow Economy para iOS atualmente disponível e qualquer versão Android ou Google Play oferecida no futuro",
+            "O aplicativo móvel Shadow Economy para iOS atualmente disponível e o aplicativo móvel Shadow Economy para Android / distribuição Google Play em preparação para lançamento",
             "O site shadoweconomyapp.com",
             "Jogabilidade, contas, salvamentos na nuvem, créditos de relatórios, relatórios educacionais personalizados e suporte ao cliente",
             "Outros recursos, conteúdos e serviços que fazem referência ou estão vinculados a estes Termos"
@@ -65,7 +65,7 @@
         },
         {
           "type": "p",
-          "text": "\"Aplicativo\" significa o aplicativo móvel Shadow Economy para iOS atualmente disponível através do Apple App Store, bem como qualquer versão Android ou Google Play se oferecida no futuro."
+          "text": "\"Aplicativo\" significa o aplicativo móvel Shadow Economy distribuído pelo Apple App Store e o aplicativo móvel Shadow Economy para Android / distribuição Google Play em preparação para lançamento."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@
         },
         {
           "type": "p",
-          "text": "Se um aplicativo Android ou uma distribuição Google Play for oferecida no futuro, esta licença se aplicará a essa versão na medida permitida pelas políticas relacionadas ao Google Play e a dispositivos Android."
+          "text": "Para o aplicativo Android ou distribuição Google Play em preparação para lançamento, esta licença se aplica a essa versão na medida permitida pelas políticas relacionadas ao Google Play e a dispositivos Android."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "No aplicativo iOS atual, as compras dentro do Serviço são processadas através do Apple App Store. Se um aplicativo Android ou uma distribuição Google Play com compras no aplicativo for oferecida no futuro, essas compras poderão ser processadas através do Google Play. A Operadora não coleta ou armazena diretamente números de cartão de pagamento, informações de contas bancárias ou credenciais completas de autenticação de pagamento."
+          "text": "As compras dentro do Serviço são processadas pelo sistema de pagamento da loja de aplicativos usada para a compra: Apple App Store para o aplicativo iOS e Google Play para a distribuição Android / Google Play quando disponível. A Operadora não coleta ou armazena diretamente números de cartão de pagamento, informações de contas bancárias ou credenciais completas de autenticação de pagamento."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@
         },
         {
           "type": "p",
-          "text": "Se compras por meio do Google Play forem oferecidas no futuro, essas compras estarão sujeitas às políticas e procedimentos de reembolso do Google Play."
+          "text": "As compras por meio do Google Play estão sujeitas às políticas e procedimentos de reembolso do Google Play."
         },
         {
           "type": "p",
@@ -836,11 +836,11 @@
       ]
     },
     {
-      "title": "27. Termos adicionais do App Store",
+      "title": "27. Termos adicionais do App Store e do Google Play",
       "blocks": [
         {
           "type": "p",
-          "text": "Se você baixar ou usar o aplicativo por meio do Apple App Store, ou por meio do Google Play se oferecido no futuro, os termos, políticas e regras de uso da plataforma relevante também se aplicarão."
+          "text": "Se você baixar ou usar o aplicativo por meio do Apple App Store ou do Google Play, os termos, políticas e regras de uso da plataforma relevante também se aplicarão."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@
         },
         {
           "type": "p",
-          "text": "Se um aplicativo Android ou uma distribuição Google Play for oferecida no futuro, os seguintes termos se aplicarão a essa versão:"
+          "text": "Para o aplicativo Android ou distribuição Google Play em preparação para lançamento, os seguintes termos se aplicam a essa versão:"
         },
         {
           "type": "ul",

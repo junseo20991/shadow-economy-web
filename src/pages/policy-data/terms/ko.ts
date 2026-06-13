@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            '현재 제공되는 Shadow Economy iOS 모바일 애플리케이션 및 향후 제공될 수 있는 Android 또는 Google Play 버전',
+            "현재 제공 중인 Shadow Economy iOS 모바일 애플리케이션 및 출시 준비 중인 Shadow Economy Android 모바일 애플리케이션 / Google Play 배포판",
             'shadoweconomyapp.com 웹사이트',
             '게임플레이, 계정, 클라우드 저장, 보고서 크레딧, 교육용 맞춤 보고서 및 고객지원',
             '본 약관을 참조하거나 본 약관과 연결되는 기타 기능, 콘텐츠 및 서비스'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"앱"이란 현재 Apple App Store를 통해 배포되는 Shadow Economy iOS 모바일 애플리케이션 및 향후 제공될 수 있는 Android 또는 Google Play 버전을 의미합니다.'
+          text: "\"앱\"이란 Apple App Store를 통해 배포되는 Shadow Economy iOS 모바일 애플리케이션과 출시 준비 중인 Shadow Economy Android 모바일 애플리케이션 / Google Play 배포판을 의미합니다."
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '향후 Android 앱 또는 Google Play 배포가 제공되는 경우, 본 이용권은 Google Play 및 Android 기기 관련 정책에서 허용하는 범위 내에서 해당 버전에 적용됩니다.'
+          text: "출시 준비 중인 Android 앱 또는 Google Play 배포판에 대해서도, 본 라이선스는 Google Play 및 Android 기기 관련 정책이 허용하는 범위에서 해당 버전에 적용됩니다."
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: '현재 iOS 앱의 서비스 내 구매는 Apple App Store를 통해 처리됩니다. 향후 Android 앱 또는 Google Play 배포에 인앱 구매가 제공되는 경우, 해당 구매는 Google Play를 통해 처리될 수 있습니다. 운영자는 결제 카드 번호, 은행 계좌 정보 또는 전체 결제 인증 정보를 직접 수집하거나 저장하지 않습니다.'
+          text: "서비스 내 구매는 구매가 이루어진 앱 스토어 결제 시스템을 통해 처리됩니다. iOS 앱의 경우 Apple App Store, Android / Google Play 배포판이 제공되는 경우 Google Play를 통해 처리됩니다. 운영자는 결제 카드 번호, 은행 계좌 정보 또는 전체 결제 인증 정보를 직접 수집하거나 저장하지 않습니다."
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '향후 Google Play를 통한 구매가 제공되는 경우, 해당 구매에는 Google Play의 환불 정책 및 절차가 적용됩니다.'
+          text: "Google Play를 통한 구매에는 Google Play의 환불 정책 및 절차가 적용됩니다."
         },
         {
           type: 'p' as const,
@@ -836,11 +836,11 @@ export default {
       ]
     },
     {
-      title: '27. 앱 스토어 관련 추가 조건',
+      title: "27. 추가 App Store 및 Google Play 약관",
       blocks: [
         {
           type: 'p' as const,
-          text: 'Apple App Store를 통해 앱을 다운로드하거나 이용하는 경우, 또는 향후 제공되는 경우 Google Play를 통해 이용하는 경우, 해당 플랫폼의 약관, 정책 및 이용 규칙도 적용됩니다.'
+          text: "Apple App Store 또는 Google Play를 통해 앱을 다운로드하거나 사용하는 경우 해당 플랫폼의 약관, 정책 및 사용 규칙도 적용됩니다."
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '향후 Android 앱 또는 Google Play 배포가 제공되는 경우, 해당 버전과 관련하여 다음 조건이 적용됩니다.'
+          text: "출시 준비 중인 Android 앱 또는 Google Play 배포판에 대해서는 다음 조건이 해당 버전에 적용됩니다:"
         },
         {
           type: 'ul' as const,

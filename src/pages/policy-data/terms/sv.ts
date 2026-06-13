@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'Den för närvarande tillgängliga Shadow Economy iOS-mobilappen och eventuell Android- eller Google Play-version som erbjuds i framtiden',
+            "Den för närvarande tillgängliga Shadow Economy iOS-mobilappen och Shadow Economy Android-mobilappen / Google Play-distributionen som förbereds för lansering",
             'webbplatsen shadoweconomyapp.com',
             'spelupplevelse, konton, molnlagring, rapportkrediter, utbildningsanpassade rapporter och kundsupport',
             'övriga funktioner, innehåll och tjänster som hänvisar till eller är kopplade till dessa Villkor'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Appen» avser den för närvarande tillgängliga Shadow Economy iOS-mobilappen som distribueras via Apple App Store, samt eventuell Android- eller Google Play-version om den erbjuds i framtiden.'
+          text: "«Appen» avser Shadow Economy-mobilappen som distribueras via Apple App Store samt Shadow Economy Android-mobilappen / Google Play-distributionen som förbereds för lansering."
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Om en Android-app eller Google Play-distribution erbjuds i framtiden gäller denna licens för den versionen inom de gränser som Google Play och policyer för Android-enheter tillåter.'
+          text: "För Android-appen eller Google Play-distributionen som förbereds för lansering gäller denna licens för den versionen i den utsträckning som Google Play och policyer för Android-enheter tillåter."
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'I den nuvarande iOS-appen behandlas köp inom Tjänsten via Apple App Store. Om en Android-app eller Google Play-distribution med köp i appen erbjuds i framtiden kan sådana köp behandlas via Google Play. Operatören samlar inte in eller lagrar betalkortsnummer, bankkontouppgifter eller fullständiga betalningsautentiseringsuppgifter direkt.'
+          text: "Köp inom Tjänsten behandlas via betalningssystemet i den appbutik som används för köpet: Apple App Store för iOS-appen och Google Play för Android / Google Play-distributionen när den är tillgänglig. Operatören samlar inte in eller lagrar betalkortsnummer, bankkontouppgifter eller fullständiga betalningsautentiseringsuppgifter direkt."
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Om köp via Google Play erbjuds i framtiden omfattas sådana köp av Google Plays återbetalningspolicy och förfaranden.'
+          text: "Köp via Google Play omfattas av Google Plays återbetalningspolicy och förfaranden."
         },
         {
           type: 'p' as const,
@@ -836,11 +836,11 @@ export default {
       ]
     },
     {
-      title: '27. Ytterligare villkor för appbutiker',
+      title: "27. Ytterligare villkor för App Store och Google Play",
       blocks: [
         {
           type: 'p' as const,
-          text: 'Om du laddar ner eller använder appen via Apple App Store, eller via Google Play om det erbjuds i framtiden, gäller även respektive plattforms villkor, policyer och användningsregler.'
+          text: "Om du laddar ner eller använder appen via Apple App Store eller Google Play gäller även villkor, policyer och användningsregler för den relevanta plattformen."
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Om en Android-app eller Google Play-distribution erbjuds i framtiden gäller följande villkor för den versionen:'
+          text: "För Android-appen eller Google Play-distributionen som förbereds för lansering gäller följande villkor för den versionen:"
         },
         {
           type: 'ul' as const,

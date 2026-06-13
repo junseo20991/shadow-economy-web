@@ -3,7 +3,7 @@ export default {
   updated: 'Last updated: 29 May 2026',
   intro: [
     'This Privacy Policy describes how the operator of Shadow Economy (the "Operator", "we", "us", or "our") collects, uses, stores, transfers, protects, and deletes personal data when providing the Shadow Economy iOS mobile application currently available, the shadoweconomyapp.com website, and related services (collectively, the "Service").',
-    'An Android mobile application or Google Play distribution may be offered in the future. If and when such services are provided, personal data may be processed in accordance with this Policy or separate notices.',
+    "The Shadow Economy Android mobile application / Google Play distribution is being prepared for release. Personal data related to that distribution will be processed in accordance with this Policy and any required platform or in-app notices.",
     'Shadow Economy is an educational and entertainment economic simulation game. The Service is an independent service operated by an individual developer. The Operator processes personal data only to the extent necessary to provide the Service, manage accounts, synchronize game progress, fulfill in-app purchases, provide educational custom reports, maintain security, respond to errors, provide customer support, and comply with applicable law.',
     'The Operator does not sell personal data and does not provide your personal data to advertising networks, data brokers, or third-party personalized advertising providers. The Operator also does not share personal data for cross-context behavioral advertising or third-party personalized advertising purposes. The Service currently does not use third-party advertising SDKs or tracking technologies for advertising purposes.',
     'This Policy is intended to help you understand how personal data is processed before you use the Service and to help you manage your information.',
@@ -46,7 +46,7 @@ export default {
           items: [
             'Shadow Economy iOS mobile application',
             'shadoweconomyapp.com website',
-            'Shadow Economy Android mobile application or Google Play distribution, if offered in the future',
+            "The currently available Shadow Economy iOS mobile application and the Shadow Economy Android mobile application / Google Play distribution being prepared for release",
             'Customer support, account management, and related services that reference this Policy',
             'Game data, account data, payment metadata, report data, and technical logs generated or processed during use of the Service'
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Providers and platforms necessary to operate the Service, such as Supabase, Vercel, Apple, and Google, may be involved. In-app purchases in the current iOS app are processed through the Apple App Store in-app payment system. If an Android app or Google Play distribution is offered in the future and includes in-app purchase functionality, such purchases may be processed through the Google Play payment system and in accordance with Google Play policies.'
+          text: "Providers and platforms necessary to operate the Service, such as Supabase, Vercel, Apple, and Google, may be involved. In-app purchases are processed through the app store payment system used for the purchase: Apple App Store for the iOS app and Google Play for the Android / Google Play distribution when available, in accordance with the relevant platform policies."
         },
         {
           type: 'p' as const,
@@ -242,7 +242,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'In-app purchases in the current iOS app are processed through the Apple App Store in-app payment system. If an Android app or Google Play distribution is offered in the future and includes in-app purchase functionality, such purchases may be processed through the Google Play payment system and in accordance with Google Play policies.'
+          text: "In-app purchases are processed through the app store payment system used for the purchase: Apple App Store for the iOS app and Google Play for the Android / Google Play distribution when available, in accordance with the relevant platform policies."
         },
         {
           type: 'p' as const,
@@ -263,7 +263,7 @@ export default {
             'Purchase status',
             'Refund or cancellation status',
             'Limited purchase verification information provided by Apple',
-            'If Google Play payments are offered in the future, limited purchase verification information provided by Google'
+            "Limited purchase verification information provided by Google Play for Google Play purchases"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             'Game progress and choice data you generate while using the Service',
             'Limited account information transmitted by a provider when you use third-party sign-in such as Google sign-in or Sign in with Apple',
             'Transaction metadata provided by the Apple App Store to fulfill in-app purchases, verify purchases, or process refunds',
-            'If Google Play payments are offered in the future, transaction metadata provided by Google Play to fulfill in-app purchases, verify purchases, or process refunds',
+            "Transaction metadata provided by Google Play to fulfill in-app purchases, verify purchases, or process refunds",
             'Server, authentication, and technical logs generated in service infrastructure such as Supabase and Vercel',
             'Information you provide during a customer support request',
             'Limited technical information automatically provided by the device or browser during use of the Service'
@@ -435,7 +435,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'In-app purchases in the current iOS app are processed through the Apple App Store in-app payment system. If in-app purchases are offered through an Android app or Google Play distribution in the future, such purchases may be processed through the Google Play payment system and in accordance with Google Play policies.'
+          text: "In-app purchases are processed through the app store payment system used for the purchase: Apple App Store for the iOS app and Google Play for the Android / Google Play distribution when available, in accordance with the relevant platform policies."
         },
         {
           type: 'h3' as const,
@@ -680,7 +680,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Purpose: Google sign-in and Google account-based authentication. If an Android app or Google Play distribution is offered in the future, Android app distribution, Google Play in-app payments, purchase verification, and refund processing'
+          text: "Purpose: Google sign-in and Google account-based authentication, Android app distribution, Google Play in-app payments, purchase verification, and refund processing for the Google Play distribution being prepared for release"
         },
         {
           type: 'p' as const,
@@ -692,7 +692,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'A Google Play distribution may not currently be available. If a Google Play distribution is offered in the future, personal data processing, purchase verification, refund processing, and platform policies related to that distribution may apply in accordance with Google Play policies and this Policy.'
+          text: "The Google Play distribution is being prepared for release. Personal data processing, purchase verification, refund processing, and platform policies related to that distribution apply in accordance with Google Play policies and this Policy when that version becomes available."
         },
         {
           type: 'h3' as const,
@@ -995,7 +995,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Management of in-app purchases, refunds, and payment history in the current iOS app may follow the policies and procedures of the Apple App Store. If a Google Play distribution is offered in the future and includes in-app purchases, management of such purchases, refunds, and payment history may follow Google Play policies and procedures.'
+          text: "Management of in-app purchases, refunds, and payment history may follow the policies and procedures of Apple App Store or Google Play, depending on the platform used for the purchase."
         },
         {
           type: 'h3' as const,
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'In-app purchases, payments, or use of paid features by minors may be subject to the currently available Apple App Store, device settings, parental control settings, and applicable law. If a Google Play distribution is offered in the future, purchases, payments, or use of paid features through that distribution may be subject to Google Play policies, device settings, parental control settings, and applicable law.'
+          text: "In-app purchases, payments, or use of paid features by minors may be subject to Apple App Store or Google Play policies, device settings, parental control settings, and applicable law, depending on the platform used."
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Privacy-related information displayed on the Apple App Store may be provided as a summary of this Policy. If a Google Play distribution is offered in the future, privacy-related information or the Data safety section displayed on Google Play may likewise be provided as a summary of this Policy.'
+          text: "Privacy-related information displayed on Apple App Store or Google Play, including the Google Play Data safety section, may be provided as a summary of this Policy."
         },
         {
           type: 'p' as const,
-          text: 'The Operator makes reasonable efforts to keep app store privacy labels, in-app notices, and this Policy consistent with one another. If a Google Play distribution is offered in the future, the Operator will make reasonable efforts to keep the Google Play Data safety section and this Policy consistent with one another.'
+          text: "The Operator makes reasonable efforts to keep app store privacy labels, the Google Play Data safety section, in-app notices, and this Policy consistent with one another."
         },
         {
           type: 'p' as const,

@@ -3,7 +3,7 @@ export default {
   updated: '최종 업데이트: 2026년 5월 29일',
   intro: [
     '본 개인정보처리방침은 현재 제공되는 Shadow Economy iOS 모바일 애플리케이션, shadoweconomyapp.com 웹사이트 및 이와 관련된 서비스(이하 통칭하여 "서비스")를 제공함에 있어 Shadow Economy 운영자(이하 "운영자", "당사" 또는 "우리")가 개인정보를 수집, 이용, 저장, 이전, 보호 및 삭제하는 방법을 설명합니다.',
-    'Android 모바일 애플리케이션 또는 Google Play 배포판은 향후 제공될 수 있으며, 해당 서비스가 제공되는 경우 본 방침 또는 별도 고지에 따라 개인정보가 처리될 수 있습니다.',
+    "Shadow Economy Android 모바일 애플리케이션 / Google Play 배포판은 출시 준비 중입니다. 해당 배포와 관련된 개인정보는 본 방침 및 필요한 플랫폼 또는 앱 내 고지에 따라 처리됩니다.",
     'Shadow Economy는 교육 및 오락 목적의 경제 시뮬레이션 게임입니다. 서비스는 개인 개발자가 운영하는 독립 서비스이며, 운영자는 서비스 제공, 계정 관리, 게임 진행 동기화, 인앱 구매 이행, 교육용 맞춤 보고서 제공, 보안 유지, 오류 대응, 고객지원 및 법령 준수를 위해 필요한 범위에서만 개인정보를 처리합니다.',
     '운영자는 개인정보를 판매하지 않으며, 광고 네트워크, 데이터 브로커 또는 타사 맞춤 광고 제공업체에 이용자의 개인정보를 제공하지 않습니다. 또한 운영자는 교차 맥락 행동 광고 또는 타사 맞춤 광고 목적으로 개인정보를 공유하지 않습니다. 현재 서비스에는 제3자 광고 SDK 또는 광고 목적의 추적 기술을 사용하지 않습니다.',
     '본 방침은 귀하가 서비스를 이용하기 전에 개인정보 처리 방식을 이해하고, 귀하의 정보를 관리할 수 있도록 돕기 위한 것입니다.',
@@ -46,7 +46,7 @@ export default {
           items: [
             'Shadow Economy iOS 모바일 애플리케이션',
             'shadoweconomyapp.com 웹사이트',
-            '향후 제공될 수 있는 Shadow Economy Android 모바일 애플리케이션 또는 Google Play 배포판',
+            "현재 제공 중인 Shadow Economy iOS 모바일 애플리케이션 및 출시 준비 중인 Shadow Economy Android 모바일 애플리케이션 / Google Play 배포판",
             '본 방침을 참조하는 고객지원, 계정 관리 및 관련 서비스',
             '서비스 이용 중 생성되거나 처리되는 게임 데이터, 계정 데이터, 결제 메타데이터, 보고서 데이터 및 기술 로그'
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Supabase, Vercel, Apple, Google 등 서비스 운영에 필요한 제공업체 및 플랫폼이 관여할 수 있습니다. 현재 iOS 앱 내 구매는 Apple App Store의 인앱 결제 시스템을 통해 처리됩니다. 향후 Android 앱 또는 Google Play 배포판이 제공되고 인앱 구매 기능이 포함되는 경우, 해당 구매는 Google Play 결제 시스템 및 Google Play 정책에 따라 처리될 수 있습니다.'
+          text: "Supabase, Vercel, Apple, Google 등 서비스 운영에 필요한 제공자와 플랫폼이 관여할 수 있습니다. 인앱 구매는 구매가 이루어진 앱 스토어 결제 시스템을 통해 처리되며, iOS 앱은 Apple App Store, Android / Google Play 배포판이 제공되는 경우 Google Play 및 관련 플랫폼 정책에 따라 처리됩니다."
         },
         {
           type: 'p' as const,
@@ -242,7 +242,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '현재 iOS 앱 내 구매는 Apple App Store의 인앱 결제 시스템을 통해 처리됩니다. 향후 Android 앱 또는 Google Play 배포판이 제공되고 인앱 구매 기능이 포함되는 경우, 해당 구매는 Google Play 결제 시스템 및 Google Play 정책에 따라 처리될 수 있습니다.'
+          text: "인앱 구매는 구매가 이루어진 앱 스토어 결제 시스템을 통해 처리되며, iOS 앱은 Apple App Store, Android / Google Play 배포판이 제공되는 경우 Google Play 및 관련 플랫폼 정책에 따라 처리됩니다."
         },
         {
           type: 'p' as const,
@@ -263,7 +263,7 @@ export default {
             '구매 상태',
             '환불 또는 취소 여부',
             'Apple이 제공하는 제한적 구매 검증 정보',
-            '향후 Google Play 결제가 제공되는 경우, Google이 제공하는 제한적 구매 검증 정보'
+            "Google Play 구매에 대해 Google Play가 제공하는 제한된 구매 확인 정보"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             '귀하가 서비스 이용 중 생성하는 게임 진행 및 선택 데이터',
             '귀하가 Google 로그인, Apple 로그인(Apple로 로그인) 등 제3자 로그인 기능을 이용할 때 해당 제공자가 전달하는 제한적 계정 정보',
             'Apple App Store가 인앱 구매 이행, 구매 검증 또는 환불 처리를 위해 제공하는 거래 메타데이터',
-            '향후 Google Play 결제가 제공되는 경우, Google Play가 인앱 구매 이행, 구매 검증 또는 환불 처리를 위해 제공하는 거래 메타데이터',
+            "인앱 구매 이행, 구매 확인 또는 환불 처리를 위해 Google Play가 제공하는 거래 메타데이터",
             'Supabase, Vercel 등 서비스 운영 인프라에서 생성되는 서버, 인증 및 기술 로그',
             '고객지원 요청 과정에서 귀하가 제공하는 정보',
             '기기 또는 브라우저가 서비스 이용 과정에서 자동으로 제공하는 제한적 기술 정보'
@@ -435,7 +435,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '현재 iOS 앱 내 구매는 Apple App Store의 인앱 결제 시스템을 통해 처리됩니다. 향후 Android 앱 또는 Google Play 배포판에서 인앱 구매가 제공되는 경우, 해당 구매는 Google Play 결제 시스템 및 Google Play 정책에 따라 처리될 수 있습니다.'
+          text: "인앱 구매는 구매가 이루어진 앱 스토어 결제 시스템을 통해 처리되며, iOS 앱은 Apple App Store, Android / Google Play 배포판이 제공되는 경우 Google Play 및 관련 플랫폼 정책에 따라 처리됩니다."
         },
         {
           type: 'h3' as const,
@@ -680,7 +680,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '용도: Google 로그인 및 Google 계정 기반 인증. 향후 Android 앱 또는 Google Play 배포판이 제공되는 경우, Android 앱 배포, Google Play 인앱 결제, 구매 검증 및 환불 처리'
+          text: "목적: Google 로그인 및 Google 계정 기반 인증, 출시 준비 중인 Google Play 배포판의 Android 앱 배포, Google Play 인앱 결제, 구매 확인 및 환불 처리"
         },
         {
           type: 'p' as const,
@@ -692,7 +692,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '현재 Google Play 배포판은 제공되지 않을 수 있으며, Google Play 배포판이 향후 제공되는 경우 해당 배포판과 관련된 개인정보 처리, 구매 검증, 환불 처리 및 플랫폼 정책은 Google Play 정책과 본 방침에 따라 적용될 수 있습니다.'
+          text: "Google Play 배포판은 출시 준비 중입니다. 해당 버전이 제공되는 경우 그 배포와 관련된 개인정보 처리, 구매 확인, 환불 처리 및 플랫폼 정책은 Google Play 정책과 본 방침에 따라 적용됩니다."
         },
         {
           type: 'h3' as const,
@@ -995,7 +995,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '현재 iOS 앱 내 구매, 환불 및 결제 내역 관리는 Apple App Store의 정책과 절차에 따를 수 있습니다. 향후 Google Play 배포판이 제공되고 인앱 구매가 포함되는 경우, 해당 구매, 환불 및 결제 내역 관리는 Google Play의 정책과 절차에 따를 수 있습니다.'
+          text: "인앱 구매, 환불 및 결제 기록의 관리는 구매에 사용된 플랫폼에 따라 Apple App Store 또는 Google Play의 정책 및 절차를 따를 수 있습니다."
         },
         {
           type: 'h3' as const,
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '미성년자의 인앱 구매, 결제 또는 유료 기능 이용은 현재 제공되는 Apple App Store, 기기 설정, 보호자 관리 설정 및 관련 법령의 적용을 받을 수 있습니다. 향후 Google Play 배포판이 제공되는 경우, 해당 배포판의 구매, 결제 또는 유료 기능 이용은 Google Play 정책, 기기 설정, 보호자 관리 설정 및 관련 법령의 적용을 받을 수 있습니다.'
+          text: "미성년자의 인앱 구매, 결제 또는 유료 기능 사용은 사용된 플랫폼에 따라 Apple App Store 또는 Google Play 정책, 기기 설정, 보호자 통제 설정 및 관련 법률의 적용을 받을 수 있습니다."
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Apple App Store에 표시되는 개인정보 관련 정보는 본 방침의 요약 정보로 제공될 수 있습니다. 향후 Google Play 배포판이 제공되는 경우, Google Play에 표시되는 개인정보 관련 정보 또는 데이터 보안 섹션 역시 본 방침의 요약 정보로 제공될 수 있습니다.'
+          text: "Apple App Store 또는 Google Play에 표시되는 개인정보 관련 정보와 Google Play 데이터 보안 섹션은 본 방침의 요약으로 제공될 수 있습니다."
         },
         {
           type: 'p' as const,
-          text: '운영자는 앱스토어 개인정보 표시, 인앱 고지 및 본 방침이 서로 일관되도록 합리적인 노력을 기울입니다. 향후 Google Play 배포판이 제공되는 경우, 운영자는 Google Play 데이터 보안 섹션과 본 방침이 서로 일관되도록 합리적인 노력을 기울입니다.'
+          text: "운영자는 앱 스토어 개인정보 표시, Google Play 데이터 보안 섹션, 앱 내 고지 및 본 방침이 서로 일관되도록 합리적으로 노력합니다."
         },
         {
           type: 'p' as const,

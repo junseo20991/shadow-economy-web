@@ -27,7 +27,7 @@ export default {
         {
           "type": "ul",
           "items": [
-            "Die derzeit verfügbare Shadow Economy iOS-Mobilanwendung und jede künftig angebotene Android- oder Google Play-Version",
+            "Die derzeit verfügbare Shadow Economy iOS-Mobilanwendung und die Shadow Economy Android-Mobilanwendung / Google Play-Distribution, die für den Start vorbereitet wird",
             "Die shadoweconomyapp.com-Website",
             "Gameplay, Konten, Cloud-Speicherungen, Berichtsguthaben, personalisierte Bildungsberichte und Kundensupport",
             "Andere Funktionen, Inhalte und Dienste, die auf diese Bedingungen verweisen oder mit ihnen verknüpft sind"
@@ -65,7 +65,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "„App“ bezeichnet die derzeit über den Apple App Store vertriebene Shadow Economy iOS-Mobilanwendung sowie jede Android- oder Google Play-Version, sofern sie künftig angeboten wird."
+          "text": "„App“ bezeichnet die über den Apple App Store vertriebene Shadow Economy iOS-Mobilanwendung sowie die Shadow Economy Android-Mobilanwendung / Google Play-Distribution, die für den Start vorbereitet wird."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn künftig eine Android-App oder eine Google Play-Verteilung angeboten wird, gilt diese Lizenz für diese Version in dem Umfang, der durch die gerätebezogenen Richtlinien von Google Play und Android zulässig ist."
+          "text": "Für die Android-App oder Google Play-Distribution, die für den Start vorbereitet wird, gilt diese Lizenz für diese Version, soweit dies nach den Richtlinien von Google Play und Android-Geräten zulässig ist."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "In der aktuellen iOS-App werden Käufe innerhalb des Dienstes über den Apple App Store abgewickelt. Wenn künftig eine Android-App oder eine Google Play-Verteilung mit In-App-Käufen angeboten wird, können solche Käufe über Google Play abgewickelt werden. Der Betreiber erhebt oder speichert nicht direkt Zahlungskartennummern, Bankkontoinformationen oder vollständige Zahlungsauthentifizierungsdaten."
+          "text": "Käufe innerhalb des Dienstes werden über das Zahlungssystem des App-Stores abgewickelt, der für den Kauf verwendet wird: Apple App Store für die iOS-App und Google Play für die Android / Google Play-Distribution, sobald sie verfügbar ist. Der Betreiber erhebt oder speichert ZahlungsKartennummern, Bankkontoinformationen oder vollständige ZahlungsAuthentifizierungsdaten nicht direkt."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn künftig Käufe über Google Play angeboten werden, unterliegen diese den Rückerstattungsrichtlinien und -verfahren von Google Play."
+          "text": "Käufe über Google Play unterliegen den Rückerstattungsrichtlinien und -verfahren von Google Play."
         },
         {
           "type": "p",
@@ -836,11 +836,11 @@ export default {
       ]
     },
     {
-      "title": "27. Zusätzliche App Store-Bedingungen",
+      "title": "27. Zusätzliche Bedingungen für App Store und Google Play",
       "blocks": [
         {
           "type": "p",
-          "text": "Wenn Sie die App über den Apple App Store herunterladen oder nutzen, oder künftig über Google Play, sofern angeboten, gelten auch die Bedingungen, Richtlinien und Nutzungsregeln der jeweiligen Plattform."
+          "text": "Wenn Sie die App über Apple App Store oder Google Play herunterladen oder verwenden, gelten auch die Bedingungen, Richtlinien und Nutzungsregeln der jeweiligen Plattform."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn künftig eine Android-App oder eine Google Play-Verteilung angeboten wird, gelten die folgenden Bedingungen für diese Version:"
+          "text": "Für die Android-App oder Google Play-Distribution, die für den Start vorbereitet wird, gelten für diese Version die folgenden Bedingungen:"
         },
         {
           "type": "ul",

@@ -14,7 +14,7 @@ export type PricingUiStrings = {
 export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   en: {
     pricingNotice:
-      'Our pricing policy is based on Apple App Store regional price guidelines, and for some countries we aim to offer prices that are more favorable to users than App Store policy alone. Prices may differ by country because of exchange rates and value-added tax (VAT) in your region of residence. In some countries, such as the United States and Canada, taxes are added separately at checkout under local policy and law, so listed prices may appear relatively lower than in other countries. In most other countries, the prices shown already include tax. Select your region below to see prices.',
+      "Our pricing policy is based on regional app-store price guidelines for Apple App Store and the Google Play distribution being prepared for release. For some countries, we aim to offer prices that are more favorable to users than app-store policy alone. Prices may differ by country because of exchange rates and value-added tax (VAT) in your region of residence. In some countries, such as the United States and Canada, taxes are added separately at checkout under local policy and law, so listed prices may appear relatively lower than in other countries. In most other countries, the prices shown already include tax. Select your region below to see prices.",
     selectRegion: 'Select your region',
     regionModalTitle: 'Choose your region',
     regionModalClose: 'Close',
@@ -24,7 +24,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   ko: {
     pricingNotice:
-      '본사의 가격 방침은 Apple App Store의 국가/지역별 가격 가이드라인을 참고하였으며, 일부 국가에 대해서는 App Store 방침보다 더 사용자 친화적인 가격을 제공하고자 하였습니다. 일부 국가에서 가격이 다른 것은 거주 지역의 환율 및 부가가치세(VAT) 영향이 있을 수 있습니다. 미국, 캐나다와 같은 일부 국가에서는 각국 정책 및 법에 따라 표기된 가격에 별도로 세금이 결제 시점에 부과되므로, 다른 국가들에 비해 상대적으로 저렴해 보일 수 있습니다. 반면, 그 외 대부분의 국가에서는 이미 세금이 포함된 가격이 표기되어 있습니다. 아래에서 거주 지역을 선택하여 가격을 확인하십시오.',
+      "본사의 가격 방침은 Apple App Store 및 출시 준비 중인 Google Play 배포의 국가/지역별 가격 가이드라인을 참고합니다. 일부 국가에 대해서는 앱 스토어 정책만 따르는 것보다 더 사용자 친화적인 가격을 제공하고자 합니다. 일부 국가에서 가격이 다른 것은 거주 지역의 환율 및 부가가치세(VAT) 영향이 있을 수 있습니다. 미국, 캐나다와 같은 일부 국가에서는 각국 정책 및 법에 따라 표기된 가격에 별도로 세금이 결제 시점에 부과되므로, 다른 국가들에 비해 상대적으로 저렴해 보일 수 있습니다. 반면 그 외 대부분의 국가에서는 이미 세금이 포함된 가격이 표기되어 있습니다. 아래에서 거주 지역을 선택하여 가격을 확인하십시오.",
     selectRegion: '거주 지역 선택',
     regionModalTitle: '국가/지역 선택',
     regionModalClose: '닫기',
@@ -34,7 +34,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   ja: {
     pricingNotice:
-      '当社の価格方針は Apple App Store の国・地域別価格ガイドラインを参考にしており、一部の国では App Store の方針よりも利用者にとって有利な価格を目指しています。国によって価格が異なる場合は、居住地域の為替レートや付加価値税（VAT）の影響によることがあります。米国やカナダなど一部の国では、各国の政策・法令により表示価格に加えて税金が決済時に別途課されるため、他国と比べて相対的に安く見えることがあります。一方、その他のほとんどの国では、すでに税込みの価格が表示されています。下から居住地域を選択して価格をご確認ください。',
+      "当社の価格方針は、Apple App Store および配信準備中の Google Play 版の国・地域別価格ガイドラインを参考にしています。一部の国では、アプリストアの方針だけに従うよりも利用者にとって有利な価格を目指しています。国によって価格が異なる場合は、居住地域の為替レートや付加価値税（VAT）の影響によることがあります。米国やカナダなど一部の国では、各国の政策・法令により表示価格に加えて税金が決済時に別途課されるため、他国と比べて相対的に安く見えることがあります。一方、その他のほとんどの国では、すでに税込みの価格が表示されています。下から居住地域を選択して価格をご確認ください。",
     selectRegion: '居住地域を選択',
     regionModalTitle: '国・地域を選択',
     regionModalClose: '閉じる',
@@ -44,7 +44,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   zh: {
     pricingNotice:
-      '本公司的定价政策参考 Apple App Store 各国家/地区价格指南，对部分国家/地区，我们力求提供比 App Store 政策对用户更友好的价格。不同国家/地区的价格可能因您居住地的汇率和增值税（VAT）而有所不同。在美国、加拿大等部分国家/地区，根据当地政策与法律，标示价格之外会在结账时另行收取税费，因此与其他国家/地区相比可能显得相对更低。而在大多数其他国家/地区，标示价格已包含税费。请在下方选择您的居住地以查看价格。',
+      "本公司的定价政策参考 Apple App Store 以及正在准备上线的 Google Play 版本的国家/地区价格指南。对部分国家/地区，我们力求提供比单纯遵循应用商店政策更有利于用户的价格。不同国家/地区的价格可能因您居住地的汇率和增值税（VAT）而有所不同。在美国、加拿大等部分国家/地区，根据当地政策与法律，标示价格之外会在结账时另行收取税费，因此与其他国家/地区相比可能显得相对更低。而在大多数其他国家/地区，标示价格已包含税费。请在下方选择您的居住地以查看价格。",
     selectRegion: '选择您的地区',
     regionModalTitle: '选择国家/地区',
     regionModalClose: '关闭',
@@ -54,7 +54,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   es: {
     pricingNotice:
-      'Nuestra política de precios se basa en las directrices regionales de precios de Apple App Store y, en algunos países, buscamos ofrecer precios más favorables para el usuario que la política estricta de App Store. Los precios pueden variar según el país por el tipo de cambio y el IVA de su región de residencia. En algunos países, como Estados Unidos y Canadá, los impuestos se añaden por separado al pagar según la normativa local, por lo que los precios mostrados pueden parecer relativamente más bajos que en otros países. En la mayoría de los demás países, los precios mostrados ya incluyen impuestos. Seleccione su región abajo para ver los precios.',
+      "Nuestra política de precios se basa en las directrices regionales de precios de Apple App Store y de la distribución de Google Play que se está preparando para su lanzamiento. En algunos países, buscamos ofrecer precios más favorables para el usuario que la política estricta de la tienda de aplicaciones. Los precios pueden variar según el país por el tipo de cambio y el IVA de su región de residencia. En algunos países, como Estados Unidos y Canadá, los impuestos se añaden por separado al pagar según la normativa local, por lo que los precios mostrados pueden parecer relativamente más bajos que en otros países. En la mayoría de los demás países, los precios mostrados ya incluyen impuestos. Seleccione su región abajo para ver los precios.",
     selectRegion: 'Seleccionar su región',
     regionModalTitle: 'Elegir país o región',
     regionModalClose: 'Cerrar',
@@ -64,7 +64,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   sv: {
     pricingNotice:
-      'Vår prispolicy bygger på Apple App Stores regionala prisriktlinjer, och för vissa länder strävar vi efter priser som är mer användarvänliga än enbart App Store-policyn. Priser kan skilja sig mellan länder på grund av växelkurs och moms (VAT) i din bosättningsregion. I vissa länder, till exempel USA och Kanada, läggs skatt till separat vid betalning enligt lokal lagstiftning, vilket kan göra att angivna priser verkar relativt lägre än i andra länder. I de flesta andra länder ingår skatt redan i det angivna priset. Välj din region nedan för att se priser.',
+      "Vår prispolicy bygger på regionala prisriktlinjer för Apple App Store och den Google Play-distribution som förbereds för lansering. I vissa länder strävar vi efter priser som är mer användarvänliga än enbart appbutikens policy. Priser kan skilja sig mellan länder på grund av växelkurs och moms (VAT) i din bosättningsregion. I vissa länder, till exempel USA och Kanada, läggs skatt till separat vid betalning enligt lokal lagstiftning, vilket kan göra att angivna priser verkar relativt lägre än i andra länder. I de flesta andra länder ingår skatt redan i det angivna priset. Välj din region nedan för att se priser.",
     selectRegion: 'Välj din region',
     regionModalTitle: 'Välj land eller region',
     regionModalClose: 'Stäng',
@@ -74,7 +74,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   fr: {
     pricingNotice:
-      'Notre politique tarifaire s’appuie sur les lignes directrices régionales de prix de l’Apple App Store et, pour certains pays, nous visons des prix plus favorables à l’utilisateur que la seule politique App Store. Les prix peuvent varier selon les pays en raison des taux de change et de la TVA dans votre région de résidence. Dans certains pays, comme les États-Unis et le Canada, des taxes sont ajoutées séparément au moment du paiement conformément à la réglementation locale, ce qui peut faire paraître les prix affichés relativement plus bas que dans d’autres pays. Dans la plupart des autres pays, les prix affichés incluent déjà les taxes. Sélectionnez votre région ci-dessous pour voir les prix.',
+      "Notre politique tarifaire s’appuie sur les lignes directrices régionales de prix de l’Apple App Store et de la distribution Google Play en préparation. Pour certains pays, nous visons des prix plus favorables à l’utilisateur que la seule politique de la boutique d’applications. Les prix peuvent varier selon les pays en raison des taux de change et de la TVA dans votre région de résidence. Dans certains pays, comme les États-Unis et le Canada, des taxes sont ajoutées séparément au moment du paiement conformément à la réglementation locale, ce qui peut faire paraître les prix affichés relativement plus bas que dans d’autres pays. Dans la plupart des autres pays, les prix affichés incluent déjà les taxes. Sélectionnez votre région ci-dessous pour voir les prix.",
     selectRegion: 'Sélectionner votre région',
     regionModalTitle: 'Choisir un pays ou une région',
     regionModalClose: 'Fermer',
@@ -84,7 +84,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   de: {
     pricingNotice:
-      'Unsere Preispolitik orientiert sich an den regionalen Preisrichtlinien des Apple App Store, und in einigen Ländern möchten wir Preise anbieten, die für Nutzer günstiger sind als die reine App-Store-Richtlinie. Preise können je nach Land aufgrund von Wechselkursen und Mehrwertsteuer (MwSt.) in Ihrer Wohnregion variieren. In einigen Ländern wie den USA und Kanada werden Steuern gemäß lokaler Vorschriften beim Bezahlen zusätzlich erhoben, sodass die angezeigten Preise im Vergleich zu anderen Ländern relativ niedriger wirken können. In den meisten anderen Ländern sind die angezeigten Preise bereits steuerlich enthalten. Wählen Sie unten Ihre Region, um Preise anzuzeigen.',
+      "Unsere Preispolitik orientiert sich an den regionalen Preisrichtlinien des Apple App Store und der für den Start vorbereiteten Google Play-Distribution. In einigen Ländern möchten wir Preise anbieten, die nutzerfreundlicher sind als die reine App-Store-Richtlinie. Preise können je nach Land aufgrund von Wechselkursen und Mehrwertsteuer (MwSt.) in Ihrer Wohnregion variieren. In einigen Ländern wie den USA und Kanada werden Steuern gemäß lokaler Vorschriften beim Bezahlen zusätzlich erhoben, sodass die angezeigten Preise im Vergleich zu anderen Ländern relativ niedriger wirken können. In den meisten anderen Ländern sind die angezeigten Preise bereits steuerlich enthalten. Wählen Sie unten Ihre Region, um Preise anzuzeigen.",
     selectRegion: 'Region auswählen',
     regionModalTitle: 'Land oder Region wählen',
     regionModalClose: 'Schließen',
@@ -94,7 +94,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   ru: {
     pricingNotice:
-      'Наша ценовая политика основана на региональных рекомендациях Apple App Store, а для некоторых стран мы стремимся предлагать цены, более выгодные для пользователя, чем одна лишь политика App Store. Цены могут отличаться в зависимости от страны из‑за обменного курса и НДС в вашем регионе проживания. В некоторых странах, таких как США и Канада, налоги взимаются отдельно при оплате согласно местному законодательству, поэтому указанные цены могут казаться относительно ниже, чем в других странах. В большинстве остальных стран указанные цены уже включают налог. Выберите регион ниже, чтобы увидеть цены.',
+      "Наша ценовая политика основана на региональных рекомендациях Apple App Store и готовящейся к запуску версии Google Play. Для некоторых стран мы стремимся предлагать цены, более выгодные для пользователя, чем простое следование политике магазина приложений. Цены могут отличаться в зависимости от страны из-за обменного курса и НДС в вашем регионе проживания. В некоторых странах, таких как США и Канада, налоги взимаются отдельно при оплате согласно местному законодательству, поэтому указанные цены могут казаться относительно ниже, чем в других странах. В большинстве остальных стран указанные цены уже включают налог. Выберите регион ниже, чтобы увидеть цены.",
     selectRegion: 'Выбрать регион',
     regionModalTitle: 'Выбор страны или региона',
     regionModalClose: 'Закрыть',
@@ -104,7 +104,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   ar: {
     pricingNotice:
-      'تستند سياسة التسعير لدينا إلى إرشادات Apple App Store الإقليمية للأسعار، وفي بعض البلدان نسعى إلى تقديم أسعار أكثر ملاءمة للمستخدم من سياسة App Store وحدها. قد تختلف الأسعار حسب البلد بسبب أسعار الصرف وضريبة القيمة المضافة (VAT) في منطقة إقامتك. في بعض البلدان، مثل الولايات المتحدة وكندا، تُفرض الضرائب بشكل منفصل عند الدفع وفقًا للسياسات والقوانين المحلية، لذا قد تبدو الأسعار المعروضة أقل نسبيًا مقارنةً ببلدان أخرى. في معظم البلدان الأخرى، تتضمن الأسعار المعروضة الضريبة مسبقًا. اختر منطقتك أدناه لعرض الأسعار.',
+      "تستند سياسة التسعير لدينا إلى إرشادات الأسعار الإقليمية في Apple App Store وإلى توزيع Google Play الذي يجري التحضير لإطلاقه. وفي بعض البلدان، نسعى إلى تقديم أسعار أكثر ملاءمة للمستخدم من مجرد اتباع سياسة متجر التطبيقات. قد تختلف الأسعار حسب البلد بسبب أسعار الصرف وضريبة القيمة المضافة (VAT) في منطقة إقامتك. في بعض البلدان، مثل الولايات المتحدة وكندا، تُفرض الضرائب بشكل منفصل عند الدفع وفقًا للسياسات والقوانين المحلية، لذا قد تبدو الأسعار المعروضة أقل نسبيًا مقارنة ببلدان أخرى. في معظم البلدان الأخرى، تتضمن الأسعار المعروضة الضريبة مسبقًا. اختر منطقتك أدناه لعرض الأسعار.",
     selectRegion: 'اختر منطقتك',
     regionModalTitle: 'اختيار البلد أو المنطقة',
     regionModalClose: 'إغلاق',
@@ -114,7 +114,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   pt: {
     pricingNotice:
-      'Nossa política de preços segue as diretrizes regionais de preços da Apple App Store e, em alguns países, buscamos oferecer valores mais favoráveis aos usuários do que a política estrita da App Store. Os preços podem variar por país devido ao câmbio e aos impostos da sua região de residência. Em alguns países, como Estados Unidos e Canadá, os impostos são adicionados separadamente no checkout, de acordo com a legislação local, então os preços exibidos podem parecer relativamente mais baixos do que em outros países. Na maioria dos demais países, os preços exibidos já incluem impostos. Selecione sua região abaixo para ver os preços.',
+      "Nossa política de preços segue as diretrizes regionais de preços da Apple App Store e da distribuição Google Play em preparação para lançamento. Em alguns países, buscamos oferecer valores mais favoráveis aos usuários do que apenas seguir a política da loja de aplicativos. Os preços podem variar por país devido ao câmbio e aos impostos da sua região de residência. Em alguns países, como Estados Unidos e Canadá, os impostos são adicionados separadamente no checkout, de acordo com a legislação local, então os preços exibidos podem parecer relativamente mais baixos do que em outros países. Na maioria dos demais países, os preços exibidos já incluem impostos. Selecione sua região abaixo para ver os preços.",
     selectRegion: 'Selecionar sua região',
     regionModalTitle: 'Escolher país ou região',
     regionModalClose: 'Fechar',
@@ -124,7 +124,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   it: {
     pricingNotice:
-      'La nostra politica dei prezzi si basa sulle linee guida regionali di prezzo dell’Apple App Store e, per alcuni paesi, miriamo a offrire prezzi più favorevoli all’utente rispetto alla sola politica App Store. I prezzi possono variare per paese a causa dei tassi di cambio e dell’IVA nella tua regione di residenza. In alcuni paesi, come Stati Uniti e Canada, le imposte vengono aggiunte separatamente al momento del pagamento secondo le normative locali, quindi i prezzi indicati possono sembrare relativamente più bassi rispetto ad altri paesi. Nella maggior parte degli altri paesi, i prezzi indicati includono già le imposte. Seleziona la tua regione qui sotto per vedere i prezzi.',
+      "La nostra politica dei prezzi si basa sulle linee guida regionali di prezzo dell’Apple App Store e della distribuzione Google Play in preparazione per il lancio. In alcuni paesi, miriamo a offrire prezzi più favorevoli all’utente rispetto alla sola politica dello store. I prezzi possono variare per paese a causa dei tassi di cambio e dell’IVA nella tua regione di residenza. In alcuni paesi, come Stati Uniti e Canada, le imposte vengono aggiunte separatamente al momento del pagamento secondo le normative locali, quindi i prezzi indicati possono sembrare relativamente più bassi rispetto ad altri paesi. Nella maggior parte degli altri paesi, i prezzi indicati includono già le imposte. Seleziona la tua regione qui sotto per vedere i prezzi.",
     selectRegion: 'Seleziona la tua regione',
     regionModalTitle: 'Scegli paese o regione',
     regionModalClose: 'Chiudi',
@@ -134,7 +134,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   nl: {
     pricingNotice:
-      'Ons prijsbeleid is gebaseerd op de regionale prijsrichtlijnen van de Apple App Store en voor sommige landen streven we naar prijzen die gunstiger zijn voor de gebruiker dan het App Store-beleid alleen. Prijzen kunnen per land verschillen door wisselkoersen en btw in uw woonregio. In sommige landen, zoals de Verenigde Staten en Canada, worden belastingen volgens het lokale beleid en de wet apart bij de betaling toegevoegd, waardoor de getoonde prijzen relatief lager kunnen lijken dan in andere landen. In de meeste andere landen is de getoonde prijs al inclusief belasting. Selecteer hieronder uw regio om prijzen te zien.',
+      "Ons prijsbeleid is gebaseerd op de regionale prijsrichtlijnen van de Apple App Store en de Google Play-distributie die voor lancering wordt voorbereid. Voor sommige landen streven we naar prijzen die gunstiger zijn voor de gebruiker dan alleen het appstorebeleid. Prijzen kunnen per land verschillen door wisselkoersen en btw in uw woonregio. In sommige landen, zoals de Verenigde Staten en Canada, worden belastingen volgens het lokale beleid en de wet apart bij de betaling toegevoegd, waardoor de getoonde prijzen relatief lager kunnen lijken dan in andere landen. In de meeste andere landen is de getoonde prijs al inclusief belasting. Selecteer hieronder uw regio om prijzen te zien.",
     selectRegion: 'Selecteer uw regio',
     regionModalTitle: 'Kies land of regio',
     regionModalClose: 'Sluiten',
@@ -144,7 +144,7 @@ export const PRICING_UI: Record<Lang, PricingUiStrings> = {
   },
   id: {
     pricingNotice:
-      'Kebijakan harga kami mengacu pada panduan harga regional Apple App Store, dan untuk beberapa negara kami berupaya menawarkan harga yang lebih ramah pengguna daripada kebijakan App Store semata. Harga dapat berbeda menurut negara karena nilai tukar dan PPN (VAT) di wilayah tempat tinggal Anda. Di beberapa negara, seperti Amerika Serikat dan Kanada, pajak ditambahkan secara terpisah saat pembayaran sesuai kebijakan dan hukum setempat, sehingga harga yang ditampilkan dapat tampak relatif lebih rendah dibanding negara lain. Di sebagian besar negara lainnya, harga yang ditampilkan sudah termasuk pajak. Pilih wilayah Anda di bawah untuk melihat harga.',
+      "Kebijakan harga kami mengacu pada panduan harga regional Apple App Store dan distribusi Google Play yang sedang disiapkan untuk peluncuran. Untuk beberapa negara, kami berupaya menawarkan harga yang lebih ramah pengguna daripada sekadar mengikuti kebijakan toko aplikasi. Harga dapat berbeda menurut negara karena nilai tukar dan PPN (VAT) di wilayah tempat tinggal Anda. Di beberapa negara, seperti Amerika Serikat dan Kanada, pajak ditambahkan secara terpisah saat pembayaran sesuai kebijakan dan hukum setempat, sehingga harga yang ditampilkan dapat tampak relatif lebih rendah dibanding negara lain. Di sebagian besar negara lainnya, harga yang ditampilkan sudah termasuk pajak. Pilih wilayah Anda di bawah untuk melihat harga.",
     selectRegion: 'Pilih wilayah Anda',
     regionModalTitle: 'Pilih negara atau wilayah',
     regionModalClose: 'Tutup',

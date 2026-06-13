@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'The currently available Shadow Economy iOS mobile application and any Android or Google Play version offered in the future',
+            "The currently available Shadow Economy iOS mobile application and the Shadow Economy Android mobile application / Google Play distribution being prepared for release",
             'The shadoweconomyapp.com website',
             'Gameplay, accounts, cloud saves, report credits, educational personalized reports, and customer support',
             'Other features, content, and services that reference or are linked to these Terms'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '"App" means the currently available Shadow Economy iOS mobile application distributed through the Apple App Store, and any Android or Google Play version if offered in the future.'
+          text: "\"App\" means the Shadow Economy mobile application distributed through Apple App Store and the Shadow Economy Android mobile application / Google Play distribution being prepared for release."
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'If an Android app or Google Play distribution is offered in the future, this license applies to that version to the extent permitted by Google Play and Android device-related policies.'
+          text: "For the Android app or Google Play distribution being prepared for release, this license applies to that version to the extent permitted by Google Play and Android device-related policies."
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'In the current iOS app, purchases within the Service are processed through the Apple App Store. If an Android app or Google Play distribution is offered in the future with in-app purchases, those purchases may be processed through Google Play. The Operator does not directly collect or store payment card numbers, bank account information, or full payment authentication credentials.'
+          text: "Purchases within the Service are processed through the app store payment system used for the purchase: Apple App Store for the iOS app and Google Play for the Android / Google Play distribution when available. The Operator does not directly collect or store payment card numbers, bank account information, or full payment authentication credentials."
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'If purchases are offered through Google Play in the future, those purchases will be subject to Google Play\'s refund policies and procedures.'
+          text: "Purchases through Google Play are subject to Google Play's refund policies and procedures."
         },
         {
           type: 'p' as const,
@@ -836,11 +836,11 @@ export default {
       ]
     },
     {
-      title: '27. Additional App Store Terms',
+      title: "27. Additional App Store and Google Play Terms",
       blocks: [
         {
           type: 'p' as const,
-          text: 'If you download or use the app through the Apple App Store, or through Google Play if offered in the future, the terms, policies, and usage rules of the relevant platform also apply.'
+          text: "If you download or use the app through Apple App Store or Google Play, the terms, policies, and usage rules of the relevant platform also apply."
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'If an Android app or Google Play distribution is offered in the future, the following terms apply with respect to that version:'
+          text: "For the Android app or Google Play distribution being prepared for release, the following terms apply with respect to that version:"
         },
         {
           type: 'ul' as const,

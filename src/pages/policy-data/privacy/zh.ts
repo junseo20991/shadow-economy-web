@@ -3,7 +3,7 @@ export default {
   updated: '最后更新：2026年5月29日',
   intro: [
     '本隐私政策说明，在提供目前可用的 Shadow Economy iOS 移动应用程序、shadoweconomyapp.com 网站及相关服务（以下统称「本服务」）时，Shadow Economy 运营方（以下简称「运营方」「我们」）如何收集、使用、存储、传输、保护及删除个人信息。',
-    'Android 移动应用程序或 Google Play 版本未来可能提供；若提供该等服务，个人信息可能依据本政策或另行通知进行处理。',
+    "Shadow Economy Android 移动应用程序 / Google Play 版本正在准备上线。与该版本相关的个人信息将依据本政策以及必要的平台或应用内通知进行处理。",
     'Shadow Economy 是一款面向教育及娱乐目的的经济模拟游戏。本服务由个人开发者独立运营，运营方仅在提供服务、账户管理、游戏进度同步、应用内购买履行、教育类个性化报告生成、安全维护、错误响应、客户支持及法律合规所必需的范围内处理个人信息。',
     '运营方不出售个人信息，也不会向广告网络、数据经纪人或第三方定向广告提供者提供用户的个人信息。此外，运营方不会出于跨情境行为广告或第三方定向广告目的共享个人信息。当前本服务不使用第三方广告 SDK 或用于广告目的的追踪技术。',
     '本政策旨在帮助您在开始使用本服务前了解个人信息处理方式，并协助您管理您的信息。',
@@ -46,7 +46,7 @@ export default {
           items: [
             'Shadow Economy iOS 移动应用程序',
             'shadoweconomyapp.com 网站',
-            '未来可能提供的 Shadow Economy Android 移动应用程序或 Google Play 版本',
+            "当前提供的 Shadow Economy iOS 移动应用程序，以及正在准备上线的 Shadow Economy Android 移动应用程序 / Google Play 版本",
             '引用本政策的客户支持、账户管理及相关服务',
             '使用本服务期间生成或处理的游戏数据、账户数据、支付元数据、报告数据及技术日志'
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Supabase、Vercel、Apple、Google 等服务运营所需的提供者及平台可能参与。当前 iOS 应用内购买通过 Apple App Store 的应用内支付系统处理。若未来提供 Android 应用或 Google Play 版本且包含应用内购买功能，该等购买可能依据 Google Play 支付系统及 Google Play 政策处理。'
+          text: "Supabase、Vercel、Apple、Google 等服务运营所需的提供者及平台可能参与。应用内购买通过用户购买时使用的应用商店支付系统处理：iOS 应用通过 Apple App Store，Android / Google Play 版本可用时通过 Google Play，并依据相关平台政策处理。"
         },
         {
           type: 'p' as const,
@@ -242,7 +242,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '当前 iOS 应用内购买通过 Apple App Store 的应用内支付系统处理。若未来提供 Android 应用或 Google Play 版本且包含应用内购买功能，该等购买可能依据 Google Play 支付系统及 Google Play 政策处理。'
+          text: "应用内购买通过用户购买时使用的应用商店支付系统处理：iOS 应用通过 Apple App Store，Android / Google Play 版本可用时通过 Google Play，并依据相关平台政策处理。"
         },
         {
           type: 'p' as const,
@@ -263,7 +263,7 @@ export default {
             '购买状态',
             '是否退款或取消',
             'Apple 提供的有限购买验证信息',
-            '若未来提供 Google Play 支付，Google 提供的有限购买验证信息'
+            "Google Play 为 Google Play 购买提供的有限购买验证信息"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             '您在使用本服务过程中生成的游戏进度及选择数据',
             '您使用 Google 登录、通过 Apple 登录（Sign in with Apple）等第三方登录功能时，该提供者传输的有限账户信息',
             'Apple App Store 为履行应用内购买、购买验证或退款处理而提供的交易元数据',
-            '若未来提供 Google Play 支付，Google Play 为履行应用内购买、购买验证或退款处理而提供的交易元数据',
+            "Google Play 为履行应用内购买、验证购买或处理退款而提供的交易元数据",
             '在 Supabase、Vercel 等服务运营基础设施中生成的服务器、认证及技术日志',
             '客户支持请求过程中您提供的信息',
             '设备或浏览器在使用本服务过程中自动提供的有限技术信息'
@@ -435,7 +435,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '当前 iOS 应用内购买通过 Apple App Store 的应用内支付系统处理。若未来在 Android 应用或 Google Play 版本中提供应用内购买，该等购买可能依据 Google Play 支付系统及 Google Play 政策处理。'
+          text: "应用内购买通过用户购买时使用的应用商店支付系统处理：iOS 应用通过 Apple App Store，Android / Google Play 版本可用时通过 Google Play，并依据相关平台政策处理。"
         },
         {
           type: 'h3' as const,
@@ -680,7 +680,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '用途：Google 登录及基于 Google 账户的认证。若未来提供 Android 应用或 Google Play 版本，则包括 Android 应用分发、Google Play 应用内支付、购买验证及退款处理'
+          text: "用途：Google 登录及基于 Google 账户的认证，以及正在准备上线的 Google Play 版本相关的 Android 应用分发、Google Play 应用内支付、购买验证及退款处理"
         },
         {
           type: 'p' as const,
@@ -692,7 +692,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '目前可能尚未提供 Google Play 版本。若未来提供 Google Play 版本，与该版本相关的个人信息处理、购买验证、退款处理及平台政策可能依据 Google Play 政策及本政策适用。'
+          text: "Google Play 版本正在准备上线。该版本可用时，与该版本相关的个人信息处理、购买验证、退款处理及平台政策将依据 Google Play 政策及本政策适用。"
         },
         {
           type: 'h3' as const,
@@ -995,7 +995,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '当前 iOS 应用内购买、退款及支付记录的管理可能遵循 Apple App Store 的政策及程序。若未来提供 Google Play 版本且包含应用内购买，该等购买、退款及支付记录的管理可能遵循 Google Play 的政策及程序。'
+          text: "应用内购买、退款及支付记录的管理可根据购买所使用的平台，遵循 Apple App Store 或 Google Play 的政策及程序。"
         },
         {
           type: 'h3' as const,
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '未成年人进行应用内购买、支付或使用付费功能，可能受当前提供的 Apple App Store、设备设置、家长控制设置及适用法律约束。若未来提供 Google Play 版本，通过该版本进行的购买、支付或使用付费功能，可能受 Google Play 政策、设备设置、家长控制设置及适用法律约束。'
+          text: "未成年人进行应用内购买、支付或使用付费功能时，可能根据所使用的平台受 Apple App Store 或 Google Play 政策、设备设置、家长控制设置及适用法律约束。"
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Apple App Store 上显示的隐私相关信息可能作为本政策的摘要提供。若未来提供 Google Play 版本，Google Play 上显示的隐私相关信息或数据安全（Data safety）部分亦可能同样作为本政策的摘要提供。'
+          text: "Apple App Store 或 Google Play 上显示的隐私相关信息，包括 Google Play 数据安全部分，可作为本政策的摘要提供。"
         },
         {
           type: 'p' as const,
-          text: '运营方尽合理努力使应用商店隐私标示、应用内通知与本政策相互一致。若未来提供 Google Play 版本，运营方将尽合理努力使 Google Play 数据安全部分与本政策相互一致。'
+          text: "运营方尽合理努力使应用商店隐私标示、Google Play 数据安全部分、应用内通知与本政策相互一致。"
         },
         {
           type: 'p' as const,

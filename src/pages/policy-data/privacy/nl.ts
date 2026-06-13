@@ -3,7 +3,7 @@ export default {
   "updated": "Laatst bijgewerkt: 29 mei 2026",
   "intro": [
     "Dit privacybeleid beschrijft hoe de exploitant van Shadow Economy (de \"Operator\", \"wij\", \"ons\" of \"onze\") persoonlijke gegevens verzamelt, gebruikt, opslaat, overdraagt, beschermt en verwijdert bij het leveren van de Shadow Economy iOS mobiele applicatie die momenteel beschikbaar is, de shadoweconomyapp.com-website en aanverwante diensten (gezamenlijk de \"Service\").",
-    "Mogelijk wordt in de toekomst een Android mobiele applicatie of Google Play-distributie aangeboden. Als en wanneer dergelijke diensten worden geleverd, kunnen persoonlijke gegevens worden verwerkt in overeenstemming met dit beleid of afzonderlijke kennisgevingen.",
+    "De Shadow Economy Android-mobiele applicatie / Google Play-distributie wordt voorbereid voor lancering. Persoonsgegevens met betrekking tot die distributie worden verwerkt in overeenstemming met dit Beleid en eventuele vereiste platform- of in-app-meldingen.",
     "Shadow Economy is een educatief en entertainment-economisch simulatiespel. De Dienst is een onafhankelijke dienst die wordt beheerd door een individuele ontwikkelaar. De Operator verwerkt persoonlijke gegevens alleen voor zover dat nodig is om de Dienst te verlenen, accounts te beheren, spelvoortgang te synchroniseren, in-app-aankopen uit te voeren, educatieve aangepaste rapporten te verstrekken, de beveiliging te handhaven, op fouten te reageren, klantenondersteuning te bieden en te voldoen aan de toepasselijke wetgeving.",
     "De Operator verkoopt geen persoonlijke gegevens en verstrekt uw persoonlijke gegevens niet aan advertentienetwerken, datamakelaars of externe aanbieders van gepersonaliseerde advertenties. De Operator deelt ook geen persoonlijke gegevens voor cross-context gedragsreclame of gepersonaliseerde reclamedoeleinden van derden. De Service maakt momenteel geen gebruik van advertentie-SDK's of trackingtechnologieën van derden voor advertentiedoeleinden.",
     "Dit Beleid is bedoeld om u te helpen begrijpen hoe persoonlijke gegevens worden verwerkt voordat u de Service gebruikt en om u te helpen uw informatie te beheren.",
@@ -46,7 +46,7 @@ export default {
           "items": [
             "Shadow Economy iOS mobiele applicatie",
             "shadoweconomyapp.com-website",
-            "Shadow Economy Android mobiele applicatie of Google Play-distributie, indien aangeboden in de toekomst",
+            "De momenteel beschikbare Shadow Economy iOS-mobiele applicatie en de Shadow Economy Android-mobiele applicatie / Google Play-distributie die wordt voorbereid voor lancering",
             "Klantenondersteuning, accountbeheer en gerelateerde diensten die naar dit Beleid verwijzen",
             "Spelgegevens, accountgegevens, betalingsmetagegevens, rapportgegevens en technische logboeken die zijn gegenereerd of verwerkt tijdens het gebruik van de Dienst"
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Aanbieders en platforms die nodig zijn om de Dienst te exploiteren, zoals Supabase, Vercel, Apple en Google, kunnen hierbij betrokken zijn. In-app-aankopen in de huidige iOS-app worden verwerkt via het Apple App Store in-app-betalingssysteem. Als in de toekomst een Android-app of Google Play-distributie wordt aangeboden en in-app-aankoopfunctionaliteit bevat, kunnen dergelijke aankopen worden verwerkt via het Google Play-betalingssysteem en in overeenstemming met het Google Play-beleid."
+          "text": "Aanbieders en platforms die nodig zijn om de Service te beheren, zoals Supabase, Vercel, Apple en Google, kunnen betrokken zijn. In-app-aankopen worden verwerkt via het betalingssysteem van de appstore die voor de aankoop wordt gebruikt: Apple App Store voor de iOS-app en Google Play voor de Android / Google Play-distributie wanneer beschikbaar, in overeenstemming met het relevante platformbeleid."
         },
         {
           "type": "p",
@@ -242,7 +242,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In-app-aankopen in de huidige iOS-app worden verwerkt via het Apple App Store in-app-betalingssysteem. Als in de toekomst een Android-app of Google Play-distributie wordt aangeboden en in-app-aankoopfunctionaliteit bevat, kunnen dergelijke aankopen worden verwerkt via het Google Play-betalingssysteem en in overeenstemming met het Google Play-beleid."
+          "text": "In-app-aankopen worden verwerkt via het betalingssysteem van de appstore die voor de aankoop wordt gebruikt: Apple App Store voor de iOS-app en Google Play voor de Android / Google Play-distributie wanneer beschikbaar, in overeenstemming met het relevante platformbeleid."
         },
         {
           "type": "p",
@@ -263,7 +263,7 @@ export default {
             "Aankoopstatus",
             "Terugbetalings- of annuleringsstatus",
             "Beperkte aankoopverificatie-informatie verstrekt door Apple",
-            "Als er in de toekomst Google Play-betalingen worden aangeboden, wordt er door Google beperkte aankoopverificatie-informatie verstrekt"
+            "Beperkte aankoopverificatie-informatie verstrekt door Google Play voor Google Play-aankopen"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             "Spelvoortgangs- en keuzegegevens die u genereert tijdens het gebruik van de Dienst",
             "Beperkte accountgegevens die door een provider worden verzonden wanneer u zich aanmeldt bij derden, zoals inloggen bij Google of Sign in with Apple",
             "Transactiemetagegevens geleverd door de Apple App Store om in-app-aankopen uit te voeren, aankopen te verifiëren of terugbetalingen te verwerken",
-            "Als Google Play-betalingen in de toekomst worden aangeboden, worden transactiemetagegevens verstrekt door Google Play om in-app-aankopen uit te voeren, aankopen te verifiëren of terugbetalingen te verwerken",
+            "Transactiemetadata verstrekt door Google Play om in-app-aankopen uit te voeren, aankopen te verifiëren of terugbetalingen te verwerken",
             "Server-, authenticatie- en technische logboeken gegenereerd in service-infrastructuur zoals Supabase en Vercel",
             "Informatie die u verstrekt tijdens een verzoek om klantenondersteuning",
             "Beperkte technische informatie die automatisch door het apparaat of de browser wordt verstrekt tijdens het gebruik van de Dienst"
@@ -435,7 +435,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In-app-aankopen in de huidige iOS-app worden verwerkt via het Apple App Store in-app-betalingssysteem. Als in-app-aankopen in de toekomst worden aangeboden via een Android-app of Google Play-distributie, kunnen dergelijke aankopen worden verwerkt via het Google Play-betalingssysteem en in overeenstemming met het Google Play-beleid."
+          "text": "In-app-aankopen worden verwerkt via het betalingssysteem van de appstore die voor de aankoop wordt gebruikt: Apple App Store voor de iOS-app en Google Play voor de Android / Google Play-distributie wanneer beschikbaar, in overeenstemming met het relevante platformbeleid."
         },
         {
           "type": "h3",
@@ -680,7 +680,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Doel: inloggen bij Google en op Google-account gebaseerde authenticatie. Als er in de toekomst een Android-app of Google Play-distributie wordt aangeboden, Android-appdistributie, Google Play in-app-betalingen, aankoopverificatie en terugbetalingsverwerking"
+          "text": "Doel: Google-login en Google-accountgebaseerde authenticatie, Android-appdistributie, Google Play-in-app-betalingen, aankoopverificatie en terugbetalingsverwerking voor de Google Play-distributie die wordt voorbereid voor lancering"
         },
         {
           "type": "p",
@@ -692,7 +692,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Mogelijk is er momenteel geen Google Play-distributie beschikbaar. Als in de toekomst een Google Play-distributie wordt aangeboden, kunnen de verwerking van persoonlijke gegevens, aankoopverificatie, terugbetalingsverwerking en platformbeleid met betrekking tot die distributie van toepassing zijn in overeenstemming met het Google Play-beleid en dit beleid."
+          "text": "De Google Play-distributie wordt voorbereid voor lancering. Wanneer die versie beschikbaar komt, zijn de verwerking van persoonsgegevens, aankoopverificatie, terugbetalingsverwerking en platformbeleid met betrekking tot die distributie van toepassing volgens het Google Play-beleid en dit Beleid."
         },
         {
           "type": "h3",
@@ -995,7 +995,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Het beheer van in-app-aankopen, terugbetalingen en betalingsgeschiedenis in de huidige iOS-app volgt mogelijk het beleid en de procedures van de Apple App Store. Als in de toekomst een Google Play-distributie wordt aangeboden en in-app-aankopen omvat, kan het beheer van dergelijke aankopen, terugbetalingen en betalingsgeschiedenis het beleid en de procedures van Google Play volgen."
+          "text": "Het beheer van in-app-aankopen, terugbetalingen en betalingsgeschiedenis kan het beleid en de procedures van Apple App Store of Google Play volgen, afhankelijk van het platform dat voor de aankoop is gebruikt."
         },
         {
           "type": "h3",
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In-app-aankopen, betalingen of gebruik van betaalde functies door minderjarigen kunnen onderworpen zijn aan de momenteel beschikbare Apple App Store, apparaatinstellingen, instellingen voor ouderlijk toezicht en toepasselijke wetgeving. Als er in de toekomst een Google Play-distributie wordt aangeboden, kunnen aankopen, betalingen of gebruik van betaalde functies via die distributie onderworpen zijn aan het Google Play-beleid, de apparaatinstellingen, de instellingen voor ouderlijk toezicht en de toepasselijke wetgeving."
+          "text": "In-app-aankopen, betalingen of gebruik van betaalde functies door minderjarigen kunnen onderworpen zijn aan het beleid van Apple App Store of Google Play, apparaatinstellingen, ouderlijk toezicht en toepasselijk recht, afhankelijk van het gebruikte platform."
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Privacygerelateerde informatie die op de Apple App Store wordt weergegeven, kan worden verstrekt als samenvatting van dit beleid. Als er in de toekomst een Google Play-distributie wordt aangeboden, kan privacygerelateerde informatie of het gedeelte Gegevensveiligheid dat wordt weergegeven op Google Play eveneens worden verstrekt als samenvatting van dit beleid."
+          "text": "Privacygerelateerde informatie die wordt weergegeven in Apple App Store of Google Play, inclusief het gedeelte Gegevensveiligheid van Google Play, kan worden verstrekt als samenvatting van dit Beleid."
         },
         {
           "type": "p",
-          "text": "De Operator levert redelijke inspanningen om de privacylabels van de appstore, in-app-kennisgevingen en dit Beleid consistent met elkaar te houden. Als in de toekomst een Google Play-distributie wordt aangeboden, zal de Operator redelijke inspanningen leveren om de sectie Google Play Gegevensveiligheid en dit Beleid consistent met elkaar te houden."
+          "text": "De Operator doet redelijke inspanningen om appstore-privacylabels, het gedeelte Gegevensveiligheid van Google Play, in-app-meldingen en dit Beleid onderling consistent te houden."
         },
         {
           "type": "p",

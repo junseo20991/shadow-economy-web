@@ -27,7 +27,7 @@ export default {
         {
           type: 'ul' as const,
           items: [
-            'La aplicación móvil Shadow Economy para iOS actualmente disponible y cualquier versión para Android o Google Play que se ofrezca en el futuro',
+            "La aplicación móvil Shadow Economy para iOS actualmente disponible y la aplicación móvil Shadow Economy para Android / distribución de Google Play en preparación para su lanzamiento",
             'El sitio web shadoweconomyapp.com',
             'La jugabilidad, las cuentas, los guardados en la nube, los créditos de informe, los informes educativos personalizados y la atención al cliente',
             'Otras funciones, contenidos y servicios que hagan referencia a estos Términos o estén vinculados a ellos'
@@ -65,7 +65,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: '«Aplicación» designa la aplicación móvil Shadow Economy para iOS actualmente disponible a través de Apple App Store, así como cualquier versión para Android o Google Play si se ofrece en el futuro.'
+          text: "\"App\" significa la aplicación móvil Shadow Economy distribuida a través de Apple App Store y la aplicación móvil Shadow Economy para Android / distribución de Google Play en preparación para su lanzamiento."
         },
         {
           type: 'p' as const,
@@ -172,7 +172,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Si en el futuro se ofrece una aplicación para Android o una distribución en Google Play, esta licencia se aplicará a esa versión en la medida permitida por las políticas de Google Play y de dispositivos Android.'
+          text: "Para la app de Android o distribución de Google Play en preparación para su lanzamiento, esta licencia se aplica a esa versión en la medida permitida por Google Play y las políticas relacionadas con dispositivos Android."
         },
         {
           type: 'p' as const,
@@ -296,7 +296,7 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'En la app iOS actual, las compras dentro del Servicio se procesan a través de Apple App Store. Si en el futuro se ofrece una app Android o una distribución en Google Play con compras integradas, dichas compras podrán procesarse a través de Google Play. El Operador no recopila ni almacena directamente números de tarjeta de pago, datos bancarios ni credenciales completas de autenticación de pago.'
+          text: "Las compras dentro del Servicio se procesan mediante el sistema de pago de la tienda de aplicaciones utilizado para la compra: Apple App Store para la app iOS y Google Play para la distribución Android / Google Play cuando esté disponible. El Operador no recopila ni almacena directamente números de tarjetas de pago, datos de cuentas bancarias ni credenciales completas de autenticación de pago."
         },
         {
           type: 'p' as const,
@@ -336,7 +336,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Si en el futuro se ofrecen compras a través de Google Play, dichas compras estarán sujetas a las políticas y procedimientos de reembolso de Google Play.'
+          text: "Las compras a través de Google Play están sujetas a las políticas y procedimientos de reembolso de Google Play."
         },
         {
           type: 'p' as const,
@@ -836,11 +836,11 @@ export default {
       ]
     },
     {
-      title: '27. Condiciones adicionales de las tiendas de aplicaciones',
+      title: "27. Términos adicionales de App Store y Google Play",
       blocks: [
         {
           type: 'p' as const,
-          text: 'Si descarga o utiliza la aplicación a través de Apple App Store, o a través de Google Play si se ofrece en el futuro, también se aplican los términos, políticas y reglas de uso de la plataforma correspondiente.'
+          text: "Si descargas o usas la app a través de Apple App Store o Google Play, también se aplican los términos, políticas y reglas de uso de la plataforma correspondiente."
         },
         {
           type: 'p' as const,
@@ -878,7 +878,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Si en el futuro se ofrece una aplicación para Android o una distribución en Google Play, se aplican las siguientes condiciones respecto de esa versión:'
+          text: "Para la app de Android o distribución de Google Play en preparación para su lanzamiento, se aplican los siguientes términos respecto de esa versión:"
         },
         {
           type: 'ul' as const,

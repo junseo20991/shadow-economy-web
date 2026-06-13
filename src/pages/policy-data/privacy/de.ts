@@ -3,7 +3,7 @@ export default {
   "updated": "Letzte Aktualisierung: 29. Mai 2026",
   "intro": [
     "Diese Datenschutzrichtlinie beschreibt, wie der Betreiber von Shadow Economy (der „Betreiber“, „wir“, „uns“ oder „unser“) personenbezogene Daten erhebt, verwendet, speichert, überträgt, schützt und löscht, wenn er die aktuell verfügbare mobile Anwendung Shadow Economy iOS, die shadoweconomyapp.com-Website und damit verbundene Dienste (zusammen der „Dienst“) bereitstellt.",
-    "Möglicherweise wird in Zukunft eine Android-Mobilanwendung oder eine Google Play-Distribution angeboten. Wenn solche Dienste bereitgestellt werden, können personenbezogene Daten gemäß dieser Richtlinie oder separaten Hinweisen verarbeitet werden.",
+    "Die Shadow Economy Android-Mobilanwendung / Google Play-Distribution wird für den Start vorbereitet. Personenbezogene Daten im Zusammenhang mit dieser Distribution werden gemäß dieser Richtlinie und allen erforderlichen Plattform- oder In-App-Hinweisen verarbeitet.",
     "Shadow Economy ist ein Wirtschaftssimulationsspiel für Bildung und Unterhaltung. Der Dienst ist ein unabhängiger Dienst, der von einem einzelnen Entwickler betrieben wird. Der Betreiber verarbeitet personenbezogene Daten nur in dem Umfang, der zur Bereitstellung des Dienstes, zur Verwaltung von Konten, zur Synchronisierung des Spielfortschritts, zur Abwicklung von In-App-Käufen, zur Bereitstellung benutzerdefinierter Bildungsberichte, zur Aufrechterhaltung der Sicherheit, zur Reaktion auf Fehler, zur Bereitstellung von Kundensupport und zur Einhaltung geltender Gesetze erforderlich ist.",
     "Der Betreiber verkauft keine personenbezogenen Daten und gibt Ihre personenbezogenen Daten nicht an Werbenetzwerke, Datenbroker oder Drittanbieter personalisierter Werbung weiter. Der Betreiber gibt personenbezogene Daten auch nicht für kontextübergreifende Verhaltenswerbung oder personalisierte Werbezwecke Dritter weiter. Der Dienst verwendet derzeit keine Werbe-SDKs oder Tracking-Technologien von Drittanbietern für Werbezwecke.",
     "Diese Richtlinie soll Ihnen helfen, zu verstehen, wie personenbezogene Daten verarbeitet werden, bevor Sie den Dienst nutzen, und Ihnen bei der Verwaltung Ihrer Daten behilflich sein.",
@@ -46,7 +46,7 @@ export default {
           "items": [
             "Shadow Economy iOS mobile Anwendung",
             "shadoweconomyapp.com-Website",
-            "Shadow Economy Android mobile Anwendung oder Google Play-Distribution, falls in Zukunft angeboten",
+            "Die derzeit verfügbare Shadow Economy iOS-Mobilanwendung und die Shadow Economy Android-Mobilanwendung / Google Play-Distribution, die für den Start vorbereitet wird",
             "Kundensupport, Kontoverwaltung und zugehörige Dienste, die auf diese Richtlinie verweisen",
             "Spieldaten, Kontodaten, Zahlungsmetadaten, Berichtsdaten und technische Protokolle, die während der Nutzung des Dienstes generiert oder verarbeitet werden"
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für den Betrieb des Dienstes erforderliche Anbieter und Plattformen wie Supabase, Vercel, Apple und Google können beteiligt sein. In-App-Käufe in der aktuellen iOS-App werden über das Apple App Store-In-App-Zahlungssystem abgewickelt. Wenn in Zukunft eine Android-App oder eine Google Play-Distribution angeboten wird und In-App-Kauffunktionen umfasst, können solche Käufe über das Google Play-Zahlungssystem und in Übereinstimmung mit den Google Play-Richtlinien abgewickelt werden."
+          "text": "Zur Bereitstellung des Dienstes erforderliche Anbieter und Plattformen wie Supabase, Vercel, Apple und Google können beteiligt sein. In-App-Käufe werden über das Zahlungssystem des für den Kauf verwendeten App-Stores abgewickelt: Apple App Store für die iOS-App und Google Play für die Android / Google Play-Distribution, sobald sie verfügbar ist, gemäß den einschlägigen Plattformrichtlinien."
         },
         {
           "type": "p",
@@ -242,7 +242,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In-App-Käufe in der aktuellen iOS-App werden über das Apple App Store-In-App-Zahlungssystem abgewickelt. Wenn in Zukunft eine Android-App oder eine Google Play-Distribution angeboten wird, die In-App-Kauffunktionen umfasst, können solche Käufe über das Google Play-Zahlungssystem und in Übereinstimmung mit den Google Play-Richtlinien abgewickelt werden."
+          "text": "In-App-Käufe werden über das Zahlungssystem des für den Kauf verwendeten App-Stores abgewickelt: Apple App Store für die iOS-App und Google Play für die Android / Google Play-Distribution, sobald sie verfügbar ist, gemäß den einschlägigen Plattformrichtlinien."
         },
         {
           "type": "p",
@@ -263,7 +263,7 @@ export default {
             "Kaufstatus",
             "Rückerstattungs- oder Stornierungsstatus",
             "Begrenzte Informationen zur Kaufbestätigung, die von Apple bereitgestellt werden",
-            "Wenn Google Play-Zahlungen in Zukunft angeboten werden, werden von Google nur begrenzte Kaufbestätigungsinformationen bereitgestellt"
+            "Begrenzte Kaufverifizierungsinformationen, die von Google Play für Google Play-Käufe bereitgestellt werden"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             "Spielfortschritts- und Auswahldaten, die Sie während der Nutzung des Dienstes generieren",
             "Eingeschränkte Kontoinformationen, die von einem Anbieter übermittelt werden, wenn Sie die Anmeldung über einen Drittanbieter verwenden, z. B. die Google-Anmeldung oder Sign in with Apple",
             "Von Apple App Store bereitgestellte Transaktionsmetadaten zur Abwicklung von In-App-Käufen, zur Überprüfung von Käufen oder zur Bearbeitung von Rückerstattungen",
-            "Wenn Google Play-Zahlungen in Zukunft angeboten werden, werden von Google Play bereitgestellte Transaktionsmetadaten verwendet, um In-App-Käufe abzuwickeln, Käufe zu überprüfen oder Rückerstattungen abzuwickeln",
+            "Transaktionsmetadaten, die von Google Play zur Erfüllung von In-App-Käufen, Kaufverifizierung oder Rückerstattungsabwicklung bereitgestellt werden",
             "Server-, Authentifizierungs- und technische Protokolle, die in der Service-Infrastruktur wie Supabase und Vercel generiert werden",
             "Informationen, die Sie im Rahmen einer Kundensupportanfrage angeben",
             "Begrenzte technische Informationen, die vom Gerät oder Browser während der Nutzung des Dienstes automatisch bereitgestellt werden"
@@ -435,7 +435,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In-App-Käufe in der aktuellen iOS-App werden über das In-App-Zahlungssystem Apple App Store abgewickelt. Wenn In-App-Käufe in Zukunft über eine Android-App oder eine Google Play-Distribution angeboten werden, können solche Käufe über das Google Play-Zahlungssystem und in Übereinstimmung mit den Google Play-Richtlinien abgewickelt werden."
+          "text": "In-App-Käufe werden über das Zahlungssystem des für den Kauf verwendeten App-Stores abgewickelt: Apple App Store für die iOS-App und Google Play für die Android / Google Play-Distribution, sobald sie verfügbar ist, gemäß den einschlägigen Plattformrichtlinien."
         },
         {
           "type": "h3",
@@ -680,7 +680,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Zweck: Google-Anmeldung und Google-kontobasierte Authentifizierung. Wenn in Zukunft eine Android-App oder eine Google Play-Distribution angeboten wird, Android-App-Distribution, Google Play-In-App-Zahlungen, Kaufbestätigung und Rückerstattungsabwicklung"
+          "text": "Zweck: Google-Anmeldung und Google-kontobasierte Authentifizierung, Android-App-Verteilung, Google Play-In-App-Zahlungen, Kaufverifizierung und Rückerstattungsabwicklung für die Google Play-Distribution, die für den Start vorbereitet wird"
         },
         {
           "type": "p",
@@ -692,7 +692,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine Google Play-Distribution ist derzeit möglicherweise nicht verfügbar. Wenn in Zukunft eine Google Play-Distribution angeboten wird, können die Verarbeitung personenbezogener Daten, die Kaufbestätigung, die Rückerstattungsabwicklung und die Plattformrichtlinien im Zusammenhang mit dieser Distribution in Übereinstimmung mit den Google Play-Richtlinien und dieser Richtlinie gelten."
+          "text": "Die Google Play-Distribution wird für den Start vorbereitet. Sobald diese Version verfügbar ist, gelten die Verarbeitung personenbezogener Daten, Kaufverifizierung, Rückerstattungsabwicklung und Plattformrichtlinien im Zusammenhang mit dieser Distribution gemäß den Google Play-Richtlinien und dieser Richtlinie."
         },
         {
           "type": "h3",
@@ -995,7 +995,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Verwaltung von In-App-Käufen, Rückerstattungen und Zahlungsverlauf in der aktuellen iOS-App folgt möglicherweise den Richtlinien und Verfahren des Apple App Store. Wenn in Zukunft eine Google Play-Distribution angeboten wird, die In-App-Käufe umfasst, kann die Verwaltung solcher Käufe, Rückerstattungen und Zahlungshistorie den Richtlinien und Verfahren von Google Play entsprechen."
+          "text": "Die Verwaltung von In-App-Käufen, Rückerstattungen und Zahlungshistorien kann je nach für den Kauf verwendeter Plattform den Richtlinien und Verfahren des Apple App Store oder von Google Play folgen."
         },
         {
           "type": "h3",
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In-App-Käufe, Zahlungen oder die Nutzung kostenpflichtiger Funktionen durch Minderjährige können den aktuell verfügbaren Apple App Store, Geräteeinstellungen, Kindersicherungseinstellungen und geltendem Recht unterliegen. Wenn in Zukunft eine Google Play-Distribution angeboten wird, können Käufe, Zahlungen oder die Nutzung kostenpflichtiger Funktionen über diese Distribution den Google Play-Richtlinien, Geräteeinstellungen, Kindersicherungseinstellungen und geltendem Recht unterliegen."
+          "text": "In-App-Käufe, Zahlungen oder die Nutzung kostenpflichtiger Funktionen durch Minderjährige können je nach verwendeter Plattform den Richtlinien des Apple App Store oder von Google Play, Geräteeinstellungen, Kindersicherungseinstellungen und geltendem Recht unterliegen."
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Datenschutzbezogene Informationen, die auf dem Apple App Store angezeigt werden, können als Zusammenfassung dieser Richtlinie bereitgestellt werden. Wenn in Zukunft eine Google Play-Verteilung angeboten wird, können datenschutzbezogene Informationen oder der auf Google Play angezeigte Abschnitt zur Datensicherheit ebenfalls als Zusammenfassung dieser Richtlinie bereitgestellt werden."
+          "text": "Datenschutzbezogene Informationen, die im Apple App Store oder bei Google Play angezeigt werden, einschließlich des Google Play-Abschnitts Datensicherheit, können als Zusammenfassung dieser Richtlinie bereitgestellt werden."
         },
         {
           "type": "p",
-          "text": "Der Betreiber unternimmt angemessene Anstrengungen, um die Datenschutzkennzeichnungen, In-App-Hinweise und diese Richtlinie im App Store konsistent zu halten. Wenn in Zukunft eine Google Play-Distribution angeboten wird, wird der Betreiber angemessene Anstrengungen unternehmen, um den Abschnitt zur Datensicherheit von Google Play und diese Richtlinie konsistent zu halten."
+          "text": "Der Betreiber unternimmt angemessene Anstrengungen, um App-Store-Datenschutzkennzeichnungen, den Google Play-Abschnitt Datensicherheit, In-App-Hinweise und diese Richtlinie miteinander konsistent zu halten."
         },
         {
           "type": "p",

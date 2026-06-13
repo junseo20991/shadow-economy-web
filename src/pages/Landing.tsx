@@ -9,7 +9,7 @@ const content = {
     "headline2": "a trace.",
     "sub": "A turn-based simulation about financial choices, community change, and what remains after each turn.",
     "appStore": "App Store coming soon",
-    "googlePlay": "Google Play coming soon",
+    "googlePlay": "Google Play launch in preparation",
     "features": [
       {
         "icon": "●",
@@ -36,7 +36,7 @@ const content = {
     "headline2": "흔적을 남깁니다.",
     "sub": "금융 선택, 공동체의 변화, 그리고 한 턴 뒤에도 남는 결과를 다루는 턴제 시뮬레이션입니다.",
     "appStore": "App Store 출시 예정",
-    "googlePlay": "Google Play 출시 예정",
+    "googlePlay": "Google Play 출시 준비 중",
     "features": [
       {
         "icon": "●",
@@ -63,7 +63,7 @@ const content = {
     "headline2": "痕跡を残す。",
     "sub": "金融の選択、コミュニティの変化、そして一手ごとに残る結果を扱うターン制シミュレーションです。",
     "appStore": "App Store 近日公開",
-    "googlePlay": "Google Play 近日公開",
+    "googlePlay": "Google Play 配信準備中",
     "features": [
       {
         "icon": "●",
@@ -90,7 +90,7 @@ const content = {
     "headline2": "留下痕迹。",
     "sub": "一款围绕金融选择、社区变化，以及每回合之后仍然存在的结果的回合制模拟游戏。",
     "appStore": "App Store 即将推出",
-    "googlePlay": "Google Play 即将推出",
+    "googlePlay": "Google Play 上线准备中",
     "features": [
       {
         "icon": "●",
@@ -117,7 +117,7 @@ const content = {
     "headline2": "una huella.",
     "sub": "Una simulación por turnos sobre decisiones financieras, cambio comunitario y lo que permanece después de cada turno.",
     "appStore": "Próximamente en App Store",
-    "googlePlay": "Próximamente en Google Play",
+    "googlePlay": "Lanzamiento en Google Play en preparación",
     "features": [
       {
         "icon": "●",
@@ -144,7 +144,7 @@ const content = {
     "headline2": "ett spår.",
     "sub": "En turbaserad simulering om finansiella beslut, samhällsförändring och det som består efter varje tur.",
     "appStore": "Kommer snart till App Store",
-    "googlePlay": "Kommer snart till Google Play",
+    "googlePlay": "Google Play-lansering förbereds",
     "features": [
       {
         "icon": "●",
@@ -171,7 +171,7 @@ const content = {
     "headline2": "une trace.",
     "sub": "Une simulation au tour par tour sur les choix financiers, les changements communautaires et ce qui reste après chaque tour.",
     "appStore": "Bientôt sur l’App Store",
-    "googlePlay": "Bientôt sur Google Play",
+    "googlePlay": "Lancement Google Play en préparation",
     "features": [
       {
         "icon": "●",
@@ -198,7 +198,7 @@ const content = {
     "headline2": "eine Spur.",
     "sub": "Eine rundenbasierte Simulation über finanzielle Entscheidungen, Veränderungen in der Gemeinschaft und was nach jeder Runde übrig bleibt.",
     "appStore": "Demnächst im App Store",
-    "googlePlay": "Demnächst bei Google Play",
+    "googlePlay": "Google Play-Start in Vorbereitung",
     "features": [
       {
         "icon": "●",
@@ -225,7 +225,7 @@ const content = {
     "headline2": "след.",
     "sub": "Пошаговая симуляция финансового выбора, изменений в сообществе и того, что остается после каждого хода.",
     "appStore": "Скоро в App Store",
-    "googlePlay": "Скоро в Google Play",
+    "googlePlay": "Запуск в Google Play готовится",
     "features": [
       {
         "icon": "●",
@@ -252,7 +252,7 @@ const content = {
     "headline2": "أثرًا.",
     "sub": "محاكاة تعتمد على الأدوار حول الاختيارات المالية وتغيير المجتمع وما يتبقى بعد كل دور.",
     "appStore": "قريبًا على App Store",
-    "googlePlay": "قريبًا على Google Play",
+    "googlePlay": "إطلاق Google Play قيد التحضير",
     "features": [
       {
         "icon": "●",
@@ -279,7 +279,7 @@ const content = {
     "headline2": "um rastro.",
     "sub": "Uma simulação baseada em turnos sobre escolhas financeiras, mudanças na comunidade e o que resta após cada turno.",
     "appStore": "Em breve na App Store",
-    "googlePlay": "Em breve no Google Play",
+    "googlePlay": "Lançamento no Google Play em preparação",
     "features": [
       {
         "icon": "●",
@@ -306,7 +306,7 @@ const content = {
     "headline2": "una traccia.",
     "sub": "Una simulazione a turni sulle scelte finanziarie, il cambiamento della comunità e ciò che rimane dopo ogni turno.",
     "appStore": "App Store in arrivo",
-    "googlePlay": "Google Play in arrivo",
+    "googlePlay": "Lancio su Google Play in preparazione",
     "features": [
       {
         "icon": "●",
@@ -333,7 +333,7 @@ const content = {
     "headline2": "een spoor na.",
     "sub": "Een turn-based simulatie over financiële keuzes, veranderingen in de gemeenschap en wat er na elke beurt overblijft.",
     "appStore": "App Store binnenkort beschikbaar",
-    "googlePlay": "Google Play binnenkort beschikbaar",
+    "googlePlay": "Google Play-lancering in voorbereiding",
     "features": [
       {
         "icon": "●",
@@ -360,7 +360,7 @@ const content = {
     "headline2": "jejak.",
     "sub": "Simulasi berbasis giliran tentang pilihan finansial, perubahan komunitas, dan apa yang tersisa setelah setiap giliran.",
     "appStore": "App Store segera hadir",
-    "googlePlay": "Google Play segera hadir",
+    "googlePlay": "Peluncuran Google Play sedang disiapkan",
     "features": [
       {
         "icon": "●",

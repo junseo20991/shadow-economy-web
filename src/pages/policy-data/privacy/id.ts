@@ -3,7 +3,7 @@
   "updated": "Terakhir diperbarui: 29 Mei 2026",
   "intro": [
     "Kebijakan Privasi ini menjelaskan bagaimana operator Shadow Economy (\"Operator\", \"kami\", atau \"milik kami\") mengumpulkan, menggunakan, menyimpan, mentransfer, melindungi, dan menghapus data pribadi ketika menyediakan aplikasi seluler Shadow Economy iOS yang tersedia saat ini, situs web shadoweconomyapp.com, dan layanan terkait (secara kolektif disebut \"Layanan\").",
-    "Aplikasi seluler Android atau distribusi Google Play mungkin ditawarkan di masa mendatang. Jika dan ketika layanan tersebut disediakan, data pribadi dapat diproses sesuai dengan Kebijakan ini atau pemberitahuan terpisah.",
+    "Aplikasi seluler Shadow Economy untuk Android / distribusi Google Play sedang disiapkan untuk peluncuran. Data pribadi terkait distribusi tersebut akan diproses sesuai dengan Kebijakan ini dan pemberitahuan platform atau dalam aplikasi yang diperlukan.",
     "Shadow Economy adalah game simulasi ekonomi yang mendidik dan menghibur. Layanan adalah layanan independen yang dioperasikan oleh pengembang individu. Operator memproses data pribadi hanya sejauh diperlukan untuk menyediakan Layanan, mengelola akun, menyinkronkan kemajuan game, memenuhi pembelian dalam aplikasi, memberikan laporan khusus pendidikan, menjaga keamanan, merespons kesalahan, memberikan dukungan pelanggan, dan mematuhi hukum yang berlaku.",
     "Operator tidak menjual data pribadi dan tidak memberikan data pribadi Anda ke jaringan periklanan, pialang data, atau penyedia iklan pribadi pihak ketiga. Operator juga tidak membagikan data pribadi untuk periklanan perilaku lintas konteks atau tujuan periklanan yang dipersonalisasi pihak ketiga. Layanan saat ini tidak menggunakan SDK periklanan pihak ketiga atau teknologi pelacakan untuk tujuan periklanan.",
     "Kebijakan ini dimaksudkan untuk membantu Anda memahami bagaimana data pribadi diproses sebelum Anda menggunakan Layanan dan untuk membantu Anda mengelola informasi Anda.",
@@ -46,7 +46,7 @@
           "items": [
             "Aplikasi seluler Shadow Economy iOS",
             "Situs web shadoweconomyapp.com",
-            "Aplikasi seluler Shadow Economy Android atau distribusi Google Play, jika ditawarkan di masa mendatang",
+            "Aplikasi seluler Shadow Economy untuk iOS yang saat ini tersedia dan aplikasi seluler Shadow Economy untuk Android / distribusi Google Play yang sedang disiapkan untuk peluncuran",
             "Dukungan pelanggan, manajemen akun, dan layanan terkait yang merujuk pada Kebijakan ini",
             "Data permainan, data akun, metadata pembayaran, data laporan, dan log teknis yang dihasilkan atau diproses selama penggunaan Layanan"
           ]
@@ -138,7 +138,7 @@
         },
         {
           "type": "p",
-          "text": "Penyedia dan platform yang diperlukan untuk mengoperasikan Layanan, seperti Supabase, Vercel, Apple, dan Google, mungkin terlibat. Pembelian dalam aplikasi di aplikasi iOS saat ini diproses melalui sistem pembayaran dalam aplikasi Apple App Store. Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang dan mencakup fungsi pembelian dalam aplikasi, pembelian tersebut dapat diproses melalui sistem pembayaran Google Play dan sesuai dengan kebijakan Google Play."
+          "text": "Penyedia dan platform yang diperlukan untuk mengoperasikan Layanan, seperti Supabase, Vercel, Apple, dan Google, dapat terlibat. Pembelian dalam aplikasi diproses melalui sistem pembayaran toko aplikasi yang digunakan untuk pembelian: Apple App Store untuk aplikasi iOS dan Google Play untuk distribusi Android / Google Play saat tersedia, sesuai dengan kebijakan platform terkait."
         },
         {
           "type": "p",
@@ -242,7 +242,7 @@
         },
         {
           "type": "p",
-          "text": "Pembelian dalam aplikasi di aplikasi iOS saat ini diproses melalui sistem pembayaran dalam aplikasi Apple App Store. Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang dan mencakup fungsi pembelian dalam aplikasi, pembelian tersebut dapat diproses melalui sistem pembayaran Google Play dan sesuai dengan kebijakan Google Play."
+          "text": "Pembelian dalam aplikasi diproses melalui sistem pembayaran toko aplikasi yang digunakan untuk pembelian: Apple App Store untuk aplikasi iOS dan Google Play untuk distribusi Android / Google Play saat tersedia, sesuai dengan kebijakan platform terkait."
         },
         {
           "type": "p",
@@ -263,7 +263,7 @@
             "Status pembelian",
             "Status pengembalian dana atau pembatalan",
             "Informasi verifikasi pembelian terbatas disediakan oleh Apple",
-            "Jika pembayaran Google Play ditawarkan di masa mendatang, informasi verifikasi pembelian terbatas disediakan oleh Google"
+            "Informasi verifikasi pembelian terbatas yang diberikan oleh Google Play untuk pembelian Google Play"
           ]
         },
         {
@@ -369,7 +369,7 @@
             "Kemajuan permainan dan data pilihan yang Anda hasilkan saat menggunakan Layanan",
             "Informasi akun terbatas yang dikirimkan oleh penyedia saat Anda menggunakan login pihak ketiga seperti login Google atau Sign in with Apple",
             "Metadata transaksi disediakan oleh Apple App Store untuk memenuhi pembelian dalam aplikasi, memverifikasi pembelian, atau memproses pengembalian dana",
-            "Jika pembayaran Google Play ditawarkan di masa mendatang, metadata transaksi disediakan oleh Google Play untuk memenuhi pembelian dalam aplikasi, memverifikasi pembelian, atau memproses pengembalian dana",
+            "Metadata transaksi yang diberikan oleh Google Play untuk memenuhi pembelian dalam aplikasi, memverifikasi pembelian, atau memproses pengembalian dana",
             "Server, autentikasi, dan log teknis yang dihasilkan di infrastruktur layanan seperti Supabase dan Vercel",
             "Informasi yang Anda berikan selama permintaan dukungan pelanggan",
             "Informasi teknis terbatas yang secara otomatis disediakan oleh perangkat atau browser selama penggunaan Layanan"
@@ -435,7 +435,7 @@
         },
         {
           "type": "p",
-          "text": "Pembelian dalam aplikasi di aplikasi iOS saat ini diproses melalui sistem pembayaran dalam aplikasi Apple App Store. Jika pembelian dalam aplikasi ditawarkan melalui aplikasi Android atau distribusi Google Play di masa mendatang, pembelian tersebut dapat diproses melalui sistem pembayaran Google Play dan sesuai dengan kebijakan Google Play."
+          "text": "Pembelian dalam aplikasi diproses melalui sistem pembayaran toko aplikasi yang digunakan untuk pembelian: Apple App Store untuk aplikasi iOS dan Google Play untuk distribusi Android / Google Play saat tersedia, sesuai dengan kebijakan platform terkait."
         },
         {
           "type": "h3",
@@ -680,7 +680,7 @@
         },
         {
           "type": "p",
-          "text": "Tujuan: Masuk dengan Google dan autentikasi berbasis akun Google. Jika aplikasi Android atau distribusi Google Play ditawarkan di masa mendatang, distribusi aplikasi Android, pembayaran dalam aplikasi Google Play, verifikasi pembelian, dan pemrosesan pengembalian dana"
+          "text": "Tujuan: login Google dan autentikasi berbasis akun Google, distribusi aplikasi Android, pembayaran dalam aplikasi Google Play, verifikasi pembelian, dan pemrosesan pengembalian dana untuk distribusi Google Play yang sedang disiapkan untuk peluncuran"
         },
         {
           "type": "p",
@@ -692,7 +692,7 @@
         },
         {
           "type": "p",
-          "text": "Distribusi Google Play mungkin saat ini tidak tersedia. Jika distribusi Google Play ditawarkan di masa mendatang, pemrosesan data pribadi, verifikasi pembelian, pemrosesan pengembalian dana, dan kebijakan platform terkait distribusi tersebut mungkin berlaku sesuai dengan kebijakan Google Play dan Kebijakan ini."
+          "text": "Distribusi Google Play sedang disiapkan untuk peluncuran. Saat versi tersebut tersedia, pemrosesan data pribadi, verifikasi pembelian, pemrosesan pengembalian dana, dan kebijakan platform terkait distribusi tersebut berlaku sesuai dengan kebijakan Google Play dan Kebijakan ini."
         },
         {
           "type": "h3",
@@ -995,7 +995,7 @@
         },
         {
           "type": "p",
-          "text": "Pengelolaan pembelian dalam aplikasi, pengembalian dana, dan riwayat pembayaran di aplikasi iOS saat ini dapat mengikuti kebijakan dan prosedur Apple App Store. Jika distribusi Google Play ditawarkan di masa mendatang dan mencakup pembelian dalam aplikasi, pengelolaan pembelian, pengembalian dana, dan riwayat pembayaran tersebut dapat mengikuti kebijakan dan prosedur Google Play."
+          "text": "Pengelolaan pembelian dalam aplikasi, pengembalian dana, dan riwayat pembayaran dapat mengikuti kebijakan dan prosedur Apple App Store atau Google Play, tergantung platform yang digunakan untuk pembelian."
         },
         {
           "type": "h3",
@@ -1228,7 +1228,7 @@
         },
         {
           "type": "p",
-          "text": "Pembelian dalam aplikasi, pembayaran, atau penggunaan fitur berbayar oleh anak di bawah umur mungkin tunduk pada Apple App Store yang tersedia saat ini, pengaturan perangkat, pengaturan kontrol orang tua, dan hukum yang berlaku. Jika distribusi Google Play ditawarkan di masa mendatang, pembelian, pembayaran, atau penggunaan fitur berbayar melalui distribusi tersebut mungkin tunduk pada kebijakan Google Play, pengaturan perangkat, pengaturan kontrol orang tua, dan hukum yang berlaku."
+          "text": "Pembelian dalam aplikasi, pembayaran, atau penggunaan fitur berbayar oleh anak di bawah umur dapat tunduk pada kebijakan Apple App Store atau Google Play, pengaturan perangkat, pengaturan kontrol orang tua, dan hukum yang berlaku, tergantung platform yang digunakan."
         }
       ]
     },
@@ -1250,11 +1250,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Informasi terkait privasi yang ditampilkan pada Apple App Store dapat diberikan sebagai ringkasan Kebijakan ini. Jika distribusi Google Play ditawarkan di masa mendatang, informasi terkait privasi atau bagian Keamanan Data yang ditampilkan di Google Play juga dapat diberikan sebagai ringkasan Kebijakan ini."
+          "text": "Informasi terkait privasi yang ditampilkan di Apple App Store atau Google Play, termasuk bagian Keamanan Data Google Play, dapat diberikan sebagai ringkasan Kebijakan ini."
         },
         {
           "type": "p",
-          "text": "Operator melakukan upaya wajar untuk menjaga label privasi toko aplikasi, pemberitahuan dalam aplikasi, dan Kebijakan ini konsisten satu sama lain. Jika distribusi Google Play ditawarkan di masa mendatang, Operator akan melakukan upaya wajar untuk menjaga bagian Keamanan Data Google Play dan Kebijakan ini konsisten satu sama lain."
+          "text": "Operator melakukan upaya wajar untuk menjaga label privasi toko aplikasi, bagian Keamanan Data Google Play, pemberitahuan dalam aplikasi, dan Kebijakan ini konsisten satu sama lain."
         },
         {
           "type": "p",

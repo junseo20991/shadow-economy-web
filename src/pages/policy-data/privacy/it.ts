@@ -3,7 +3,7 @@
   "updated": "Ultimo aggiornamento: 29 maggio 2026",
   "intro": [
     "La presente Informativa sulla privacy descrive come l'operatore di Shadow Economy (l'\"Operatore\", \"noi\", \"ci\" o \"nostro\") raccoglie, utilizza, archivia, trasferisce, protegge ed elimina i dati personali quando fornisce l'applicazione mobile Shadow Economy iOS attualmente disponibile, il sito Web shadoweconomyapp.com e i servizi correlati (collettivamente, il \"Servizio\").",
-    "In futuro potrebbe essere offerta un'applicazione mobile Android o una distribuzione Google Play. Se e quando tali servizi vengono forniti, i dati personali potranno essere trattati in conformità con la presente Policy o informative separate.",
+    "L’app mobile Shadow Economy per Android / distribuzione Google Play è in preparazione per il lancio. I dati personali relativi a tale distribuzione saranno trattati in conformità con questa Informativa e con eventuali avvisi necessari della piattaforma o in-app.",
     "Shadow Economy è un gioco di simulazione economica educativo e di intrattenimento. Il Servizio è un servizio indipendente gestito da un singolo sviluppatore. L'Operatore tratta i dati personali solo nella misura necessaria per fornire il Servizio, gestire gli account, sincronizzare l'avanzamento del gioco, effettuare acquisti in-app, fornire report personalizzati didattici, mantenere la sicurezza, rispondere agli errori, fornire assistenza clienti e rispettare la legge applicabile.",
     "L'Operatore non vende dati personali e non fornisce i tuoi dati personali a reti pubblicitarie, intermediari di dati o fornitori di pubblicità personalizzata di terze parti. L'Operatore inoltre non condivide i dati personali per pubblicità comportamentale intercontestuale o scopi pubblicitari personalizzati di terzi. Il Servizio attualmente non utilizza SDK pubblicitari di terze parti o tecnologie di tracciamento per scopi pubblicitari.",
     "La presente Politica ha lo scopo di aiutarti a comprendere come vengono elaborati i dati personali prima di utilizzare il Servizio e di aiutarti a gestire le tue informazioni.",
@@ -46,7 +46,7 @@
           "items": [
             "Shadow Economy iOS applicazione mobile",
             "Sito web shadoweconomyapp.com",
-            "Applicazione mobile Shadow Economy Android o distribuzione Google Play, se offerta in futuro",
+            "L’app mobile Shadow Economy per iOS attualmente disponibile e l’app mobile Shadow Economy per Android / distribuzione Google Play in preparazione per il lancio",
             "Assistenza clienti, gestione dell'account e servizi correlati che fanno riferimento a questa Politica",
             "Dati di gioco, dati di account, metadati di pagamento, dati di report e registri tecnici generati o elaborati durante l'utilizzo del Servizio"
           ]
@@ -138,7 +138,7 @@
         },
         {
           "type": "p",
-          "text": "Potrebbero essere coinvolti fornitori e piattaforme necessari per gestire il Servizio, come Supabase, Vercel, Apple e Google. Gli acquisti in-app nell'attuale app iOS vengono elaborati tramite il sistema di pagamento in-app Apple App Store. Se in futuro verrà offerta un'app Android o una distribuzione Google Play che include funzionalità di acquisto in-app, tali acquisti potrebbero essere elaborati tramite il sistema di pagamento Google Play e in conformità con le politiche di Google Play."
+          "text": "Possono essere coinvolti fornitori e piattaforme necessari per gestire il Servizio, come Supabase, Vercel, Apple e Google. Gli acquisti in-app sono elaborati tramite il sistema di pagamento dello store utilizzato per l’acquisto: Apple App Store per l’app iOS e Google Play per la distribuzione Android / Google Play quando disponibile, in conformità con le politiche della piattaforma pertinente."
         },
         {
           "type": "p",
@@ -242,7 +242,7 @@
         },
         {
           "type": "p",
-          "text": "Gli acquisti in-app nell'attuale app iOS vengono elaborati tramite il sistema di pagamento in-app Apple App Store. Se in futuro verrà offerta un'app Android o una distribuzione Google Play che include funzionalità di acquisto in-app, tali acquisti potrebbero essere elaborati tramite il sistema di pagamento Google Play e in conformità con le politiche di Google Play."
+          "text": "Gli acquisti in-app sono elaborati tramite il sistema di pagamento dello store utilizzato per l’acquisto: Apple App Store per l’app iOS e Google Play per la distribuzione Android / Google Play quando disponibile, in conformità con le politiche della piattaforma pertinente."
         },
         {
           "type": "p",
@@ -263,7 +263,7 @@
             "Stato dell'acquisto",
             "Stato del rimborso o dell'annullamento",
             "Informazioni limitate sulla verifica dell'acquisto fornite da Apple",
-            "Se i pagamenti Google Play verranno offerti in futuro, informazioni limitate sulla verifica dell'acquisto fornite da Google"
+            "Informazioni limitate di verifica dell’acquisto fornite da Google Play per gli acquisti Google Play"
           ]
         },
         {
@@ -369,7 +369,7 @@
             "Dati sull'avanzamento del gioco e sulle scelte generati durante l'utilizzo del Servizio",
             "Informazioni limitate sull'account trasmesse da un fornitore quando utilizzi l'accesso di terze parti come l'accesso di Google o Sign in with Apple",
             "Metadati delle transazioni forniti da Apple App Store per evadere acquisti in-app, verificare acquisti o elaborare rimborsi",
-            "Se i pagamenti Google Play verranno offerti in futuro, i metadati delle transazioni forniti da Google Play per evadere gli acquisti in-app, verificare gli acquisti o elaborare i rimborsi",
+            "Metadati di transazione forniti da Google Play per evadere acquisti in-app, verificare acquisti o elaborare rimborsi",
             "Server, autenticazione e registri tecnici generati nell'infrastruttura di servizio come Supabase e Vercel",
             "Informazioni fornite durante una richiesta di assistenza clienti",
             "Informazioni tecniche limitate fornite automaticamente dal dispositivo o dal browser durante l'utilizzo del Servizio"
@@ -435,7 +435,7 @@
         },
         {
           "type": "p",
-          "text": "Gli acquisti in-app nell'attuale app iOS vengono elaborati tramite il sistema di pagamento in-app Apple App Store. Se in futuro verranno offerti acquisti in-app tramite un'app Android o una distribuzione Google Play, tali acquisti potrebbero essere elaborati tramite il sistema di pagamento Google Play e in conformità con le politiche di Google Play."
+          "text": "Gli acquisti in-app sono elaborati tramite il sistema di pagamento dello store utilizzato per l’acquisto: Apple App Store per l’app iOS e Google Play per la distribuzione Android / Google Play quando disponibile, in conformità con le politiche della piattaforma pertinente."
         },
         {
           "type": "h3",
@@ -680,7 +680,7 @@
         },
         {
           "type": "p",
-          "text": "Scopo: accesso a Google e autenticazione basata sull'account Google. Se in futuro verrà offerta un'app Android o una distribuzione Google Play, distribuzione dell'app Android, pagamenti in-app Google Play, verifica degli acquisti ed elaborazione dei rimborsi"
+          "text": "Finalità: accesso con Google e autenticazione basata su account Google, distribuzione dell’app Android, pagamenti in-app Google Play, verifica degli acquisti ed elaborazione dei rimborsi per la distribuzione Google Play in preparazione per il lancio"
         },
         {
           "type": "p",
@@ -692,7 +692,7 @@
         },
         {
           "type": "p",
-          "text": "Una distribuzione Google Play potrebbe non essere attualmente disponibile. Se in futuro verrà offerta una distribuzione Google Play, l'elaborazione dei dati personali, la verifica degli acquisti, l'elaborazione dei rimborsi e le politiche della piattaforma relative a tale distribuzione potrebbero essere applicate in conformità con le politiche di Google Play e questa Politica."
+          "text": "La distribuzione Google Play è in preparazione per il lancio. Quando tale versione sarà disponibile, il trattamento dei dati personali, la verifica degli acquisti, l’elaborazione dei rimborsi e le politiche della piattaforma relative a tale distribuzione si applicheranno in conformità con le politiche di Google Play e questa Informativa."
         },
         {
           "type": "h3",
@@ -995,7 +995,7 @@
         },
         {
           "type": "p",
-          "text": "La gestione degli acquisti in-app, dei rimborsi e della cronologia dei pagamenti nell'attuale app iOS può seguire le politiche e le procedure di Apple App Store. Se in futuro verrà offerta una distribuzione Google Play che include acquisti in-app, la gestione di tali acquisti, rimborsi e cronologia dei pagamenti potrebbe seguire le politiche e le procedure Google Play."
+          "text": "La gestione degli acquisti in-app, dei rimborsi e della cronologia dei pagamenti può seguire le politiche e procedure di Apple App Store o Google Play, a seconda della piattaforma utilizzata per l’acquisto."
         },
         {
           "type": "h3",
@@ -1228,7 +1228,7 @@
         },
         {
           "type": "p",
-          "text": "Gli acquisti in-app, i pagamenti o l'utilizzo di funzionalità a pagamento da parte di minorenni potrebbero essere soggetti alle Apple App Store attualmente disponibili, alle impostazioni del dispositivo, alle impostazioni del controllo parentale e alla legge applicabile. Se in futuro verrà offerta una distribuzione Google Play, gli acquisti, i pagamenti o l'utilizzo delle funzionalità a pagamento tramite tale distribuzione potrebbero essere soggetti alle politiche Google Play, alle impostazioni del dispositivo, alle impostazioni del controllo parentale e alla legge applicabile."
+          "text": "Gli acquisti in-app, i pagamenti o l’uso di funzionalità a pagamento da parte di minori possono essere soggetti alle politiche di Apple App Store o Google Play, alle impostazioni del dispositivo, ai controlli parentali e alla legge applicabile, a seconda della piattaforma utilizzata."
         }
       ]
     },
@@ -1250,11 +1250,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Le informazioni relative alla privacy visualizzate sullo Apple App Store possono essere fornite come riepilogo della presente Informativa. Se in futuro verrà offerta una distribuzione Google Play, le informazioni relative alla privacy o la sezione Sicurezza dei dati visualizzata su Google Play potrebbero essere fornite come riepilogo della presente Politica."
+          "text": "Le informazioni sulla privacy visualizzate su Apple App Store o Google Play, inclusa la sezione Sicurezza dei dati di Google Play, possono essere fornite come riepilogo di questa Informativa."
         },
         {
           "type": "p",
-          "text": "L'Operatore compie ogni ragionevole sforzo per mantenere le etichette sulla privacy dell'app store, gli avvisi in-app e la presente Politica coerenti tra loro. Se in futuro verrà offerta una distribuzione Google Play, l'Operatore farà ogni ragionevole sforzo per mantenere la sezione Sicurezza dei dati Google Play e questa Politica coerenti tra loro."
+          "text": "L’Operatore compie sforzi ragionevoli per mantenere coerenti le etichette privacy degli app store, la sezione Sicurezza dei dati di Google Play, gli avvisi in-app e questa Informativa."
         },
         {
           "type": "p",

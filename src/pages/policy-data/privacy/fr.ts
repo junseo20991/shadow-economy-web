@@ -3,7 +3,7 @@ export default {
   "updated": "Dernière mise à jour : 29 mai 2026",
   "intro": [
     "Cette politique de confidentialité décrit comment l'opérateur de Shadow Economy (l'« Opérateur », « nous », « notre » ou « notre ») collecte, utilise, stocke, transfère, protège et supprime les données personnelles lors de la fourniture de l'application mobile Shadow Economy iOS actuellement disponible, du site Web shadoweconomyapp.com et des services associés (collectivement, le « Service »).",
-    "Une application mobile Android ou une distribution Google Play pourrait être proposée à l'avenir. Si et quand de tels services sont fournis, les données personnelles peuvent être traitées conformément à la présente politique ou à des avis distincts.",
+    "L’application mobile Shadow Economy pour Android / distribution Google Play est en préparation. Les données personnelles liées à cette distribution seront traitées conformément à la présente Politique et à tout avis requis sur la plateforme ou dans l’application.",
     "Shadow Economy est un jeu de simulation économique éducatif et de divertissement. Le Service est un service indépendant exploité par un développeur individuel. L'Opérateur traite les données personnelles uniquement dans la mesure nécessaire pour fournir le Service, gérer les comptes, synchroniser la progression du jeu, effectuer des achats intégrés, fournir des rapports éducatifs personnalisés, maintenir la sécurité, répondre aux erreurs, fournir une assistance client et se conformer à la loi applicable.",
     "L'Opérateur ne vend pas de données personnelles et ne fournit pas vos données personnelles à des réseaux publicitaires, à des courtiers en données ou à des fournisseurs de publicité personnalisée tiers. L'Opérateur ne partage pas non plus de données personnelles à des fins de publicité comportementale intercontextuelle ou de publicité personnalisée de tiers. Le Service n'utilise actuellement pas de SDK publicitaires tiers ni de technologies de suivi à des fins publicitaires.",
     "Cette Politique est destinée à vous aider à comprendre comment les données personnelles sont traitées avant que vous utilisiez le Service et à vous aider à gérer vos informations.",
@@ -46,7 +46,7 @@ export default {
           "items": [
             "Application mobile Shadow Economy iOS",
             "Site Web shadoweconomyapp.com",
-            "Application mobile Shadow Economy Android ou distribution Google Play, si proposée à l'avenir",
+            "L’application mobile Shadow Economy pour iOS actuellement disponible et l’application mobile Shadow Economy pour Android / distribution Google Play en préparation",
             "Support client, gestion de compte et services associés faisant référence à cette politique",
             "Données de jeu, données de compte, métadonnées de paiement, données de rapport et journaux techniques générés ou traités lors de l'utilisation du Service"
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les fournisseurs et plates-formes nécessaires au fonctionnement du Service, tels que Supabase, Vercel, Apple et Google, peuvent être impliqués. Les achats intégrés dans l'application iOS actuelle sont traités via le système de paiement intégré Apple App Store. Si une application Android ou une distribution Google Play est proposée à l'avenir et inclut une fonctionnalité d'achat intégré, ces achats peuvent être traités via le système de paiement Google Play et conformément aux politiques de Google Play."
+          "text": "Les fournisseurs et plateformes nécessaires à l’exploitation du Service, tels que Supabase, Vercel, Apple et Google, peuvent intervenir. Les achats intégrés sont traités par le système de paiement de la boutique d’applications utilisée pour l’achat : Apple App Store pour l’app iOS et Google Play pour la distribution Android / Google Play lorsqu’elle est disponible, conformément aux politiques de la plateforme concernée."
         },
         {
           "type": "p",
@@ -242,7 +242,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les achats intégrés dans l'application iOS actuelle sont traités via le système de paiement intégré Apple App Store. Si une application Android ou une distribution Google Play est proposée à l'avenir et inclut une fonctionnalité d'achat intégré, ces achats peuvent être traités via le système de paiement Google Play et conformément aux politiques de Google Play."
+          "text": "Les achats intégrés sont traités par le système de paiement de la boutique d’applications utilisée pour l’achat : Apple App Store pour l’app iOS et Google Play pour la distribution Android / Google Play lorsqu’elle est disponible, conformément aux politiques de la plateforme concernée."
         },
         {
           "type": "p",
@@ -263,7 +263,7 @@ export default {
             "Statut d'achat",
             "Statut de remboursement ou d'annulation",
             "Informations de vérification d'achat limitées fournies par Apple",
-            "Si des paiements Google Play sont proposés à l'avenir, les informations de vérification d'achat limitées fournies par Google"
+            "Informations limitées de vérification d’achat fournies par Google Play pour les achats Google Play"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             "Données de progression du jeu et de choix que vous générez lors de l'utilisation du Service",
             "Informations de compte limitées transmises par un fournisseur lorsque vous utilisez une connexion tierce telle que la connexion Google ou Sign in with Apple",
             "Métadonnées de transaction fournies par le Apple App Store pour effectuer des achats intégrés, vérifier les achats ou traiter les remboursements",
-            "Si les paiements Google Play sont proposés à l'avenir, les métadonnées de transaction fournies par Google Play pour effectuer des achats intégrés, vérifier les achats ou traiter les remboursements",
+            "Métadonnées de transaction fournies par Google Play pour exécuter les achats intégrés, vérifier les achats ou traiter les remboursements",
             "Journaux de serveur, d'authentification et techniques générés dans une infrastructure de service telle que Supabase et Vercel",
             "Informations que vous fournissez lors d'une demande d'assistance client",
             "Informations techniques limitées fournies automatiquement par l'appareil ou le navigateur lors de l'utilisation du Service"
@@ -435,7 +435,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les achats intégrés dans l'application iOS actuelle sont traités via le système de paiement intégré Apple App Store. Si des achats intégrés sont proposés via une application Android ou une distribution Google Play à l'avenir, ces achats pourront être traités via le système de paiement Google Play et conformément aux politiques de Google Play."
+          "text": "Les achats intégrés sont traités par le système de paiement de la boutique d’applications utilisée pour l’achat : Apple App Store pour l’app iOS et Google Play pour la distribution Android / Google Play lorsqu’elle est disponible, conformément aux politiques de la plateforme concernée."
         },
         {
           "type": "h3",
@@ -680,7 +680,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Objectif : connexion à Google et authentification basée sur le compte Google. Si une application Android ou une distribution Google Play est proposée à l'avenir, la distribution de l'application Android, les paiements intégrés à l'application Google Play, la vérification des achats et le traitement des remboursements"
+          "text": "Finalité : connexion Google et authentification basée sur le compte Google, distribution de l’application Android, paiements intégrés Google Play, vérification des achats et traitement des remboursements pour la distribution Google Play en préparation"
         },
         {
           "type": "p",
@@ -692,7 +692,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une distribution Google Play n’est peut-être pas disponible actuellement. Si une distribution Google Play est proposée à l'avenir, le traitement des données personnelles, la vérification des achats, le traitement des remboursements et les politiques de plateforme liées à cette distribution peuvent s'appliquer conformément aux politiques de Google Play et à la présente Politique."
+          "text": "La distribution Google Play est en préparation. Lorsque cette version sera disponible, le traitement des données personnelles, la vérification des achats, le traitement des remboursements et les politiques de plateforme liés à cette distribution s’appliqueront conformément aux politiques Google Play et à la présente Politique."
         },
         {
           "type": "h3",
@@ -995,7 +995,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La gestion des achats intégrés, des remboursements et de l'historique des paiements dans l'application iOS actuelle peut suivre les politiques et procédures du Apple App Store. Si une distribution Google Play est proposée à l'avenir et comprend des achats intégrés, la gestion de ces achats, remboursements et historique des paiements peut suivre les politiques et procédures de Google Play."
+          "text": "La gestion des achats intégrés, des remboursements et de l’historique des paiements peut suivre les politiques et procédures de l’Apple App Store ou de Google Play, selon la plateforme utilisée pour l’achat."
         },
         {
           "type": "h3",
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les achats intégrés, les paiements ou l'utilisation de fonctionnalités payantes par des mineurs peuvent être soumis au Apple App Store actuellement disponible, aux paramètres de l'appareil, aux paramètres de contrôle parental et à la loi applicable. Si une distribution Google Play est proposée à l'avenir, les achats, les paiements ou l'utilisation de fonctionnalités payantes via cette distribution peuvent être soumis aux politiques de Google Play, aux paramètres de l'appareil, aux paramètres de contrôle parental et à la loi applicable."
+          "text": "Les achats intégrés, paiements ou l’utilisation de fonctions payantes par des mineurs peuvent être soumis aux politiques de l’Apple App Store ou de Google Play, aux réglages de l’appareil, aux contrôles parentaux et à la loi applicable, selon la plateforme utilisée."
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "Les informations relatives à la confidentialité affichées sur le Apple App Store peuvent être fournies sous forme de résumé de cette politique. Si une distribution Google Play est proposée à l'avenir, des informations relatives à la confidentialité ou la section Sécurité des données affichées sur Google Play peuvent également être fournies comme résumé de cette politique."
+          "text": "Les informations relatives à la confidentialité affichées sur Apple App Store ou Google Play, y compris la section Sécurité des données de Google Play, peuvent être fournies comme résumé de la présente Politique."
         },
         {
           "type": "p",
-          "text": "L'Opérateur fait des efforts raisonnables pour que les étiquettes de confidentialité de l'App Store, les avis dans l'application et la présente Politique soient cohérents les uns avec les autres. Si une distribution Google Play est proposée à l'avenir, l'opérateur fera des efforts raisonnables pour maintenir la section sur la sécurité des données Google Play et la présente politique cohérentes les unes avec les autres."
+          "text": "L’Opérateur fait des efforts raisonnables pour maintenir la cohérence entre les libellés de confidentialité des boutiques d’applications, la section Sécurité des données de Google Play, les avis intégrés à l’application et la présente Politique."
         },
         {
           "type": "p",

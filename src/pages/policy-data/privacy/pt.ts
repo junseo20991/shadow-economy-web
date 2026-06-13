@@ -3,7 +3,7 @@
   "updated": "Última atualização: 29 de maio de 2026",
   "intro": [
     "Esta Política de Privacidade descreve como o operador do Shadow Economy (o \"Operador\", \"nós\", \"nos\" ou \"nosso\") coleta, usa, armazena, transfere, protege e exclui dados pessoais ao fornecer o aplicativo móvel Shadow Economy iOS atualmente disponível, o site shadoweconomyapp.com e serviços relacionados (coletivamente, o \"Serviço\").",
-    "Um aplicativo móvel Android ou distribuição Google Play poderá ser oferecido no futuro. Se e quando tais serviços forem fornecidos, os dados pessoais poderão ser processados ​​de acordo com esta Política ou avisos separados.",
+    "O aplicativo móvel Shadow Economy para Android / distribuição Google Play está em preparação para lançamento. Os dados pessoais relacionados a essa distribuição serão processados de acordo com esta Política e quaisquer avisos necessários da plataforma ou dentro do aplicativo.",
     "Shadow Economy é um jogo de simulação econômica educacional e de entretenimento. O Serviço é um serviço independente operado por um desenvolvedor individual. A Operadora processa dados pessoais apenas na medida necessária para fornecer o Serviço, gerenciar contas, sincronizar o progresso do jogo, realizar compras no aplicativo, fornecer relatórios educacionais personalizados, manter a segurança, responder a erros, fornecer suporte ao cliente e cumprir a lei aplicável.",
     "A Operadora não vende dados pessoais e não fornece seus dados pessoais a redes de publicidade, corretores de dados ou fornecedores terceirizados de publicidade personalizada. A Operadora também não compartilha dados pessoais para publicidade comportamental em vários contextos ou para fins de publicidade personalizada de terceiros. Atualmente, o Serviço não utiliza SDKs de publicidade de terceiros ou tecnologias de rastreamento para fins publicitários.",
     "Esta Política destina-se a ajudá-lo a compreender como os dados pessoais são processados antes de você usar o Serviço e a ajudá-lo a gerenciar suas informações.",
@@ -46,7 +46,7 @@
           "items": [
             "Aplicativo móvel Shadow Economy iOS",
             "Site shadoweconomyapp.com",
-            "Aplicativo móvel Shadow Economy Android ou distribuição Google Play, se oferecido no futuro",
+            "O aplicativo móvel Shadow Economy para iOS atualmente disponível e o aplicativo móvel Shadow Economy para Android / distribuição Google Play em preparação para lançamento",
             "Suporte ao cliente, gerenciamento de contas e serviços relacionados que fazem referência a esta Política",
             "Dados de jogos, dados de conta, metadados de pagamento, dados de relatórios e registros técnicos gerados ou processados durante o uso do Serviço"
           ]
@@ -138,7 +138,7 @@
         },
         {
           "type": "p",
-          "text": "Provedores e plataformas necessários para operar o Serviço, como Supabase, Vercel, Apple e Google, podem estar envolvidos. As compras no aplicativo iOS atual são processadas por meio do sistema de pagamento no aplicativo Apple App Store. Se um aplicativo Android ou distribuição Google Play for oferecido no futuro e incluir funcionalidade de compra no aplicativo, tais compras poderão ser processadas através do sistema de pagamento Google Play e de acordo com as políticas Google Play."
+          "text": "Podem estar envolvidos provedores e plataformas necessários para operar o Serviço, como Supabase, Vercel, Apple e Google. As compras no aplicativo são processadas pelo sistema de pagamento da loja de aplicativos usada para a compra: Apple App Store para o aplicativo iOS e Google Play para a distribuição Android / Google Play quando disponível, de acordo com as políticas da plataforma relevante."
         },
         {
           "type": "p",
@@ -242,7 +242,7 @@
         },
         {
           "type": "p",
-          "text": "As compras no aplicativo iOS atual são processadas por meio do sistema de pagamento no aplicativo Apple App Store. Se um aplicativo Android ou distribuição Google Play for oferecido no futuro e incluir funcionalidade de compra no aplicativo, tais compras poderão ser processadas através do sistema de pagamento Google Play e de acordo com as políticas Google Play."
+          "text": "As compras no aplicativo são processadas pelo sistema de pagamento da loja de aplicativos usada para a compra: Apple App Store para o aplicativo iOS e Google Play para a distribuição Android / Google Play quando disponível, de acordo com as políticas da plataforma relevante."
         },
         {
           "type": "p",
@@ -263,7 +263,7 @@
             "Status da compra",
             "Status de reembolso ou cancelamento",
             "Informações limitadas de verificação de compra fornecidas pela Apple",
-            "Se pagamentos Google Play forem oferecidos no futuro, informações limitadas de verificação de compra fornecidas pelo Google"
+            "Informações limitadas de verificação de compra fornecidas pelo Google Play para compras no Google Play"
           ]
         },
         {
@@ -369,7 +369,7 @@
             "Progresso do jogo e dados de escolha que você gera ao usar o Serviço",
             "Informações limitadas da conta transmitidas por um provedor quando você usa login de terceiros, como login do Google ou Sign in with Apple",
             "Metadados de transação fornecidos pelo Apple App Store para realizar compras no aplicativo, verificar compras ou processar reembolsos",
-            "Se pagamentos Google Play forem oferecidos no futuro, metadados de transação fornecidos por Google Play para realizar compras no aplicativo, verificar compras ou processar reembolsos",
+            "Metadados de transação fornecidos pelo Google Play para cumprir compras no aplicativo, verificar compras ou processar reembolsos",
             "Servidor, autenticação e logs técnicos gerados em infraestrutura de serviços como Supabase e Vercel",
             "Informações que você fornece durante uma solicitação de suporte ao cliente",
             "Informações técnicas limitadas fornecidas automaticamente pelo dispositivo ou navegador durante o uso do Serviço"
@@ -435,7 +435,7 @@
         },
         {
           "type": "p",
-          "text": "As compras no aplicativo iOS atual são processadas por meio do sistema de pagamento no aplicativo Apple App Store. Se compras no aplicativo forem oferecidas por meio de um aplicativo Android ou distribuição Google Play no futuro, tais compras poderão ser processadas por meio do sistema de pagamento Google Play e de acordo com as políticas Google Play."
+          "text": "As compras no aplicativo são processadas pelo sistema de pagamento da loja de aplicativos usada para a compra: Apple App Store para o aplicativo iOS e Google Play para a distribuição Android / Google Play quando disponível, de acordo com as políticas da plataforma relevante."
         },
         {
           "type": "h3",
@@ -680,7 +680,7 @@
         },
         {
           "type": "p",
-          "text": "Objetivo: login do Google e autenticação baseada em conta do Google. Se um aplicativo Android ou distribuição Google Play for oferecido no futuro, distribuição de aplicativo Android, pagamentos no aplicativo Google Play, verificação de compra e processamento de reembolso"
+          "text": "Finalidade: login do Google e autenticação baseada em conta Google, distribuição do aplicativo Android, pagamentos no aplicativo pelo Google Play, verificação de compras e processamento de reembolsos para a distribuição Google Play em preparação para lançamento"
         },
         {
           "type": "p",
@@ -692,7 +692,7 @@
         },
         {
           "type": "p",
-          "text": "Uma distribuição Google Play pode não estar disponível no momento. Se uma distribuição Google Play for oferecida no futuro, o processamento de dados pessoais, verificação de compra, processamento de reembolso e políticas de plataforma relacionadas a essa distribuição poderão ser aplicados de acordo com as políticas Google Play e esta Política."
+          "text": "A distribuição Google Play está em preparação para lançamento. Quando essa versão estiver disponível, o processamento de dados pessoais, a verificação de compras, o processamento de reembolsos e as políticas da plataforma relacionadas a essa distribuição serão aplicados de acordo com as políticas do Google Play e esta Política."
         },
         {
           "type": "h3",
@@ -995,7 +995,7 @@
         },
         {
           "type": "p",
-          "text": "O gerenciamento de compras no aplicativo, reembolsos e histórico de pagamentos no aplicativo iOS atual pode seguir as políticas e procedimentos do Apple App Store. Se uma distribuição Google Play for oferecida no futuro e incluir compras no aplicativo, o gerenciamento de tais compras, reembolsos e histórico de pagamentos poderá seguir as políticas e procedimentos da Google Play."
+          "text": "A gestão de compras no aplicativo, reembolsos e histórico de pagamentos pode seguir as políticas e procedimentos da Apple App Store ou do Google Play, conforme a plataforma usada para a compra."
         },
         {
           "type": "h3",
@@ -1228,7 +1228,7 @@
         },
         {
           "type": "p",
-          "text": "Compras no aplicativo, pagamentos ou uso de recursos pagos por menores podem estar sujeitos ao Apple App Store atualmente disponível, às configurações do dispositivo, às configurações de controle dos pais e à legislação aplicável. Se uma distribuição Google Play for oferecida no futuro, as compras, pagamentos ou uso de recursos pagos por meio dessa distribuição poderão estar sujeitos às políticas Google Play, configurações do dispositivo, configurações de controle parental e legislação aplicável."
+          "text": "Compras no aplicativo, pagamentos ou uso de recursos pagos por menores podem estar sujeitos às políticas da Apple App Store ou do Google Play, configurações do dispositivo, controles parentais e legislação aplicável, conforme a plataforma usada."
         }
       ]
     },
@@ -1250,11 +1250,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "As informações relacionadas à privacidade exibidas no Apple App Store podem ser fornecidas como um resumo desta Política. Se uma distribuição Google Play for oferecida no futuro, informações relacionadas à privacidade ou a seção Segurança de dados exibida em Google Play também poderão ser fornecidas como um resumo desta Política."
+          "text": "As informações de privacidade exibidas na Apple App Store ou no Google Play, incluindo a seção Segurança dos dados do Google Play, podem ser fornecidas como resumo desta Política."
         },
         {
           "type": "p",
-          "text": "A Operadora faz esforços razoáveis para manter os rótulos de privacidade da loja de aplicativos, os avisos no aplicativo e esta Política consistentes entre si. Se uma distribuição Google Play for oferecida no futuro, a Operadora fará esforços razoáveis ​​para manter a seção de segurança de dados Google Play e esta Política consistentes entre si."
+          "text": "A Operadora faz esforços razoáveis para manter consistentes os rótulos de privacidade das lojas de aplicativos, a seção Segurança dos dados do Google Play, os avisos no aplicativo e esta Política."
         },
         {
           "type": "p",

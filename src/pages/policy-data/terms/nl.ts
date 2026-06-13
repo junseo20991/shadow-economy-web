@@ -27,7 +27,7 @@ export default {
         {
           "type": "ul",
           "items": [
-            "De momenteel beschikbare Shadow Economy iOS-app en elke Android- of Google Play-versie die in de toekomst wordt aangeboden",
+            "De momenteel beschikbare Shadow Economy iOS-mobiele applicatie en de Shadow Economy Android-mobiele applicatie / Google Play-distributie die wordt voorbereid voor lancering",
             "De shadoweconomyapp.com-website",
             "Gameplay, accounts, cloudopslag, rapportcredits, educatieve gepersonaliseerde rapporten en klantenondersteuning",
             "Andere functies, inhoud en diensten die verwijzen naar of verband houden met deze Voorwaarden"
@@ -65,7 +65,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"App\" betekent de momenteel beschikbare Shadow Economy iOS-app die via de Apple App Store wordt gedistribueerd, en elke Android- of Google Play-versie indien die in de toekomst wordt aangeboden."
+          "text": "\"App\" betekent de Shadow Economy mobiele applicatie die via Apple App Store wordt verspreid en de Shadow Economy Android-mobiele applicatie / Google Play-distributie die wordt voorbereid voor lancering."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Als in de toekomst een Android-app of Google Play-distributie wordt aangeboden, is deze licentie op die versie van toepassing voor zover toegestaan door het Google Play- en Android-apparaatgerelateerd beleid."
+          "text": "Voor de Android-app of Google Play-distributie die wordt voorbereid voor lancering, geldt deze licentie voor die versie voor zover toegestaan door Google Play en beleid voor Android-apparaten."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@ export default {
       "blocks": [
         {
           "type": "p",
-          "text": "In de huidige iOS-app worden aankopen binnen de Dienst verwerkt via de Apple App Store. Als in de toekomst een Android-app of Google Play-distributie met in-app-aankopen wordt aangeboden, kunnen dergelijke aankopen via Google Play worden verwerkt. De Operator verzamelt of bewaart niet rechtstreeks betaalkaartnummers, bankrekeninggegevens of volledige authenticatiegegevens voor betalingen."
+          "text": "Aankopen binnen de Service worden verwerkt via het betalingssysteem van de appstore die voor de aankoop wordt gebruikt: Apple App Store voor de iOS-app en Google Play voor de Android / Google Play-distributie wanneer beschikbaar. De Operator verzamelt of bewaart niet rechtstreeks betaalkaartnummers, bankrekeninggegevens of volledige betalingsauthenticatiegegevens."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Als in de toekomst aankopen via Google Play worden aangeboden, zijn die aankopen onderworpen aan het terugbetalingsbeleid en de -procedures van Google Play."
+          "text": "Aankopen via Google Play vallen onder het terugbetalingsbeleid en de procedures van Google Play."
         },
         {
           "type": "p",
@@ -836,11 +836,11 @@ export default {
       ]
     },
     {
-      "title": "27. Aanvullende App Store-voorwaarden",
+      "title": "27. Aanvullende voorwaarden voor App Store en Google Play",
       "blocks": [
         {
           "type": "p",
-          "text": "Als u de app downloadt of gebruikt via de Apple App Store, of via Google Play indien dit in de toekomst wordt aangeboden, zijn ook de voorwaarden, het beleid en de gebruiksregels van het relevante platform van toepassing."
+          "text": "Als je de app downloadt of gebruikt via Apple App Store of Google Play, gelden ook de voorwaarden, beleidsregels en gebruiksregels van het betreffende platform."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Als in de toekomst een Android-app of Google Play-distributie wordt aangeboden, zijn de volgende voorwaarden op die versie van toepassing:"
+          "text": "Voor de Android-app of Google Play-distributie die wordt voorbereid voor lancering, gelden de volgende voorwaarden voor die versie:"
         },
         {
           "type": "ul",

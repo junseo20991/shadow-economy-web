@@ -27,7 +27,7 @@
         {
           "type": "ul",
           "items": [
-            "L'app mobile Shadow Economy per iOS attualmente disponibile e qualsiasi versione Android o Google Play offerta in futuro",
+            "L’app mobile Shadow Economy per iOS attualmente disponibile e l’app mobile Shadow Economy per Android / distribuzione Google Play in preparazione per il lancio",
             "Il sito web di shadoweconomyapp.com",
             "Gameplay, account, salvataggi nel cloud, crediti nei rapporti, rapporti educativi personalizzati e assistenza clienti",
             "Altre funzionalità, contenuti e servizi che fanno riferimento o sono collegati a questi Termini"
@@ -65,7 +65,7 @@
         },
         {
           "type": "p",
-          "text": "\"App\" indica l'app mobile Shadow Economy per iOS attualmente disponibile tramite Apple App Store, nonché qualsiasi versione Android o Google Play se offerta in futuro."
+          "text": "\"App\" indica l’app mobile Shadow Economy distribuita tramite Apple App Store e l’app mobile Shadow Economy per Android / distribuzione Google Play in preparazione per il lancio."
         },
         {
           "type": "p",
@@ -172,7 +172,7 @@
         },
         {
           "type": "p",
-          "text": "Se in futuro verrà offerta un'app Android o una distribuzione Google Play, questa licenza si applicherà a tale versione nella misura consentita dalle politiche relative a Google Play e ai dispositivi Android."
+          "text": "Per l’app Android o la distribuzione Google Play in preparazione per il lancio, questa licenza si applica a tale versione nella misura consentita da Google Play e dalle politiche relative ai dispositivi Android."
         },
         {
           "type": "p",
@@ -296,7 +296,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Nell'attuale app iOS, gli acquisti nell'ambito del Servizio vengono elaborati tramite Apple App Store. Se in futuro verrà offerta un'app Android o una distribuzione Google Play con acquisti in-app, tali acquisti potranno essere elaborati tramite Google Play. L'Operatore non raccoglie né memorizza direttamente numeri di carte di pagamento, informazioni sul conto bancario o credenziali di autenticazione complete del pagamento."
+          "text": "Gli acquisti all’interno del Servizio sono elaborati tramite il sistema di pagamento dello store utilizzato per l’acquisto: Apple App Store per l’app iOS e Google Play per la distribuzione Android / Google Play quando disponibile. L’Operatore non raccoglie né archivia direttamente numeri di carte di pagamento, dati di conti bancari o credenziali complete di autenticazione del pagamento."
         },
         {
           "type": "p",
@@ -336,7 +336,7 @@
         },
         {
           "type": "p",
-          "text": "Se in futuro verranno offerti acquisti tramite Google Play, tali acquisti saranno soggetti alle politiche e alle procedure di rimborso di Google Play."
+          "text": "Gli acquisti tramite Google Play sono soggetti alle politiche e procedure di rimborso di Google Play."
         },
         {
           "type": "p",
@@ -836,11 +836,11 @@
       ]
     },
     {
-      "title": "27. Termini App Store aggiuntivi",
+      "title": "27. Termini aggiuntivi di App Store e Google Play",
       "blocks": [
         {
           "type": "p",
-          "text": "Se scarichi o utilizzi l'app tramite Apple App Store, o tramite Google Play se offerto in futuro, si applicano anche i termini, le politiche e le regole di utilizzo della relativa piattaforma."
+          "text": "Se scarichi o utilizzi l’app tramite Apple App Store o Google Play, si applicano anche i termini, le politiche e le regole d’uso della piattaforma pertinente."
         },
         {
           "type": "p",
@@ -878,7 +878,7 @@
         },
         {
           "type": "p",
-          "text": "Se in futuro verrà offerta un'app Android o una distribuzione Google Play, a tale versione si applicheranno i seguenti termini:"
+          "text": "Per l’app Android o la distribuzione Google Play in preparazione per il lancio, i seguenti termini si applicano a tale versione:"
         },
         {
           "type": "ul",

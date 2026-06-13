@@ -3,7 +3,7 @@ export default {
   updated: 'Senast uppdaterad: 29 maj 2026',
   intro: [
     'Denna integritetspolicy beskriver hur operatören av Shadow Economy («Operatören», «vi» eller «oss») samlar in, använder, lagrar, överför, skyddar och raderar personuppgifter när den för närvarande tillgängliga Shadow Economy iOS-mobilappen, webbplatsen shadoweconomyapp.com och relaterade tjänster (sammantaget «Tjänsten») tillhandahålls.',
-    'En Android-mobilapp eller Google Play-distribution kan erbjudas i framtiden. Om och när sådana tjänster tillhandahålls kan personuppgifter behandlas i enlighet med denna policy eller separata meddelanden.',
+    "Shadow Economy Android-mobilappen / Google Play-distributionen förbereds för lansering. Personuppgifter som rör den distributionen behandlas enligt denna policy och eventuella nödvändiga plattforms- eller appmeddelanden.",
     'Shadow Economy är ett ekonomiskt simuleringsspel i utbildnings- och underhållningssyfte. Tjänsten är en oberoende tjänst som drivs av en enskild utvecklare. Operatören behandlar personuppgifter endast i den utsträckning som krävs för att tillhandahålla Tjänsten, hantera konton, synkronisera spelframsteg, fullgöra köp i appen, tillhandahålla anpassade utbildningsrapporter, upprätthålla säkerhet, hantera fel, ge kundsupport och följa tillämplig lag.',
     'Operatören säljer inte personuppgifter och lämnar inte ut dina personuppgifter till annonsnätverk, datamäklare eller leverantörer av personligt anpassad reklam från tredje part. Operatören delar inte heller personuppgifter för beteendestyrd reklam över sammanhang eller personligt anpassad reklam från tredje part. Tjänsten använder för närvarande inte tredjeparts reklam-SDK:er eller spårningsteknik i reklamsyfte.',
     'Denna policy syftar till att hjälpa dig att förstå hur personuppgifter behandlas innan du använder Tjänsten och att hantera din information.',
@@ -46,7 +46,7 @@ export default {
           items: [
             'Shadow Economy iOS-mobilapp',
             'webbplatsen shadoweconomyapp.com',
-            'Shadow Economy Android-mobilapp eller Google Play-distribution, om den erbjuds i framtiden',
+            "Den för närvarande tillgängliga Shadow Economy iOS-mobilappen och Shadow Economy Android-mobilappen / Google Play-distributionen som förbereds för lansering",
             'Kundsupport, kontohantering och relaterade tjänster som hänvisar till denna policy',
             'Speldata, kontodata, betalningsmetadata, rapportdata och tekniska loggar som genereras eller behandlas under användning av Tjänsten'
           ]
@@ -138,7 +138,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Leverantörer och plattformar som behövs för att driva Tjänsten, såsom Supabase, Vercel, Apple och Google, kan vara inblandade. Köp i appen i den nuvarande iOS-appen behandlas via Apple App Stores betalningssystem i appen. Om en Android-app eller Google Play-distribution erbjuds i framtiden med köp i appen kan sådana köp behandlas via Google Plays betalningssystem och i enlighet med Google Plays policyer.'
+          text: "Leverantörer och plattformar som behövs för att driva Tjänsten, såsom Supabase, Vercel, Apple och Google, kan vara involverade. Köp i appen behandlas via betalningssystemet i den appbutik som används för köpet: Apple App Store för iOS-appen och Google Play för Android / Google Play-distributionen när den är tillgänglig, enligt relevanta plattformspolicyer."
         },
         {
           type: 'p' as const,
@@ -242,7 +242,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Inköp i appen i den aktuella iOS-appen behandlas via Apple App Stores integrerade betalningssystem. Om en Android-app eller -distribution erbjuds på Google Play med köp i appen i framtiden, kan sådana köp behandlas via Google Plays betalningssystem och i enlighet med Google Plays policyer.'
+          text: "Köp i appen behandlas via betalningssystemet i den appbutik som används för köpet: Apple App Store för iOS-appen och Google Play för Android / Google Play-distributionen när den är tillgänglig, enligt relevanta plattformspolicyer."
         },
         {
           type: 'p' as const,
@@ -263,7 +263,7 @@ export default {
             'Köpstatus',
             'Status för återbetalning eller avbokning',
             'Begränsad köpverifieringsinformation tillhandahållen av Apple',
-            'Om Google Play-betalningar erbjuds i framtiden, tillhandahålls begränsad köpverifieringsinformation från Google'
+            "Begränsad köpverifieringsinformation som tillhandahålls av Google Play för köp via Google Play"
           ]
         },
         {
@@ -369,7 +369,7 @@ export default {
             'Spelets framsteg och valdata som du genererar när du använder tjänsten',
             'Begränsad kontoinformation som överförs av en leverantör när du använder tredjepartsinloggningar, till exempel Google-inloggning eller Logga in med Apple',
             'Transaktionsmetadata tillhandahålls av Apple App Store för att genomföra köp i appar, verifiera köp eller behandla återbetalningar',
-            'Om Google Play Payments erbjuds i framtiden, transaktionsmetadata tillhandahållen av Google Play för att genomföra köp i appar, verifiera köp eller behandla återbetalningar',
+            "Transaktionsmetadata som tillhandahålls av Google Play för att fullgöra köp i appen, verifiera köp eller behandla återbetalningar",
             'Server, autentisering och tekniska loggar genererade i tjänstens infrastruktur, såsom Supabase och Vercel',
             'Information du lämnar under en kundtjänstförfrågan',
             'Begränsad teknisk information tillhandahålls automatiskt av din enhet eller webbläsare under din användning av tjänsten'
@@ -435,7 +435,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Inköp i appen i den aktuella iOS-appen behandlas via betalningssystemet Apple App Store. Om köp i appar erbjuds via en Android-app eller distribution på Google Play i framtiden, kan dessa köp behandlas via Google Plays betalningssystem och i enlighet med dess policyer.'
+          text: "Köp i appen behandlas via betalningssystemet i den appbutik som används för köpet: Apple App Store för iOS-appen och Google Play för Android / Google Play-distributionen när den är tillgänglig, enligt relevanta plattformspolicyer."
         },
         {
           type: 'h3' as const,
@@ -680,7 +680,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Syfte: Google-inloggning och Google-kontobaserad autentisering. Om en Android-app eller -distribution erbjuds på Google Play i framtiden: Android-appdistribution, Google Play integrerade betalningar, köpverifiering och återbetalningshantering'
+          text: "Syfte: Google-inloggning och Google-kontobaserad autentisering, distribution av Android-appen, Google Play-betalningar i appen, köpverifiering och återbetalningshantering för Google Play-distributionen som förbereds för lansering"
         },
         {
           type: 'p' as const,
@@ -692,7 +692,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Det kanske inte finns någon distribution på Google Play för närvarande. Om det erbjuds i framtiden, kan behandling av personuppgifter, köpverifiering, återbetalningsbearbetning och relaterade plattformspolicyer tillämpas i enlighet med Google Plays policyer och denna policy.'
+          text: "Google Play-distributionen förbereds för lansering. När den versionen blir tillgänglig gäller personuppgiftsbehandling, köpverifiering, återbetalningshantering och plattformspolicyer som rör distributionen enligt Google Plays policyer och denna policy."
         },
         {
           type: 'h3' as const,
@@ -995,7 +995,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Hantering av integrerade köp, återbetalningar och betalningshistorik i den aktuella iOS-appen kan följa Apple App Stores policyer och procedurer. Om distribution på Google Play med köp i appar erbjuds i framtiden kan sådan hantering följa Google Plays policyer och procedurer.'
+          text: "Hantering av köp i appen, återbetalningar och betalningshistorik kan följa Apple App Stores eller Google Plays policyer och förfaranden, beroende på vilken plattform som användes för köpet."
         },
         {
           type: 'h3' as const,
@@ -1228,7 +1228,7 @@ export default {
         },
         {
           type: 'p' as const,
-          text: 'Köp i appar, betalningar eller användning av betalfunktioner av minderåriga kan vara föremål för den för närvarande tillgängliga Apple App Store, enhetsinställningar, föräldrakontroll och tillämpliga lagar. Om en distribution erbjuds på Google Play i framtiden kan sådan verksamhet bli föremål för Google Plays policyer, enhetsinställningar, föräldrakontroll och tillämpliga lagar.'
+          text: "Köp i appen, betalningar eller användning av betalda funktioner av minderåriga kan omfattas av Apple App Stores eller Google Plays policyer, enhetsinställningar, föräldrakontroller och tillämplig lag, beroende på vilken plattform som används."
         }
       ]
     },
@@ -1250,11 +1250,11 @@ export default {
       blocks: [
         {
           type: 'p' as const,
-          text: 'Sekretessinformationen som visas i Apple App Store kan tillhandahållas som en sammanfattning av denna policy. Om en distribution på Google Play erbjuds i framtiden kan integritetsinformationen eller avsnittet Datasäkerhet på Google Play också tillhandahållas som en sammanfattning av denna policy.'
+          text: "Integritetsrelaterad information som visas på Apple App Store eller Google Play, inklusive Google Plays avsnitt Datasäkerhet, kan tillhandahållas som en sammanfattning av denna policy."
         },
         {
           type: 'p' as const,
-          text: 'Operatören gör rimliga ansträngningar för att hålla butikens sekretessetiketter, meddelanden i appen och denna policy konsekventa. Om Google Play erbjuds i framtiden kommer operatören att vidta rimliga ansträngningar för att hålla avsnittet Datasäkerhet i Google Play och denna policy konsekventa.'
+          text: "Operatören gör rimliga ansträngningar för att hålla appbutikernas integritetsetiketter, Google Plays avsnitt Datasäkerhet, meddelanden i appen och denna policy förenliga med varandra."
         },
         {
           type: 'p' as const,
