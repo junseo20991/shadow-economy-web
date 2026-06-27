@@ -8,7 +8,7 @@ const content = {
     "headline1": "Every decision leaves",
     "headline2": "a trace.",
     "sub": "A turn-based simulation about financial choices, community change, and what remains after each turn.",
-    "appStore": "App Store coming soon",
+    "appStore": "Download on the App Store",
     "googlePlay": "Google Play launch in preparation",
     "features": [
       {
@@ -35,7 +35,7 @@ const content = {
     "headline1": "모든 선택은",
     "headline2": "흔적을 남깁니다.",
     "sub": "금융 선택, 공동체의 변화, 그리고 한 턴 뒤에도 남는 결과를 다루는 턴제 시뮬레이션입니다.",
-    "appStore": "App Store 출시 예정",
+    "appStore": "App Store에서 다운로드",
     "googlePlay": "Google Play 출시 준비 중",
     "features": [
       {
@@ -62,7 +62,7 @@ const content = {
     "headline1": "すべての選択が",
     "headline2": "痕跡を残す。",
     "sub": "金融の選択、コミュニティの変化、そして一手ごとに残る結果を扱うターン制シミュレーションです。",
-    "appStore": "App Store 近日公開",
+    "appStore": "App Storeでダウンロード",
     "googlePlay": "Google Play 配信準備中",
     "features": [
       {
@@ -89,7 +89,7 @@ const content = {
     "headline1": "每个选择都会",
     "headline2": "留下痕迹。",
     "sub": "一款围绕金融选择、社区变化，以及每回合之后仍然存在的结果的回合制模拟游戏。",
-    "appStore": "App Store 即将推出",
+    "appStore": "在 App Store 下载",
     "googlePlay": "Google Play 上线准备中",
     "features": [
       {
@@ -116,7 +116,7 @@ const content = {
     "headline1": "Cada decisión deja",
     "headline2": "una huella.",
     "sub": "Una simulación por turnos sobre decisiones financieras, cambio comunitario y lo que permanece después de cada turno.",
-    "appStore": "Próximamente en App Store",
+    "appStore": "Disponible en App Store",
     "googlePlay": "Lanzamiento en Google Play en preparación",
     "features": [
       {
@@ -143,7 +143,7 @@ const content = {
     "headline1": "Varje beslut lämnar",
     "headline2": "ett spår.",
     "sub": "En turbaserad simulering om finansiella beslut, samhällsförändring och det som består efter varje tur.",
-    "appStore": "Kommer snart till App Store",
+    "appStore": "Hämta i App Store",
     "googlePlay": "Google Play-lansering förbereds",
     "features": [
       {
@@ -170,7 +170,7 @@ const content = {
     "headline1": "Chaque décision laisse",
     "headline2": "une trace.",
     "sub": "Une simulation au tour par tour sur les choix financiers, les changements communautaires et ce qui reste après chaque tour.",
-    "appStore": "Bientôt sur l’App Store",
+    "appStore": "Disponible sur l’App Store",
     "googlePlay": "Lancement Google Play en préparation",
     "features": [
       {
@@ -197,7 +197,7 @@ const content = {
     "headline1": "Jede Entscheidung hinterlässt",
     "headline2": "eine Spur.",
     "sub": "Eine rundenbasierte Simulation über finanzielle Entscheidungen, Veränderungen in der Gemeinschaft und was nach jeder Runde übrig bleibt.",
-    "appStore": "Demnächst im App Store",
+    "appStore": "Im App Store erhältlich",
     "googlePlay": "Google Play-Start in Vorbereitung",
     "features": [
       {
@@ -224,7 +224,7 @@ const content = {
     "headline1": "Каждое решение оставляет",
     "headline2": "след.",
     "sub": "Пошаговая симуляция финансового выбора, изменений в сообществе и того, что остается после каждого хода.",
-    "appStore": "Скоро в App Store",
+    "appStore": "Доступно в App Store",
     "googlePlay": "Запуск в Google Play готовится",
     "features": [
       {
@@ -251,7 +251,7 @@ const content = {
     "headline1": "كل قرار يترك",
     "headline2": "أثرًا.",
     "sub": "محاكاة تعتمد على الأدوار حول الاختيارات المالية وتغيير المجتمع وما يتبقى بعد كل دور.",
-    "appStore": "قريبًا على App Store",
+    "appStore": "متاح على App Store",
     "googlePlay": "إطلاق Google Play قيد التحضير",
     "features": [
       {
@@ -278,7 +278,7 @@ const content = {
     "headline1": "Toda decisão deixa",
     "headline2": "um rastro.",
     "sub": "Uma simulação baseada em turnos sobre escolhas financeiras, mudanças na comunidade e o que resta após cada turno.",
-    "appStore": "Em breve na App Store",
+    "appStore": "Disponível na App Store",
     "googlePlay": "Lançamento no Google Play em preparação",
     "features": [
       {
@@ -305,7 +305,7 @@ const content = {
     "headline1": "Ogni decisione lascia",
     "headline2": "una traccia.",
     "sub": "Una simulazione a turni sulle scelte finanziarie, il cambiamento della comunità e ciò che rimane dopo ogni turno.",
-    "appStore": "App Store in arrivo",
+    "appStore": "Disponibile su App Store",
     "googlePlay": "Lancio su Google Play in preparazione",
     "features": [
       {
@@ -332,7 +332,7 @@ const content = {
     "headline1": "Elke beslissing laat",
     "headline2": "een spoor na.",
     "sub": "Een turn-based simulatie over financiële keuzes, veranderingen in de gemeenschap en wat er na elke beurt overblijft.",
-    "appStore": "App Store binnenkort beschikbaar",
+    "appStore": "Beschikbaar in de App Store",
     "googlePlay": "Google Play-lancering in voorbereiding",
     "features": [
       {
@@ -359,7 +359,7 @@ const content = {
     "headline1": "Setiap keputusan meninggalkan",
     "headline2": "jejak.",
     "sub": "Simulasi berbasis giliran tentang pilihan finansial, perubahan komunitas, dan apa yang tersisa setelah setiap giliran.",
-    "appStore": "App Store segera hadir",
+    "appStore": "Tersedia di App Store",
     "googlePlay": "Peluncuran Google Play sedang disiapkan",
     "features": [
       {
