@@ -895,6 +895,21 @@ export function GamePage() {
     <Layout>
       <section className="border-t border-gray-800">
         <div className={`${PAGE_SECTION} py-14 sm:py-20`}>
+          <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.whoTitle}</h2>
+          <div className="grid sm:grid-cols-2 gap-4 sm:gap-5 mb-10 sm:mb-12">
+            {tx.whoProfiles.map((p) => (
+              <div key={p.label} className="rounded-xl border border-gray-800 p-5 sm:p-6">
+                <p className="text-gray-300 text-sm leading-relaxed italic mb-4">{p.quote}</p>
+                <span className="text-xs text-amber-500/70 font-medium tracking-wide">— {p.label}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-gray-500 text-sm max-w-xl mx-auto">{tx.whoClose}</p>
+        </div>
+      </section>
+
+      <section className="border-t border-gray-800 bg-gray-900/30">
+        <div className={`${PAGE_SECTION} py-14 sm:py-20`}>
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.philosophyTitle}</h2>
           <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
             {tx.philosophy.map((p) => (
@@ -907,7 +922,7 @@ export function GamePage() {
         </div>
       </section>
 
-      <section className="border-t border-gray-800 bg-gray-900/30">
+      <section className="border-t border-gray-800">
         <div className={`${PAGE_SECTION} py-14 text-center sm:py-20`}>
           <h2 className="text-2xl font-bold text-white mb-8">{tx.shadowTitle}</h2>
           <p className="text-gray-400 leading-relaxed mb-5">{tx.shadowBody}</p>
@@ -932,7 +947,7 @@ export function GamePage() {
         </div>
       </section>
 
-      <section className="border-t border-gray-800">
+      <section className="border-t border-gray-800 bg-gray-900/30">
         <div className={`${PAGE_SECTION} py-14 sm:py-20`}>
           <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.mechanicsTitle}</h2>
           <div className="grid sm:grid-cols-3 gap-6 sm:gap-6">
@@ -946,26 +961,11 @@ export function GamePage() {
         </div>
       </section>
 
-      <section className="border-t border-gray-800 bg-gray-900/30">
+      <section className="border-t border-gray-800">
         <div className={`${PAGE_SECTION} py-14 text-center sm:py-20`}>
           <h2 className="text-2xl font-bold text-white mb-7">{tx.whyTitle}</h2>
           <p className="text-gray-400 leading-relaxed mb-5">{tx.whyBody}</p>
           <p className="text-gray-300 leading-relaxed">{tx.whyBody2}</p>
-        </div>
-      </section>
-
-      <section className="border-t border-gray-800">
-        <div className={`${PAGE_SECTION} py-14 sm:py-20`}>
-          <h2 className="text-2xl font-bold text-white mb-10 sm:mb-12 text-center">{tx.whoTitle}</h2>
-          <div className="grid sm:grid-cols-2 gap-4 sm:gap-5 mb-10 sm:mb-12">
-            {tx.whoProfiles.map((p) => (
-              <div key={p.label} className="rounded-xl border border-gray-800 p-5 sm:p-6">
-                <p className="text-gray-300 text-sm leading-relaxed italic mb-4">{p.quote}</p>
-                <span className="text-xs text-amber-500/70 font-medium tracking-wide">— {p.label}</span>
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-gray-500 text-sm max-w-xl mx-auto">{tx.whoClose}</p>
         </div>
       </section>
     </Layout>
