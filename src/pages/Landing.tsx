@@ -400,9 +400,9 @@ export function Landing() {
         </h1>
         <p className="text-base sm:text-lg text-gray-400 max-w-xl mx-auto mb-10">{tx.sub}</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-          <span className="w-full cursor-default sm:w-auto px-8 py-3.5 bg-amber-500 text-gray-900 font-semibold rounded-xl text-sm">
+          <a href="https://apps.apple.com/kr/app/shadow-economy/id6772132089" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3.5 bg-amber-500 text-gray-900 font-semibold rounded-xl text-sm text-center">
             {tx.appStore}
-          </span>
+          </a>
           <span className="w-full cursor-default sm:w-auto px-8 py-3.5 border border-gray-700 text-gray-300 font-semibold rounded-xl text-sm">
             {tx.googlePlay}
           </span>
