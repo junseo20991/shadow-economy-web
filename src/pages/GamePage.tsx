@@ -1,4 +1,4 @@
-import { Layout } from '../components/Layout'
+﻿import { Layout } from '../components/Layout'
 import { PAGE_SECTION } from '../constants/layout'
 import { useLanguage } from '../context/LanguageContext'
 
@@ -48,19 +48,19 @@ const content = {
     "whoTitle": "Made for players who",
     "whoProfiles": [
       {
-        "quote": "\"Everyone around me is investing, but I do not even know what to ask.\"",
+        "quote": "\"Everyone's talking about stocks and real estate, but I just end up listening.\"",
         "label": "Need a starting point"
       },
       {
-        "quote": "\"I know the concepts. I still freeze when it is time to decide.\"",
-        "label": "Know the theory, not the move"
+        "quote": "\"I follow the financial news, but I never know what I'm supposed to do with it. It always feels like someone else's story.\"",
+        "label": "Reads the news, but it never hits close to home"
       },
       {
-        "quote": "\"I have read the books. Nothing really changed how I think about money.\"",
+        "quote": "\"I've read the books and taken the courses, but the way I act around money hasn't changed at all.\"",
         "label": "Learned, but unchanged"
       },
       {
-        "quote": "\"I want to understand how the system works, not just how to survive in it.\"",
+        "quote": "\"I want to understand why the economy works the way it does — not tips, but the actual principles.\"",
         "label": "Curious about the structure"
       }
     ],
@@ -111,19 +111,19 @@ const content = {
     "whoTitle": "이런 분들을 위해 만들었습니다",
     "whoProfiles": [
       {
-        "quote": "\"주변에서는 다 투자하는데, 저는 뭐부터 물어봐야 할지 모르겠어요.\"",
+        "quote": "\"요즘 다들 주식이니 부동산이니 하는데, 저는 그냥 듣기만 하게 돼요.\"",
         "label": "시작점이 필요한 분"
       },
       {
-        "quote": "\"개념은 알아요. 막상 결정하려면 멈춥니다.\"",
-        "label": "이론은 알지만 손이 안 가는 분"
+        "quote": "\"경제 뉴스 같은 건 보는데, 그래서 내가 뭘 해야 하는 건지 모르겠어요. 너무 먼 얘기처럼 들려서.\"",
+        "label": "뉴스는 보지만 내 얘기 같지 않은 분"
       },
       {
-        "quote": "\"책도 읽고 영상도 봤지만, 돈에 대한 생각은 그대로예요.\"",
+        "quote": "\"재테크 책도 읽고 강의도 들었는데, 돈 앞에서 행동하는 방식은 하나도 안 바뀌었어요.\"",
         "label": "배웠지만 달라지지 않은 분"
       },
       {
-        "quote": "\"시스템이 왜 이렇게 돌아가는지 이해하고 싶어요.\"",
+        "quote": "\"경제가 왜 이렇게 돌아가는 건지, 요령 말고 원리 자체를 이해하고 싶어요.\"",
         "label": "구조가 궁금한 분"
       }
     ],
@@ -174,19 +174,19 @@ const content = {
     "whoTitle": "こんな方のために作りました",
     "whoProfiles": [
       {
-        "quote": "「周りはみんな投資しているのに、何を聞けばいいかもわかりません。」",
+        "quote": "「最近みんな株とか不動産の話をしているのに、自分はただ聞いているだけになっています。」",
         "label": "出発点がほしい方"
       },
       {
-        "quote": "「概念はわかります。いざ決めると止まります。」",
-        "label": "理屈はわかるが動けない方"
+        "quote": "「経済ニュースは見るんですが、自分がそれで何をすべきかわからなくて。どこか他人事に聞こえてしまって。」",
+        "label": "ニュースは見るが自分事に感じられない方"
       },
       {
-        "quote": "「本も動画も見ました。でも、お金の見方は変わっていません。」",
+        "quote": "「本も読んで講座も受けたんですが、お金に対する行動の仕方は何も変わっていないです。」",
         "label": "学んでも変わらない方"
       },
       {
-        "quote": "「このシステムがなぜこう動くのか知りたいです。」",
+        "quote": "「経済がなぜこういう仕組みになっているのか、コツじゃなくて原理そのものを理解したいです。」",
         "label": "構造が気になる方"
       }
     ],
@@ -237,19 +237,19 @@ const content = {
     "whoTitle": "为这样的你而生",
     "whoProfiles": [
       {
-        "quote": "\"周围的人都在投资，我却不知道该问什么。\"",
+        "quote": "\"最近大家都在聊股票和房产，我只能在旁边听着。\"",
         "label": "需要起点的人"
       },
       {
-        "quote": "\"概念我懂。真到要决定时，我会停住。\"",
-        "label": "懂理论，难行动"
+        "quote": "\"经济新闻我也看，但看完不知道自己该做什么。听起来总像是别人的事。\"",
+        "label": "看新闻但感觉与自己无关的人"
       },
       {
-        "quote": "\"书也读了，视频也看了。看钱的方式还是没变。\"",
+        "quote": "\"书也读了，课也上了，但我对钱的处理方式一点都没变。\"",
         "label": "学过，但没变"
       },
       {
-        "quote": "\"我想知道系统为什么这样运作。\"",
+        "quote": "\"我想搞清楚经济为什么是这样运转的——不是技巧，是原理本身。\"",
         "label": "想了解结构的人"
       }
     ],
@@ -300,19 +300,19 @@ const content = {
     "whoTitle": "Hecho para jugadores que",
     "whoProfiles": [
       {
-        "quote": "\"Todos invierten en algo. Yo no sé ni por dónde empezar.\"",
+        "quote": "\"Últimamente todos hablan de acciones e inmuebles, pero yo solo me quedo escuchando.\"",
         "label": "Necesito un punto de partida"
       },
       {
-        "quote": "\"Entiendo los conceptos. Cuando toca decidir, me quedo quieto.\"",
-        "label": "Sé la teoría, no el paso"
+        "quote": "\"Leo las noticias económicas, pero nunca sé qué se supone que debo hacer con eso. Siempre parece la historia de otro.\"",
+        "label": "Leo las noticias pero no me resultan cercanas"
       },
       {
-        "quote": "\"Leí libros, vi videos. Mi forma de pensar sobre el dinero sigue igual.\"",
+        "quote": "\"He leído libros y hecho cursos, pero la forma en que actúo con el dinero no ha cambiado nada.\"",
         "label": "Aprendí, pero no cambié"
       },
       {
-        "quote": "\"Quiero entender cómo funciona el sistema.\"",
+        "quote": "\"Quiero entender por qué la economía funciona como funciona, no consejos, sino los principios de fondo.\"",
         "label": "Curioso por la estructura"
       }
     ],
@@ -363,19 +363,19 @@ const content = {
     "whoTitle": "Gjort för spelare som",
     "whoProfiles": [
       {
-        "quote": "\"Alla investerar i något. Jag vet inte ens vad jag ska fråga.\"",
+        "quote": "\"Alla pratar om aktier och fastigheter nu för tiden, men jag hamnar alltid i att bara lyssna.\"",
         "label": "Behöver en startpunkt"
       },
       {
-        "quote": "\"Jag fattar teorin. När det är dags att välja stannar jag upp.\"",
-        "label": "Kan teorin, fastnar i valet"
+        "quote": "\"Jag följer ekonominyheter, men vet aldrig vad jag egentligen ska göra med dem. Det känns alltid som någon annans historia.\"",
+        "label": "Följer nyheterna men känner ingen koppling"
       },
       {
-        "quote": "\"Jag har läst och sett allt. Min syn på pengar är ändå densamma.\"",
+        "quote": "\"Jag har läst böcker och gått kurser, men hur jag faktiskt beter mig kring pengar har inte förändrats alls.\"",
         "label": "Lärde mig, men ändrades inte"
       },
       {
-        "quote": "\"Jag vill förstå hur systemet fungerar.\"",
+        "quote": "\"Jag vill förstå varför ekonomin fungerar som den gör — inte tricks, utan principerna bakom.\"",
         "label": "Nyfiken på strukturen"
       }
     ],
@@ -426,20 +426,20 @@ const content = {
     "whoTitle": "Conçu pour les joueurs qui",
     "whoProfiles": [
       {
-        "quote": "\"Tout le monde autour de moi investit, mais je ne sais même pas quoi demander.\"",
-        "label": "Besoin d'un point de départ"
+        "quote": "\"Tout le monde parle d’actions et d’immobilier ces derniers temps, mais je finis toujours par juste écouter.\"",
+        "label": "Besoin d’un point de départ"
       },
       {
-        "quote": "\"Je connais les concepts. Je me fige encore quand vient le temps de décider.\"",
-        "label": "Connaît la théorie, bloque au moment d’agir"
+        "quote": "\"Je suis l’actualité économique, mais je ne sais jamais quoi en faire. Ça me semble toujours l’histoire de quelqu’un d’autre.\"",
+        "label": "Suit l’actualité, mais ne s’y reconnaît pas"
       },
       {
-        "quote": "\"J'ai lu des livres. Rien n'a vraiment changé ma façon de voir l'argent.\"",
+        "quote": "\"J’ai lu des livres et suivi des formations, mais ma façon d’agir avec l’argent n’a pas changé du tout.\"",
         "label": "A appris, sans changer"
       },
       {
-        "quote": "\"Je veux comprendre comment fonctionne le système, pas seulement comment y survivre.\"",
-        "label": "Curieux de connaître la structure"
+        "quote": "\"Je veux comprendre pourquoi l’économie fonctionne comme ça — pas des astuces, mais les principes eux-mêmes.\"",
+        "label": "Curieux de la structure"
       }
     ],
     "whoClose": "Le jeu ne vous dit pas quoi faire. Il montre ce que vos choix révèlent."
@@ -489,19 +489,19 @@ const content = {
     "whoTitle": "Gemacht für Spieler, die",
     "whoProfiles": [
       {
-        "quote": "„Jeder um mich herum investiert, aber ich weiß nicht einmal, was ich fragen soll.“",
+        "quote": "\"Heutzutage reden alle über Aktien und Immobilien, aber ich höre am Ende immer nur zu.\"",
         "label": "Brauche einen Ausgangspunkt"
       },
       {
-        "quote": "„Ich kenne die Konzepte. Ich blockiere immer noch, wenn es Zeit ist, eine Entscheidung zu treffen.“",
-        "label": "Kennt die Theorie, aber nicht den nächsten Schritt"
+        "quote": "\"Ich schaue mir Wirtschaftsnachrichten an, weiß aber nie, was ich damit anfangen soll. Es klingt immer wie die Geschichte von jemand anderem.\"",
+        "label": "Verfolgt Nachrichten, aber fühlt sich nicht angesprochen"
       },
       {
-        "quote": "„Ich habe die Bücher gelesen. An meiner Einstellung zu Geld hat sich nichts wirklich geändert.“",
+        "quote": "\"Ich habe Bücher gelesen und Kurse besucht, aber mein Umgang mit Geld hat sich kein bisschen geändert.\"",
         "label": "Gelernt, aber unverändert"
       },
       {
-        "quote": "„Ich möchte verstehen, wie das System funktioniert, und nicht nur, wie man darin überlebt.“",
+        "quote": "\"Ich möchte verstehen, warum die Wirtschaft so funktioniert, wie sie es tut — nicht Tipps, sondern die eigentlichen Prinzipien.\"",
         "label": "Neugierig auf die Struktur"
       }
     ],
@@ -552,19 +552,19 @@ const content = {
     "whoTitle": "Сделано для игроков, которые",
     "whoProfiles": [
       {
-        "quote": "«Все вокруг меня инвестируют, но я даже не знаю, что спросить».",
+        "quote": "«Сейчас все говорят об акциях и недвижимости, а я просто стою рядом и слушаю».",
         "label": "Нужна отправная точка"
       },
       {
-        "quote": "«Я знаю концепции. Я все еще замираю, когда приходит время решать».",
-        "label": "Знают теорию, но не следующий шаг"
+        "quote": "«Я слежу за экономическими новостями, но так и не понимаю, что мне с ними делать. Всё это звучит как чужая история».",
+        "label": "Читает новости, но не чувствует связи"
       },
       {
-        "quote": "«Я читал книги. Ничто по-настоящему не изменило мое отношение к деньгам».",
+        "quote": "«Я читал книги и проходил курсы, но то, как я веду себя с деньгами, не изменилось совсем».",
         "label": "Выучил, но не изменился"
       },
       {
-        "quote": "«Я хочу понять, как работает система, а не только то, как в ней выжить».",
+        "quote": "«Я хочу понять, почему экономика устроена именно так — не советы и приёмы, а сами принципы».",
         "label": "Интересуется структурой"
       }
     ],
@@ -615,20 +615,20 @@ const content = {
     "whoTitle": "مصممة للاعبين الذين",
     "whoProfiles": [
       {
-        "quote": "\"الجميع من حولي يستثمرون، لكنني لا أعرف حتى ما الذي يجب أن أطلبه\".",
+        "quote": "\"الكل يتحدث عن الأسهم والعقارات هذه الأيام، لكنني أكتفي بالاستماع فقط.\"",
         "label": "بحاجة إلى نقطة انطلاق"
       },
       {
-        "quote": "\"أنا أعرف المفاهيم. ومازلت أتجمد عندما يحين وقت اتخاذ القرار.\"",
-        "label": "يعرفون النظرية، لكنهم يترددون عند القرار"
+        "quote": "\"أتابع أخبار الاقتصاد، لكنني لا أعرف ما الذي يُفترض أن أفعله بها. دائمًا تبدو كأنها قصة شخص آخر.\"",
+        "label": "يتابع الأخبار لكنها لا تبدو قريبة منه"
       },
       {
-        "quote": "\"لقد قرأت الكتب. ولم يغير أي شيء حقًا طريقة تفكيري بشأن المال.\"",
-        "label": "تعلّموا، لكنهم لم يتغيروا"
+        "quote": "\"قرأت الكتب وحضرت الدورات، لكن طريقة تعاملي مع المال لم تتغير أبدًا.\"",
+        "label": "تعلّم، لكنه لم يتغير"
       },
       {
-        "quote": "\"أريد أن أفهم كيف يعمل النظام، وليس فقط كيفية البقاء على قيد الحياة فيه.\"",
-        "label": "فضوليون بشأن البنية"
+        "quote": "\"أريد أن أفهم لماذا يعمل الاقتصاد بهذه الطريقة — ليس الحيل، بل المبادئ الأساسية ذاتها.\"",
+        "label": "فضولي تجاه البنية"
       }
     ],
     "whoClose": "اللعبة لا تخبرك بما يجب أن تفعله. إنها توضح ما تكشفه اختياراتك."
@@ -678,19 +678,19 @@ const content = {
     "whoTitle": "Feito para jogadores que",
     "whoProfiles": [
       {
-        "quote": "“Todo mundo ao meu redor está investindo, mas nem sei o que perguntar.”",
+        "quote": "\"Ultimamente todo mundo está falando de ações e imóveis, mas eu só fico ouvindo.\"",
         "label": "Precisa de um ponto de partida"
       },
       {
-        "quote": "\"Eu conheço os conceitos. Ainda fico paralisado na hora de decidir.\"",
-        "label": "Conhece a teoria, mas trava na decisão"
+        "quote": "\"Eu acompanho notícias de economia, mas nunca sei o que devo fazer com elas. Sempre parece a história de outra pessoa.\"",
+        "label": "Acompanha as notícias mas não se identifica"
       },
       {
-        "quote": "\"Eu li os livros. Nada realmente mudou a forma como penso sobre dinheiro.\"",
+        "quote": "\"Li livros e fiz cursos, mas a forma como ajo com dinheiro não mudou nada.\"",
         "label": "Aprendeu, mas não mudou"
       },
       {
-        "quote": "“Quero entender como funciona o sistema, e não apenas como sobreviver nele.”",
+        "quote": "\"Quero entender por que a economia funciona assim — não dicas, mas os princípios de fundo.\"",
         "label": "Curioso sobre a estrutura"
       }
     ],
@@ -741,19 +741,19 @@ const content = {
     "whoTitle": "Realizzato per i giocatori che",
     "whoProfiles": [
       {
-        "quote": "\"Tutti intorno a me stanno investendo, ma non so nemmeno cosa chiedere.\"",
+        "quote": "\"Ultimamente tutti parlano di azioni e immobili, ma io finisco sempre per stare ad ascoltare.\"",
         "label": "Serve un punto di partenza"
       },
       {
-        "quote": "\"Conosco i concetti. Mi blocco ancora quando è il momento di decidere.\"",
-        "label": "Conosce la teoria, ma si blocca sulla scelta"
+        "quote": "\"Seguo le notizie economiche, ma non so mai cosa dovrei farci. Sembra sempre la storia di qualcun altro.\"",
+        "label": "Segue le notizie ma non le sente sue"
       },
       {
-        "quote": "\"Ho letto i libri. Niente ha veramente cambiato il modo in cui penso al denaro.\"",
+        "quote": "\"Ho letto libri e fatto corsi, ma il modo in cui mi comporto con i soldi non è cambiato per niente.\"",
         "label": "Ha imparato, ma non è cambiato"
       },
       {
-        "quote": "\"Voglio capire come funziona il sistema, non solo come sopravvivere al suo interno.\"",
+        "quote": "\"Voglio capire perché l'economia funziona così — non i trucchi, ma i principi veri e propri.\"",
         "label": "Curioso della struttura"
       }
     ],
@@ -804,19 +804,19 @@ const content = {
     "whoTitle": "Gemaakt voor spelers die",
     "whoProfiles": [
       {
-        "quote": "\"Iedereen om mij heen investeert, maar ik weet niet eens wat ik moet vragen.\"",
+        "quote": "\"Tegenwoordig praten alle over aandelen en vastgoed, maar ik luister gewoon mee.\"",
         "label": "Een startpunt nodig"
       },
       {
-        "quote": "\"Ik ken de concepten. Ik blokkeer nog steeds als het tijd is om te beslissen.\"",
-        "label": "Kent de theorie, maar niet de volgende stap"
+        "quote": "\"Ik volg het economisch nieuws, maar weet nooit wat ik ermee moet. Het voelt altijd als het verhaal van iemand anders.\"",
+        "label": "Volgt het nieuws maar voelt geen connectie"
       },
       {
-        "quote": "\"Ik heb de boeken gelezen. Niets heeft de manier waarop ik over geld denk echt veranderd.\"",
+        "quote": "\"Ik heb boeken gelezen en cursussen gevolgd, maar de manier waarop ik met geld omga is helemaal niet veranderd.\"",
         "label": "Geleerd, maar onveranderd"
       },
       {
-        "quote": "\"Ik wil begrijpen hoe het systeem werkt, niet alleen hoe ik erin moet overleven.\"",
+        "quote": "\"Ik wil begrijpen waarom de economie zo werkt — niet tips, maar de onderliggende principes.\"",
         "label": "Benieuwd naar de structuur"
       }
     ],
@@ -867,19 +867,19 @@ const content = {
     "whoTitle": "Dibuat untuk pemain yang",
     "whoProfiles": [
       {
-        "quote": "“Semua orang di sekitar saya berinvestasi, tapi saya bahkan tidak tahu harus bertanya apa.”",
+        "quote": "\"Sekarang semua orang membicarakan saham dan properti, tapi saya hanya ikut mendengarkan saja.\"",
         "label": "Butuh titik awal"
       },
       {
-        "quote": "“Saya tahu konsepnya. Saya masih terdiam ketika tiba waktunya untuk mengambil keputusan.”",
-        "label": "Tahu teorinya, tapi ragu melangkah"
+        "quote": "\"Saya mengikuti berita ekonomi, tapi tidak pernah tahu harus berbuat apa. Selalu terasa seperti cerita orang lain.\"",
+        "label": "Mengikuti berita tapi tidak merasa relevan"
       },
       {
-        "quote": "\"Saya sudah membaca bukunya. Tidak ada yang benar-benar mengubah cara berpikir saya tentang uang.\"",
+        "quote": "\"Sudah baca buku dan ikut kursus, tapi cara saya bertindak soal uang tidak berubah sama sekali.\"",
         "label": "Belajar, tapi tidak berubah"
       },
       {
-        "quote": "\"Saya ingin memahami cara kerja sistem ini, bukan hanya cara bertahan di dalamnya.\"",
+        "quote": "\"Saya ingin memahami mengapa ekonomi berjalan seperti ini — bukan trik, tapi prinsipnya sendiri.\"",
         "label": "Penasaran dengan strukturnya"
       }
     ],
